@@ -1,0 +1,56 @@
+
+Results on the Log Odds Ratio scale
+
+Iterations = 50020:1050000
+Thinning interval = 20 
+Number of chains = 4 
+Sample size per chain = 50000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                   Mean      SD  Naive SE Time-series SE
+d.placebo.celecoxib             0.66071 0.44770 0.0010011      0.0012989
+d.placebo.diclofenac_potassium  1.02036 0.42747 0.0009558      0.0011122
+d.placebo.eletriptan            1.50890 0.17619 0.0003940      0.0004145
+d.placebo.lasmiditan            0.66873 0.20563 0.0004598      0.0004593
+d.placebo.naproxen_sodium       0.68432 0.21386 0.0004782      0.0005075
+d.placebo.naratriptan           0.49781 0.41356 0.0009247      0.0009379
+d.placebo.rimegepant            0.77060 0.18232 0.0004077      0.0004139
+d.placebo.rizatriptan           3.64181 1.37981 0.0030853      0.0083495
+d.placebo.sumatriptan           1.10781 0.11650 0.0002605      0.0002973
+d.placebo.ubrogepant            0.62481 0.31505 0.0007045      0.0009604
+d.placebo.zolmitriptan          1.05706 0.24978 0.0005585      0.0005642
+sd.d                            0.29281 0.08157 0.0001824      0.0002445
+B                              -0.07925 0.23713 0.0005302      0.0009203
+
+2. Quantiles for each variable:
+
+                                   2.5%     25%      50%     75% 97.5%
+d.placebo.celecoxib            -0.22843  0.3694  0.66039 0.95285 1.544
+d.placebo.diclofenac_potassium  0.17994  0.7405  1.01751 1.29921 1.870
+d.placebo.eletriptan            1.16130  1.3934  1.50888 1.62488 1.856
+d.placebo.lasmiditan            0.26466  0.5358  0.66696 0.79975 1.083
+d.placebo.naproxen_sodium       0.26473  0.5437  0.68336 0.82413 1.109
+d.placebo.naratriptan          -0.33203  0.2283  0.50329 0.77416 1.296
+d.placebo.rimegepant            0.40843  0.6526  0.77063 0.88838 1.132
+d.placebo.rizatriptan           1.44936  2.6846  3.46486 4.39492 6.881
+d.placebo.sumatriptan           0.88276  1.0307  1.10624 1.18307 1.343
+d.placebo.ubrogepant            0.00127  0.4195  0.62414 0.82918 1.249
+d.placebo.zolmitriptan          0.56964  0.8951  1.05340 1.21613 1.561
+sd.d                            0.14838  0.2370  0.28708 0.34224 0.470
+B                              -0.54973 -0.2339 -0.07909 0.07521 0.389
+
+-- Model fit (residual deviance):
+
+     Dbar        pD       DIC 
+ 70.26409  58.12594 128.39003 
+
+70 data points, ratio 1.004, I^2 = 2%
+
+-- Regression settings:
+
+Regression on "aura", shared coefficients, "placebo" as control
+Input standardized: x' = (aura - 28.66121) / 23.62258
+Estimates at the centering value: aura = 28.66121
+

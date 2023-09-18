@@ -1,0 +1,68 @@
+
+Results on the Log Odds Ratio scale
+
+Iterations = 50020:1050000
+Thinning interval = 20 
+Number of chains = 4 
+Sample size per chain = 50000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                 Mean      SD  Naive SE Time-series SE
+d.placebo.acetylsalicylic_acid 1.1326 0.28561 6.387e-04      0.0006442
+d.placebo.almotriptan          0.9946 0.14461 3.233e-04      0.0003240
+d.placebo.celecoxib            0.5497 0.25918 5.795e-04      0.0005795
+d.placebo.diclofenac_potassium 1.0519 0.38196 8.541e-04      0.0008553
+d.placebo.eletriptan           1.7189 0.11173 2.498e-04      0.0002512
+d.placebo.frovatriptan         1.2434 0.21799 4.875e-04      0.0004953
+d.placebo.ibuprofen            0.8671 0.23638 5.286e-04      0.0005371
+d.placebo.lasmiditan           0.8664 0.16828 3.763e-04      0.0003772
+d.placebo.naproxen_sodium      0.9087 0.18402 4.115e-04      0.0004166
+d.placebo.naratriptan          0.5737 0.17355 3.881e-04      0.0003942
+d.placebo.paracetamol          0.7994 0.26676 5.965e-04      0.0006259
+d.placebo.phenazone            0.8928 0.47953 1.072e-03      0.0010743
+d.placebo.rimegepant           0.6786 0.16132 3.607e-04      0.0003621
+d.placebo.rizatriptan          1.4651 0.10434 2.333e-04      0.0002536
+d.placebo.sumatriptan          1.2974 0.06724 1.503e-04      0.0001589
+d.placebo.ubrogepant           0.7368 0.21916 4.901e-04      0.0005108
+d.placebo.zolmitriptan         1.3053 0.11041 2.469e-04      0.0002655
+sd.d                           0.3119 0.04302 9.619e-05      0.0001213
+B                              0.1311 0.10238 2.289e-04      0.0002716
+
+2. Quantiles for each variable:
+
+                                   2.5%    25%    50%    75%  97.5%
+d.placebo.acetylsalicylic_acid  0.57296 0.9408 1.1323 1.3241 1.6930
+d.placebo.almotriptan           0.71129 0.8983 0.9942 1.0906 1.2799
+d.placebo.celecoxib             0.03967 0.3768 0.5492 0.7224 1.0590
+d.placebo.diclofenac_potassium  0.30671 0.7950 1.0511 1.3068 1.8073
+d.placebo.eletriptan            1.50120 1.6440 1.7181 1.7929 1.9409
+d.placebo.frovatriptan          0.82303 1.0967 1.2409 1.3876 1.6794
+d.placebo.ibuprofen             0.40872 0.7077 0.8648 1.0235 1.3386
+d.placebo.lasmiditan            0.53729 0.7535 0.8660 0.9783 1.1986
+d.placebo.naproxen_sodium       0.54912 0.7857 0.9077 1.0315 1.2725
+d.placebo.naratriptan           0.23287 0.4581 0.5734 0.6890 0.9165
+d.placebo.paracetamol           0.27411 0.6198 0.7993 0.9786 1.3223
+d.placebo.phenazone            -0.03958 0.5704 0.8895 1.2132 1.8406
+d.placebo.rimegepant            0.36368 0.5708 0.6785 0.7855 0.9976
+d.placebo.rizatriptan           1.26176 1.3947 1.4643 1.5342 1.6724
+d.placebo.sumatriptan           1.16611 1.2523 1.2972 1.3421 1.4304
+d.placebo.ubrogepant            0.31254 0.5888 0.7348 0.8819 1.1742
+d.placebo.zolmitriptan          1.09123 1.2313 1.3043 1.3784 1.5250
+sd.d                            0.23244 0.2821 0.3102 0.3398 0.4011
+B                              -0.06866 0.0623 0.1305 0.1991 0.3339
+
+-- Model fit (residual deviance):
+
+    Dbar       pD      DIC 
+250.2027 183.2948 433.4975 
+
+238 data points, ratio 1.051, I^2 = 5%
+
+-- Regression settings:
+
+Regression on "sex", shared coefficients, "placebo" as control
+Input standardized: x' = (sex - 85.13316) / 11.67587
+Estimates at the centering value: sex = 85.13316
+
