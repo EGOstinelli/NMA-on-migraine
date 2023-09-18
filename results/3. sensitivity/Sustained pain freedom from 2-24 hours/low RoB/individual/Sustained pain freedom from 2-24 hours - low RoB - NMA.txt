@@ -1,0 +1,133 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                                                         treat1      treat2      TE   seTE seTE.adj.f seTE.adj.r narms multiarm
+Barbanti 2012_NCT00753311_EUCTR2008-007967-18                           placebo rizatriptan -3.1665 1.0584     1.0584     1.0839     2         
+Cady 2009_NCT00516737_EUCTR2007-003361-40_0462-081                      placebo rizatriptan -1.5581 0.4881     0.4881     0.5411     2         
+Carpay 2004_SUM30046                                                    placebo sumatriptan -1.5130 0.2966     0.2966     0.3775     2         
+Croop 2019_NCT03461757_BHV3000-303                                      placebo  rimegepant -1.1208 0.1972     0.1972     0.3056     2         
+Diener 2011_NCT00751803_EUCTR2008-000079-31                          eletriptan     placebo  1.2340 0.5420     0.5420     0.5902     2         
+Gomez-Mancilla 2014_NCT00892203_EUCTR2008-005392-10-ES_CBGG492A2204     placebo sumatriptan -1.7918 1.1365     1.1365     1.1602     2         
+Kaniecki 2006_SUM40312                                                  placebo sumatriptan -1.3186 0.4448     0.4448     0.5023     2         
+Landy 2004_SUM40282                                                     placebo sumatriptan -1.7132 0.3222     0.3222     0.3979     2         
+Lipton 2019c_NCT03237845_BHV3000-302                                    placebo  rimegepant -0.6001 0.2125     0.2125     0.3157     2         
+Marcus 2014_NCT01430442_CN170-003                                       placebo  rimegepant -1.6313 0.3577     0.4559     0.5374     3        *
+Marcus 2014_NCT01430442_CN170-003                                       placebo sumatriptan -1.4972 0.3491     0.4307     0.5175     3        *
+Marcus 2014_NCT01430442_CN170-003                                    rimegepant sumatriptan  0.1341 0.3273     0.3836     0.4772     3        *
+NCT03235479 2018_BHV3000-301                                            placebo  rimegepant -0.6041 0.1993     0.1993     0.3070     2         
+Nett 2003_SUM40285                                                      placebo sumatriptan -0.9506 0.2995     0.2995     0.3798     2         
+Sheftell 2005b_SUM30053                                                 placebo sumatriptan -1.7439 0.2356     0.2356     0.3317     2         
+Toledano 2021_NCT03061734_ANODYNE-1                                 paracetamol     placebo  0.0000 0.7071     0.7071     0.7447     2         
+Voss 2016_NCT01613248_P006                                              placebo  ubrogepant -1.0897 0.4253     0.4253     0.4852     2         
+Yu 2023_NCT04574362_BHV3000-310                                         placebo  rimegepant -0.7526 0.1778     0.1778     0.2935     2         
+
+Number of treatment arms (by study):
+                                                                    narms
+Barbanti 2012_NCT00753311_EUCTR2008-007967-18                           2
+Cady 2009_NCT00516737_EUCTR2007-003361-40_0462-081                      2
+Carpay 2004_SUM30046                                                    2
+Croop 2019_NCT03461757_BHV3000-303                                      2
+Diener 2011_NCT00751803_EUCTR2008-000079-31                             2
+Gomez-Mancilla 2014_NCT00892203_EUCTR2008-005392-10-ES_CBGG492A2204     2
+Kaniecki 2006_SUM40312                                                  2
+Landy 2004_SUM40282                                                     2
+Lipton 2019c_NCT03237845_BHV3000-302                                    2
+Marcus 2014_NCT01430442_CN170-003                                       3
+NCT03235479 2018_BHV3000-301                                            2
+Nett 2003_SUM40285                                                      2
+Sheftell 2005b_SUM30053                                                 2
+Toledano 2021_NCT03061734_ANODYNE-1                                     2
+Voss 2016_NCT01613248_P006                                              2
+Yu 2023_NCT04574362_BHV3000-310                                         2
+
+Results (common effects model):
+
+                                                                         treat1      treat2     OR           95%-CI    Q leverage
+Barbanti 2012_NCT00753311_EUCTR2008-007967-18                           placebo rizatriptan 0.1588 [0.0666; 0.3785] 1.57     0.18
+Cady 2009_NCT00516737_EUCTR2007-003361-40_0462-081                      placebo rizatriptan 0.1588 [0.0666; 0.3785] 0.33     0.82
+Carpay 2004_SUM30046                                                    placebo sumatriptan 0.2420 [0.1907; 0.3070] 0.10     0.17
+Croop 2019_NCT03461757_BHV3000-303                                      placebo  rimegepant 0.4248 [0.3540; 0.5098] 1.80     0.22
+Diener 2011_NCT00751803_EUCTR2008-000079-31                          eletriptan     placebo 3.4348 [1.1872; 9.9379] 0.00     1.00
+Gomez-Mancilla 2014_NCT00892203_EUCTR2008-005392-10-ES_CBGG492A2204     placebo sumatriptan 0.2420 [0.1907; 0.3070] 0.11     0.01
+Kaniecki 2006_SUM40312                                                  placebo sumatriptan 0.2420 [0.1907; 0.3070] 0.05     0.07
+Landy 2004_SUM40282                                                     placebo sumatriptan 0.2420 [0.1907; 0.3070] 0.83     0.14
+Lipton 2019c_NCT03237845_BHV3000-302                                    placebo  rimegepant 0.4248 [0.3540; 0.5098] 1.45     0.19
+Marcus 2014_NCT01430442_CN170-003                                       placebo  rimegepant 0.4248 [0.3540; 0.5098] 2.89        .
+Marcus 2014_NCT01430442_CN170-003                                       placebo sumatriptan 0.2420 [0.1907; 0.3070] 0.03        .
+Marcus 2014_NCT01430442_CN170-003                                    rimegepant sumatriptan 0.5695 [0.4268; 0.7601] 3.30        .
+NCT03235479 2018_BHV3000-301                                            placebo  rimegepant 0.4248 [0.3540; 0.5098] 1.60     0.22
+Nett 2003_SUM40285                                                      placebo sumatriptan 0.2420 [0.1907; 0.3070] 2.45     0.16
+Sheftell 2005b_SUM30053                                                 placebo sumatriptan 0.2420 [0.1907; 0.3070] 1.90     0.27
+Toledano 2021_NCT03061734_ANODYNE-1                                 paracetamol     placebo 1.0000 [0.2501; 3.9984] 0.00     1.00
+Voss 2016_NCT01613248_P006                                              placebo  ubrogepant 0.3363 [0.1461; 0.7741] 0.00     1.00
+Yu 2023_NCT04574362_BHV3000-310                                         placebo  rimegepant 0.4248 [0.3540; 0.5098] 0.34     0.27
+
+Results (random effects model):
+
+                                                                         treat1      treat2     OR            95%-CI
+Barbanti 2012_NCT00753311_EUCTR2008-007967-18                           placebo rizatriptan 0.1527 [0.0591;  0.3945]
+Cady 2009_NCT00516737_EUCTR2007-003361-40_0462-081                      placebo rizatriptan 0.1527 [0.0591;  0.3945]
+Carpay 2004_SUM30046                                                    placebo sumatriptan 0.2448 [0.1808;  0.3314]
+Croop 2019_NCT03461757_BHV3000-303                                      placebo  rimegepant 0.4077 [0.3093;  0.5374]
+Diener 2011_NCT00751803_EUCTR2008-000079-31                          eletriptan     placebo 3.4348 [1.0803; 10.9213]
+Gomez-Mancilla 2014_NCT00892203_EUCTR2008-005392-10-ES_CBGG492A2204     placebo sumatriptan 0.2448 [0.1808;  0.3314]
+Kaniecki 2006_SUM40312                                                  placebo sumatriptan 0.2448 [0.1808;  0.3314]
+Landy 2004_SUM40282                                                     placebo sumatriptan 0.2448 [0.1808;  0.3314]
+Lipton 2019c_NCT03237845_BHV3000-302                                    placebo  rimegepant 0.4077 [0.3093;  0.5374]
+Marcus 2014_NCT01430442_CN170-003                                       placebo  rimegepant 0.4077 [0.3093;  0.5374]
+Marcus 2014_NCT01430442_CN170-003                                       placebo sumatriptan 0.2448 [0.1808;  0.3314]
+Marcus 2014_NCT01430442_CN170-003                                    rimegepant sumatriptan 0.6003 [0.4063;  0.8869]
+NCT03235479 2018_BHV3000-301                                            placebo  rimegepant 0.4077 [0.3093;  0.5374]
+Nett 2003_SUM40285                                                      placebo sumatriptan 0.2448 [0.1808;  0.3314]
+Sheftell 2005b_SUM30053                                                 placebo sumatriptan 0.2448 [0.1808;  0.3314]
+Toledano 2021_NCT03061734_ANODYNE-1                                 paracetamol     placebo 1.0000 [0.2324;  4.3038]
+Voss 2016_NCT01613248_P006                                              placebo  ubrogepant 0.3363 [0.1299;  0.8705]
+Yu 2023_NCT04574362_BHV3000-310                                         placebo  rimegepant 0.4077 [0.3093;  0.5374]
+
+Number of studies: k = 16
+Number of pairwise comparisons: m = 18
+Number of observations: o = 9936
+Number of treatments: n = 7
+Number of designs: d = 7
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR            95%-CI     z  p-value
+eletriptan  3.4348 [1.1872;  9.9379]  2.28   0.0228
+paracetamol 1.0000 [0.2501;  3.9984]  0.00   1.0000
+placebo          .                 .     .        .
+rimegepant  2.3538 [1.9616;  2.8246]  9.20 < 0.0001
+rizatriptan 6.2980 [2.6418; 15.0145]  4.15 < 0.0001
+sumatriptan 4.1330 [3.2574;  5.2439] 11.68 < 0.0001
+ubrogepant  2.9733 [1.2918;  6.8435]  2.56   0.0104
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR            95%-CI     z  p-value
+eletriptan  3.4348 [1.0803; 10.9213]  2.09   0.0365
+paracetamol 1.0000 [0.2324;  4.3038] -0.00   1.0000
+placebo          .                 .     .        .
+rimegepant  2.4526 [1.8607;  3.2328]  6.37 < 0.0001
+rizatriptan 6.5471 [2.5349; 16.9095]  3.88   0.0001
+sumatriptan 4.0856 [3.0173;  5.5322]  9.10 < 0.0001
+ubrogepant  2.9733 [1.1488;  7.6955]  2.25   0.0247
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0545; tau = 0.2335; I^2 = 41.4% [0.0%; 70.2%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           18.76   11  0.0656
+Within designs  11.51    9  0.2421
+Between designs  7.24    2  0.0267
+
+A total of 7 treatments are included in the network.
+A total of 16 studies are included in this analysis.
+A total of 9936 participants are included in this analysis, with 1288 events (12.96%).
+Estimated heterogeneity tau-squared: 0.05.
+Global test for inconsistency, p-value 0.02674 (Q=7, d.o.f. 2)
+
+The following studies were included in this analysis: Barbanti 2012_NCT00753311_EUCTR2008-007967-18 Cady 2009_NCT00516737_EUCTR2007-003361-40_0462-081 Carpay 2004_SUM30046 Croop 2019_NCT03461757_BHV3000-303 Diener 2011_NCT00751803_EUCTR2008-000079-31 Gomez-Mancilla 2014_NCT00892203_EUCTR2008-005392-10-ES_CBGG492A2204 Kaniecki 2006_SUM40312 Landy 2004_SUM40282 Lipton 2019c_NCT03237845_BHV3000-302 Marcus 2014_NCT01430442_CN170-003 NCT03235479 2018_BHV3000-301 Nett 2003_SUM40285 Sheftell 2005b_SUM30053 Toledano 2021_NCT03061734_ANODYNE-1 Voss 2016_NCT01613248_P006 Yu 2023_NCT04574362_BHV3000-310.
+
+File created on 2023-08-23.

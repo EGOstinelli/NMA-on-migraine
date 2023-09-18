@@ -1,0 +1,8 @@
+                P-score (common) P-score (random)
+naproxen sodium           0.8129           0.8129
+sumatriptan               0.7351           0.7351
+almotriptan               0.4730           0.4730
+eletriptan                0.4646           0.4646
+placebo                   0.0144           0.0144
+
+File created on 2023-05-30.

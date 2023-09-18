@@ -1,0 +1,529 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                                            treat1              treat2      TE   seTE seTE.adj.f seTE.adj.r narms multiarm
+Ashina 2021                                      lasmiditan (high)    lasmiditan (low)  0.3190 0.1874     0.2017     0.2752     3        *
+Ashina 2021                                      lasmiditan (high)             placebo  1.4916 0.2647     0.3364     0.3950     3        *
+Ashina 2021                                       lasmiditan (low)             placebo  1.1726 0.2724     0.3784     0.4223     3        *
+Barbanti 2012                                              placebo  rizatriptan (high) -3.1665 1.0584     1.0584     1.0709     2         
+Brandes 2005                                      eletriptan (low)             placebo  1.0313 0.2242     0.2242     0.2773     2         
+Brandes 2007a                                naproxen sodium (low)             placebo  0.2330 0.2560     0.3455     0.3950     3        *
+Brandes 2007a                                naproxen sodium (low)  sumatriptan (high) -0.5371 0.2223     0.2564     0.3239     3        *
+Brandes 2007a                                              placebo  sumatriptan (high) -0.7701 0.2359     0.2821     0.3466     3        *
+Brandes 2007b                                naproxen sodium (low)             placebo  0.4243 0.2683     0.3584     0.4072     3        *
+Brandes 2007b                                naproxen sodium (low)  sumatriptan (high) -0.3568 0.2275     0.2593     0.3251     3        *
+Brandes 2007b                                              placebo  sumatriptan (high) -0.7811 0.2543     0.3108     0.3708     3        *
+Cady 2006a                                                 placebo  rizatriptan (high) -0.8617 0.2043     0.2043     0.2615     2         
+Cady 2006b                                                 placebo  rizatriptan (high) -0.9659 0.2052     0.2052     0.2621     2         
+Cady 2009                                                  placebo  rizatriptan (high) -1.5581 0.4881     0.4881     0.5147     2         
+Carpay 2004                                                placebo  sumatriptan (high) -1.7005 0.3175     0.4061     0.4544     3        *
+Carpay 2004                                                placebo   sumatriptan (low) -1.3130 0.3238     0.4348     0.4762     3        *
+Carpay 2004                                     sumatriptan (high)   sumatriptan (low)  0.3875 0.2423     0.2653     0.3259     3        *
+Croop 2019                                                 placebo          rimegepant -1.1208 0.1972     0.1972     0.2559     2         
+Dahlöf 2001                                     almotriptan (high)   almotriptan (low)  0.3251 0.2505     0.2613     0.3160     3        *
+Dahlöf 2001                                     almotriptan (high)             placebo  1.5436 0.4543     0.5984     0.6355     3        *
+Dahlöf 2001                                      almotriptan (low)             placebo  1.2184 0.4596     0.6471     0.6714     3        *
+Diener 2011                                       eletriptan (low)             placebo  1.2340 0.5420     0.5420     0.5661     2         
+Dodick 2019                                                placebo   ubrogepant (high) -0.6174 0.2105     0.2578     0.3269     3        *
+Dodick 2019                                                placebo    ubrogepant (low) -0.3400 0.2200     0.2876     0.3486     3        *
+Dodick 2019                                      ubrogepant (high)    ubrogepant (low)  0.2774 0.1939     0.2242     0.2989     3        *
+Dowson 2002a                                    almotriptan (high)             placebo  0.8532 0.3525     0.4839     0.5199     3        *
+Dowson 2002a                                    almotriptan (high)  sumatriptan (high) -0.2007 0.2341     0.2503     0.3110     3        *
+Dowson 2002a                                               placebo  sumatriptan (high) -1.0539 0.3467     0.4495     0.4947     3        *
+Eletriptan Steering Committee in Japan 2002      eletriptan (high)    eletriptan (low)  0.3098 0.3315     0.3575     0.4034     3        *
+Eletriptan Steering Committee in Japan 2002      eletriptan (high)             placebo  1.2819 0.4751     0.7056     0.7185     3        *
+Eletriptan Steering Committee in Japan 2002       eletriptan (low)             placebo  0.9721 0.4426     0.5339     0.5752     3        *
+Freitag 2008                                    paracetamol (high)             placebo  0.9624 0.7227     0.9962     1.0126     3        *
+Freitag 2008                                    paracetamol (high)  rizatriptan (high) -0.4327 0.5418     0.5942     0.6234     3        *
+Freitag 2008                                               placebo  rizatriptan (high) -1.3950 0.6938     0.8658     0.8904     3        *
+Garcia-Ramos 2003                                 eletriptan (low)  naratriptan (high)  0.7497 0.2884     0.3147     0.3674     3        *
+Garcia-Ramos 2003                                 eletriptan (low)             placebo  0.6624 0.3632     0.4367     0.4845     3        *
+Garcia-Ramos 2003                               naratriptan (high)             placebo -0.0873 0.3924     0.5731     0.5940     3        *
+Goadsby 2007                                    almotriptan (high)  zolmitriptan (low) -0.1532 0.1280     0.1280     0.2074     2         
+Goadsby 2008                                    almotriptan (high)             placebo  1.3164 0.2439     0.2439     0.2934     2         
+Goadsby 2019                                     lasmiditan (high)    lasmiditan (low)  0.2654 0.1228     0.1369     0.2392     3        *
+Goadsby 2019                                     lasmiditan (high)             placebo  0.5885 0.1546     0.2192     0.2895     3        *
+Goadsby 2019                                      lasmiditan (low)             placebo  0.3231 0.1418     0.1697     0.2644     3        *
+Gomez-Mancilla 2014                                        placebo  sumatriptan (high) -1.7918 1.1365     1.1365     1.1482     2         
+Gruffyd-Jones 2001                               sumatriptan (low) zolmitriptan (high)  0.1177 0.1395     0.1700     0.2624     3        *
+Gruffyd-Jones 2001                               sumatriptan (low)  zolmitriptan (low)  0.1162 0.1392     0.1694     0.2619     3        *
+Gruffyd-Jones 2001                             zolmitriptan (high)  zolmitriptan (low) -0.0015 0.1417     0.1756     0.2659     3        *
+Ho 2008a                                                   placebo  rizatriptan (high) -0.5486 0.5320     0.5320     0.5565     2         
+Ho 2008b                                                   placebo zolmitriptan (high) -1.3809 0.2822     0.2822     0.3260     2         
+Jelinski 2006                                              placebo  sumatriptan (high) -1.6922 0.4389     0.5767     0.6121     3        *
+Jelinski 2006                                              placebo   sumatriptan (low) -1.5353 0.4430     0.6019     0.6322     3        *
+Jelinski 2006                                   sumatriptan (high)   sumatriptan (low)  0.1569 0.2897     0.3089     0.3591     3        *
+Kaniecki 2006                                              placebo  sumatriptan (high) -1.3186 0.4448     0.4448     0.4738     2         
+Kuca 2018                                        lasmiditan (high)    lasmiditan (low)  0.2451 0.1576     0.1757     0.2619     3        *
+Kuca 2018                                        lasmiditan (high)             placebo  0.9836 0.1911     0.2397     0.3136     3        *
+Kuca 2018                                         lasmiditan (low)             placebo  0.7385 0.1970     0.2630     0.3280     3        *
+Landy2004                                                  placebo  sumatriptan (high) -1.7871 0.3431     0.4514     0.4944     3        *
+Landy2004                                                  placebo   sumatriptan (low) -1.6387 0.3447     0.4602     0.5010     3        *
+Landy2004                                       sumatriptan (high)   sumatriptan (low)  0.1484 0.2399     0.2585     0.3185     3        *
+Lipton 2010                                   diclofenac potassium             placebo  1.0644 0.2469     0.2469     0.2960     2         
+Lipton 2019a                                             celecoxib             placebo  0.4954 0.2313     0.2313     0.2831     2         
+Lipton 2019b                                               placebo    ubrogepant (low) -0.6375 0.2147     0.2147     0.2697     2         
+Lipton 2019c                                               placebo          rimegepant -0.6001 0.2125     0.2125     0.2679     2         
+Lipton 2021                                              celecoxib             placebo  0.5762 0.2236     0.2236     0.2768     2         
+Marcus 2014                                                placebo          rimegepant -1.6313 0.3577     0.4559     0.4973     3        *
+Marcus 2014                                                placebo  sumatriptan (high) -1.4972 0.3491     0.4307     0.4751     3        *
+Marcus 2014                                             rimegepant  sumatriptan (high)  0.1341 0.3273     0.3836     0.4318     3        *
+Mathew 2007                                     almotriptan (high)             placebo  0.5659 0.2789     0.2789     0.3231     2         
+MOMENTUM 2019                                              placebo  rizatriptan (high) -0.8163 0.3453     0.3453     0.3819     2         
+NCT01657370 2012                                           placebo   ubrogepant (high) -1.1924 1.6521     2.8804     2.8607     3        *
+NCT01657370 2012                                           placebo    ubrogepant (low) -2.2910 1.5116     1.7392     1.7552     3        *
+NCT01657370 2012                                 ubrogepant (high)    ubrogepant (low) -1.0986 0.9770     1.0209     1.0367     3        *
+NCT03235479 2018                                           placebo          rimegepant -0.6041 0.1993     0.1993     0.2576     2         
+Nett 2003                                                  placebo  sumatriptan (high) -1.0821 0.3272     0.4131     0.4597     3        *
+Nett 2003                                                  placebo   sumatriptan (low) -0.8140 0.3332     0.4353     0.4779     3        *
+Nett 2003                                       sumatriptan (high)   sumatriptan (low)  0.2681 0.2772     0.3125     0.3678     3        *
+Pascual 2000a                                   almotriptan (high)   almotriptan (low)  0.2846 0.1689     0.1793     0.2572     3        *
+Pascual 2000a                                   almotriptan (high)             placebo  1.1042 0.2619     0.3400     0.3980     3        *
+Pascual 2000a                                    almotriptan (low)             placebo  0.8196 0.2664     0.3695     0.4154     3        *
+Pascual 2000b                                              placebo  rizatriptan (high) -1.8445 0.3497     0.4568     0.5056     3        *
+Pascual 2000b                                              placebo  zolmitriptan (low) -1.4229 0.3548     0.5081     0.5367     3        *
+Pascual 2000b                                   rizatriptan (high)  zolmitriptan (low)  0.4216 0.1851     0.1923     0.2618     3        *
+Sakai 2021                                       lasmiditan (high)    lasmiditan (low)  0.3124 0.2255     0.2520     0.3178     3        *
+Sakai 2021                                       lasmiditan (high)             placebo  0.9400 0.2814     0.3845     0.4285     3        *
+Sakai 2021                                        lasmiditan (low)             placebo  0.6275 0.2665     0.3272     0.3856     3        *
+Sandrini 2002                                    eletriptan (high)    eletriptan (low)  0.2407 0.2473     0.3147     0.3887     5        *
+Sandrini 2002                                    eletriptan (high)             placebo  2.3838 0.6128     1.0455     1.1024     5        *
+Sandrini 2002                                    eletriptan (high)  sumatriptan (high)  0.9429 0.2830     0.3987     0.4640     5        *
+Sandrini 2002                                    eletriptan (high)   sumatriptan (low)  1.1736 0.2933     0.4216     0.4851     5        *
+Sandrini 2002                                     eletriptan (low)             placebo  2.1432 0.6140     1.0715     1.1214     5        *
+Sandrini 2002                                     eletriptan (low)  sumatriptan (high)  0.7023 0.2857     0.4087     0.4720     5        *
+Sandrini 2002                                     eletriptan (low)   sumatriptan (low)  0.9330 0.2959     0.4321     0.4935     5        *
+Sandrini 2002                                              placebo  sumatriptan (high) -1.4409 0.6293     1.3575     1.3385     5        *
+Sandrini 2002                                              placebo   sumatriptan (low) -1.2102 0.6339     1.4353     1.3995     5        *
+Sandrini 2002                                   sumatriptan (high)   sumatriptan (low)  0.2307 0.3263     0.5474     0.5890     5        *
+Saper 2006                                        ibuprofen (high)             placebo  2.0256 0.4884     0.4884     0.5149     2         
+Sheftell 2003                                    eletriptan (high)    eletriptan (low)  0.4358 0.1856     0.1916     0.2600     3        *
+Sheftell 2003                                    eletriptan (high)             placebo  2.1752 0.3856     0.5738     0.5890     3        *
+Sheftell 2003                                     eletriptan (low)             placebo  1.7394 0.3780     0.4841     0.5354     3        *
+Sheftell 2005a                                             placebo  sumatriptan (high) -0.9867 0.1879     0.2347     0.3095     3        *
+Sheftell 2005a                                             placebo   sumatriptan (low) -0.6975 0.1939     0.2568     0.3234     3        *
+Sheftell 2005a                                  sumatriptan (high)   sumatriptan (low)  0.2892 0.1596     0.1797     0.2653     3        *
+Sheftell 2005b                                             placebo  sumatriptan (high) -1.8267 0.2470     0.3262     0.3846     3        *
+Sheftell 2005b                                             placebo   sumatriptan (low) -1.6582 0.2491     0.3406     0.3926     3        *
+Sheftell 2005b                                  sumatriptan (high)   sumatriptan (low)  0.1685 0.1552     0.1644     0.2468     3        *
+Smith 2005                                   naproxen sodium (low)             placebo  0.9607 0.3543     0.4467     0.4909     3        *
+Smith 2005                                   naproxen sodium (low)   sumatriptan (low)  0.1068 0.2877     0.3197     0.3727     3        *
+Smith 2005                                                 placebo   sumatriptan (low) -0.8539 0.3641     0.4863     0.5235     3        *
+Steiner 2003                                     eletriptan (high)    eletriptan (low)  0.3526 0.1689     0.2010     0.2878     4        *
+Steiner 2003                                     eletriptan (high)             placebo  1.9481 0.4309     0.6640     0.7275     4        *
+Steiner 2003                                     eletriptan (high)  zolmitriptan (low)  0.6058 0.1774     0.2188     0.3020     4        *
+Steiner 2003                                      eletriptan (low)             placebo  1.5955 0.4346     0.7423     0.7706     4        *
+Steiner 2003                                      eletriptan (low)  zolmitriptan (low)  0.2532 0.1861     0.2446     0.3198     4        *
+Steiner 2003                                               placebo  zolmitriptan (low) -1.3423 0.4380     0.8084     0.8086     4        *
+Tfelt-Hansen 2006                                          placebo   sumatriptan (low) -1.2222 0.5624     0.5624     0.5855     2         
+Toledano 2021                                    paracetamol (low)             placebo  0.0000 0.7071     0.7071     0.7257     2         
+Voss 2016                                                  placebo   ubrogepant (high) -1.2572 0.4521     0.5650     0.6018     3        *
+Voss 2016                                                  placebo    ubrogepant (low) -0.8973 0.4702     0.6466     0.6724     3        *
+Voss 2016                                        ubrogepant (high)    ubrogepant (low)  0.3600 0.3529     0.3871     0.4309     3        *
+Wentz 2008                                  naproxen sodium (high)             placebo  1.7058 0.4771     0.4771     0.5042     2         
+Winner 2003a                                               placebo  sumatriptan (high) -1.0881 0.3268     0.4120     0.4588     3        *
+Winner 2003a                                               placebo   sumatriptan (low) -0.8580 0.3334     0.4361     0.4785     3        *
+Winner 2003a                                    sumatriptan (high)   sumatriptan (low)  0.2301 0.2775     0.3130     0.3682     3        *
+Winner 2003b                                               placebo  sumatriptan (high) -1.1066 0.3232     0.4011     0.4491     3        *
+Winner 2003b                                               placebo   sumatriptan (low) -0.7998 0.3341     0.4384     0.4802     3        *
+Winner 2003b                                    sumatriptan (high)   sumatriptan (low)  0.3068 0.2850     0.3247     0.3790     3        *
+ [ reached getOption("max.print") -- omitted 1 row ]
+
+Number of treatment arms (by study):
+                                            narms
+Ashina 2021                                     3
+Barbanti 2012                                   2
+Brandes 2005                                    2
+Brandes 2007a                                   3
+Brandes 2007b                                   3
+Cady 2006a                                      2
+Cady 2006b                                      2
+Cady 2009                                       2
+Carpay 2004                                     3
+Croop 2019                                      2
+Dahlöf 2001                                     3
+Diener 2011                                     2
+Dodick 2019                                     3
+Dowson 2002a                                    3
+Eletriptan Steering Committee in Japan 2002     3
+Freitag 2008                                    3
+Garcia-Ramos 2003                               3
+Goadsby 2007                                    2
+Goadsby 2008                                    2
+Goadsby 2019                                    3
+Gomez-Mancilla 2014                             2
+Gruffyd-Jones 2001                              3
+Ho 2008a                                        2
+Ho 2008b                                        2
+Jelinski 2006                                   3
+Kaniecki 2006                                   2
+Kuca 2018                                       3
+Landy2004                                       3
+Lipton 2010                                     2
+Lipton 2019a                                    2
+Lipton 2019b                                    2
+Lipton 2019c                                    2
+Lipton 2021                                     2
+Marcus 2014                                     3
+Mathew 2007                                     2
+MOMENTUM 2019                                   2
+NCT01657370 2012                                3
+NCT03235479 2018                                2
+Nett 2003                                       3
+Pascual 2000a                                   3
+Pascual 2000b                                   3
+Sakai 2021                                      3
+Sandrini 2002                                   5
+Saper 2006                                      2
+Sheftell 2003                                   3
+Sheftell 2005a                                  3
+Sheftell 2005b                                  3
+Smith 2005                                      3
+Steiner 2003                                    4
+Tfelt-Hansen 2006                               2
+Toledano 2021                                   2
+Voss 2016                                       3
+Wentz 2008                                      2
+Winner 2003a                                    3
+Winner 2003b                                    3
+Yu 2023                                         2
+
+Results (common effects model):
+
+                                                            treat1              treat2     OR            95%-CI    Q leverage
+Ashina 2021                                      lasmiditan (high)    lasmiditan (low) 1.3396 [1.1448;  1.5675] 0.02        .
+Ashina 2021                                      lasmiditan (high)             placebo 2.3906 [1.9591;  2.9172] 3.40        .
+Ashina 2021                                       lasmiditan (low)             placebo 1.7846 [1.4715;  2.1643] 2.46        .
+Barbanti 2012                                              placebo  rizatriptan (high) 0.3220 [0.2627;  0.3946] 3.69     0.01
+Brandes 2005                                      eletriptan (low)             placebo 3.7202 [3.0080;  4.6010] 1.59     0.23
+Brandes 2007a                                naproxen sodium (low)             placebo 1.9961 [1.5316;  2.6014] 1.76        .
+Brandes 2007a                                naproxen sodium (low)  sumatriptan (high) 0.6231 [0.4813;  0.8066] 0.06        .
+Brandes 2007a                                              placebo  sumatriptan (high) 0.3121 [0.2713;  0.3592] 1.95        .
+Brandes 2007b                                naproxen sodium (low)             placebo 1.9961 [1.5316;  2.6014] 0.55        .
+Brandes 2007b                                naproxen sodium (low)  sumatriptan (high) 0.6231 [0.4813;  0.8066] 0.20        .
+Brandes 2007b                                              placebo  sumatriptan (high) 0.3121 [0.2713;  0.3592] 1.52        .
+Cady 2006a                                                 placebo  rizatriptan (high) 0.3220 [0.2627;  0.3946] 1.77     0.26
+Cady 2006b                                                 placebo  rizatriptan (high) 0.3220 [0.2627;  0.3946] 0.67     0.26
+Cady 2009                                                  placebo  rizatriptan (high) 0.3220 [0.2627;  0.3946] 0.76     0.05
+Carpay 2004                                                placebo  sumatriptan (high) 0.3121 [0.2713;  0.3592] 1.74        .
+Carpay 2004                                                placebo   sumatriptan (low) 0.3777 [0.3254;  0.4385] 0.61        .
+Carpay 2004                                     sumatriptan (high)   sumatriptan (low) 1.2100 [1.0567;  1.3856] 0.55        .
+Croop 2019                                                 placebo          rimegepant 0.4312 [0.3595;  0.5173] 2.01     0.22
+Dahlöf 2001                                     almotriptan (high)   almotriptan (low) 1.2846 [0.9852;  1.6751] 0.08        .
+Dahlöf 2001                                     almotriptan (high)             placebo 2.5762 [2.1220;  3.1276] 1.00        .
+Dahlöf 2001                                      almotriptan (low)             placebo 2.0054 [1.4738;  2.7287] 0.65        .
+Diener 2011                                       eletriptan (low)             placebo 3.7202 [3.0080;  4.6010] 0.02     0.04
+Dodick 2019                                                placebo   ubrogepant (high) 0.4620 [0.3301;  0.6466] 0.36        .
+Dodick 2019                                                placebo    ubrogepant (low) 0.5768 [0.4340;  0.7666] 0.53        .
+Dodick 2019                                      ubrogepant (high)    ubrogepant (low) 1.2485 [0.9148;  1.7040] 0.06        .
+Dowson 2002a                                    almotriptan (high)             placebo 2.5762 [2.1220;  3.1276] 0.04        .
+Dowson 2002a                                    almotriptan (high)  sumatriptan (high) 0.8041 [0.6480;  0.9979] 0.00        .
+Dowson 2002a                                               placebo  sumatriptan (high) 0.3121 [0.2713;  0.3592] 0.06        .
+Eletriptan Steering Committee in Japan 2002      eletriptan (high)    eletriptan (low) 1.5150 [1.2393;  1.8521] 0.09        .
+Eletriptan Steering Committee in Japan 2002      eletriptan (high)             placebo 5.6361 [4.4318;  7.1676] 0.40        .
+Eletriptan Steering Committee in Japan 2002       eletriptan (low)             placebo 3.7202 [3.0080;  4.6010] 0.41        .
+Freitag 2008                                    paracetamol (high)             placebo 2.1583 [0.7850;  5.9339] 0.04        .
+Freitag 2008                                    paracetamol (high)  rizatriptan (high) 0.6949 [0.2552;  1.8920] 0.01        .
+Freitag 2008                                               placebo  rizatriptan (high) 0.3220 [0.2627;  0.3946] 0.09        .
+Garcia-Ramos 2003                                 eletriptan (low)  naratriptan (high) 2.4612 [1.4301;  4.2357] 0.23        .
+Garcia-Ramos 2003                                 eletriptan (low)             placebo 3.7202 [3.0080;  4.6010] 2.22        .
+Garcia-Ramos 2003                               naratriptan (high)             placebo 1.5115 [0.8593;  2.6589] 0.76        .
+Goadsby 2007                                    almotriptan (high)  zolmitriptan (low) 0.9529 [0.7838;  1.1584] 0.67     0.61
+Goadsby 2008                                    almotriptan (high)             placebo 2.5762 [2.1220;  3.1276] 2.30     0.16
+Goadsby 2019                                     lasmiditan (high)    lasmiditan (low) 1.3396 [1.1448;  1.5675] 0.04        .
+Goadsby 2019                                     lasmiditan (high)             placebo 2.3906 [1.9591;  2.9172] 1.67        .
+Goadsby 2019                                      lasmiditan (low)             placebo 1.7846 [1.4715;  2.1643] 2.28        .
+Gomez-Mancilla 2014                                        placebo  sumatriptan (high) 0.3121 [0.2713;  0.3592] 0.30     0.00
+Gruffyd-Jones 2001                               sumatriptan (low) zolmitriptan (high) 0.9792 [0.7723;  1.2415] 0.67        .
+Gruffyd-Jones 2001                               sumatriptan (low)  zolmitriptan (low) 0.9793 [0.8111;  1.1823] 0.66        .
+Gruffyd-Jones 2001                             zolmitriptan (high)  zolmitriptan (low) 1.0001 [0.7845;  1.2748] 0.00        .
+Ho 2008a                                                   placebo  rizatriptan (high) 0.3220 [0.2627;  0.3946] 1.21     0.04
+Ho 2008b                                                   placebo zolmitriptan (high) 0.3698 [0.2887;  0.4738] 1.87     0.20
+Jelinski 2006                                              placebo  sumatriptan (high) 0.3121 [0.2713;  0.3592] 0.84        .
+Jelinski 2006                                              placebo   sumatriptan (low) 0.3777 [0.3254;  0.4385] 0.87        .
+Jelinski 2006                                   sumatriptan (high)   sumatriptan (low) 1.2100 [1.0567;  1.3856] 0.01        .
+Kaniecki 2006                                              placebo  sumatriptan (high) 0.3121 [0.2713;  0.3592] 0.12     0.03
+Kuca 2018                                        lasmiditan (high)    lasmiditan (low) 1.3396 [1.1448;  1.5675] 0.07        .
+Kuca 2018                                        lasmiditan (high)             placebo 2.3906 [1.9591;  2.9172] 0.22        .
+Kuca 2018                                         lasmiditan (low)             placebo 1.7846 [1.4715;  2.1643] 0.37        .
+Landy2004                                                  placebo  sumatriptan (high) 0.3121 [0.2713;  0.3592] 1.90        .
+Landy2004                                                  placebo   sumatriptan (low) 0.3777 [0.3254;  0.4385] 2.09        .
+Landy2004                                       sumatriptan (high)   sumatriptan (low) 1.2100 [1.0567;  1.3856] 0.03        .
+Lipton 2010                                   diclofenac potassium             placebo 2.8991 [1.7868;  4.7039] 0.00     1.00
+Lipton 2019a                                             celecoxib             placebo 1.7112 [1.2487;  2.3450] 0.03     0.48
+Lipton 2019b                                               placebo    ubrogepant (low) 0.5768 [0.4340;  0.7666] 0.17     0.46
+Lipton 2019c                                               placebo          rimegepant 0.4312 [0.3595;  0.5173] 1.29     0.19
+Lipton 2021                                              celecoxib             placebo 1.7112 [1.2487;  2.3450] 0.03     0.52
+Marcus 2014                                                placebo          rimegepant 0.4312 [0.3595;  0.5173] 3.00        .
+Marcus 2014                                                placebo  sumatriptan (high) 0.3121 [0.2713;  0.3592] 0.60        .
+Marcus 2014                                             rimegepant  sumatriptan (high) 0.7239 [0.5782;  0.9063] 1.42        .
+Mathew 2007                                     almotriptan (high)             placebo 2.5762 [2.1220;  3.1276] 1.86     0.13
+MOMENTUM 2019                                              placebo  rizatriptan (high) 0.3220 [0.2627;  0.3946] 0.84     0.09
+NCT01657370 2012                                           placebo   ubrogepant (high) 0.4620 [0.3301;  0.6466] 0.02        .
+NCT01657370 2012                                           placebo    ubrogepant (low) 0.5768 [0.4340;  0.7666] 1.00        .
+NCT01657370 2012                                 ubrogepant (high)    ubrogepant (low) 1.2485 [0.9148;  1.7040] 1.67        .
+NCT03235479 2018                                           placebo          rimegepant 0.4312 [0.3595;  0.5173] 1.41     0.22
+Nett 2003                                                  placebo  sumatriptan (high) 0.3121 [0.2713;  0.3592] 0.04        .
+Nett 2003                                                  placebo   sumatriptan (low) 0.3777 [0.3254;  0.4385] 0.13        .
+Nett 2003                                       sumatriptan (high)   sumatriptan (low) 1.2100 [1.0567;  1.3856] 0.06        .
+Pascual 2000a                                   almotriptan (high)   almotriptan (low) 1.2846 [0.9852;  1.6751] 0.04        .
+Pascual 2000a                                   almotriptan (high)             placebo 2.5762 [2.1220;  3.1276] 0.22        .
+Pascual 2000a                                    almotriptan (low)             placebo 2.0054 [1.4738;  2.7287] 0.11        .
+Pascual 2000b                                              placebo  rizatriptan (high) 0.3220 [0.2627;  0.3946] 2.42        .
+Pascual 2000b                                              placebo  zolmitriptan (low) 0.3699 [0.3088;  0.4430] 0.71        .
+Pascual 2000b                                   rizatriptan (high)  zolmitriptan (low) 1.1488 [0.9065;  1.4558] 2.17        .
+Sakai 2021                                       lasmiditan (high)    lasmiditan (low) 1.3396 [1.1448;  1.5675] 0.01        .
+Sakai 2021                                       lasmiditan (high)             placebo 2.3906 [1.9591;  2.9172] 0.03        .
+Sakai 2021                                        lasmiditan (low)             placebo 1.7846 [1.4715;  2.1643] 0.02        .
+Sandrini 2002                                    eletriptan (high)    eletriptan (low) 1.5150 [1.2393;  1.8521] 0.31        .
+Sandrini 2002                                    eletriptan (high)             placebo 5.6361 [4.4318;  7.1676] 0.39        .
+Sandrini 2002                                    eletriptan (high)  sumatriptan (high) 1.7593 [1.3628;  2.2712] 0.90        .
+Sandrini 2002                                    eletriptan (high)   sumatriptan (low) 2.1288 [1.6503;  2.7459] 0.98        .
+Sandrini 2002                                     eletriptan (low)             placebo 3.7202 [3.0080;  4.6010] 0.60        .
+Sandrini 2002                                     eletriptan (low)  sumatriptan (high) 1.1612 [0.9193;  1.4669] 1.83        .
+Sandrini 2002                                     eletriptan (low)   sumatriptan (low) 1.4051 [1.1121;  1.7754] 1.88        .
+Sandrini 2002                                              placebo  sumatriptan (high) 0.3121 [0.2713;  0.3592] 0.04        .
+Sandrini 2002                                              placebo   sumatriptan (low) 0.3777 [0.3254;  0.4385] 0.03        .
+Sandrini 2002                                   sumatriptan (high)   sumatriptan (low) 1.2100 [1.0567;  1.3856] 0.01        .
+Saper 2006                                        ibuprofen (high)             placebo 7.5809 [2.9109; 19.7426] 0.00     1.00
+Sheftell 2003                                    eletriptan (high)    eletriptan (low) 1.5150 [1.2393;  1.8521] 0.01        .
+Sheftell 2003                                    eletriptan (high)             placebo 5.6361 [4.4318;  7.1676] 0.60        .
+Sheftell 2003                                     eletriptan (low)             placebo 3.7202 [3.0080;  4.6010] 0.77        .
+Sheftell 2005a                                             placebo  sumatriptan (high) 0.3121 [0.2713;  0.3592] 0.57        .
+Sheftell 2005a                                             placebo   sumatriptan (low) 0.3777 [0.3254;  0.4385] 1.16        .
+Sheftell 2005a                                  sumatriptan (high)   sumatriptan (low) 1.2100 [1.0567;  1.3856] 0.30        .
+Sheftell 2005b                                             placebo  sumatriptan (high) 0.3121 [0.2713;  0.3592] 4.12        .
+Sheftell 2005b                                             placebo   sumatriptan (low) 0.3777 [0.3254;  0.4385] 4.04        .
+Sheftell 2005b                                  sumatriptan (high)   sumatriptan (low) 1.2100 [1.0567;  1.3856] 0.02        .
+Smith 2005                                   naproxen sodium (low)             placebo 1.9961 [1.5316;  2.6014] 0.36        .
+Smith 2005                                   naproxen sodium (low)   sumatriptan (low) 0.7539 [0.5748;  0.9890] 1.48        .
+Smith 2005                                                 placebo   sumatriptan (low) 0.3777 [0.3254;  0.4385] 0.06        .
+Steiner 2003                                     eletriptan (high)    eletriptan (low) 1.5150 [1.2393;  1.8521] 0.10        .
+Steiner 2003                                     eletriptan (high)             placebo 5.6361 [4.4318;  7.1676] 0.11        .
+Steiner 2003                                     eletriptan (high)  zolmitriptan (low) 2.0846 [1.6266;  2.6717] 0.35        .
+Steiner 2003                                      eletriptan (low)             placebo 3.7202 [3.0080;  4.6010] 0.14        .
+Steiner 2003                                      eletriptan (low)  zolmitriptan (low) 1.3760 [1.0903;  1.7366] 0.07        .
+Steiner 2003                                               placebo  zolmitriptan (low) 0.3699 [0.3088;  0.4430] 0.18        .
+Tfelt-Hansen 2006                                          placebo   sumatriptan (low) 0.3777 [0.3254;  0.4385] 0.20     0.02
+Toledano 2021                                    paracetamol (low)             placebo 1.0000 [0.2501;  3.9984] 0.00     1.00
+Voss 2016                                                  placebo   ubrogepant (high) 0.4620 [0.3301;  0.6466] 0.74        .
+Voss 2016                                                  placebo    ubrogepant (low) 0.5768 [0.4340;  0.7666] 0.29        .
+Voss 2016                                        ubrogepant (high)    ubrogepant (low) 1.2485 [0.9148;  1.7040] 0.13        .
+Wentz 2008                                  naproxen sodium (high)             placebo 5.5060 [2.1615; 14.0250] 0.00     1.00
+Winner 2003a                                               placebo  sumatriptan (high) 0.3121 [0.2713;  0.3592] 0.03        .
+Winner 2003a                                               placebo   sumatriptan (low) 0.3777 [0.3254;  0.4385] 0.07        .
+Winner 2003a                                    sumatriptan (high)   sumatriptan (low) 1.2100 [1.0567;  1.3856] 0.02        .
+Winner 2003b                                               placebo  sumatriptan (high) 0.3121 [0.2713;  0.3592] 0.02        .
+Winner 2003b                                               placebo   sumatriptan (low) 0.3777 [0.3254;  0.4385] 0.16        .
+Winner 2003b                                    sumatriptan (high)   sumatriptan (low) 1.2100 [1.0567;  1.3856] 0.13        .
+Yu 2023                                                    placebo          rimegepant 0.4312 [0.3595;  0.5173] 0.25     0.27
+
+Results (random effects model):
+
+                                                            treat1              treat2     OR            95%-CI
+Ashina 2021                                      lasmiditan (high)    lasmiditan (low) 1.3351 [1.0608;  1.6804]
+Ashina 2021                                      lasmiditan (high)             placebo 2.5119 [1.9318;  3.2661]
+Ashina 2021                                       lasmiditan (low)             placebo 1.8813 [1.4510;  2.4392]
+Barbanti 2012                                              placebo  rizatriptan (high) 0.3178 [0.2474;  0.4082]
+Brandes 2005                                      eletriptan (low)             placebo 3.8085 [2.9588;  4.9022]
+Brandes 2007a                                naproxen sodium (low)             placebo 2.0052 [1.4651;  2.7444]
+Brandes 2007a                                naproxen sodium (low)  sumatriptan (high) 0.6173 [0.4525;  0.8421]
+Brandes 2007a                                              placebo  sumatriptan (high) 0.3079 [0.2606;  0.3637]
+Brandes 2007b                                naproxen sodium (low)             placebo 2.0052 [1.4651;  2.7444]
+Brandes 2007b                                naproxen sodium (low)  sumatriptan (high) 0.6173 [0.4525;  0.8421]
+Brandes 2007b                                              placebo  sumatriptan (high) 0.3079 [0.2606;  0.3637]
+Cady 2006a                                                 placebo  rizatriptan (high) 0.3178 [0.2474;  0.4082]
+Cady 2006b                                                 placebo  rizatriptan (high) 0.3178 [0.2474;  0.4082]
+Cady 2009                                                  placebo  rizatriptan (high) 0.3178 [0.2474;  0.4082]
+Carpay 2004                                                placebo  sumatriptan (high) 0.3079 [0.2606;  0.3637]
+Carpay 2004                                                placebo   sumatriptan (low) 0.3742 [0.3124;  0.4484]
+Carpay 2004                                     sumatriptan (high)   sumatriptan (low) 1.2156 [1.0234;  1.4440]
+Croop 2019                                                 placebo          rimegepant 0.4219 [0.3342;  0.5327]
+Dahlöf 2001                                     almotriptan (high)   almotriptan (low) 1.2746 [0.9022;  1.8005]
+Dahlöf 2001                                     almotriptan (high)             placebo 2.6917 [2.1093;  3.4350]
+Dahlöf 2001                                      almotriptan (low)             placebo 2.1119 [1.4336;  3.1111]
+Diener 2011                                       eletriptan (low)             placebo 3.8085 [2.9588;  4.9022]
+Dodick 2019                                                placebo   ubrogepant (high) 0.4547 [0.3007;  0.6877]
+Dodick 2019                                                placebo    ubrogepant (low) 0.5640 [0.3983;  0.7988]
+Dodick 2019                                      ubrogepant (high)    ubrogepant (low) 1.2403 [0.8424;  1.8261]
+Dowson 2002a                                    almotriptan (high)             placebo 2.6917 [2.1093;  3.4350]
+Dowson 2002a                                    almotriptan (high)  sumatriptan (high) 0.8286 [0.6303;  1.0894]
+Dowson 2002a                                               placebo  sumatriptan (high) 0.3079 [0.2606;  0.3637]
+Eletriptan Steering Committee in Japan 2002      eletriptan (high)    eletriptan (low) 1.5395 [1.1876;  1.9957]
+Eletriptan Steering Committee in Japan 2002      eletriptan (high)             placebo 5.8632 [4.3711;  7.8646]
+Eletriptan Steering Committee in Japan 2002       eletriptan (low)             placebo 3.8085 [2.9588;  4.9022]
+Freitag 2008                                    paracetamol (high)             placebo 2.1860 [0.7603;  6.2856]
+Freitag 2008                                    paracetamol (high)  rizatriptan (high) 0.6947 [0.2449;  1.9707]
+Freitag 2008                                               placebo  rizatriptan (high) 0.3178 [0.2474;  0.4082]
+Garcia-Ramos 2003                                 eletriptan (low)  naratriptan (high) 2.5510 [1.3772;  4.7253]
+Garcia-Ramos 2003                                 eletriptan (low)             placebo 3.8085 [2.9588;  4.9022]
+Garcia-Ramos 2003                               naratriptan (high)             placebo 1.4930 [0.7879;  2.8288]
+Goadsby 2007                                    almotriptan (high)  zolmitriptan (low) 0.9612 [0.7258;  1.2729]
+Goadsby 2008                                    almotriptan (high)             placebo 2.6917 [2.1093;  3.4350]
+Goadsby 2019                                     lasmiditan (high)    lasmiditan (low) 1.3351 [1.0608;  1.6804]
+Goadsby 2019                                     lasmiditan (high)             placebo 2.5119 [1.9318;  3.2661]
+Goadsby 2019                                      lasmiditan (low)             placebo 1.8813 [1.4510;  2.4392]
+Gomez-Mancilla 2014                                        placebo  sumatriptan (high) 0.3079 [0.2606;  0.3637]
+Gruffyd-Jones 2001                               sumatriptan (low) zolmitriptan (high) 0.9321 [0.6629;  1.3106]
+Gruffyd-Jones 2001                               sumatriptan (low)  zolmitriptan (low) 0.9542 [0.7349;  1.2388]
+Gruffyd-Jones 2001                             zolmitriptan (high)  zolmitriptan (low) 1.0237 [0.7206;  1.4543]
+Ho 2008a                                                   placebo  rizatriptan (high) 0.3178 [0.2474;  0.4082]
+Ho 2008b                                                   placebo zolmitriptan (high) 0.3488 [0.2478;  0.4911]
+Jelinski 2006                                              placebo  sumatriptan (high) 0.3079 [0.2606;  0.3637]
+Jelinski 2006                                              placebo   sumatriptan (low) 0.3742 [0.3124;  0.4484]
+Jelinski 2006                                   sumatriptan (high)   sumatriptan (low) 1.2156 [1.0234;  1.4440]
+Kaniecki 2006                                              placebo  sumatriptan (high) 0.3079 [0.2606;  0.3637]
+Kuca 2018                                        lasmiditan (high)    lasmiditan (low) 1.3351 [1.0608;  1.6804]
+Kuca 2018                                        lasmiditan (high)             placebo 2.5119 [1.9318;  3.2661]
+Kuca 2018                                         lasmiditan (low)             placebo 1.8813 [1.4510;  2.4392]
+Landy2004                                                  placebo  sumatriptan (high) 0.3079 [0.2606;  0.3637]
+Landy2004                                                  placebo   sumatriptan (low) 0.3742 [0.3124;  0.4484]
+Landy2004                                       sumatriptan (high)   sumatriptan (low) 1.2156 [1.0234;  1.4440]
+Lipton 2010                                   diclofenac potassium             placebo 2.8991 [1.6231;  5.1784]
+Lipton 2019a                                             celecoxib             placebo 1.7104 [1.1605;  2.5208]
+Lipton 2019b                                               placebo    ubrogepant (low) 0.5640 [0.3983;  0.7988]
+Lipton 2019c                                               placebo          rimegepant 0.4219 [0.3342;  0.5327]
+Lipton 2021                                              celecoxib             placebo 1.7104 [1.1605;  2.5208]
+Marcus 2014                                                placebo          rimegepant 0.4219 [0.3342;  0.5327]
+Marcus 2014                                                placebo  sumatriptan (high) 0.3079 [0.2606;  0.3637]
+Marcus 2014                                             rimegepant  sumatriptan (high) 0.7296 [0.5519;  0.9646]
+Mathew 2007                                     almotriptan (high)             placebo 2.6917 [2.1093;  3.4350]
+MOMENTUM 2019                                              placebo  rizatriptan (high) 0.3178 [0.2474;  0.4082]
+NCT01657370 2012                                           placebo   ubrogepant (high) 0.4547 [0.3007;  0.6877]
+NCT01657370 2012                                           placebo    ubrogepant (low) 0.5640 [0.3983;  0.7988]
+NCT01657370 2012                                 ubrogepant (high)    ubrogepant (low) 1.2403 [0.8424;  1.8261]
+NCT03235479 2018                                           placebo          rimegepant 0.4219 [0.3342;  0.5327]
+Nett 2003                                                  placebo  sumatriptan (high) 0.3079 [0.2606;  0.3637]
+Nett 2003                                                  placebo   sumatriptan (low) 0.3742 [0.3124;  0.4484]
+Nett 2003                                       sumatriptan (high)   sumatriptan (low) 1.2156 [1.0234;  1.4440]
+Pascual 2000a                                   almotriptan (high)   almotriptan (low) 1.2746 [0.9022;  1.8005]
+Pascual 2000a                                   almotriptan (high)             placebo 2.6917 [2.1093;  3.4350]
+Pascual 2000a                                    almotriptan (low)             placebo 2.1119 [1.4336;  3.1111]
+Pascual 2000b                                              placebo  rizatriptan (high) 0.3178 [0.2474;  0.4082]
+Pascual 2000b                                              placebo  zolmitriptan (low) 0.3571 [0.2803;  0.4550]
+Pascual 2000b                                   rizatriptan (high)  zolmitriptan (low) 1.1237 [0.8260;  1.5288]
+Sakai 2021                                       lasmiditan (high)    lasmiditan (low) 1.3351 [1.0608;  1.6804]
+Sakai 2021                                       lasmiditan (high)             placebo 2.5119 [1.9318;  3.2661]
+Sakai 2021                                        lasmiditan (low)             placebo 1.8813 [1.4510;  2.4392]
+Sandrini 2002                                    eletriptan (high)    eletriptan (low) 1.5395 [1.1876;  1.9957]
+Sandrini 2002                                    eletriptan (high)             placebo 5.8632 [4.3711;  7.8646]
+Sandrini 2002                                    eletriptan (high)  sumatriptan (high) 1.8050 [1.3191;  2.4699]
+Sandrini 2002                                    eletriptan (high)   sumatriptan (low) 2.1942 [1.6004;  3.0084]
+Sandrini 2002                                     eletriptan (low)             placebo 3.8085 [2.9588;  4.9022]
+Sandrini 2002                                     eletriptan (low)  sumatriptan (high) 1.1725 [0.8855;  1.5524]
+Sandrini 2002                                     eletriptan (low)   sumatriptan (low) 1.4253 [1.0727;  1.8937]
+Sandrini 2002                                              placebo  sumatriptan (high) 0.3079 [0.2606;  0.3637]
+Sandrini 2002                                              placebo   sumatriptan (low) 0.3742 [0.3124;  0.4484]
+Sandrini 2002                                   sumatriptan (high)   sumatriptan (low) 1.2156 [1.0234;  1.4440]
+Saper 2006                                        ibuprofen (high)             placebo 7.5809 [2.7634; 20.7963]
+Sheftell 2003                                    eletriptan (high)    eletriptan (low) 1.5395 [1.1876;  1.9957]
+Sheftell 2003                                    eletriptan (high)             placebo 5.8632 [4.3711;  7.8646]
+Sheftell 2003                                     eletriptan (low)             placebo 3.8085 [2.9588;  4.9022]
+Sheftell 2005a                                             placebo  sumatriptan (high) 0.3079 [0.2606;  0.3637]
+Sheftell 2005a                                             placebo   sumatriptan (low) 0.3742 [0.3124;  0.4484]
+Sheftell 2005a                                  sumatriptan (high)   sumatriptan (low) 1.2156 [1.0234;  1.4440]
+Sheftell 2005b                                             placebo  sumatriptan (high) 0.3079 [0.2606;  0.3637]
+Sheftell 2005b                                             placebo   sumatriptan (low) 0.3742 [0.3124;  0.4484]
+Sheftell 2005b                                  sumatriptan (high)   sumatriptan (low) 1.2156 [1.0234;  1.4440]
+Smith 2005                                   naproxen sodium (low)             placebo 2.0052 [1.4651;  2.7444]
+Smith 2005                                   naproxen sodium (low)   sumatriptan (low) 0.7504 [0.5415;  1.0400]
+Smith 2005                                                 placebo   sumatriptan (low) 0.3742 [0.3124;  0.4484]
+Steiner 2003                                     eletriptan (high)    eletriptan (low) 1.5395 [1.1876;  1.9957]
+Steiner 2003                                     eletriptan (high)             placebo 5.8632 [4.3711;  7.8646]
+Steiner 2003                                     eletriptan (high)  zolmitriptan (low) 2.0937 [1.5169;  2.8898]
+Steiner 2003                                      eletriptan (low)             placebo 3.8085 [2.9588;  4.9022]
+Steiner 2003                                      eletriptan (low)  zolmitriptan (low) 1.3600 [1.0082;  1.8345]
+Steiner 2003                                               placebo  zolmitriptan (low) 0.3571 [0.2803;  0.4550]
+Tfelt-Hansen 2006                                          placebo   sumatriptan (low) 0.3742 [0.3124;  0.4484]
+Toledano 2021                                    paracetamol (low)             placebo 1.0000 [0.2412;  4.1467]
+Voss 2016                                                  placebo   ubrogepant (high) 0.4547 [0.3007;  0.6877]
+Voss 2016                                                  placebo    ubrogepant (low) 0.5640 [0.3983;  0.7988]
+Voss 2016                                        ubrogepant (high)    ubrogepant (low) 1.2403 [0.8424;  1.8261]
+Wentz 2008                                  naproxen sodium (high)             placebo 5.5060 [2.0496; 14.7907]
+Winner 2003a                                               placebo  sumatriptan (high) 0.3079 [0.2606;  0.3637]
+Winner 2003a                                               placebo   sumatriptan (low) 0.3742 [0.3124;  0.4484]
+Winner 2003a                                    sumatriptan (high)   sumatriptan (low) 1.2156 [1.0234;  1.4440]
+Winner 2003b                                               placebo  sumatriptan (high) 0.3079 [0.2606;  0.3637]
+Winner 2003b                                               placebo   sumatriptan (low) 0.3742 [0.3124;  0.4484]
+Winner 2003b                                    sumatriptan (high)   sumatriptan (low) 1.2156 [1.0234;  1.4440]
+Yu 2023                                                    placebo          rimegepant 0.4219 [0.3342;  0.5327]
+
+Number of studies: k = 56
+Number of pairwise comparisons: m = 126
+Number of observations: o = 44098
+Number of treatments: n = 23
+Number of designs: d = 29
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                           OR            95%-CI     z  p-value
+almotriptan (high)     2.5762 [2.1220;  3.1276]  9.56 < 0.0001
+almotriptan (low)      2.0054 [1.4738;  2.7287]  4.43 < 0.0001
+celecoxib              1.7112 [1.2487;  2.3450]  3.34   0.0008
+diclofenac potassium   2.8991 [1.7868;  4.7039]  4.31 < 0.0001
+eletriptan (high)      5.6361 [4.4318;  7.1676] 14.10 < 0.0001
+eletriptan (low)       3.7202 [3.0080;  4.6010] 12.12 < 0.0001
+ibuprofen (high)       7.5809 [2.9109; 19.7426]  4.15 < 0.0001
+lasmiditan (high)      2.3906 [1.9591;  2.9172]  8.58 < 0.0001
+lasmiditan (low)       1.7846 [1.4715;  2.1643]  5.88 < 0.0001
+naproxen sodium (high) 5.5060 [2.1615; 14.0250]  3.58   0.0003
+naproxen sodium (low)  1.9961 [1.5316;  2.6014]  5.11 < 0.0001
+naratriptan (high)     1.5115 [0.8593;  2.6589]  1.43   0.1517
+paracetamol (high)     2.1583 [0.7850;  5.9339]  1.49   0.1360
+paracetamol (low)      1.0000 [0.2501;  3.9984] -0.00   1.0000
+placebo                     .                 .     .        .
+rimegepant             2.3191 [1.9332;  2.7819]  9.06 < 0.0001
+rizatriptan (high)     3.1058 [2.5340;  3.8066] 10.92 < 0.0001
+sumatriptan (high)     3.2036 [2.7839;  3.6866] 16.25 < 0.0001
+sumatriptan (low)      2.6476 [2.2807;  3.0735] 12.79 < 0.0001
+ubrogepant (high)      2.1644 [1.5464;  3.0292]  4.50 < 0.0001
+ubrogepant (low)       1.7336 [1.3045;  2.3039]  3.79   0.0001
+zolmitriptan (high)    2.7038 [2.1108;  3.4635]  7.87 < 0.0001
+zolmitriptan (low)     2.7036 [2.2571;  3.2384] 10.80 < 0.0001
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                           OR            95%-CI     z  p-value
+almotriptan (high)     2.6917 [2.1093;  3.4350]  7.96 < 0.0001
+almotriptan (low)      2.1119 [1.4336;  3.1111]  3.78   0.0002
+celecoxib              1.7104 [1.1605;  2.5208]  2.71   0.0067
+diclofenac potassium   2.8991 [1.6231;  5.1784]  3.60   0.0003
+eletriptan (high)      5.8632 [4.3711;  7.8646] 11.80 < 0.0001
+eletriptan (low)       3.8085 [2.9588;  4.9022] 10.38 < 0.0001
+ibuprofen (high)       7.5809 [2.7634; 20.7963]  3.93 < 0.0001
+lasmiditan (high)      2.5119 [1.9318;  3.2661]  6.87 < 0.0001
+lasmiditan (low)       1.8813 [1.4510;  2.4392]  4.77 < 0.0001
+naproxen sodium (high) 5.5060 [2.0496; 14.7907]  3.38   0.0007
+naproxen sodium (low)  2.0052 [1.4651;  2.7444]  4.35 < 0.0001
+naratriptan (high)     1.4930 [0.7879;  2.8288]  1.23   0.2191
+paracetamol (high)     2.1860 [0.7603;  6.2856]  1.45   0.1467
+paracetamol (low)      1.0000 [0.2412;  4.1467]  0.00   1.0000
+placebo                     .                 .     .        .
+rimegepant             2.3701 [1.8771;  2.9925]  7.25 < 0.0001
+rizatriptan (high)     3.1469 [2.4500;  4.0422]  8.98 < 0.0001
+sumatriptan (high)     3.2483 [2.7498;  3.8373] 13.86 < 0.0001
+sumatriptan (low)      2.6721 [2.2304;  3.2013] 10.66 < 0.0001
+ubrogepant (high)      2.1991 [1.4541;  3.3256]  3.73   0.0002
+ubrogepant (low)       1.7730 [1.2520;  2.5110]  3.23   0.0013
+zolmitriptan (high)    2.8668 [2.0363;  4.0361]  6.03 < 0.0001
+zolmitriptan (low)     2.8004 [2.1980;  3.5680]  8.33 < 0.0001
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0266; tau = 0.1631; I^2 = 28.2% [2.6%; 47.1%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           93.31   67  0.0185
+Within designs  51.35   42  0.1529
+Between designs 41.97   25  0.0181
+
+A total of 23 treatments are included in the network.
+A total of 56 studies are included in this analysis.
+A total of 44098 participants are included in this analysis, with 6522 events (14.79%).
+Estimated heterogeneity tau-squared: 0.03.
+Global test for inconsistency, p-value 0.01812 (Q=42, d.o.f. 25)
+
+The following studies were included in this analysis: Ashina 2021 Barbanti 2012 Brandes 2005 Brandes 2007a Brandes 2007b Cady 2006a Cady 2006b Cady 2009 Carpay 2004 Croop 2019 Dahlöf 2001 Diener 2011 Dodick 2019 Dowson 2002a Eletriptan Steering Committee in Japan 2002 Freitag 2008 Garcia-Ramos 2003 Goadsby 2007 Goadsby 2008 Goadsby 2019 Gomez-Mancilla 2014 Gruffyd-Jones 2001 Ho 2008a Ho 2008b Jelinski 2006 Kaniecki 2006 Kuca 2018 Landy2004 Lipton 2010 Lipton 2019a Lipton 2019b Lipton 2019c Lipton 2021 Marcus 2014 Mathew 2007 MOMENTUM 2019 NCT01657370 2012 NCT03235479 2018 Nett 2003 Pascual 2000a Pascual 2000b Sakai 2021 Sandrini 2002 Saper 2006 Sheftell 2003 Sheftell 2005a Sheftell 2005b Smith 2005 Steiner 2003 Tfelt-Hansen 2006 Toledano 2021 Voss 2016 Wentz 2008 Winner 2003a Winner 2003b Yu 2023.
+
+File created on 2023-05-30.

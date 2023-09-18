@@ -1,0 +1,11 @@
+                P-score (common) P-score (random)
+rizatriptan               0.8360           0.8317
+naproxen sodium           0.8367           0.7795
+almotriptan               0.5476           0.5347
+zolmitriptan              0.5351           0.5206
+eletriptan                0.4087           0.4879
+sumatriptan               0.4920           0.4839
+lasmiditan                0.3115           0.3215
+placebo                   0.0323           0.0402
+
+File created on 2023-07-23.

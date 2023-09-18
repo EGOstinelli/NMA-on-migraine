@@ -1,0 +1,79 @@
+Original data:
+
+                     treat1  treat2      TE   seTE
+Brandes 2005        placebo triptan -1.0313 0.2242
+Dahlöf 2001         placebo triptan -1.3859 0.4393
+Diener 2011         placebo triptan -1.2340 0.5420
+Gomez-Mancilla 2014 placebo triptan -1.7918 1.1365
+Pascual 2000a       placebo triptan -0.9681 0.2502
+Wentz 2008            NSAID placebo  1.7058 0.4771
+
+Number of treatment arms (by study):
+                    narms
+Brandes 2005            2
+Dahlöf 2001             2
+Diener 2011             2
+Gomez-Mancilla 2014     2
+Pascual 2000a           2
+Wentz 2008              2
+
+Results (common effects model):
+
+                     treat1  treat2     OR            95%-CI    Q leverage
+Brandes 2005        placebo triptan 0.3403 [0.2543;  0.4555] 0.04     0.44
+Dahlöf 2001         placebo triptan 0.3403 [0.2543;  0.4555] 0.49     0.11
+Diener 2011         placebo triptan 0.3403 [0.2543;  0.4555] 0.08     0.08
+Gomez-Mancilla 2014 placebo triptan 0.3403 [0.2543;  0.4555] 0.39     0.02
+Pascual 2000a       placebo triptan 0.3403 [0.2543;  0.4555] 0.19     0.35
+Wentz 2008            NSAID placebo 5.5060 [2.1615; 14.0250] 0.00     1.00
+
+Results (random effects model):
+
+                     treat1  treat2     OR            95%-CI
+Brandes 2005        placebo triptan 0.3403 [0.2543;  0.4555]
+Dahlöf 2001         placebo triptan 0.3403 [0.2543;  0.4555]
+Diener 2011         placebo triptan 0.3403 [0.2543;  0.4555]
+Gomez-Mancilla 2014 placebo triptan 0.3403 [0.2543;  0.4555]
+Pascual 2000a       placebo triptan 0.3403 [0.2543;  0.4555]
+Wentz 2008            NSAID placebo 5.5060 [2.1615; 14.0250]
+
+Number of studies: k = 6
+Number of pairwise comparisons: m = 6
+Number of observations: o = 2564
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+            OR            95%-CI    z  p-value
+NSAID   5.5060 [2.1615; 14.0250] 3.58   0.0003
+placebo      .                 .    .        .
+triptan 2.9385 [2.1956;  3.9327] 7.25 < 0.0001
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+            OR            95%-CI    z  p-value
+NSAID   5.5060 [2.1615; 14.0250] 3.58   0.0003
+placebo      .                 .    .        .
+triptan 2.9385 [2.1956;  3.9327] 7.25 < 0.0001
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 79.2%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                  Q d.f. p-value
+Total           1.2    4  0.8773
+Within designs  1.2    4  0.8773
+Between designs 0.0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 6 studies are included in this analysis.
+A total of 2564 participants are included in this analysis, with 507 events (19.77%).
+Estimated heterogeneity tau-squared: 0.
+Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)
+
+The following studies were included in this analysis: Brandes 2005 Dahlöf 2001 Diener 2011 Gomez-Mancilla 2014 Pascual 2000a Wentz 2008.
+
+File created on 2023-05-30.

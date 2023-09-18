@@ -1,0 +1,5 @@
+          comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
+1   NSAID vs  placebo                 1 5.51     2.16    14.02     NA   NA         NA         NA  0.0     NA
+2 triptan vs  placebo                 5 2.94     2.20     3.93      0    0          0       0.79  1.2 0.8773
+
+File created on 2023-05-30.

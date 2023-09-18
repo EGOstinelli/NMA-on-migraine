@@ -1,0 +1,6 @@
+            P-score (common) P-score (random)
+sumatriptan           0.9217           0.8658
+naratriptan           0.5773           0.6188
+placebo               0.0010           0.0154
+
+File created on 2023-08-23.

@@ -1,0 +1,32 @@
+                       P-score (common) P-score (random)
+eletriptan (high)                0.9875           0.9874
+eletriptan (low)                 0.9314           0.9181
+rizatriptan (high)               0.9030           0.9023
+naproxen sodium (high)           0.9044           0.8787
+zolmitriptan (high)              0.8290           0.8250
+sumatriptan (high)               0.8300           0.8058
+zolmitriptan (low)               0.7112           0.6971
+frovatriptan                     0.6183           0.6882
+sumatriptan (low)                0.7215           0.6853
+rizatriptan (low)                0.6805           0.6815
+diclofenac potassium             0.6704           0.6370
+lasmiditan (high)                0.5552           0.5607
+almotriptan (high)               0.5518           0.5422
+acetylsalicylic acid             0.5488           0.5089
+phenazone                        0.4965           0.4660
+naproxen sodium (low)            0.4173           0.3784
+paracetamol (high)               0.3846           0.3576
+ibuprofen (high)                 0.2743           0.3487
+ubrogepant (high)                0.3661           0.3443
+ibuprofen (low)                  0.2361           0.3155
+lasmiditan (low)                 0.2893           0.3068
+paracetamol (low)                0.3001           0.2902
+rimegepant                       0.2887           0.2786
+naratriptan (high)               0.2728           0.2698
+almotriptan (low)                0.2187           0.2697
+ubrogepant (low)                 0.2328           0.2569
+celecoxib                        0.2231           0.2352
+naratriptan (low)                0.0277           0.0369
+placebo                          0.0288           0.0272
+
+File created on 2023-07-23.

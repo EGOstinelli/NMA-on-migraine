@@ -1,0 +1,7 @@
+            P-score (common) P-score (random)
+triptan               0.9926           0.9906
+gepant                0.6294           0.6297
+antipyretic           0.2113           0.2130
+placebo               0.1667           0.1667
+
+File created on 2023-08-23.

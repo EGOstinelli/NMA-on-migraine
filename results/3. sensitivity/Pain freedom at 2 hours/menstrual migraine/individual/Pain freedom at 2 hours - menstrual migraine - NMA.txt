@@ -1,0 +1,67 @@
+Original data:
+
+                           treat1      treat2      TE   seTE
+Landy 2004_SUM40282       placebo sumatriptan -1.4001 0.2218
+Massiou 2005_S2W40031 naratriptan     placebo  0.8053 0.2805
+Nett 2003_SUM40285        placebo sumatriptan -0.8378 0.2316
+
+Number of treatment arms (by study):
+                      narms
+Landy 2004_SUM40282       2
+Massiou 2005_S2W40031     2
+Nett 2003_SUM40285        2
+
+Results (common effects model):
+
+                           treat1      treat2     OR           95%-CI    Q leverage
+Landy 2004_SUM40282       placebo sumatriptan 0.3227 [0.2357; 0.4417] 1.47     0.52
+Massiou 2005_S2W40031 naratriptan     placebo 2.2373 [1.2911; 3.8770] 0.00     1.00
+Nett 2003_SUM40285        placebo sumatriptan 0.3227 [0.2357; 0.4417] 1.60     0.48
+
+Results (random effects model):
+
+                           treat1      treat2     OR           95%-CI
+Landy 2004_SUM40282       placebo sumatriptan 0.3253 [0.1875; 0.5644]
+Massiou 2005_S2W40031 naratriptan     placebo 2.2373 [0.9622; 5.2025]
+Nett 2003_SUM40285        placebo sumatriptan 0.3253 [0.1875; 0.5644]
+
+Number of studies: k = 3
+Number of pairwise comparisons: m = 3
+Number of observations: o = 1187
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI    z  p-value
+naratriptan 2.2373 [1.2911; 3.8770] 2.87   0.0041
+placebo          .                .    .        .
+sumatriptan 3.0991 [2.2641; 4.2421] 7.06 < 0.0001
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI    z  p-value
+naratriptan 2.2373 [0.9622; 5.2025] 1.87   0.0614
+placebo          .                .    .        .
+sumatriptan 3.0738 [1.7717; 5.3330] 3.99 < 0.0001
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.1067; tau = 0.3266; I^2 = 67.5% [0.0%; 92.7%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           3.08    1  0.0795
+Within designs  3.08    1  0.0795
+Between designs 0.00    0      --
+
+A total of 3 treatments are included in the network.
+A total of 3 studies are included in this analysis.
+A total of 1187 participants are included in this analysis, with 427 events (35.97%).
+Estimated heterogeneity tau-squared: 0.11.
+Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)
+
+The following studies were included in this analysis: Landy 2004_SUM40282 Massiou 2005_S2W40031 Nett 2003_SUM40285.
+
+File created on 2023-08-23.

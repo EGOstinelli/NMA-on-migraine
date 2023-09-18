@@ -1,0 +1,127 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                                                         treat1  treat2      TE   seTE seTE.adj.f seTE.adj.r narms multiarm
+Barbanti 2012_NCT00753311_EUCTR2008-007967-18                           placebo triptan -3.1665 1.0584     1.0584     1.0764     2         
+Cady 2009_NCT00516737_EUCTR2007-003361-40_0462-081                      placebo triptan -1.5581 0.4881     0.4881     0.5261     2         
+Carpay 2004_SUM30046                                                    placebo triptan -1.5130 0.2966     0.2966     0.3556     2         
+Croop 2019_NCT03461757_BHV3000-303                                       gepant placebo  1.1208 0.1972     0.1972     0.2782     2         
+Diener 2011_NCT00751803_EUCTR2008-000079-31                             placebo triptan -1.2340 0.5420     0.5420     0.5765     2         
+Gomez-Mancilla 2014_NCT00892203_EUCTR2008-005392-10-ES_CBGG492A2204     placebo triptan -1.7918 1.1365     1.1365     1.1533     2         
+Kaniecki 2006_SUM40312                                                  placebo triptan -1.3186 0.4448     0.4448     0.4861     2         
+Landy 2004_SUM40282                                                     placebo triptan -1.7132 0.3222     0.3222     0.3773     2         
+Lipton 2019c_NCT03237845_BHV3000-302                                     gepant placebo  0.6001 0.2125     0.2125     0.2893     2         
+Marcus 2014_NCT01430442_CN170-003                                        gepant placebo  1.6313 0.3577     0.4559     0.5147     3        *
+Marcus 2014_NCT01430442_CN170-003                                        gepant triptan  0.1341 0.3273     0.3836     0.4517     3        *
+Marcus 2014_NCT01430442_CN170-003                                       placebo triptan -1.4972 0.3491     0.4307     0.4936     3        *
+NCT03235479 2018_BHV3000-301                                             gepant placebo  0.6041 0.1993     0.1993     0.2797     2         
+Nett 2003_SUM40285                                                      placebo triptan -0.9506 0.2995     0.2995     0.3581     2         
+Sheftell 2005b_SUM30053                                                 placebo triptan -1.7439 0.2356     0.2356     0.3066     2         
+Toledano 2021_NCT03061734_ANODYNE-1                                 antipyretic placebo  0.0000 0.7071     0.7071     0.7338     2         
+Voss 2016_NCT01613248_P006                                               gepant placebo  1.0897 0.4253     0.4253     0.4684     2         
+Yu 2023_NCT04574362_BHV3000-310                                          gepant placebo  0.7526 0.1778     0.1778     0.2648     2         
+
+Number of treatment arms (by study):
+                                                                    narms
+Barbanti 2012_NCT00753311_EUCTR2008-007967-18                           2
+Cady 2009_NCT00516737_EUCTR2007-003361-40_0462-081                      2
+Carpay 2004_SUM30046                                                    2
+Croop 2019_NCT03461757_BHV3000-303                                      2
+Diener 2011_NCT00751803_EUCTR2008-000079-31                             2
+Gomez-Mancilla 2014_NCT00892203_EUCTR2008-005392-10-ES_CBGG492A2204     2
+Kaniecki 2006_SUM40312                                                  2
+Landy 2004_SUM40282                                                     2
+Lipton 2019c_NCT03237845_BHV3000-302                                    2
+Marcus 2014_NCT01430442_CN170-003                                       3
+NCT03235479 2018_BHV3000-301                                            2
+Nett 2003_SUM40285                                                      2
+Sheftell 2005b_SUM30053                                                 2
+Toledano 2021_NCT03061734_ANODYNE-1                                     2
+Voss 2016_NCT01613248_P006                                              2
+Yu 2023_NCT04574362_BHV3000-310                                         2
+
+Results (common effects model):
+
+                                                                         treat1  treat2     OR           95%-CI    Q leverage
+Barbanti 2012_NCT00753311_EUCTR2008-007967-18                           placebo triptan 0.2370 [0.1893; 0.2966] 2.66     0.01
+Cady 2009_NCT00516737_EUCTR2007-003361-40_0462-081                      placebo triptan 0.2370 [0.1893; 0.2966] 0.06     0.06
+Carpay 2004_SUM30046                                                    placebo triptan 0.2370 [0.1893; 0.2966] 0.06     0.15
+Croop 2019_NCT03461757_BHV3000-303                                       gepant placebo 2.3817 [1.9933; 2.8458] 1.65     0.21
+Diener 2011_NCT00751803_EUCTR2008-000079-31                             placebo triptan 0.2370 [0.1893; 0.2966] 0.14     0.04
+Gomez-Mancilla 2014_NCT00892203_EUCTR2008-005392-10-ES_CBGG492A2204     placebo triptan 0.2370 [0.1893; 0.2966] 0.10     0.01
+Kaniecki 2006_SUM40312                                                  placebo triptan 0.2370 [0.1893; 0.2966] 0.07     0.07
+Landy 2004_SUM40282                                                     placebo triptan 0.2370 [0.1893; 0.2966] 0.72     0.13
+Lipton 2019c_NCT03237845_BHV3000-302                                     gepant placebo 2.3817 [1.9933; 2.8458] 1.59     0.18
+Marcus 2014_NCT01430442_CN170-003                                        gepant placebo 2.3817 [1.9933; 2.8458] 2.80        .
+Marcus 2014_NCT01430442_CN170-003                                        gepant triptan 0.5644 [0.4281; 0.7441] 3.39        .
+Marcus 2014_NCT01430442_CN170-003                                       placebo triptan 0.2370 [0.1893; 0.2966] 0.02        .
+NCT03235479 2018_BHV3000-301                                             gepant placebo 2.3817 [1.9933; 2.8458] 1.75     0.21
+Nett 2003_SUM40285                                                      placebo triptan 0.2370 [0.1893; 0.2966] 2.67     0.15
+Sheftell 2005b_SUM30053                                                 placebo triptan 0.2370 [0.1893; 0.2966] 1.67     0.24
+Toledano 2021_NCT03061734_ANODYNE-1                                 antipyretic placebo 1.0000 [0.2501; 3.9984] 0.00     1.00
+Voss 2016_NCT01613248_P006                                               gepant placebo 2.3817 [1.9933; 2.8458] 0.27     0.05
+Yu 2023_NCT04574362_BHV3000-310                                          gepant placebo 2.3817 [1.9933; 2.8458] 0.42     0.26
+
+Results (random effects model):
+
+                                                                         treat1  treat2     OR           95%-CI
+Barbanti 2012_NCT00753311_EUCTR2008-007967-18                           placebo triptan 0.2373 [0.1820; 0.3095]
+Cady 2009_NCT00516737_EUCTR2007-003361-40_0462-081                      placebo triptan 0.2373 [0.1820; 0.3095]
+Carpay 2004_SUM30046                                                    placebo triptan 0.2373 [0.1820; 0.3095]
+Croop 2019_NCT03461757_BHV3000-303                                       gepant placebo 2.4712 [1.9369; 3.1530]
+Diener 2011_NCT00751803_EUCTR2008-000079-31                             placebo triptan 0.2373 [0.1820; 0.3095]
+Gomez-Mancilla 2014_NCT00892203_EUCTR2008-005392-10-ES_CBGG492A2204     placebo triptan 0.2373 [0.1820; 0.3095]
+Kaniecki 2006_SUM40312                                                  placebo triptan 0.2373 [0.1820; 0.3095]
+Landy 2004_SUM40282                                                     placebo triptan 0.2373 [0.1820; 0.3095]
+Lipton 2019c_NCT03237845_BHV3000-302                                     gepant placebo 2.4712 [1.9369; 3.1530]
+Marcus 2014_NCT01430442_CN170-003                                        gepant placebo 2.4712 [1.9369; 3.1530]
+Marcus 2014_NCT01430442_CN170-003                                        gepant triptan 0.5864 [0.4152; 0.8283]
+Marcus 2014_NCT01430442_CN170-003                                       placebo triptan 0.2373 [0.1820; 0.3095]
+NCT03235479 2018_BHV3000-301                                             gepant placebo 2.4712 [1.9369; 3.1530]
+Nett 2003_SUM40285                                                      placebo triptan 0.2373 [0.1820; 0.3095]
+Sheftell 2005b_SUM30053                                                 placebo triptan 0.2373 [0.1820; 0.3095]
+Toledano 2021_NCT03061734_ANODYNE-1                                 antipyretic placebo 1.0000 [0.2373; 4.2134]
+Voss 2016_NCT01613248_P006                                               gepant placebo 2.4712 [1.9369; 3.1530]
+Yu 2023_NCT04574362_BHV3000-310                                          gepant placebo 2.4712 [1.9369; 3.1530]
+
+Number of studies: k = 16
+Number of pairwise comparisons: m = 18
+Number of observations: o = 9936
+Number of treatments: n = 4
+Number of designs: d = 4
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI     z  p-value
+antipyretic 1.0000 [0.2501; 3.9984]  0.00   1.0000
+gepant      2.3817 [1.9933; 2.8458]  9.55 < 0.0001
+placebo          .                .     .        .
+triptan     4.2198 [3.3716; 5.2814] 12.58 < 0.0001
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI     z  p-value
+antipyretic 1.0000 [0.2373; 4.2134] -0.00   1.0000
+gepant      2.4712 [1.9369; 3.1530]  7.28 < 0.0001
+placebo          .                .     .        .
+triptan     4.2140 [3.2312; 5.4957] 10.62 < 0.0001
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0385; tau = 0.1962; I^2 = 30.1% [0.0%; 62.4%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           20.03   14  0.1291
+Within designs  12.86   12  0.3793
+Between designs  7.17    2  0.0277
+
+A total of 4 treatments are included in the network.
+A total of 16 studies are included in this analysis.
+A total of 9936 participants are included in this analysis, with 1288 events (12.96%).
+Estimated heterogeneity tau-squared: 0.04.
+Global test for inconsistency, p-value 0.02769 (Q=7, d.o.f. 2)
+
+The following studies were included in this analysis: Barbanti 2012_NCT00753311_EUCTR2008-007967-18 Cady 2009_NCT00516737_EUCTR2007-003361-40_0462-081 Carpay 2004_SUM30046 Croop 2019_NCT03461757_BHV3000-303 Diener 2011_NCT00751803_EUCTR2008-000079-31 Gomez-Mancilla 2014_NCT00892203_EUCTR2008-005392-10-ES_CBGG492A2204 Kaniecki 2006_SUM40312 Landy 2004_SUM40282 Lipton 2019c_NCT03237845_BHV3000-302 Marcus 2014_NCT01430442_CN170-003 NCT03235479 2018_BHV3000-301 Nett 2003_SUM40285 Sheftell 2005b_SUM30053 Toledano 2021_NCT03061734_ANODYNE-1 Voss 2016_NCT01613248_P006 Yu 2023_NCT04574362_BHV3000-310.
+
+File created on 2023-08-23.

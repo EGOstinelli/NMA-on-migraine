@@ -1,0 +1,66 @@
+                                   comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq  Q.st  p.val
+1             acetylsalicylic acid vs  placebo                 3 2.31     1.66     3.22   0.00 0.00       0.00       0.90  1.67 0.4346
+2               almotriptan (high) vs  placebo                 5 2.81     2.11     3.74   0.04 0.36       0.00       0.76  6.29 0.1788
+3                almotriptan (low) vs  placebo                 2 2.45     1.65     3.64   0.00 0.00         NA         NA  0.56 0.4537
+4      almotriptan (low) vs almotriptan (high)                 2 0.64     0.50     0.82   0.00 0.00         NA         NA  0.02 0.8928
+5                        celecoxib vs  placebo                 3 1.79     1.29     2.49   0.02 0.32       0.00       0.93  2.92 0.2318
+6             diclofenac potassium vs  placebo                 2 2.97     2.04     4.33   0.00 0.00         NA         NA  0.22 0.6422
+7                eletriptan (high) vs  placebo                 9 8.20     5.45    12.33   0.20 0.52       0.00       0.78 16.72 0.0331
+8                 eletriptan (low) vs  placebo                14 5.09     3.61     7.17   0.28 0.72       0.52       0.84 45.99 0.0000
+9        eletriptan (low) vs eletriptan (high)                 9 0.71     0.63     0.81   0.00 0.00       0.00       0.65  3.16 0.9240
+10                    frovatriptan vs  placebo                 5 4.50     3.03     6.67   0.00 0.00       0.00       0.79  1.57 0.8148
+11                ibuprofen (high) vs  placebo                 3 2.43     1.11     5.34   0.41 0.86       0.58       0.95 13.81 0.0010
+12                 ibuprofen (low) vs  placebo                 1 2.24     1.27     3.94     NA   NA         NA         NA  0.00     NA
+13         ibuprofen (low) vs ibuprofen (high)                 1 0.89     0.61     1.29     NA   NA         NA         NA  0.00     NA
+14               lasmiditan (high) vs  placebo                 5 2.74     2.06     3.65   0.06 0.60       0.00       0.85  9.96 0.0411
+15                lasmiditan (low) vs  placebo                 5 2.04     1.52     2.75   0.07 0.66       0.10       0.87 11.63 0.0204
+16       lasmiditan (low) vs lasmiditan (high)                 5 0.75     0.66     0.86   0.00 0.00       0.00       0.79  1.91 0.7521
+17          naproxen sodium (high) vs  placebo                 1 5.43     2.26    13.05     NA   NA         NA         NA  0.00     NA
+18           naproxen sodium (low) vs  placebo                 3 1.99     1.34     2.96   0.06 0.48       0.00       0.85  3.88 0.1437
+19              naratriptan (high) vs  placebo                 5 2.13     1.39     3.27   0.11 0.47       0.00       0.81  7.56 0.1091
+20      naratriptan (high) vs eletriptan (low)                 1 0.49     0.31     0.77     NA   NA         NA         NA  0.00     NA
+21               naratriptan (low) vs  placebo                 2 1.46     0.59     3.61   0.22 0.52       0.00       0.88  2.06 0.1509
+22     naratriptan (low) vs naratriptan (high)                 2 0.51     0.33     0.79   0.00 0.00         NA         NA  0.08 0.7765
+23              paracetamol (high) vs  placebo                 3 2.06     1.34     3.17   0.00 0.00       0.00       0.90  0.26 0.8774
+24               paracetamol (low) vs  placebo                 1 1.60     0.41     6.18     NA   NA         NA         NA  0.00     NA
+25                       phenazone vs  placebo                 1 2.41     1.20     4.84     NA   NA         NA         NA  0.00     NA
+26                      rimegepant vs  placebo                 5 1.89     1.58     2.25   0.01 0.26       0.00       0.71  5.44 0.2452
+27              rizatriptan (high) vs  placebo                16 4.83     3.76     6.21   0.13 0.58       0.26       0.76 35.31 0.0022
+28    rizatriptan (high) vs naratriptan (high)                 1 3.13     2.03     4.83     NA   NA         NA         NA  0.00     NA
+29    rizatriptan (high) vs paracetamol (high)                 1 1.84     0.75     4.52     NA   NA         NA         NA  0.00     NA
+30               rizatriptan (low) vs  placebo                 6 3.99     3.04     5.24   0.01 0.31       0.00       0.72  7.23 0.2043
+31     rizatriptan (low) vs rizatriptan (high)                 5 0.67     0.57     0.80   0.00 0.00       0.00       0.79  0.87 0.9285
+32              sumatriptan (high) vs  placebo                33 3.65     3.11     4.29   0.10 0.51       0.27       0.67 65.64 0.0004
+33    sumatriptan (high) vs almotriptan (high)                 1 1.31     0.85     2.04     NA   NA         NA         NA  0.00     NA
+34     sumatriptan (high) vs eletriptan (high)                 2 0.48     0.28     0.84   0.09 0.56       0.00       0.89  2.27 0.1320
+35      sumatriptan (high) vs eletriptan (low)                 3 0.70     0.49     0.99   0.06 0.57       0.00       0.88  4.63 0.0989
+36          sumatriptan (high) vs frovatriptan                 1 2.23     1.49     3.32     NA   NA         NA         NA  0.00     NA
+37 sumatriptan (high) vs naproxen sodium (low)                 2 1.72     1.32     2.23   0.00 0.00         NA         NA  0.66 0.4175
+38    sumatriptan (high) vs naratriptan (high)                 1 1.95     1.27     3.00     NA   NA         NA         NA  0.00     NA
+39     sumatriptan (high) vs naratriptan (low)                 1 4.01     2.41     6.65     NA   NA         NA         NA  0.00     NA
+40            sumatriptan (high) vs rimegepant                 1 1.12     0.61     2.05     NA   NA         NA         NA  0.00     NA
+41    sumatriptan (high) vs rizatriptan (high)                 2 0.76     0.58     0.99   0.00 0.00         NA         NA  0.05 0.8221
+42     sumatriptan (high) vs rizatriptan (low)                 1 1.31     0.88     1.97     NA   NA         NA         NA  0.00     NA
+43               sumatriptan (low) vs  placebo                18 3.24     2.76     3.81   0.02 0.22       0.00       0.56 21.88 0.1895
+44   sumatriptan (low) vs acetylsalicylic acid                 1 0.96     0.56     1.65     NA   NA         NA         NA  0.00     NA
+45     sumatriptan (low) vs almotriptan (high)                 1 1.48     1.12     1.96     NA   NA         NA         NA  0.00     NA
+46      sumatriptan (low) vs eletriptan (high)                 1 0.40     0.24     0.65     NA   NA         NA         NA  0.00     NA
+47       sumatriptan (low) vs eletriptan (low)                 1 0.53     0.32     0.87     NA   NA         NA         NA  0.00     NA
+48  sumatriptan (low) vs naproxen sodium (low)                 1 1.11     0.70     1.76     NA   NA         NA         NA  0.00     NA
+49      sumatriptan (low) vs rizatriptan (low)                 1 1.22     0.89     1.67     NA   NA         NA         NA  0.00     NA
+50     sumatriptan (low) vs sumatriptan (high)                11 0.77     0.68     0.86   0.00 0.00       0.00       0.60  5.39 0.8633
+51               ubrogepant (high) vs  placebo                 3 2.14     1.50     3.06   0.01 0.00       0.00       0.90  1.76 0.4147
+52                ubrogepant (low) vs  placebo                 4 1.78     1.40     2.26   0.00 0.21       0.00       0.88  3.78 0.2865
+53       ubrogepant (low) vs ubrogepant (high)                 3 0.87     0.66     1.15   0.00 0.28       0.00       0.93  2.79 0.2477
+54             zolmitriptan (high) vs  placebo                 6 4.15     3.03     5.69   0.00 0.46       0.00       0.79  9.33 0.0967
+55   zolmitriptan (high) vs sumatriptan (high)                 1 0.97     0.74     1.26     NA   NA         NA         NA  0.00     NA
+56    zolmitriptan (high) vs sumatriptan (low)                 1 1.03     0.80     1.31     NA   NA         NA         NA  0.00     NA
+57              zolmitriptan (low) vs  placebo                 8 3.39     2.66     4.33   0.03 0.26       0.00       0.67  9.50 0.2186
+58    zolmitriptan (low) vs almotriptan (high)                 1 1.22     0.96     1.55     NA   NA         NA         NA  0.00     NA
+59     zolmitriptan (low) vs eletriptan (high)                 1 0.53     0.39     0.70     NA   NA         NA         NA  0.00     NA
+60      zolmitriptan (low) vs eletriptan (low)                 1 0.81     0.60     1.10     NA   NA         NA         NA  0.00     NA
+61    zolmitriptan (low) vs rizatriptan (high)                 1 0.74     0.53     1.03     NA   NA         NA         NA  0.00     NA
+62     zolmitriptan (low) vs sumatriptan (low)                 1 0.82     0.64     1.06     NA   NA         NA         NA  0.00     NA
+63   zolmitriptan (low) vs zolmitriptan (high)                 3 0.80     0.66     0.98   0.00 0.00       0.00       0.90  0.04 0.9782
+
+File created on 2023-07-23.

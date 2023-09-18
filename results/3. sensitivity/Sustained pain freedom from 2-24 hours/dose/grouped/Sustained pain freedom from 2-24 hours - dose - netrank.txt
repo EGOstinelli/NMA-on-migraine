@@ -1,0 +1,16 @@
+                   P-score (common) P-score (random)
+NSAID (high)                 0.9931           0.9880
+triptan (high)               0.8919           0.8825
+triptan (low)                0.7675           0.7365
+ditan (high)                 0.6319           0.6483
+gepant                       0.5939           0.5770
+antipyretic (high)           0.5178           0.5158
+gepant (high)                0.5166           0.5048
+NSAID                        0.4182           0.4021
+NSAID (low)                  0.4091           0.4010
+ditan (low)                  0.2833           0.3368
+gepant (low)                 0.2653           0.2944
+antipyretic (low)            0.1643           0.1655
+placebo                      0.0470           0.0475
+
+File created on 2023-05-30.

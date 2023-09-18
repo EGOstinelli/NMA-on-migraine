@@ -1,0 +1,83 @@
+Original data:
+
+                             treat1      treat2      TE   seTE
+Brandes 2005             eletriptan     placebo  1.0313 0.2242
+Dahlöf 2001             almotriptan     placebo  1.3859 0.4393
+Diener 2011              eletriptan     placebo  1.2340 0.5420
+Gomez-Mancilla 2014         placebo sumatriptan -1.7918 1.1365
+Pascual 2000a           almotriptan     placebo  0.9681 0.2502
+Wentz 2008          naproxen sodium     placebo  1.7058 0.4771
+
+Number of treatment arms (by study):
+                    narms
+Brandes 2005            2
+Dahlöf 2001             2
+Diener 2011             2
+Gomez-Mancilla 2014     2
+Pascual 2000a           2
+Wentz 2008              2
+
+Results (common effects model):
+
+                             treat1      treat2     OR            95%-CI    Q leverage
+Brandes 2005             eletriptan     placebo 2.8891 [1.9248;  4.3365] 0.02     0.85
+Dahlöf 2001             almotriptan     placebo 2.9166 [1.9048;  4.4660] 0.52     0.24
+Diener 2011              eletriptan     placebo 2.8891 [1.9248;  4.3365] 0.10     0.15
+Gomez-Mancilla 2014         placebo sumatriptan 0.1667 [0.0180;  1.5462] 0.00     1.00
+Pascual 2000a           almotriptan     placebo 2.9166 [1.9048;  4.4660] 0.17     0.76
+Wentz 2008          naproxen sodium     placebo 5.5060 [2.1615; 14.0250] 0.00     1.00
+
+Results (random effects model):
+
+                             treat1      treat2     OR            95%-CI
+Brandes 2005             eletriptan     placebo 2.8891 [1.9248;  4.3365]
+Dahlöf 2001             almotriptan     placebo 2.9166 [1.9048;  4.4660]
+Diener 2011              eletriptan     placebo 2.8891 [1.9248;  4.3365]
+Gomez-Mancilla 2014         placebo sumatriptan 0.1667 [0.0180;  1.5462]
+Pascual 2000a           almotriptan     placebo 2.9166 [1.9048;  4.4660]
+Wentz 2008          naproxen sodium     placebo 5.5060 [2.1615; 14.0250]
+
+Number of studies: k = 6
+Number of pairwise comparisons: m = 6
+Number of observations: o = 2564
+Number of treatments: n = 5
+Number of designs: d = 4
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                    OR            95%-CI    z  p-value
+almotriptan     2.9166 [1.9048;  4.4660] 4.92 < 0.0001
+eletriptan      2.8891 [1.9248;  4.3365] 5.12 < 0.0001
+naproxen sodium 5.5060 [2.1615; 14.0250] 3.58   0.0003
+placebo              .                 .    .        .
+sumatriptan     6.0000 [0.6468; 55.6615] 1.58   0.1149
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                    OR            95%-CI    z  p-value
+almotriptan     2.9166 [1.9048;  4.4660] 4.92 < 0.0001
+eletriptan      2.8891 [1.9248;  4.3365] 5.12 < 0.0001
+naproxen sodium 5.5060 [2.1615; 14.0250] 3.58   0.0003
+placebo              .                 .    .        .
+sumatriptan     6.0000 [0.6468; 55.6615] 1.58   0.1149
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 89.6%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                  Q d.f. p-value
+Total           0.8    2  0.6695
+Within designs  0.8    2  0.6695
+Between designs 0.0    0      --
+
+A total of 5 treatments are included in the network.
+A total of 6 studies are included in this analysis.
+A total of 2564 participants are included in this analysis, with 507 events (19.77%).
+Estimated heterogeneity tau-squared: 0.
+Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)
+
+The following studies were included in this analysis: Brandes 2005 Dahlöf 2001 Diener 2011 Gomez-Mancilla 2014 Pascual 2000a Wentz 2008.
+
+File created on 2023-05-30.

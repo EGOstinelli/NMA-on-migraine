@@ -1,0 +1,12 @@
+                     P-score (common) P-score (random)
+rizatriptan                    0.8935           0.8944
+eletriptan                     0.8528           0.8438
+diclofenac potassium           0.7032           0.6973
+sumatriptan                    0.7133           0.6954
+ubrogepant                     0.3446           0.3630
+rimegepant                     0.3679           0.3569
+celecoxib                      0.2887           0.3086
+paracetamol                    0.3049           0.3078
+placebo                        0.0312           0.0328
+
+File created on 2023-08-23.

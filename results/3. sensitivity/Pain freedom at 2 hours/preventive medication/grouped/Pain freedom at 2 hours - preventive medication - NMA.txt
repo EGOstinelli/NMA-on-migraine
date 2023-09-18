@@ -1,0 +1,121 @@
+Original data:
+
+                     treat1  treat2      TE   seTE
+Brandes 2005        placebo triptan -0.8562 0.1995
+Bussone 2000        placebo triptan -1.3393 0.4652
+Cutler 1995         placebo triptan -1.1050 0.4988
+Dahlöf 2001         placebo triptan -1.3631 0.3671
+Diener 2011         placebo triptan -1.6487 0.4877
+Ensink 1991         placebo triptan -1.9238 0.5457
+Färkkila 2012         ditan placebo  0.7215 0.4574
+Gijsmant 1997       placebo triptan -2.3394 0.7281
+Gomez-Mancilla 2014 placebo triptan -0.5055 0.7190
+Nappi 1994          placebo triptan -0.7350 0.3829
+NCT00920686 2010    placebo triptan -0.1054 0.4437
+Pascual 2000a       placebo triptan -1.0474 0.2204
+Sargent 1995        placebo triptan -1.3433 0.6321
+Visser 1996a        placebo triptan -2.1676 0.6159
+Visser 1996b        placebo triptan -1.1527 1.2006
+Wentz 2008            NSAID placebo  1.6923 0.4472
+
+Number of treatment arms (by study):
+                    narms
+Brandes 2005            2
+Bussone 2000            2
+Cutler 1995             2
+Dahlöf 2001             2
+Diener 2011             2
+Ensink 1991             2
+Färkkila 2012           2
+Gijsmant 1997           2
+Gomez-Mancilla 2014     2
+Nappi 1994              2
+NCT00920686 2010        2
+Pascual 2000a           2
+Sargent 1995            2
+Visser 1996a            2
+Visser 1996b            2
+Wentz 2008              2
+
+Results (common effects model):
+
+                     treat1  treat2     OR            95%-CI    Q leverage
+Brandes 2005        placebo triptan 0.3401 [0.2769;  0.4177] 1.24     0.28
+Bussone 2000        placebo triptan 0.3401 [0.2769;  0.4177] 0.31     0.05
+Cutler 1995         placebo triptan 0.3401 [0.2769;  0.4177] 0.00     0.04
+Dahlöf 2001         placebo triptan 0.3401 [0.2769;  0.4177] 0.60     0.08
+Diener 2011         placebo triptan 0.3401 [0.2769;  0.4177] 1.37     0.05
+Ensink 1991         placebo triptan 0.3401 [0.2769;  0.4177] 2.40     0.04
+Färkkila 2012         ditan placebo 2.0576 [0.8395;  5.0427] 0.00     1.00
+Gijsmant 1997       placebo triptan 0.3401 [0.2769;  0.4177] 3.00     0.02
+Gomez-Mancilla 2014 placebo triptan 0.3401 [0.2769;  0.4177] 0.64     0.02
+Nappi 1994          placebo triptan 0.3401 [0.2769;  0.4177] 0.80     0.08
+NCT00920686 2010    placebo triptan 0.3401 [0.2769;  0.4177] 4.81     0.06
+Pascual 2000a       placebo triptan 0.3401 [0.2769;  0.4177] 0.02     0.23
+Sargent 1995        placebo triptan 0.3401 [0.2769;  0.4177] 0.18     0.03
+Visser 1996a        placebo triptan 0.3401 [0.2769;  0.4177] 3.13     0.03
+Visser 1996b        placebo triptan 0.3401 [0.2769;  0.4177] 0.00     0.01
+Wentz 2008            NSAID placebo 5.4321 [2.2610; 13.0510] 0.00     1.00
+
+Results (random effects model):
+
+                     treat1  treat2     OR            95%-CI
+Brandes 2005        placebo triptan 0.3196 [0.2431;  0.4201]
+Bussone 2000        placebo triptan 0.3196 [0.2431;  0.4201]
+Cutler 1995         placebo triptan 0.3196 [0.2431;  0.4201]
+Dahlöf 2001         placebo triptan 0.3196 [0.2431;  0.4201]
+Diener 2011         placebo triptan 0.3196 [0.2431;  0.4201]
+Ensink 1991         placebo triptan 0.3196 [0.2431;  0.4201]
+Färkkila 2012         ditan placebo 2.0576 [0.7284;  5.8122]
+Gijsmant 1997       placebo triptan 0.3196 [0.2431;  0.4201]
+Gomez-Mancilla 2014 placebo triptan 0.3196 [0.2431;  0.4201]
+Nappi 1994          placebo triptan 0.3196 [0.2431;  0.4201]
+NCT00920686 2010    placebo triptan 0.3196 [0.2431;  0.4201]
+Pascual 2000a       placebo triptan 0.3196 [0.2431;  0.4201]
+Sargent 1995        placebo triptan 0.3196 [0.2431;  0.4201]
+Visser 1996a        placebo triptan 0.3196 [0.2431;  0.4201]
+Visser 1996b        placebo triptan 0.3196 [0.2431;  0.4201]
+Wentz 2008            NSAID placebo 5.4321 [1.9562; 15.0841]
+
+Number of studies: k = 16
+Number of pairwise comparisons: m = 16
+Number of observations: o = 5017
+Number of treatments: n = 4
+Number of designs: d = 3
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+            OR            95%-CI     z  p-value
+ditan   2.0576 [0.8395;  5.0427]  1.58   0.1147
+NSAID   5.4321 [2.2610; 13.0510]  3.78   0.0002
+placebo      .                 .     .        .
+triptan 2.9403 [2.3939;  3.6114] 10.28 < 0.0001
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+            OR            95%-CI    z  p-value
+ditan   2.0576 [0.7284;  5.8122] 1.36   0.1732
+NSAID   5.4321 [1.9562; 15.0841] 3.25   0.0012
+placebo      .                 .    .        .
+triptan 3.1288 [2.3802;  4.1128] 8.18 < 0.0001
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0715; tau = 0.2674; I^2 = 29.7% [0.0%; 62.9%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           18.5   13  0.1394
+Within designs  18.5   13  0.1394
+Between designs  0.0    0      --
+
+A total of 4 treatments are included in the network.
+A total of 16 studies are included in this analysis.
+A total of 5017 participants are included in this analysis, with 1069 events (21.31%).
+Estimated heterogeneity tau-squared: 0.07.
+Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)
+
+The following studies were included in this analysis: Brandes 2005 Bussone 2000 Cutler 1995 Dahlöf 2001 Diener 2011 Ensink 1991 Färkkila 2012 Gijsmant 1997 Gomez-Mancilla 2014 Nappi 1994 NCT00920686 2010 Pascual 2000a Sargent 1995 Visser 1996a Visser 1996b Wentz 2008.
+
+File created on 2023-07-23.

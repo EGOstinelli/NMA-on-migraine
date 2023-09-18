@@ -1,0 +1,4 @@
+          comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
+1 triptan vs  placebo                 3 2.81      1.9     4.16   0.06 0.51          0       0.86 4.09 0.1292
+
+File created on 2023-08-23.
