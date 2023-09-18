@@ -1,0 +1,44 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+      comparison  k prop  nma direct indir.  RoR     z p-value
+    ditan:gepant  0    0 0.59      .   0.59    .     .       .
+     ditan:NSAID  0    0 0.77      .   0.77    .     .       .
+   ditan:placebo  3 1.00 1.00   1.00      .    .     .       .
+   ditan:triptan  0    0 0.92      .   0.92    .     .       .
+    gepant:NSAID  0    0 1.31      .   1.31    .     .       .
+  gepant:placebo  4 1.00 1.70   1.70      .    .     .       .
+  gepant:triptan  0    0 1.56      .   1.56    .     .       .
+   NSAID:placebo  5 0.84 1.30   1.46   0.71 2.06  0.43  0.6670
+   NSAID:triptan  1 0.34 1.20   0.99   1.32 0.75 -0.20  0.8409
+ triptan:placebo 17 0.95 1.08   1.09   0.95 1.15  0.08  0.9363
+
+Random effects model: 
+
+      comparison  k prop  nma direct indir.  RoR     z p-value
+    ditan:gepant  0    0 0.59      .   0.59    .     .       .
+     ditan:NSAID  0    0 0.77      .   0.77    .     .       .
+   ditan:placebo  3 1.00 1.00   1.00      .    .     .       .
+   ditan:triptan  0    0 0.92      .   0.92    .     .       .
+    gepant:NSAID  0    0 1.31      .   1.31    .     .       .
+  gepant:placebo  4 1.00 1.70   1.70      .    .     .       .
+  gepant:triptan  0    0 1.56      .   1.56    .     .       .
+   NSAID:placebo  5 0.84 1.30   1.46   0.71 2.06  0.43  0.6670
+   NSAID:triptan  1 0.34 1.20   0.99   1.32 0.75 -0.20  0.8409
+ triptan:placebo 17 0.95 1.08   1.09   0.95 1.15  0.08  0.9363
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 3 comparisons).
+
+File created on 2023-05-25.

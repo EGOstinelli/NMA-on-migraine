@@ -1,0 +1,39 @@
+Number of studies: k = 73
+Number of pairwise comparisons: m = 103
+Number of observations: o = 53338
+Number of treatments: n = 15
+Number of designs: d = 26
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                         OR           95%-CI     z  p-value
+acetylsalicylic acid 1.0256 [0.6333; 1.6609]  0.10   0.9180
+almotriptan          0.9011 [0.6571; 1.2357] -0.65   0.5181
+diclofenac potassium 1.0761 [0.7338; 1.5780]  0.38   0.7074
+eletriptan           1.3265 [1.1015; 1.5975]  2.98   0.0029
+frovatriptan         0.8002 [0.6150; 1.0412] -1.66   0.0970
+ibuprofen            0.9799 [0.7682; 1.2501] -0.16   0.8704
+lasmiditan           1.4470 [1.2732; 1.6445]  5.66 < 0.0001
+naproxen sodium      1.1050 [0.8763; 1.3933]  0.84   0.3987
+naratriptan          0.8486 [0.5319; 1.3538] -0.69   0.4910
+paracetamol          0.8443 [0.5000; 1.4258] -0.63   0.5267
+placebo                   .                .     .        .
+rizatriptan          1.1088 [0.9694; 1.2683]  1.51   0.1320
+sumatriptan          1.0827 [0.9835; 1.1919]  1.62   0.1052
+ubrogepant           1.2003 [0.9384; 1.5354]  1.45   0.1461
+zolmitriptan         1.1529 [1.0067; 1.3204]  2.06   0.0397
+
+Test of inconsistency (between designs):
+     Q d.f. p-value
+ 29.91   21  0.0939
+
+A total of 15 treatments are included in the network.
+A total of 73 studies are included in this analysis.
+A total of 53338 participants are included in this analysis, with 7491 events (14.04%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value 0.09389 (Q=30, d.o.f. 21)
+
+The following studies were included in this analysis: 0462-039 1996 Ahrens 1999 Ashina 2021 Barbanti 2012 Bomhof 1999 Brandes 2007a Brandes 2007b Cady 2006a Cady 2006b Carpay 2004 Cutler 1995 Dahlöf 1998 Dahlöf 2001 Dahlöf 2009 Diener 2002 Dodick 2019 Dowson 2002a Dowson 2002b Eletriptan Steering Committee in Japan 2002 Färkkila 2012 Freitag 2007 Freitag 2008 Garcia-Ramos 2003 Geraud 2000 Goadsby 2000 Goadsby 2007 Goadsby 2019 Goldstein 1998 Goldstein 2006 Havanka 2000 Ho 2008b Jelinski 2006 Kaniecki 2006 Kellstein 2000 Kolodny 2004 Kramer 1998 Kuca 2018 Kudrow 2005 Landy 2004 Lines 2001 Lipton 2005 Lipton 2010 Mannix 2007a Mannix 2007b MOMENTUM 2019 Moon 2010 Nett 2003 Pascual 2000b Prior 2010 Rapoport 1997 Rapoport 2002 Ryan 2002c Sakai 2002 Sakai 2021 Sandrini 2002 Saper 2006 Sargent 1995 Sheftell 2003 Sheftell 2005a Sheftell 2005b Smith 2005 Solomon 1997 Spierings 2001 Stark 2002 Steiner 2003 SUM20033 2003 Tazaki 1993 Tfelt-Hansen 1998 Tfelt-Hansen 2006 The Oral Sumatriptan Dose-defining Study 1991 Toledano 2021 Voss 2016 Winner 2003a.
+
+File created on 2023-07-23.

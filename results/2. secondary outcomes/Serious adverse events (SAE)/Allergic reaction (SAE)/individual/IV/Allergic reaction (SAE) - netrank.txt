@@ -1,0 +1,6 @@
+            P-score (common) P-score (random)
+lasmiditan            0.6179           0.6179
+naratriptan           0.4468           0.4468
+placebo               0.4353           0.4353
+
+File created on 2023-05-26.

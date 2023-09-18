@@ -1,0 +1,38 @@
+                        comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq  Q.st
+1  acetylsalicylic acid vs  placebo                 2 0.97     0.60     1.56   0.00 0.00         NA         NA  0.00
+2           almotriptan vs  placebo                 1 0.88     0.50     1.54     NA   NA         NA         NA  0.00
+3             celecoxib vs  placebo                 0   NA       NA       NA     NA   NA         NA         NA    NA
+4  diclofenac potassium vs  placebo                 1 1.17     0.79     1.72     NA   NA         NA         NA  0.00
+5          frovatriptan vs  placebo                 1 0.62     0.36     1.06     NA   NA         NA         NA  0.00
+6             ibuprofen vs  placebo                 2 1.02     0.71     1.47   0.00 0.00         NA         NA  0.06
+7            lasmiditan vs  placebo                 4 1.05     0.90     1.21   0.00 0.00       0.00       0.85  1.78
+8       naproxen sodium vs  placebo                 2 1.10     0.79     1.55   0.00 0.00         NA         NA  0.00
+9           naratriptan vs  placebo                 1 0.33     0.01     8.26     NA   NA         NA         NA  0.00
+10          paracetamol vs  placebo                 2 2.25     0.16    30.98   2.96 0.81       0.17       0.95  5.17
+11            phenazone vs  placebo                 1 0.82     0.40     1.68     NA   NA         NA         NA  0.00
+12          rizatriptan vs  placebo                 4 1.11     0.62     1.98   0.25 0.73       0.25       0.90 11.19
+13          sumatriptan vs  placebo                11 1.13     0.88     1.46   0.09 0.52       0.04       0.76 20.67
+14      sumatriptan vs frovatriptan                 1 0.95     0.64     1.39     NA   NA         NA         NA  0.00
+15   sumatriptan vs naproxen sodium                 1 0.79     0.53     1.18     NA   NA         NA         NA  0.00
+16       sumatriptan vs rizatriptan                 2 1.18     0.93     1.50   0.00 0.00         NA         NA  0.10
+17         zolmitriptan vs  placebo                 1 0.84     0.44     1.61     NA   NA         NA         NA  0.00
+    p.val
+1  0.9643
+2      NA
+3      NA
+4      NA
+5      NA
+6  0.8003
+7  0.6194
+8  0.9641
+9      NA
+10 0.0230
+11     NA
+12 0.0107
+13 0.0235
+14     NA
+15     NA
+16 0.7538
+17     NA
+
+File created on 2023-05-26.

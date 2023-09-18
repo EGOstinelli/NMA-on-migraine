@@ -1,0 +1,79 @@
+Original data:
+
+                treat1  treat2      TE   seTE
+Ashina 2021      ditan placebo  0.3028 0.2244
+Freitag 2007   placebo triptan  0.0553 0.3232
+Goadsby 2019     ditan placebo -0.0042 0.1211
+Kuca 2018        ditan placebo  0.0008 0.1201
+Sakai 2021       ditan placebo  0.1238 0.1962
+Sheftell 2005b placebo triptan -0.0793 0.1645
+
+Number of treatment arms (by study):
+               narms
+Ashina 2021        2
+Freitag 2007       2
+Goadsby 2019       2
+Kuca 2018          2
+Sakai 2021         2
+Sheftell 2005b     2
+
+Results (common effects model):
+
+                treat1  treat2     OR           95%-CI    Q leverage
+Ashina 2021      ditan placebo 1.0503 [0.9088; 1.2138] 1.28     0.11
+Freitag 2007   placebo triptan 0.9497 [0.7125; 1.2659] 0.11     0.21
+Goadsby 2019     ditan placebo 1.0503 [0.9088; 1.2138] 0.19     0.37
+Kuca 2018        ditan placebo 1.0503 [0.9088; 1.2138] 0.16     0.38
+Sakai 2021       ditan placebo 1.0503 [0.9088; 1.2138] 0.15     0.14
+Sheftell 2005b placebo triptan 0.9497 [0.7125; 1.2659] 0.03     0.79
+
+Results (random effects model):
+
+                treat1  treat2     OR           95%-CI
+Ashina 2021      ditan placebo 1.0503 [0.9088; 1.2138]
+Freitag 2007   placebo triptan 0.9497 [0.7125; 1.2659]
+Goadsby 2019     ditan placebo 1.0503 [0.9088; 1.2138]
+Kuca 2018        ditan placebo 1.0503 [0.9088; 1.2138]
+Sakai 2021       ditan placebo 1.0503 [0.9088; 1.2138]
+Sheftell 2005b placebo triptan 0.9497 [0.7125; 1.2659]
+
+Number of studies: k = 6
+Number of pairwise comparisons: m = 6
+Number of observations: o = 9168
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+            OR           95%-CI    z p-value
+ditan   1.0503 [0.9088; 1.2138] 0.66  0.5067
+placebo      .                .    .       .
+triptan 1.0530 [0.7900; 1.4035] 0.35  0.7249
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+            OR           95%-CI    z p-value
+ditan   1.0503 [0.9088; 1.2138] 0.66  0.5067
+placebo      .                .    .       .
+triptan 1.0530 [0.7900; 1.4035] 0.35  0.7249
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 79.2%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           1.92    4  0.7511
+Within designs  1.92    4  0.7511
+Between designs 0.00    0      --
+
+A total of 3 treatments are included in the network.
+A total of 6 studies are included in this analysis.
+A total of 9168 participants are included in this analysis, with 1284 events (14.01%).
+Estimated heterogeneity tau-squared: 0.
+Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)
+
+The following studies were included in this analysis: Ashina 2021 Freitag 2007 Goadsby 2019 Kuca 2018 Sakai 2021 Sheftell 2005b.
+
+File created on 2023-05-26.

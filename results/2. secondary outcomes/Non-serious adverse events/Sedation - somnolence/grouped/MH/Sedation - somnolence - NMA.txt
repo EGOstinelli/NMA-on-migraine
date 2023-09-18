@@ -1,0 +1,30 @@
+Number of studies: k = 70
+Number of pairwise comparisons: m = 78
+Number of observations: o = 50166
+Number of treatments: n = 6
+Number of designs: d = 7
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI     z  p-value
+antipyretic 0.8435 [0.4996; 1.4240] -0.64   0.5241
+ditan       1.4470 [1.2732; 1.6445]  5.66 < 0.0001
+gepant      1.2003 [0.9384; 1.5354]  1.45   0.1461
+NSAID       1.0515 [0.9086; 1.2168]  0.67   0.5004
+placebo          .                .     .        .
+triptan     1.0999 [1.0199; 1.1863]  2.47   0.0135
+
+Test of inconsistency (between designs):
+    Q d.f. p-value
+ 1.64    4  0.8015
+
+A total of 6 treatments are included in the network.
+A total of 70 studies are included in this analysis.
+A total of 50166 participants are included in this analysis, with 7269 events (14.49%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value 0.80145 (Q=2, d.o.f. 4)
+
+The following studies were included in this analysis: 0462-039 1996 Ahrens 1999 Ashina 2021 Barbanti 2012 Bomhof 1999 Brandes 2007a Brandes 2007b Cady 2006a Cady 2006b Carpay 2004 Cutler 1995 Dahlöf 1998 Dahlöf 2001 Dahlöf 2009 Diener 2002 Dodick 2019 Dowson 2002a Dowson 2002b Eletriptan Steering Committee in Japan 2002 Färkkila 2012 Freitag 2007 Freitag 2008 Garcia-Ramos 2003 Geraud 2000 Goadsby 2000 Goadsby 2019 Goldstein 1998 Goldstein 2006 Havanka 2000 Ho 2008b Jelinski 2006 Kaniecki 2006 Kellstein 2000 Kolodny 2004 Kramer 1998 Kuca 2018 Kudrow 2005 Landy 2004 Lines 2001 Lipton 2005 Lipton 2010 Mannix 2007a Mannix 2007b MOMENTUM 2019 Moon 2010 Nett 2003 Pascual 2000b Prior 2010 Rapoport 1997 Rapoport 2002 Sakai 2002 Sakai 2021 Sandrini 2002 Saper 2006 Sargent 1995 Sheftell 2003 Sheftell 2005a Sheftell 2005b Smith 2005 Solomon 1997 Stark 2002 Steiner 2003 SUM20033 2003 Tazaki 1993 Tfelt-Hansen 1998 Tfelt-Hansen 2006 The Oral Sumatriptan Dose-defining Study 1991 Toledano 2021 Voss 2016 Winner 2003a.
+
+File created on 2023-07-23.

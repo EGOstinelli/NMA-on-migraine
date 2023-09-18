@@ -1,0 +1,7 @@
+            P-score
+placebo      0.6219
+rizatriptan  0.6122
+lasmiditan   0.3977
+sumatriptan  0.3682
+
+File created on 2023-05-26.

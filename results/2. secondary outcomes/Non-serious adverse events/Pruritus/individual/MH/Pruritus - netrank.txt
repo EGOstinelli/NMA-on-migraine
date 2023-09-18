@@ -1,0 +1,10 @@
+                     P-score
+naratriptan           0.7046
+placebo               0.6154
+acetylsalicylic acid  0.5265
+lasmiditan            0.4801
+eletriptan            0.4603
+diclofenac potassium  0.4184
+sumatriptan           0.2948
+
+File created on 2023-05-27.

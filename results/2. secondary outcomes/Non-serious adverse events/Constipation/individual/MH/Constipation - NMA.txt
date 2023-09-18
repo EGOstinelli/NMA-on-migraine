@@ -1,0 +1,27 @@
+Number of studies: k = 4
+Number of pairwise comparisons: m = 4
+Number of observations: o = 6408
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI    z p-value
+lasmiditan  1.0234 [0.8383; 1.2493] 0.23  0.8206
+placebo          .                .    .       .
+sumatriptan 1.0358 [0.8255; 1.2998] 0.30  0.7611
+
+Test of inconsistency (between designs):
+ Q d.f. p-value
+ 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 4 studies are included in this analysis.
+A total of 6408 participants are included in this analysis, with 919 events (14.34%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)
+
+The following studies were included in this analysis: Kuca 2018 Sakai 2021 Sheftell 2005a Sheftell 2005b.
+
+File created on 2023-05-26.

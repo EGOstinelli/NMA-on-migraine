@@ -1,0 +1,365 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                                   treat1  treat2      TE   seTE seTE.adj.f seTE.adj.r narms multiarm
+0462-039 1996                                     placebo triptan  0.5264 0.2516     0.2516     0.3034     2         
+Ahrens 1999                                       placebo triptan -1.6314 1.0527     1.0527     1.0663     2         
+Ashina 2021                                         ditan placebo  0.6574 0.1776     0.1776     0.2455     2         
+Barbanti 2012                                     placebo triptan -0.1823 0.6465     0.6465     0.6683     2         
+Bomhof 1999                                       placebo triptan  0.3551 0.5942     0.5942     0.6179     2         
+Brandes 2007a                                       NSAID placebo  0.0056 0.1920     0.2315     0.3108     3        *
+Brandes 2007a                                       NSAID triptan  0.1242 0.1969     0.2432     0.3197     3        *
+Brandes 2007a                                     placebo triptan  0.1186 0.1969     0.2431     0.3197     3        *
+Brandes 2007b                                       NSAID placebo  0.2670 0.1951     0.2451     0.3210     3        *
+Brandes 2007b                                       NSAID triptan -0.0838 0.1831     0.2168     0.2997     3        *
+Brandes 2007b                                     placebo triptan -0.3508 0.1926     0.2383     0.3162     3        *
+Cady 2006a                                        placebo triptan -0.1084 0.2793     0.2793     0.3267     2         
+Cady 2006b                                        placebo triptan -0.2780 0.2692     0.2692     0.3181     2         
+Carpay 2004                                       placebo triptan -0.7790 0.3676     0.3676     0.4048     2         
+Cutler 1995                                       placebo triptan  0.6266 0.5376     0.5376     0.5637     2         
+Dahlöf 1998                                       placebo triptan -0.1634 0.2537     0.2537     0.3052     2         
+Dahlöf 2001                                       placebo triptan  0.2406 0.2793     0.2793     0.3267     2         
+Dahlöf 2009                                       placebo triptan -0.0299 0.2734     0.2734     0.3217     2         
+Diener 2002                                       placebo triptan -0.7756 0.7556     0.7556     0.7744     2         
+Dodick 2019                                        gepant placebo  0.1604 0.1469     0.1469     0.2243     2         
+Dowson 2002a                                      placebo triptan -1.0751 1.4814     1.4814     1.4911     2         
+Dowson 2002b                                      placebo triptan -0.4282 0.2130     0.2130     0.2722     2         
+Eletriptan Steering Committee in Japan 2002       placebo triptan -1.2021 0.6236     0.6236     0.6462     2         
+Färkkila 2012                                       ditan placebo  0.6959 0.2770     0.2770     0.3248     2         
+Freitag 2007                                      placebo triptan -0.0469 0.3194     0.3194     0.3616     2         
+Freitag 2008                                  antipyretic placebo -0.4067 0.5412     0.6469     0.6794     3        *
+Freitag 2008                                  antipyretic triptan  0.0000 0.5784     0.7464     0.7738     3        *
+Freitag 2008                                      placebo triptan  0.4067 0.5412     0.6469     0.6794     3        *
+Garcia-Ramos 2003                                 placebo triptan  0.0182 0.2952     0.2952     0.3404     2         
+Geraud 2000                                       placebo triptan  0.1346 0.2700     0.2700     0.3188     2         
+Goadsby 2000                                      placebo triptan -0.3198 0.2270     0.2270     0.2833     2         
+Goadsby 2019                                        ditan placebo  0.2248 0.1134     0.1134     0.2039     2         
+Goldstein 1998                                    placebo triptan -0.2724 0.4362     0.4362     0.4680     2         
+Goldstein 2006                                      NSAID placebo  0.0083 0.2526     0.2526     0.3042     2         
+Havanka 2000                                      placebo triptan  1.1024 1.0075     1.0075     1.0216     2         
+Ho 2008b                                          placebo triptan -0.1538 0.1449     0.1449     0.2230     2         
+Jelinski 2006                                     placebo triptan -0.7960 1.5534     1.5534     1.5626     2         
+Kaniecki 2006                                     placebo triptan -0.0033 0.2625     0.2625     0.3125     2         
+Kellstein 2000                                      NSAID placebo -0.0819 0.1819     0.1819     0.2486     2         
+Kolodny 2004                                      placebo triptan -0.2920 0.3098     0.3098     0.3531     2         
+Kramer 1998                                       placebo triptan -0.3132 0.3012     0.3012     0.3456     2         
+Kuca 2018                                           ditan placebo  0.1995 0.1130     0.1130     0.2037     2         
+Kudrow 2005                                       placebo triptan -0.0270 0.2049     0.2049     0.2659     2         
+Landy 2004                                        placebo triptan  0.2945 0.2640     0.2640     0.3137     2         
+Lines 2001                                        placebo triptan -0.6891 0.3823     0.3823     0.4182     2         
+Lipton 2005                                         NSAID placebo  0.0253 0.2460     0.2460     0.2987     2         
+Lipton 2010                                         NSAID placebo  0.0733 0.1953     0.1953     0.2586     2         
+Mannix 2007a                                      placebo triptan -0.6159 0.3468     0.3468     0.3860     2         
+Mannix 2007b                                      placebo triptan  0.8598 0.2922     0.2922     0.3378     2         
+MOMENTUM 2019                                     placebo triptan  0.0024 0.3272     0.3272     0.3685     2         
+Moon 2010                                         placebo triptan  0.4990 0.2694     0.2694     0.3183     2         
+Nett 2003                                         placebo triptan -0.0688 0.3227     0.3227     0.3645     2         
+Pascual 2000b                                     placebo triptan -0.4637 0.4906     0.4906     0.5191     2         
+Prior 2010                                    antipyretic placebo -0.4580 0.3615     0.3615     0.3993     2         
+Rapoport 1997                                     placebo triptan -0.0634 0.2558     0.2558     0.3069     2         
+Rapoport 2002                                     placebo triptan  0.4880 0.2304     0.2304     0.2860     2         
+Sakai 2002                                        placebo triptan  0.1774 0.3331     0.3331     0.3738     2         
+Sakai 2021                                          ditan placebo  0.6658 0.1750     0.1750     0.2436     2         
+Sandrini 2002                                     placebo triptan  0.1307 0.5463     0.5463     0.5720     2         
+Saper 2006                                          NSAID placebo  0.0528 0.2292     0.2292     0.2850     2         
+Sargent 1995                                      placebo triptan -1.3497 1.4867     1.4867     1.4963     2         
+Sheftell 2003                                     placebo triptan -0.3558 0.3155     0.3155     0.3582     2         
+Sheftell 2005a                                    placebo triptan -0.0267 0.1624     0.1624     0.2347     2         
+Sheftell 2005b                                    placebo triptan -0.1367 0.1623     0.1623     0.2347     2         
+Smith 2005                                          NSAID placebo  1.5850 1.5518     2.7427     2.7069     3        *
+Smith 2005                                          NSAID triptan -1.0615 0.7499     0.7709     0.7918     3        *
+Smith 2005                                        placebo triptan -2.6465 1.4705     1.7169     1.7390     3        *
+Solomon 1997                                      placebo triptan -0.4778 0.4027     0.4027     0.4369     2         
+Stark 2002                                        placebo triptan -1.1657 0.6054     0.6054     0.6287     2         
+Steiner 2003                                      placebo triptan -0.5123 0.2536     0.2536     0.3051     2         
+SUM20033 2003                                     placebo triptan -0.0270 1.0134     1.0134     1.0275     2         
+Tazaki 1993                                       placebo triptan  0.4360 0.3859     0.3859     0.4214     2         
+Tfelt-Hansen 1998                                 placebo triptan -0.3692 0.2220     0.2220     0.2793     2         
+Tfelt-Hansen 2006                                 placebo triptan  0.2805 0.3474     0.3474     0.3865     2         
+The Oral Sumatriptan Dose-defining Study 1991     placebo triptan -1.4168 1.0838     1.0838     1.0970     2         
+Toledano 2021                                 antipyretic placebo  1.1575 0.7961     0.7961     0.8139     2         
+Voss 2016                                          gepant placebo  0.2426 0.2419     0.2419     0.2954     2         
+Winner 2003a                                      placebo triptan  0.1829 0.2770     0.2770     0.3247     2         
+
+Number of treatment arms (by study):
+                                              narms
+0462-039 1996                                     2
+Ahrens 1999                                       2
+Ashina 2021                                       2
+Barbanti 2012                                     2
+Bomhof 1999                                       2
+Brandes 2007a                                     3
+Brandes 2007b                                     3
+Cady 2006a                                        2
+Cady 2006b                                        2
+Carpay 2004                                       2
+Cutler 1995                                       2
+Dahlöf 1998                                       2
+Dahlöf 2001                                       2
+Dahlöf 2009                                       2
+Diener 2002                                       2
+Dodick 2019                                       2
+Dowson 2002a                                      2
+Dowson 2002b                                      2
+Eletriptan Steering Committee in Japan 2002       2
+Färkkila 2012                                     2
+Freitag 2007                                      2
+Freitag 2008                                      3
+Garcia-Ramos 2003                                 2
+Geraud 2000                                       2
+Goadsby 2000                                      2
+Goadsby 2019                                      2
+Goldstein 1998                                    2
+Goldstein 2006                                    2
+Havanka 2000                                      2
+Ho 2008b                                          2
+Jelinski 2006                                     2
+Kaniecki 2006                                     2
+Kellstein 2000                                    2
+Kolodny 2004                                      2
+Kramer 1998                                       2
+Kuca 2018                                         2
+Kudrow 2005                                       2
+Landy 2004                                        2
+Lines 2001                                        2
+Lipton 2005                                       2
+Lipton 2010                                       2
+Mannix 2007a                                      2
+Mannix 2007b                                      2
+MOMENTUM 2019                                     2
+Moon 2010                                         2
+Nett 2003                                         2
+Pascual 2000b                                     2
+Prior 2010                                        2
+Rapoport 1997                                     2
+Rapoport 2002                                     2
+Sakai 2002                                        2
+Sakai 2021                                        2
+Sandrini 2002                                     2
+Saper 2006                                        2
+Sargent 1995                                      2
+Sheftell 2003                                     2
+Sheftell 2005a                                    2
+Sheftell 2005b                                    2
+Smith 2005                                        3
+Solomon 1997                                      2
+Stark 2002                                        2
+Steiner 2003                                      2
+SUM20033 2003                                     2
+Tazaki 1993                                       2
+Tfelt-Hansen 1998                                 2
+Tfelt-Hansen 2006                                 2
+The Oral Sumatriptan Dose-defining Study 1991     2
+Toledano 2021                                     2
+Voss 2016                                         2
+Winner 2003a                                      2
+
+Results (common effects model):
+
+                                                   treat1  treat2     OR           95%-CI     Q leverage
+0462-039 1996                                     placebo triptan 0.9289 [0.8602; 1.0030]  5.69     0.02
+Ahrens 1999                                       placebo triptan 0.9289 [0.8602; 1.0030]  2.19     0.00
+Ashina 2021                                         ditan placebo 1.4377 [1.2646; 1.6344]  2.75     0.14
+Barbanti 2012                                     placebo triptan 0.9289 [0.8602; 1.0030]  0.03     0.00
+Bomhof 1999                                       placebo triptan 0.9289 [0.8602; 1.0030]  0.52     0.00
+Brandes 2007a                                       NSAID placebo 1.0403 [0.8992; 1.2037]  0.02        .
+Brandes 2007a                                       NSAID triptan 0.9663 [0.8261; 1.1304]  0.42        .
+Brandes 2007a                                     placebo triptan 0.9289 [0.8602; 1.0030]  0.63        .
+Brandes 2007b                                       NSAID placebo 1.0403 [0.8992; 1.2037]  0.86        .
+Brandes 2007b                                       NSAID triptan 0.9663 [0.8261; 1.1304]  0.05        .
+Brandes 2007b                                     placebo triptan 0.9289 [0.8602; 1.0030]  1.35        .
+Cady 2006a                                        placebo triptan 0.9289 [0.8602; 1.0030]  0.02     0.02
+Cady 2006b                                        placebo triptan 0.9289 [0.8602; 1.0030]  0.58     0.02
+Carpay 2004                                       placebo triptan 0.9289 [0.8602; 1.0030]  3.68     0.01
+Cutler 1995                                       placebo triptan 0.9289 [0.8602; 1.0030]  1.70     0.01
+Dahlöf 1998                                       placebo triptan 0.9289 [0.8602; 1.0030]  0.12     0.02
+Dahlöf 2001                                       placebo triptan 0.9289 [0.8602; 1.0030]  1.27     0.02
+Dahlöf 2009                                       placebo triptan 0.9289 [0.8602; 1.0030]  0.03     0.02
+Diener 2002                                       placebo triptan 0.9289 [0.8602; 1.0030]  0.86     0.00
+Dodick 2019                                        gepant placebo 1.2003 [0.9384; 1.5352]  0.02     0.73
+Dowson 2002a                                      placebo triptan 0.9289 [0.8602; 1.0030]  0.46     0.00
+Dowson 2002b                                      placebo triptan 0.9289 [0.8602; 1.0030]  2.77     0.03
+Eletriptan Steering Committee in Japan 2002       placebo triptan 0.9289 [0.8602; 1.0030]  3.27     0.00
+Färkkila 2012                                       ditan placebo 1.4377 [1.2646; 1.6344]  1.44     0.06
+Freitag 2007                                      placebo triptan 0.9289 [0.8602; 1.0030]  0.01     0.02
+Freitag 2008                                  antipyretic placebo 0.8289 [0.4853; 1.4158]  0.11        .
+Freitag 2008                                  antipyretic triptan 0.7700 [0.4490; 1.3203]  0.12        .
+Freitag 2008                                      placebo triptan 0.9289 [0.8602; 1.0030]  0.55        .
+Garcia-Ramos 2003                                 placebo triptan 0.9289 [0.8602; 1.0030]  0.10     0.02
+Geraud 2000                                       placebo triptan 0.9289 [0.8602; 1.0030]  0.60     0.02
+Goadsby 2000                                      placebo triptan 0.9289 [0.8602; 1.0030]  1.17     0.03
+Goadsby 2019                                        ditan placebo 1.4377 [1.2646; 1.6344]  1.49     0.33
+Goldstein 1998                                    placebo triptan 0.9289 [0.8602; 1.0030]  0.21     0.01
+Goldstein 2006                                      NSAID placebo 1.0403 [0.8992; 1.2037]  0.02     0.09
+Havanka 2000                                      placebo triptan 0.9289 [0.8602; 1.0030]  1.36     0.00
+Ho 2008b                                          placebo triptan 0.9289 [0.8602; 1.0030]  0.30     0.07
+Jelinski 2006                                     placebo triptan 0.9289 [0.8602; 1.0030]  0.22     0.00
+Kaniecki 2006                                     placebo triptan 0.9289 [0.8602; 1.0030]  0.07     0.02
+Kellstein 2000                                      NSAID placebo 1.0403 [0.8992; 1.2037]  0.45     0.17
+Kolodny 2004                                      placebo triptan 0.9289 [0.8602; 1.0030]  0.50     0.02
+Kramer 1998                                       placebo triptan 0.9289 [0.8602; 1.0030]  0.63     0.02
+Kuca 2018                                           ditan placebo 1.4377 [1.2646; 1.6344]  2.09     0.34
+Kudrow 2005                                       placebo triptan 0.9289 [0.8602; 1.0030]  0.05     0.04
+Landy 2004                                        placebo triptan 0.9289 [0.8602; 1.0030]  1.95     0.02
+Lines 2001                                        placebo triptan 0.9289 [0.8602; 1.0030]  2.59     0.01
+Lipton 2005                                         NSAID placebo 1.0403 [0.8992; 1.2037]  0.00     0.09
+Lipton 2010                                         NSAID placebo 1.0403 [0.8992; 1.2037]  0.03     0.15
+Mannix 2007a                                      placebo triptan 0.9289 [0.8602; 1.0030]  2.44     0.01
+Mannix 2007b                                      placebo triptan 0.9289 [0.8602; 1.0030] 10.21     0.02
+MOMENTUM 2019                                     placebo triptan 0.9289 [0.8602; 1.0030]  0.05     0.01
+Moon 2010                                         placebo triptan 0.9289 [0.8602; 1.0030]  4.52     0.02
+Nett 2003                                         placebo triptan 0.9289 [0.8602; 1.0030]  0.00     0.01
+Pascual 2000b                                     placebo triptan 0.9289 [0.8602; 1.0030]  0.63     0.01
+Prior 2010                                    antipyretic placebo 0.8289 [0.4853; 1.4158]  0.56     0.57
+Rapoport 1997                                     placebo triptan 0.9289 [0.8602; 1.0030]  0.00     0.02
+Rapoport 2002                                     placebo triptan 0.9289 [0.8602; 1.0030]  5.95     0.03
+Sakai 2002                                        placebo triptan 0.9289 [0.8602; 1.0030]  0.57     0.01
+Sakai 2021                                          ditan placebo 1.4377 [1.2646; 1.6344]  2.99     0.14
+Sandrini 2002                                     placebo triptan 0.9289 [0.8602; 1.0030]  0.14     0.01
+Saper 2006                                          NSAID placebo 1.0403 [0.8992; 1.2037]  0.00     0.11
+Sargent 1995                                      placebo triptan 0.9289 [0.8602; 1.0030]  0.74     0.00
+Sheftell 2003                                     placebo triptan 0.9289 [0.8602; 1.0030]  0.80     0.02
+Sheftell 2005a                                    placebo triptan 0.9289 [0.8602; 1.0030]  0.08     0.06
+Sheftell 2005b                                    placebo triptan 0.9289 [0.8602; 1.0030]  0.15     0.06
+Smith 2005                                          NSAID placebo 1.0403 [0.8992; 1.2037]  0.32        .
+Smith 2005                                          NSAID triptan 0.9663 [0.8261; 1.1304]  1.78        .
+Smith 2005                                        placebo triptan 0.9289 [0.8602; 1.0030]  2.25        .
+Solomon 1997                                      placebo triptan 0.9289 [0.8602; 1.0030]  1.01     0.01
+Stark 2002                                        placebo triptan 0.9289 [0.8602; 1.0030]  3.25     0.00
+Steiner 2003                                      placebo triptan 0.9289 [0.8602; 1.0030]  2.99     0.02
+SUM20033 2003                                     placebo triptan 0.9289 [0.8602; 1.0030]  0.00     0.00
+Tazaki 1993                                       placebo triptan 0.9289 [0.8602; 1.0030]  1.75     0.01
+Tfelt-Hansen 1998                                 placebo triptan 0.9289 [0.8602; 1.0030]  1.77     0.03
+Tfelt-Hansen 2006                                 placebo triptan 0.9289 [0.8602; 1.0030]  1.04     0.01
+The Oral Sumatriptan Dose-defining Study 1991     placebo triptan 0.9289 [0.8602; 1.0030]  1.54     0.00
+Toledano 2021                                 antipyretic placebo 0.8289 [0.4853; 1.4158]  2.85     0.12
+Voss 2016                                          gepant placebo 1.2003 [0.9384; 1.5352]  0.06     0.27
+Winner 2003a                                      placebo triptan 0.9289 [0.8602; 1.0030]  0.86     0.02
+
+Results (random effects model):
+
+                                                   treat1  treat2     OR           95%-CI
+0462-039 1996                                     placebo triptan 0.9269 [0.8435; 1.0186]
+Ahrens 1999                                       placebo triptan 0.9269 [0.8435; 1.0186]
+Ashina 2021                                         ditan placebo 1.5335 [1.2488; 1.8832]
+Barbanti 2012                                     placebo triptan 0.9269 [0.8435; 1.0186]
+Bomhof 1999                                       placebo triptan 0.9269 [0.8435; 1.0186]
+Brandes 2007a                                       NSAID placebo 1.0373 [0.8582; 1.2537]
+Brandes 2007a                                       NSAID triptan 0.9615 [0.7851; 1.1775]
+Brandes 2007a                                     placebo triptan 0.9269 [0.8435; 1.0186]
+Brandes 2007b                                       NSAID placebo 1.0373 [0.8582; 1.2537]
+Brandes 2007b                                       NSAID triptan 0.9615 [0.7851; 1.1775]
+Brandes 2007b                                     placebo triptan 0.9269 [0.8435; 1.0186]
+Cady 2006a                                        placebo triptan 0.9269 [0.8435; 1.0186]
+Cady 2006b                                        placebo triptan 0.9269 [0.8435; 1.0186]
+Carpay 2004                                       placebo triptan 0.9269 [0.8435; 1.0186]
+Cutler 1995                                       placebo triptan 0.9269 [0.8435; 1.0186]
+Dahlöf 1998                                       placebo triptan 0.9269 [0.8435; 1.0186]
+Dahlöf 2001                                       placebo triptan 0.9269 [0.8435; 1.0186]
+Dahlöf 2009                                       placebo triptan 0.9269 [0.8435; 1.0186]
+Diener 2002                                       placebo triptan 0.9269 [0.8435; 1.0186]
+Dodick 2019                                        gepant placebo 1.2098 [0.8524; 1.7171]
+Dowson 2002a                                      placebo triptan 0.9269 [0.8435; 1.0186]
+Dowson 2002b                                      placebo triptan 0.9269 [0.8435; 1.0186]
+Eletriptan Steering Committee in Japan 2002       placebo triptan 0.9269 [0.8435; 1.0186]
+Färkkila 2012                                       ditan placebo 1.5335 [1.2488; 1.8832]
+Freitag 2007                                      placebo triptan 0.9269 [0.8435; 1.0186]
+Freitag 2008                                  antipyretic placebo 0.8506 [0.4786; 1.5120]
+Freitag 2008                                  antipyretic triptan 0.7885 [0.4412; 1.4092]
+Freitag 2008                                      placebo triptan 0.9269 [0.8435; 1.0186]
+Garcia-Ramos 2003                                 placebo triptan 0.9269 [0.8435; 1.0186]
+Geraud 2000                                       placebo triptan 0.9269 [0.8435; 1.0186]
+Goadsby 2000                                      placebo triptan 0.9269 [0.8435; 1.0186]
+Goadsby 2019                                        ditan placebo 1.5335 [1.2488; 1.8832]
+Goldstein 1998                                    placebo triptan 0.9269 [0.8435; 1.0186]
+Goldstein 2006                                      NSAID placebo 1.0373 [0.8582; 1.2537]
+Havanka 2000                                      placebo triptan 0.9269 [0.8435; 1.0186]
+Ho 2008b                                          placebo triptan 0.9269 [0.8435; 1.0186]
+Jelinski 2006                                     placebo triptan 0.9269 [0.8435; 1.0186]
+Kaniecki 2006                                     placebo triptan 0.9269 [0.8435; 1.0186]
+Kellstein 2000                                      NSAID placebo 1.0373 [0.8582; 1.2537]
+Kolodny 2004                                      placebo triptan 0.9269 [0.8435; 1.0186]
+Kramer 1998                                       placebo triptan 0.9269 [0.8435; 1.0186]
+Kuca 2018                                           ditan placebo 1.5335 [1.2488; 1.8832]
+Kudrow 2005                                       placebo triptan 0.9269 [0.8435; 1.0186]
+Landy 2004                                        placebo triptan 0.9269 [0.8435; 1.0186]
+Lines 2001                                        placebo triptan 0.9269 [0.8435; 1.0186]
+Lipton 2005                                         NSAID placebo 1.0373 [0.8582; 1.2537]
+Lipton 2010                                         NSAID placebo 1.0373 [0.8582; 1.2537]
+Mannix 2007a                                      placebo triptan 0.9269 [0.8435; 1.0186]
+Mannix 2007b                                      placebo triptan 0.9269 [0.8435; 1.0186]
+MOMENTUM 2019                                     placebo triptan 0.9269 [0.8435; 1.0186]
+Moon 2010                                         placebo triptan 0.9269 [0.8435; 1.0186]
+Nett 2003                                         placebo triptan 0.9269 [0.8435; 1.0186]
+Pascual 2000b                                     placebo triptan 0.9269 [0.8435; 1.0186]
+Prior 2010                                    antipyretic placebo 0.8506 [0.4786; 1.5120]
+Rapoport 1997                                     placebo triptan 0.9269 [0.8435; 1.0186]
+Rapoport 2002                                     placebo triptan 0.9269 [0.8435; 1.0186]
+Sakai 2002                                        placebo triptan 0.9269 [0.8435; 1.0186]
+Sakai 2021                                          ditan placebo 1.5335 [1.2488; 1.8832]
+Sandrini 2002                                     placebo triptan 0.9269 [0.8435; 1.0186]
+Saper 2006                                          NSAID placebo 1.0373 [0.8582; 1.2537]
+Sargent 1995                                      placebo triptan 0.9269 [0.8435; 1.0186]
+Sheftell 2003                                     placebo triptan 0.9269 [0.8435; 1.0186]
+Sheftell 2005a                                    placebo triptan 0.9269 [0.8435; 1.0186]
+Sheftell 2005b                                    placebo triptan 0.9269 [0.8435; 1.0186]
+Smith 2005                                          NSAID placebo 1.0373 [0.8582; 1.2537]
+Smith 2005                                          NSAID triptan 0.9615 [0.7851; 1.1775]
+Smith 2005                                        placebo triptan 0.9269 [0.8435; 1.0186]
+Solomon 1997                                      placebo triptan 0.9269 [0.8435; 1.0186]
+Stark 2002                                        placebo triptan 0.9269 [0.8435; 1.0186]
+Steiner 2003                                      placebo triptan 0.9269 [0.8435; 1.0186]
+SUM20033 2003                                     placebo triptan 0.9269 [0.8435; 1.0186]
+Tazaki 1993                                       placebo triptan 0.9269 [0.8435; 1.0186]
+Tfelt-Hansen 1998                                 placebo triptan 0.9269 [0.8435; 1.0186]
+Tfelt-Hansen 2006                                 placebo triptan 0.9269 [0.8435; 1.0186]
+The Oral Sumatriptan Dose-defining Study 1991     placebo triptan 0.9269 [0.8435; 1.0186]
+Toledano 2021                                 antipyretic placebo 0.8506 [0.4786; 1.5120]
+Voss 2016                                          gepant placebo 1.2098 [0.8524; 1.7171]
+Winner 2003a                                      placebo triptan 0.9269 [0.8435; 1.0186]
+
+Number of studies: k = 70
+Number of pairwise comparisons: m = 78
+Number of observations: o = 50166
+Number of treatments: n = 6
+Number of designs: d = 7
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI     z  p-value
+antipyretic 0.8289 [0.4853; 1.4158] -0.69   0.4921
+ditan       1.4377 [1.2646; 1.6344]  5.55 < 0.0001
+gepant      1.2003 [0.9384; 1.5352]  1.45   0.1460
+NSAID       1.0403 [0.8992; 1.2037]  0.53   0.5950
+placebo          .                .     .        .
+triptan     1.0766 [0.9971; 1.1625]  1.88   0.0595
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI     z  p-value
+antipyretic 0.8506 [0.4786; 1.5120] -0.55   0.5815
+ditan       1.5335 [1.2488; 1.8832]  4.08 < 0.0001
+gepant      1.2098 [0.8524; 1.7171]  1.07   0.2863
+NSAID       1.0373 [0.8582; 1.2537]  0.38   0.7049
+placebo          .                .     .        .
+triptan     1.0788 [0.9818; 1.1855]  1.58   0.1147
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0287; tau = 0.1695; I^2 = 28.6% [3.6%; 47.1%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           96.64   69  0.0157
+Within designs  95.26   65  0.0086
+Between designs  1.38    4  0.8479
+
+A total of 6 treatments are included in the network.
+A total of 70 studies are included in this analysis.
+A total of 50166 participants are included in this analysis, with 7269 events (14.49%).
+Estimated heterogeneity tau-squared: 0.03.
+Global test for inconsistency, p-value 0.84794 (Q=1, d.o.f. 4)
+
+The following studies were included in this analysis: 0462-039 1996 Ahrens 1999 Ashina 2021 Barbanti 2012 Bomhof 1999 Brandes 2007a Brandes 2007b Cady 2006a Cady 2006b Carpay 2004 Cutler 1995 Dahlöf 1998 Dahlöf 2001 Dahlöf 2009 Diener 2002 Dodick 2019 Dowson 2002a Dowson 2002b Eletriptan Steering Committee in Japan 2002 Färkkila 2012 Freitag 2007 Freitag 2008 Garcia-Ramos 2003 Geraud 2000 Goadsby 2000 Goadsby 2019 Goldstein 1998 Goldstein 2006 Havanka 2000 Ho 2008b Jelinski 2006 Kaniecki 2006 Kellstein 2000 Kolodny 2004 Kramer 1998 Kuca 2018 Kudrow 2005 Landy 2004 Lines 2001 Lipton 2005 Lipton 2010 Mannix 2007a Mannix 2007b MOMENTUM 2019 Moon 2010 Nett 2003 Pascual 2000b Prior 2010 Rapoport 1997 Rapoport 2002 Sakai 2002 Sakai 2021 Sandrini 2002 Saper 2006 Sargent 1995 Sheftell 2003 Sheftell 2005a Sheftell 2005b Smith 2005 Solomon 1997 Stark 2002 Steiner 2003 SUM20033 2003 Tazaki 1993 Tfelt-Hansen 1998 Tfelt-Hansen 2006 The Oral Sumatriptan Dose-defining Study 1991 Toledano 2021 Voss 2016 Winner 2003a.
+
+File created on 2023-07-23.

@@ -1,0 +1,30 @@
+Number of studies: k = 75
+Number of pairwise comparisons: m = 85
+Number of observations: o = 53877
+Number of treatments: n = 6
+Number of designs: d = 9
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI     z p-value
+antipyretic 0.5996 [0.3995; 0.8999] -2.47  0.0135
+ditan       1.2550 [1.1035; 1.4272]  3.46  0.0005
+gepant      1.1772 [1.0188; 1.3602]  2.21  0.0269
+NSAID       0.9992 [0.8867; 1.1260] -0.01  0.9901
+placebo          .                .     .       .
+triptan     1.1391 [1.0552; 1.2297]  3.34  0.0008
+
+Test of inconsistency (between designs):
+    Q d.f. p-value
+ 5.07    7  0.6517
+
+A total of 6 treatments are included in the network.
+A total of 75 studies are included in this analysis.
+A total of 53877 participants are included in this analysis, with 8026 events (14.9%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value 0.65172 (Q=5, d.o.f. 7)
+
+The following studies were included in this analysis: 0462-039 1996 Ahrens 1999 Ashina 2021 Barbanti 2012 Bomhof 1999 Brandes 2007a Brandes 2007b Codispoti 2001 Croop 2019 Dahlöf 1998 Dahlöf 2001 Dahlöf 2009 Diener 2002 Diener 2011 Dodick 2019 Dowson 2002b Eletriptan Steering Committee in Japan 2002 Färkkila 2012 Freitag 2007 Freitag 2008 Garcia-Ramos 2003 Geraud 2000 Goadsby 2000 Goadsby 2019 Göbel 2004 Goldstein 1998 Goldstein 2006 Havanka 2000 Ho 2008b Jelinski 2006 Kaniecki 2006 Kellstein 2000 Klapper 2004 Klassen 1997 Kolodny 2004 Kramer 1998 Kuca 2018 Kudrow 2005 Landy 2004 Lange 2000 Lines 2001 Lipton 2005 Lipton 2010 Lipton 2019a Lipton 2019b Lipton 2019c Lipton 2021 Marcus 2014 Misra 2010 MOMENTUM 2019 Moon 2010 NCT00920686 2010 NCT01248468 2011 Nett 2003 Prior 2010 Rapoport 1997 Rapoport 2002 Sakai 2021 Sandrini 2002 Saper 2006 Sheftell 2003 Sheftell 2005a Sheftell 2005b Smith 2005 Solomon 1997 Stark 2002 SUM20033 2003 Tfelt-Hansen 1998 Tfelt-Hansen 2006 Toledano 2021 Voss 2016 Wentz 2008 Winner 2003a Winner 2003b Yu 2023.
+
+File created on 2023-07-23.

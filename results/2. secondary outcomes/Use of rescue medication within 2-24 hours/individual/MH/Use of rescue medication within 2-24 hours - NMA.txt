@@ -1,0 +1,39 @@
+Number of studies: k = 64
+Number of pairwise comparisons: m = 96
+Number of observations: o = 49090
+Number of treatments: n = 15
+Number of designs: d = 26
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                         OR           95%-CI      z  p-value
+acetylsalicylic acid 0.4714 [0.3733; 0.5951]  -6.32 < 0.0001
+almotriptan          0.4640 [0.4004; 0.5376] -10.22 < 0.0001
+celecoxib            0.4422 [0.3255; 0.6007]  -5.22 < 0.0001
+eletriptan           0.2554 [0.2303; 0.2834] -25.77 < 0.0001
+frovatriptan         0.4564 [0.3965; 0.5254] -10.93 < 0.0001
+ibuprofen            0.5908 [0.4119; 0.8474]  -2.86   0.0042
+lasmiditan           0.4543 [0.3928; 0.5254] -10.63 < 0.0001
+naproxen sodium      0.4901 [0.4219; 0.5692]  -9.34 < 0.0001
+naratriptan          0.4699 [0.3567; 0.6189]  -5.37 < 0.0001
+paracetamol          0.3319 [0.1932; 0.5702]  -3.99 < 0.0001
+placebo                   .                .      .        .
+rimegepant           0.4399 [0.3840; 0.5040] -11.84 < 0.0001
+rizatriptan          0.4606 [0.4159; 0.5101] -14.90 < 0.0001
+sumatriptan          0.4068 [0.3777; 0.4382] -23.70 < 0.0001
+zolmitriptan         0.4306 [0.3740; 0.4957] -11.73 < 0.0001
+
+Test of inconsistency (between designs):
+     Q d.f. p-value
+ 36.05   23  0.0407
+
+A total of 15 treatments are included in the network.
+A total of 64 studies are included in this analysis.
+A total of 49090 participants are included in this analysis, with 14569 events (29.68%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value 0.04075 (Q=36, d.o.f. 23)
+
+The following studies were included in this analysis: 0462-039 1996 Ashina 2021 Barbanti 2012 Bomhof 1999 Brandes 2005 Brandes 2007a Brandes 2007b Cady 2006a Cady 2006b Cady 2009 Carpay 2004 Croop 2019 Dahlöf 1998 Dahlöf 2001 Diener 2004 Diener 2011 Dowson 2002a Eletriptan Steering Committee in Japan 2002 Färkkila 2012 Freitag 2007 Garcia-Ramos 2003 Goadsby 2000 Goadsby 2007 Gomez-Mancilla 2014 Jelinski 2006 Kuca 2018 Kudrow 2005 Lange 2000 Lee 2001 Lines 2001 Lipton 2000 Lipton 2005 Lipton 2019a Lipton 2019c Lipton 2021 Mannix 2007a Mannix 2007b Marcus 2014 Mathew 2003 MOMENTUM 2019 Moon 2010 NCT03235479 2018 Pascual 2000a Pascual 2000b Rapoport 2002 Ryan (VML 251/96/06) 2002 Ryan (VML 251/96/07) 2002 Ryan (VML 251/96/09) 2002 Sandrini 2002 Saper 2006 Sheftell 2003 Sheftell 2005a Sheftell 2005b Smith 2005 Spierings 2001 Spierings 2004 Stark 2002 Steiner 2003 SUM20033 2003 Teall 1996 Tfelt-Hansen 1998 Toledano 2021 Wentz 2008 Yu 2023.
+
+File created on 2023-05-24.

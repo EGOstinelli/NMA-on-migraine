@@ -1,0 +1,30 @@
+Number of studies: k = 79
+Number of pairwise comparisons: m = 89
+Number of observations: o = 53559
+Number of treatments: n = 6
+Number of designs: d = 9
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI     z  p-value
+antipyretic 0.8904 [0.5271; 1.5041] -0.43   0.6642
+ditan       2.4164 [2.1403; 2.7281] 14.25 < 0.0001
+gepant      1.2225 [0.9799; 1.5252]  1.78   0.0750
+NSAID       1.0103 [0.8855; 1.1527]  0.15   0.8786
+placebo          .                .     .        .
+triptan     1.1780 [1.0954; 1.2668]  4.42 < 0.0001
+
+Test of inconsistency (between designs):
+    Q d.f. p-value
+ 4.77    7  0.6877
+
+A total of 6 treatments are included in the network.
+A total of 79 studies are included in this analysis.
+A total of 53559 participants are included in this analysis, with 8277 events (15.45%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value 0.6877 (Q=5, d.o.f. 7)
+
+The following studies were included in this analysis: 0462-039 1996 Ahrens 1999 Ashina 2021 Barbanti 2012 Bomhof 1999 Brandes 2005 Brandes 2007a Brandes 2007b Cady 2006a Cady 2006b Carpay 2004 Croop 2019 Dahlöf 1998 Dahlöf 2001 Dahlöf 2009 Diener 2002 Diener 2011 Dowson 2002a Dowson 2002b Färkkila 2012 Freitag 2007 Freitag 2008 Garcia-Ramos 2003 Goadsby 2000 Goadsby 2019 Goldstein 1998 Goldstein 2006 Gomez-Mancilla 2014 Havanka 2000 Ho 2008b Jelinski 2006 Kaniecki 2006 Kellstein 2000 Klapper 2004 Klassen 1997 Kolodny 2004 Kramer 1998 Kuca 2018 Kudrow 2005 Landy2004 Lange 2000 Lines 2001 Lipton 2005 Lipton 2010 Lipton 2019a Lipton 2019b Lipton 2021 Mannix 2007a Mannix 2007b Marcus 2014 Misra 2010 MOMENTUM 2019 Moon 2010 NCT00920686 2010 Nett 2003 Pascual 2000b Prior 2010 Rapoport 1997 Rapoport 2002 Sakai 2021 Sandrini 2002 Saper 2006 Savani 1999 Sheftell 2003 Sheftell 2005a Sheftell 2005b Smith 2005 Solomon 1997 Stark 2002 Steiner 2003 SUM20033 2003 Tazaki 1993 Tfelt-Hansen 1998 The Oral Sumatriptan Dose-defining Study 1991 Toledano 2021 Voss 2016 Wentz 2008 Winner 2003a Winner 2003b.
+
+File created on 2023-05-26.

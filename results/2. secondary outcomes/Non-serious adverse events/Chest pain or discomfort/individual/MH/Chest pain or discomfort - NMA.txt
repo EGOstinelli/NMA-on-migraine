@@ -1,0 +1,38 @@
+Number of studies: k = 57
+Number of pairwise comparisons: m = 89
+Number of observations: o = 42318
+Number of treatments: n = 14
+Number of designs: d = 24
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                         OR           95%-CI     z p-value
+almotriptan          0.8648 [0.6208; 1.2046] -0.86  0.3903
+diclofenac potassium 1.1233 [0.7598; 1.6607]  0.58  0.5599
+eletriptan           1.3599 [1.0960; 1.6874]  2.79  0.0052
+frovatriptan         0.8302 [0.6362; 1.0835] -1.37  0.1708
+lasmiditan           1.0902 [0.9505; 1.2506]  1.23  0.2171
+naproxen sodium      1.1288 [0.8114; 1.5704]  0.72  0.4719
+naratriptan          1.1211 [0.7740; 1.6239]  0.60  0.5452
+paracetamol          0.4838 [0.1659; 1.4105] -1.33  0.1835
+placebo                   .                .     .       .
+rimegepant           0.5931 [0.2237; 1.5727] -1.05  0.2938
+rizatriptan          0.8869 [0.7361; 1.0686] -1.26  0.2067
+sumatriptan          1.0954 [0.9861; 1.2169]  1.70  0.0895
+ubrogepant           1.4835 [0.8960; 2.4565]  1.53  0.1253
+zolmitriptan         1.1112 [0.9592; 1.2873]  1.41  0.1599
+
+Test of inconsistency (between designs):
+     Q d.f. p-value
+ 48.06   21  0.0007
+
+A total of 14 treatments are included in the network.
+A total of 57 studies are included in this analysis.
+A total of 42318 participants are included in this analysis, with 5200 events (12.29%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value 0.00068 (Q=48, d.o.f. 21)
+
+The following studies were included in this analysis: 0462-039 1996 Ashina 2021 Bomhof 1999 Brandes 2007a Carpay 2004 Dahlöf 1998 Dahlöf 2001 Diener 2002 Dowson 2002b Ensink 1991 Färkkila 2012 Freitag 2008 Geraud 2000 Goadsby 2000 Goadsby 2007 Goadsby 2019 Goldstein 1998 Havanka 2000 Ho 2008b Jelinski 2006 Kaniecki 2006 Klassen 1997 Kolodny 2004 Kramer 1998 Kuca 2018 Landy 2004 Lines 2001 Lipton 2010 Marcus 2014 Massiou 2005 Misra 2010 Moon 2010 NCT00920686 2010 Nett 2003 Pascual 2000b Pini 1995 Rapoport 1997 Rapoport 2002 Ryan 2002c S2WB3002 1996 Sakai 2021 Sandrini 2002 Sheftell 2005a Sheftell 2005b Smith 2005 Solomon 1997 Spierings 2001 Stark 2002 Steiner 2003 SUM20033 2003 Tazaki 1993 Tfelt-Hansen 1998 Tfelt-Hansen 2006 The Oral Sumatriptan Dose-defining Study 1991 Voss 2016 Winner 2003a Winner 2003b.
+
+File created on 2023-07-23.

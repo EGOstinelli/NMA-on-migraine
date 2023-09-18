@@ -1,0 +1,12 @@
+             P-score
+rizatriptan   0.8282
+celecoxib     0.7842
+zolmitriptan  0.6787
+sumatriptan   0.6235
+placebo       0.6055
+rimegepant    0.3880
+lasmiditan    0.3385
+ubrogepant    0.2332
+paracetamol   0.0201
+
+File created on 2023-05-27.

@@ -1,0 +1,7 @@
+            P-score
+placebo      0.9967
+rimegepant   0.6506
+lasmiditan   0.3113
+sumatriptan  0.0414
+
+File created on 2023-05-24.

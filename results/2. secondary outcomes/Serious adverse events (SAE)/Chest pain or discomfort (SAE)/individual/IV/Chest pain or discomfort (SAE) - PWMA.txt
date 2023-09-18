@@ -1,0 +1,8 @@
+                 comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st p.val
+1     lasmiditan vs  placebo                 1 0.17     0.01     4.08     NA   NA         NA         NA    0    NA
+2    naratriptan vs  placebo                 0   NA       NA       NA     NA   NA         NA         NA   NA    NA
+3     rimegepant vs  placebo                 1 0.33     0.01     8.16     NA   NA         NA         NA    0    NA
+4    sumatriptan vs  placebo                 0   NA       NA       NA     NA   NA         NA         NA   NA    NA
+5 sumatriptan vs naratriptan                 0   NA       NA       NA     NA   NA         NA         NA   NA    NA
+
+File created on 2023-05-26.

@@ -1,0 +1,66 @@
+                        comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st
+1  acetylsalicylic acid vs  placebo                 1 0.33     0.01     8.16     NA   NA         NA         NA 0.00
+2           almotriptan vs  placebo                 0   NA       NA       NA     NA   NA         NA         NA   NA
+3             celecoxib vs  placebo                 1 3.01     0.31    29.09     NA   NA         NA         NA 0.00
+4  diclofenac potassium vs  placebo                 0   NA       NA       NA     NA   NA         NA         NA   NA
+5            eletriptan vs  placebo                 3 1.28     0.21     7.90      0    0          0       0.90 0.16
+6       frovatriptan vs almotriptan                 0   NA       NA       NA     NA   NA         NA         NA   NA
+7             ibuprofen vs  placebo                 1 2.95     0.12    72.79     NA   NA         NA         NA 0.00
+8            lasmiditan vs  placebo                 3 1.00     0.29     3.42      0    0          0       0.90 0.00
+9       naproxen sodium vs  placebo                 2 1.04     0.11    10.02      0    0         NA         NA 0.86
+10          naratriptan vs  placebo                 0   NA       NA       NA     NA   NA         NA         NA   NA
+11   naratriptan vs naproxen sodium                 0   NA       NA       NA     NA   NA         NA         NA   NA
+12          paracetamol vs  placebo                 0   NA       NA       NA     NA   NA         NA         NA   NA
+13            phenazone vs  placebo                 0   NA       NA       NA     NA   NA         NA         NA   NA
+14           rimegepant vs  placebo                 2 1.00     0.18     5.45      0    0         NA         NA 0.64
+15          rizatriptan vs  placebo                 5 1.04     0.26     4.24      0    0          0       0.79 1.89
+16      rizatriptan vs frovatriptan                 0   NA       NA       NA     NA   NA         NA         NA   NA
+17       rizatriptan vs naratriptan                 0   NA       NA       NA     NA   NA         NA         NA   NA
+18       rizatriptan vs paracetamol                 0   NA       NA       NA     NA   NA         NA         NA   NA
+19          sumatriptan vs  placebo                 5 1.09     0.26     4.55      0    0          0       0.79 2.03
+20       sumatriptan vs almotriptan                 0   NA       NA       NA     NA   NA         NA         NA   NA
+21        sumatriptan vs eletriptan                 1 0.99     0.06    15.86     NA   NA         NA         NA 0.00
+22   sumatriptan vs naproxen sodium                 1 1.01     0.06    16.20     NA   NA         NA         NA 0.00
+23       sumatriptan vs naratriptan                 0   NA       NA       NA     NA   NA         NA         NA   NA
+24        sumatriptan vs rimegepant                 0   NA       NA       NA     NA   NA         NA         NA   NA
+25       sumatriptan vs rizatriptan                 1 0.46     0.02    11.42     NA   NA         NA         NA 0.00
+26           ubrogepant vs  placebo                 2 3.81     0.47    31.05      0    0         NA         NA 0.14
+27         zolmitriptan vs  placebo                 6 1.34     0.37     4.79      0    0          0       0.75 1.31
+28       zolmitriptan vs eletriptan                 0   NA       NA       NA     NA   NA         NA         NA   NA
+29     zolmitriptan vs frovatriptan                 0   NA       NA       NA     NA   NA         NA         NA   NA
+30      zolmitriptan vs rizatriptan                 1 1.01     0.06    16.27     NA   NA         NA         NA 0.00
+31      zolmitriptan vs sumatriptan                 0   NA       NA       NA     NA   NA         NA         NA   NA
+    p.val
+1      NA
+2      NA
+3      NA
+4      NA
+5  0.9227
+6      NA
+7      NA
+8  1.0000
+9  0.3546
+10     NA
+11     NA
+12     NA
+13     NA
+14 0.4229
+15 0.7561
+16     NA
+17     NA
+18     NA
+19 0.7308
+20     NA
+21     NA
+22     NA
+23     NA
+24     NA
+25     NA
+26 0.7116
+27 0.9336
+28     NA
+29     NA
+30     NA
+31     NA
+
+File created on 2023-05-25.

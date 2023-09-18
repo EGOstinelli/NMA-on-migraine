@@ -1,0 +1,51 @@
+Original data:
+
+               treat1      treat2     TE   seTE
+Jelinski 2006 placebo sumatriptan 1.9290 1.6370
+
+Number of treatment arms (by study):
+              narms
+Jelinski 2006     2
+
+Results (common effects model):
+
+               treat1      treat2     OR             95%-CI    Q leverage
+Jelinski 2006 placebo sumatriptan 6.8824 [0.2782; 170.2652] 0.00     1.00
+
+Results (random effects model):
+
+               treat1      treat2     OR             95%-CI
+Jelinski 2006 placebo sumatriptan 6.8824 [0.2782; 170.2652]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of observations: o = 364
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: 'sumatriptan' vs 'placebo'):
+                OR           95%-CI     z p-value
+placebo          .                .     .       .
+sumatriptan 0.1453 [0.0059; 3.5946] -1.18  0.2386
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: 'sumatriptan' vs 'placebo'):
+                OR           95%-CI     z p-value
+placebo          .                .     .       .
+sumatriptan 0.1453 [0.0059; 3.5946] -1.18  0.2386
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 364 participants are included in this analysis, with 1 events (0.27%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value NA (Q=NA, d.o.f. NA)
+
+The following studies were included in this analysis: Jelinski 2006.
+
+File created on 2023-05-26.

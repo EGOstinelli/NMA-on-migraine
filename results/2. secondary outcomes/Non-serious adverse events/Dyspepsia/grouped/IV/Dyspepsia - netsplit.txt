@@ -1,0 +1,44 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+          comparison  k prop  nma direct indir.  RoR    z p-value
+   antipyretic:ditan  0    0 0.77      .   0.77    .    .       .
+   antipyretic:NSAID  0    0 0.78      .   0.78    .    .       .
+ antipyretic:placebo  2 1.00 0.81   0.81      .    .    .       .
+ antipyretic:triptan  0    0 0.76      .   0.76    .    .       .
+         ditan:NSAID  0    0 1.01      .   1.01    .    .       .
+       ditan:placebo  4 1.00 1.05   1.05      .    .    .       .
+       ditan:triptan  0    0 0.98      .   0.98    .    .       .
+       NSAID:placebo  8 0.92 1.04   1.06   0.86 1.23 0.73  0.4657
+       NSAID:triptan  2 0.45 0.98   0.99   0.97 1.02 0.09  0.9265
+     triptan:placebo 16 0.94 1.07   1.08   0.88 1.22 0.68  0.4942
+
+Random effects model: 
+
+          comparison  k prop  nma direct indir.  RoR    z p-value
+   antipyretic:ditan  0    0 0.77      .   0.77    .    .       .
+   antipyretic:NSAID  0    0 0.79      .   0.79    .    .       .
+ antipyretic:placebo  2 1.00 0.82   0.82      .    .    .       .
+ antipyretic:triptan  0    0 0.77      .   0.77    .    .       .
+         ditan:NSAID  0    0 1.02      .   1.02    .    .       .
+       ditan:placebo  4 1.00 1.07   1.07      .    .    .       .
+       ditan:triptan  0    0 1.00      .   1.00    .    .       .
+       NSAID:placebo  8 0.93 1.04   1.06   0.89 1.19 0.55  0.5818
+       NSAID:triptan  2 0.43 0.97   0.99   0.96 1.03 0.12  0.9028
+     triptan:placebo 16 0.95 1.07   1.08   0.87 1.24 0.63  0.5262
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 3 comparisons).
+
+File created on 2023-05-26.

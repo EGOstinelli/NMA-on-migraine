@@ -1,0 +1,30 @@
+Number of studies: k = 41
+Number of pairwise comparisons: m = 43
+Number of observations: o = 28494
+Number of treatments: n = 6
+Number of designs: d = 6
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI     z p-value
+antipyretic 0.5615 [0.2961; 1.0647] -1.77  0.0771
+ditan       1.0794 [0.9332; 1.2485]  1.03  0.3035
+gepant      1.1853 [0.8810; 1.5946]  1.12  0.2614
+NSAID       0.9490 [0.7989; 1.1272] -0.60  0.5508
+placebo          .                .     .       .
+triptan     0.9314 [0.8420; 1.0304] -1.38  0.1680
+
+Test of inconsistency (between designs):
+    Q d.f. p-value
+ 0.58    2  0.7479
+
+A total of 6 treatments are included in the network.
+A total of 41 studies are included in this analysis.
+A total of 28494 participants are included in this analysis, with 4080 events (14.32%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value 0.74791 (Q=1, d.o.f. 2)
+
+The following studies were included in this analysis: 0462-039 1996 Brandes 2005 Brandes 2007a Codispoti 2001 Dahlöf 2001 Diener 2002 Diener 2011 Eletriptan Steering Committee in Japan 2002 Färkkila 2012 Freitag 2007 Garcia-Ramos 2003 Goadsby 2019 Göbel 2004 Goldstein 2006 Havanka 2000 Ho 2008b Kaniecki 2006 Klassen 1997 Kramer 1998 Kuca 2018 Landy 2004 Lines 2001 Lipton 2010 Lipton 2019a Lipton 2021 Marcus 2014 NCT00920686 2010 Prior 2010 Rapoport 2002 Sakai 2021 Sheftell 2005a Sheftell 2005b Solomon 1997 SUM20033 2003 Tazaki 1993 Tfelt-Hansen 1998 Tfelt-Hansen 2006 Voss 2016 Winner 2003a Winner 2003b Yu 2023.
+
+File created on 2023-07-23.

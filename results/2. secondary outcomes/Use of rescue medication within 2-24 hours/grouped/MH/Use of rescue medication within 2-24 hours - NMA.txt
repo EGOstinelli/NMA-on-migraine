@@ -1,0 +1,30 @@
+Number of studies: k = 62
+Number of pairwise comparisons: m = 72
+Number of observations: o = 46773
+Number of treatments: n = 6
+Number of designs: d = 7
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI      z  p-value
+antipyretic 0.3319 [0.1932; 0.5702]  -3.99 < 0.0001
+ditan       0.4543 [0.3928; 0.5254] -10.63 < 0.0001
+gepant      0.4397 [0.3838; 0.5037] -11.84 < 0.0001
+NSAID       0.4841 [0.4335; 0.5405] -12.90 < 0.0001
+placebo          .                .      .        .
+triptan     0.3964 [0.3761; 0.4178] -34.45 < 0.0001
+
+Test of inconsistency (between designs):
+    Q d.f. p-value
+ 5.04    4  0.2831
+
+A total of 6 treatments are included in the network.
+A total of 62 studies are included in this analysis.
+A total of 46773 participants are included in this analysis, with 13934 events (29.79%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value 0.28309 (Q=5, d.o.f. 4)
+
+The following studies were included in this analysis: 0462-039 1996 Ashina 2021 Barbanti 2012 Bomhof 1999 Brandes 2005 Brandes 2007a Brandes 2007b Cady 2006a Cady 2006b Cady 2009 Carpay 2004 Croop 2019 Dahlöf 1998 Dahlöf 2001 Diener 2004 Diener 2011 Dowson 2002a Eletriptan Steering Committee in Japan 2002 Färkkila 2012 Freitag 2007 Garcia-Ramos 2003 Goadsby 2000 Gomez-Mancilla 2014 Jelinski 2006 Kuca 2018 Kudrow 2005 Lange 2000 Lee 2001 Lines 2001 Lipton 2000 Lipton 2005 Lipton 2019a Lipton 2019c Lipton 2021 Mannix 2007a Mannix 2007b Marcus 2014 Mathew 2003 MOMENTUM 2019 Moon 2010 NCT03235479 2018 Pascual 2000a Pascual 2000b Rapoport 2002 Ryan (VML 251/96/06) 2002 Ryan (VML 251/96/07) 2002 Ryan (VML 251/96/09) 2002 Sandrini 2002 Saper 2006 Sheftell 2003 Sheftell 2005a Sheftell 2005b Smith 2005 Spierings 2004 Stark 2002 Steiner 2003 SUM20033 2003 Teall 1996 Tfelt-Hansen 1998 Toledano 2021 Wentz 2008 Yu 2023.
+
+File created on 2023-05-24.

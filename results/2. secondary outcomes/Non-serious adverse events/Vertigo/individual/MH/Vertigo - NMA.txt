@@ -1,0 +1,33 @@
+Number of studies: k = 18
+Number of pairwise comparisons: m = 22
+Number of observations: o = 17604
+Number of treatments: n = 9
+Number of designs: d = 10
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                    OR            95%-CI     z p-value
+almotriptan     0.9006 [0.5348;  1.5166] -0.39  0.6938
+lasmiditan      1.2671 [1.1069;  1.4504]  3.43  0.0006
+naproxen sodium 1.1786 [0.8330;  1.6676]  0.93  0.3533
+naratriptan     1.0588 [0.0947; 11.8363]  0.05  0.9630
+phenazone       0.8095 [0.3872;  1.6923] -0.56  0.5744
+placebo              .                 .     .       .
+rizatriptan     0.9429 [0.6936;  1.2819] -0.37  0.7077
+sumatriptan     1.0583 [0.9009;  1.2433]  0.69  0.4903
+zolmitriptan    0.8933 [0.5476;  1.4572] -0.45  0.6513
+
+Test of inconsistency (between designs):
+    Q d.f. p-value
+ 6.58    4  0.1596
+
+A total of 9 treatments are included in the network.
+A total of 18 studies are included in this analysis.
+A total of 17604 participants are included in this analysis, with 2497 events (14.18%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value 0.15961 (Q=7, d.o.f. 4)
+
+The following studies were included in this analysis: 0462-039 1996 Ashina 2021 Brandes 2007a Carpay 2004 Dahlöf 1998 Dahlöf 2001 Dahlöf 2009 Färkkila 2012 Goadsby 2007 Goadsby 2019 Göbel 2004 Havanka 2000 Kaniecki 2006 Kuca 2018 Lines 2001 Sakai 2021 Sheftell 2005a Sheftell 2005b.
+
+File created on 2023-05-27.

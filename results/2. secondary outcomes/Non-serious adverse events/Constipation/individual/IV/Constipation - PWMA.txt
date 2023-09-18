@@ -1,0 +1,5 @@
+              comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
+1  lasmiditan vs  placebo                 2 1.02     0.84     1.25      0    0         NA         NA 0.34 0.5624
+2 sumatriptan vs  placebo                 2 1.04     0.83     1.30      0    0         NA         NA 0.14 0.7042
+
+File created on 2023-05-26.

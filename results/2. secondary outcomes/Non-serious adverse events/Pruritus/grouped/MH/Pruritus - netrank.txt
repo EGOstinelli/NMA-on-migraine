@@ -1,0 +1,7 @@
+        P-score
+placebo  0.7206
+ditan    0.4909
+NSAID    0.4591
+triptan  0.3294
+
+File created on 2023-05-27.

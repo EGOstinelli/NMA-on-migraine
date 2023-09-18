@@ -1,0 +1,96 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+               comparison k prop  nma direct indir.  RoR     z p-value
+     celecoxib:lasmiditan 0    0 0.76      .   0.76    .     .       .
+    celecoxib:paracetamol 0    0 0.13      .   0.13    .     .       .
+        celecoxib:placebo 2 1.00 0.86   0.86      .    .     .       .
+     celecoxib:rimegepant 0    0 0.77      .   0.77    .     .       .
+    celecoxib:rizatriptan 0    0 1.01      .   1.01    .     .       .
+    celecoxib:sumatriptan 0    0 0.89      .   0.89    .     .       .
+     celecoxib:ubrogepant 0    0 0.71      .   0.71    .     .       .
+   celecoxib:zolmitriptan 0    0 0.92      .   0.92    .     .       .
+   lasmiditan:paracetamol 0    0 0.18      .   0.18    .     .       .
+       lasmiditan:placebo 4 1.00 1.13   1.13      .    .     .       .
+    lasmiditan:rimegepant 0    0 1.02      .   1.02    .     .       .
+   lasmiditan:rizatriptan 0    0 1.33      .   1.33    .     .       .
+   lasmiditan:sumatriptan 0    0 1.17      .   1.17    .     .       .
+    lasmiditan:ubrogepant 0    0 0.93      .   0.93    .     .       .
+  lasmiditan:zolmitriptan 0    0 1.22      .   1.22    .     .       .
+      paracetamol:placebo 1 1.00 6.40   6.40      .    .     .       .
+   paracetamol:rimegepant 0    0 5.77      .   5.77    .     .       .
+  paracetamol:rizatriptan 0    0 7.56      .   7.56    .     .       .
+  paracetamol:sumatriptan 0    0 6.66      .   6.66    .     .       .
+   paracetamol:ubrogepant 0    0 5.30      .   5.30    .     .       .
+ paracetamol:zolmitriptan 0    0 6.90      .   6.90    .     .       .
+       rimegepant:placebo 4 1.00 1.11   1.11   0.95 1.17  0.08  0.9351
+      rizatriptan:placebo 2 0.77 0.85   0.92   0.63 1.47  0.96  0.3386
+      sumatriptan:placebo 3 0.83 0.96   1.04   0.65 1.60  1.09  0.2770
+       ubrogepant:placebo 3 1.00 1.21   1.21      .    .     .       .
+     zolmitriptan:placebo 1 0.48 0.93   0.74   1.14 0.65 -1.09  0.2755
+   rimegepant:rizatriptan 0    0 1.31      .   1.31    .     .       .
+   rimegepant:sumatriptan 1 0.13 1.16   0.78   1.22 0.64 -0.76  0.4480
+    rimegepant:ubrogepant 0    0 0.92      .   0.92    .     .       .
+  rimegepant:zolmitriptan 0    0 1.20      .   1.20    .     .       .
+  rizatriptan:sumatriptan 1 0.81 0.88   0.88   0.87 1.02  0.05  0.9595
+   rizatriptan:ubrogepant 0    0 0.70      .   0.70    .     .       .
+ rizatriptan:zolmitriptan 0    0 0.91      .   0.91    .     .       .
+   sumatriptan:ubrogepant 0    0 0.80      .   0.80    .     .       .
+ sumatriptan:zolmitriptan 1 0.96 1.04   1.00   2.17 0.46 -1.09  0.2755
+  ubrogepant:zolmitriptan 0    0 1.30      .   1.30    .     .       .
+
+Random effects model: 
+
+               comparison k prop  nma direct indir.  RoR     z p-value
+     celecoxib:lasmiditan 0    0 0.75      .   0.75    .     .       .
+    celecoxib:paracetamol 0    0 0.13      .   0.13    .     .       .
+        celecoxib:placebo 2 1.00 0.86   0.86      .    .     .       .
+     celecoxib:rimegepant 0    0 0.77      .   0.77    .     .       .
+    celecoxib:rizatriptan 0    0 1.01      .   1.01    .     .       .
+    celecoxib:sumatriptan 0    0 0.89      .   0.89    .     .       .
+     celecoxib:ubrogepant 0    0 0.70      .   0.70    .     .       .
+   celecoxib:zolmitriptan 0    0 0.92      .   0.92    .     .       .
+   lasmiditan:paracetamol 0    0 0.18      .   0.18    .     .       .
+       lasmiditan:placebo 4 1.00 1.14   1.14      .    .     .       .
+    lasmiditan:rimegepant 0    0 1.03      .   1.03    .     .       .
+   lasmiditan:rizatriptan 0    0 1.35      .   1.35    .     .       .
+   lasmiditan:sumatriptan 0    0 1.18      .   1.18    .     .       .
+    lasmiditan:ubrogepant 0    0 0.94      .   0.94    .     .       .
+  lasmiditan:zolmitriptan 0    0 1.23      .   1.23    .     .       .
+      paracetamol:placebo 1 1.00 6.40   6.40      .    .     .       .
+   paracetamol:rimegepant 0    0 5.77      .   5.77    .     .       .
+  paracetamol:rizatriptan 0    0 7.55      .   7.55    .     .       .
+  paracetamol:sumatriptan 0    0 6.65      .   6.65    .     .       .
+   paracetamol:ubrogepant 0    0 5.26      .   5.26    .     .       .
+ paracetamol:zolmitriptan 0    0 6.91      .   6.91    .     .       .
+       rimegepant:placebo 4 1.00 1.11   1.11   0.95 1.17  0.08  0.9356
+      rizatriptan:placebo 2 0.78 0.85   0.92   0.62 1.48  0.95  0.3441
+      sumatriptan:placebo 3 0.83 0.96   1.04   0.65 1.60  1.05  0.2929
+       ubrogepant:placebo 3 1.00 1.22   1.22      .    .     .       .
+     zolmitriptan:placebo 1 0.50 0.93   0.74   1.16 0.64 -1.08  0.2811
+   rimegepant:rizatriptan 0    0 1.31      .   1.31    .     .       .
+   rimegepant:sumatriptan 1 0.14 1.15   0.78   1.22 0.64 -0.75  0.4521
+    rimegepant:ubrogepant 0    0 0.91      .   0.91    .     .       .
+  rimegepant:zolmitriptan 0    0 1.20      .   1.20    .     .       .
+  rizatriptan:sumatriptan 1 0.80 0.88   0.88   0.86 1.02  0.06  0.9520
+   rizatriptan:ubrogepant 0    0 0.70      .   0.70    .     .       .
+ rizatriptan:zolmitriptan 0    0 0.92      .   0.92    .     .       .
+   sumatriptan:ubrogepant 0    0 0.79      .   0.79    .     .       .
+ sumatriptan:zolmitriptan 1 0.95 1.04   1.00   2.18 0.46 -1.08  0.2811
+  ubrogepant:zolmitriptan 0    0 1.31      .   1.31    .     .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 7 comparisons).
+
+File created on 2023-05-27.

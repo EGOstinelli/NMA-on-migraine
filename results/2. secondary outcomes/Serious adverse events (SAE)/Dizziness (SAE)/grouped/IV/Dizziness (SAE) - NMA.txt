@@ -1,0 +1,51 @@
+Original data:
+
+              treat1  treat2     TE   seTE
+Färkkila 2012  ditan placebo 0.0032 1.6369
+
+Number of treatment arms (by study):
+              narms
+Färkkila 2012     2
+
+Results (common effects model):
+
+              treat1  treat2     OR            95%-CI    Q leverage
+Färkkila 2012  ditan placebo 1.0032 [0.0406; 24.8178] 0.00     1.00
+
+Results (random effects model):
+
+              treat1  treat2     OR            95%-CI
+Färkkila 2012  ditan placebo 1.0032 [0.0406; 24.8178]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of observations: o = 413
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: 'ditan' vs 'placebo'):
+            OR            95%-CI    z p-value
+ditan   1.0032 [0.0406; 24.8178] 0.00  0.9984
+placebo      .                 .    .       .
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: 'ditan' vs 'placebo'):
+            OR            95%-CI    z p-value
+ditan   1.0032 [0.0406; 24.8178] 0.00  0.9984
+placebo      .                 .    .       .
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 413 participants are included in this analysis, with 1 events (0.24%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value NA (Q=NA, d.o.f. NA)
+
+The following studies were included in this analysis: Färkkila 2012.
+
+File created on 2023-05-26.

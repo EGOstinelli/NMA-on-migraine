@@ -1,0 +1,63 @@
+Original data:
+
+                 treat1  treat2      TE   seTE
+Ashina 2021  lasmiditan placebo -0.6918 2.0007
+Mathew 1997 naratriptan placebo  0.0294 2.0029
+
+Number of treatment arms (by study):
+            narms
+Ashina 2021     2
+Mathew 1997     2
+
+Results (common effects model):
+
+                 treat1  treat2     OR            95%-CI    Q leverage
+Ashina 2021  lasmiditan placebo 0.5007 [0.0099; 25.2680] 0.00     1.00
+Mathew 1997 naratriptan placebo 1.0299 [0.0203; 52.2011] 0.00     1.00
+
+Results (random effects model):
+
+                 treat1  treat2     OR            95%-CI
+Ashina 2021  lasmiditan placebo 0.5007 [0.0099; 25.2680]
+Mathew 1997 naratriptan placebo 1.0299 [0.0203; 52.2011]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 2
+Number of observations: o = 1952
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR            95%-CI     z p-value
+lasmiditan  0.5007 [0.0099; 25.2680] -0.35  0.7295
+naratriptan 1.0299 [0.0203; 52.2011]  0.01  0.9883
+placebo          .                 .     .       .
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR            95%-CI     z p-value
+lasmiditan  0.5007 [0.0099; 25.2680] -0.35  0.7295
+naratriptan 1.0299 [0.0203; 52.2011]  0.01  0.9883
+placebo          .                 .     .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 1952 participants are included in this analysis, with 0 events (0%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)
+
+The following studies were included in this analysis: Ashina 2021 Mathew 1997.
+
+File created on 2023-05-26.

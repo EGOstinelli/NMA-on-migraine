@@ -1,0 +1,39 @@
+Number of studies: k = 62
+Number of pairwise comparisons: m = 84
+Number of observations: o = 43405
+Number of treatments: n = 15
+Number of designs: d = 22
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                         OR           95%-CI     z  p-value
+acetylsalicylic acid 1.0263 [0.6306; 1.6704]  0.10   0.9168
+almotriptan          1.0234 [0.7308; 1.4333]  0.13   0.8928
+diclofenac potassium 1.1690 [0.7904; 1.7288]  0.78   0.4342
+eletriptan           0.9101 [0.6817; 1.2151] -0.64   0.5229
+frovatriptan         0.9669 [0.7228; 1.2934] -0.23   0.8205
+ibuprofen            0.9294 [0.5641; 1.5312] -0.29   0.7737
+lasmiditan           1.4581 [1.2809; 1.6598]  5.70 < 0.0001
+naproxen sodium      1.1102 [0.8749; 1.4088]  0.86   0.3897
+naratriptan          0.8919 [0.4879; 1.6306] -0.37   0.7103
+placebo                   .                .     .        .
+rimegepant           0.5688 [0.2154; 1.5020] -1.14   0.2547
+rizatriptan          1.0753 [0.9222; 1.2538]  0.93   0.3544
+sumatriptan          1.1875 [1.0790; 1.3069]  3.52   0.0004
+ubrogepant           1.3278 [0.8093; 2.1783]  1.12   0.2617
+zolmitriptan         1.2620 [1.0866; 1.4657]  3.05   0.0023
+
+Test of inconsistency (between designs):
+     Q d.f. p-value
+ 24.21   14  0.0432
+
+A total of 15 treatments are included in the network.
+A total of 62 studies are included in this analysis.
+A total of 43405 participants are included in this analysis, with 6160 events (14.19%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value 0.04324 (Q=24, d.o.f. 14)
+
+The following studies were included in this analysis: 0462-039 1996 Ashina 2021 Brandes 2007a Brandes 2007b Cady 2006a Cady 2006b Carpay 2004 Dahlöf 1998 Dahlöf 2001 Dahlöf 2009 Dowson 2002a Dowson 2002b Eletriptan Steering Committee in Japan 2002 Färkkila 2012 Freitag 2007 Geraud 2000 Goadsby 2000 Goadsby 2019 Goldstein 1998 Goldstein 2006 Havanka 2000 Ho 2008b Jelinski 2006 Kaniecki 2006 Klapper 2004 Klassen 1997 Kolodny 2004 Kramer 1998 Kuca 2018 Kudrow 2005 Landy 2004 Lines 2001 Lipton 2005 Lipton 2010 Mannix 2007a Mannix 2007b Marcus 2014 Massiou 2005 Misra 2010 NCT00920686 2010 Nett 2003 Pini 1995 Rapoport 1997 Rapoport 2002 Ryan 2002c Sakai 2002 Sakai 2021 Sargent 1995 Savani 1999 Sheftell 2005a Sheftell 2005b Smith 2005 Solomon 1997 Spierings 2001 Stark 2002 SUM20033 2003 Tfelt-Hansen 1998 Tfelt-Hansen 2006 The Oral Sumatriptan Dose-defining Study 1991 Voss 2016 Winner 2003a Winner 2003b.
+
+File created on 2023-07-23.

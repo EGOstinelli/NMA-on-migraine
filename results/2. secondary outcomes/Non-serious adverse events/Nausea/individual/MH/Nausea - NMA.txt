@@ -1,0 +1,42 @@
+Number of studies: k = 78
+Number of pairwise comparisons: m = 110
+Number of observations: o = 57246
+Number of treatments: n = 18
+Number of designs: d = 30
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                         OR           95%-CI     z p-value
+acetylsalicylic acid 1.1141 [0.6997; 1.7741]  0.46  0.6489
+almotriptan          1.0436 [0.7733; 1.4085]  0.28  0.7802
+celecoxib            0.9224 [0.6511; 1.3069] -0.45  0.6497
+diclofenac potassium 1.2676 [0.8918; 1.8017]  1.32  0.1863
+eletriptan           1.1420 [0.9296; 1.4029]  1.26  0.2060
+frovatriptan         0.8930 [0.6984; 1.1418] -0.90  0.3667
+ibuprofen            0.8765 [0.7221; 1.0639] -1.33  0.1823
+lasmiditan           1.2550 [1.1035; 1.4272]  3.46  0.0005
+naproxen sodium      1.1124 [0.8916; 1.3878]  0.94  0.3454
+naratriptan          0.9038 [0.6500; 1.2566] -0.60  0.5473
+paracetamol          0.5966 [0.3975; 0.8954] -2.49  0.0127
+phenazone            0.9321 [0.4469; 1.9440] -0.19  0.8513
+placebo                   .                .     .       .
+rimegepant           1.1081 [0.8931; 1.3750]  0.93  0.3509
+rizatriptan          1.0367 [0.8865; 1.2124]  0.45  0.6515
+sumatriptan          1.1956 [1.0889; 1.3128]  3.74  0.0002
+ubrogepant           1.2370 [1.0180; 1.5031]  2.14  0.0324
+zolmitriptan         1.1977 [1.0317; 1.3905]  2.37  0.0178
+
+Test of inconsistency (between designs):
+  Q d.f. p-value
+ 25   23  0.3504
+
+A total of 18 treatments are included in the network.
+A total of 78 studies are included in this analysis.
+A total of 57246 participants are included in this analysis, with 8312 events (14.52%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value 0.35037 (Q=25, d.o.f. 23)
+
+The following studies were included in this analysis: 0462-039 1996 Ahrens 1999 Ashina 2021 Barbanti 2012 Bomhof 1999 Brandes 2007a Brandes 2007b Codispoti 2001 Croop 2019 Dahlöf 1998 Dahlöf 2001 Dahlöf 2009 Diener 2002 Diener 2011 Dodick 2019 Dowson 2002b Eletriptan Steering Committee in Japan 2002 Färkkila 2012 Freitag 2007 Freitag 2008 Garcia-Ramos 2003 Geraud 2000 Goadsby 2000 Goadsby 2007 Goadsby 2019 Göbel 2004 Goldstein 1998 Goldstein 2006 Havanka 2000 Ho 2008b Jelinski 2006 Kaniecki 2006 Kellstein 2000 Klapper 2004 Klassen 1997 Kolodny 2004 Kramer 1998 Kuca 2018 Kudrow 2005 Landy 2004 Lange 2000 Lines 2001 Lipton 2005 Lipton 2010 Lipton 2019a Lipton 2019b Lipton 2019c Lipton 2021 Marcus 2014 Misra 2010 MOMENTUM 2019 Moon 2010 NCT00920686 2010 NCT01248468 2011 Nett 2003 Prior 2010 Rapoport 1997 Rapoport 2002 Ryan 2002c Sakai 2021 Sandrini 2002 Saper 2006 Sheftell 2003 Sheftell 2005a Sheftell 2005b Smith 2005 Solomon 1997 Spierings 2001 Stark 2002 SUM20033 2003 Tfelt-Hansen 1998 Tfelt-Hansen 2006 Toledano 2021 Voss 2016 Wentz 2008 Winner 2003a Winner 2003b Yu 2023.
+
+File created on 2023-07-23.

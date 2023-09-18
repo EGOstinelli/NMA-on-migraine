@@ -1,0 +1,36 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+      comparison k prop  nma direct indir. RoR z p-value
+     ditan:NSAID 0    0 0.98      .   0.98   . .       .
+   ditan:placebo 2 1.00 1.05   1.05      .   . .       .
+   ditan:triptan 0    0 0.96      .   0.96   . .       .
+   NSAID:placebo 2 1.00 1.07   1.07      .   . .       .
+   NSAID:triptan 0    0 0.97      .   0.97   . .       .
+ triptan:placebo 4 1.00 1.10   1.10      .   . .       .
+
+Random effects model: 
+
+      comparison k prop  nma direct indir. RoR z p-value
+     ditan:NSAID 0    0 1.02      .   1.02   . .       .
+   ditan:placebo 2 1.00 1.09   1.09      .   . .       .
+   ditan:triptan 0    0 0.98      .   0.98   . .       .
+   NSAID:placebo 2 1.00 1.07   1.07      .   . .       .
+   NSAID:triptan 0    0 0.95      .   0.95   . .       .
+ triptan:placebo 4 1.00 1.12   1.12      .   . .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: NaN (0 out of 0 comparisons).
+
+File created on 2023-05-27.

@@ -1,0 +1,7 @@
+        P-score
+placebo  0.9967
+gepant   0.6506
+ditan    0.3113
+triptan  0.0414
+
+File created on 2023-05-24.

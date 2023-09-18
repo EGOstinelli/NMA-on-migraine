@@ -1,0 +1,15 @@
+                     P-score (common) P-score (random)
+acetylsalicylic acid           0.7729           0.7729
+naproxen sodium                0.6089           0.6089
+sumatriptan                    0.5845           0.5845
+placebo                        0.5830           0.5830
+lasmiditan                     0.5721           0.5721
+rimegepant                     0.5666           0.5666
+rizatriptan                    0.5305           0.5305
+eletriptan                     0.5223           0.5223
+zolmitriptan                   0.4750           0.4750
+ibuprofen                      0.3148           0.3148
+celecoxib                      0.2657           0.2657
+ubrogepant                     0.2037           0.2037
+
+File created on 2023-05-25.

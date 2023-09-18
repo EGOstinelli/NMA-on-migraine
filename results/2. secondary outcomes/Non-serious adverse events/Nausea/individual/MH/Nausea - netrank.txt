@@ -1,0 +1,21 @@
+                     P-score
+paracetamol           0.9750
+ibuprofen             0.7995
+frovatriptan          0.7652
+naratriptan           0.7265
+celecoxib             0.6933
+placebo               0.6291
+phenazone             0.6062
+rizatriptan           0.5511
+almotriptan           0.5213
+acetylsalicylic acid  0.4196
+rimegepant            0.4172
+naproxen sodium       0.4105
+eletriptan            0.3580
+zolmitriptan          0.2606
+sumatriptan           0.2556
+diclofenac potassium  0.2251
+ubrogepant            0.2141
+lasmiditan            0.1724
+
+File created on 2023-07-23.

@@ -1,0 +1,14 @@
+                     P-score (common) P-score (random)
+almotriptan                    0.7344           0.7237
+paracetamol                    0.7190           0.6927
+rizatriptan                    0.6335           0.6160
+ibuprofen                      0.6150           0.6076
+acetylsalicylic acid           0.5502           0.5528
+placebo                        0.5411           0.5495
+naratriptan                    0.4886           0.4965
+lasmiditan                     0.4125           0.3954
+diclofenac potassium           0.3348           0.3635
+naproxen sodium                0.2432           0.2627
+sumatriptan                    0.2278           0.2397
+
+File created on 2023-05-26.

@@ -1,0 +1,80 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                                comparison k prop  nma direct indir. RoR z p-value
+          acetylsalicylic acid:almotriptan 0    0 1.15      .   1.15   . .       .
+ acetylsalicylic acid:diclofenac potassium 0    0 1.80      .   1.80   . .       .
+           acetylsalicylic acid:eletriptan 0    0 1.09      .   1.09   . .       .
+           acetylsalicylic acid:lasmiditan 0    0 0.46      .   0.46   . .       .
+              acetylsalicylic acid:placebo 1 1.00 1.03   1.03      .   . .       .
+          acetylsalicylic acid:sumatriptan 0    0 0.51      .   0.51   . .       .
+         acetylsalicylic acid:zolmitriptan 0    0 0.28      .   0.28   . .       .
+          almotriptan:diclofenac potassium 0    0 1.56      .   1.56   . .       .
+                    almotriptan:eletriptan 0    0 0.95      .   0.95   . .       .
+                    almotriptan:lasmiditan 0    0 0.40      .   0.40   . .       .
+                       almotriptan:placebo 1 1.00 0.90   0.90      .   . .       .
+                   almotriptan:sumatriptan 0    0 0.44      .   0.44   . .       .
+                  almotriptan:zolmitriptan 0    0 0.25      .   0.25   . .       .
+           diclofenac potassium:eletriptan 0    0 0.61      .   0.61   . .       .
+           diclofenac potassium:lasmiditan 0    0 0.26      .   0.26   . .       .
+              diclofenac potassium:placebo 1 1.00 0.58   0.58      .   . .       .
+          diclofenac potassium:sumatriptan 0    0 0.28      .   0.28   . .       .
+         diclofenac potassium:zolmitriptan 0    0 0.16      .   0.16   . .       .
+                     eletriptan:lasmiditan 0    0 0.42      .   0.42   . .       .
+                        eletriptan:placebo 1 1.00 0.95   0.95      .   . .       .
+                    eletriptan:sumatriptan 0    0 0.47      .   0.47   . .       .
+                   eletriptan:zolmitriptan 0    0 0.26      .   0.26   . .       .
+                        lasmiditan:placebo 2 1.00 2.25   2.25      .   . .       .
+                    lasmiditan:sumatriptan 0    0 1.10      .   1.10   . .       .
+                   lasmiditan:zolmitriptan 0    0 0.62      .   0.62   . .       .
+                       sumatriptan:placebo 5 1.00 2.04   2.04      .   . .       .
+                      zolmitriptan:placebo 1 1.00 3.64   3.64      .   . .       .
+                  sumatriptan:zolmitriptan 0    0 0.56      .   0.56   . .       .
+
+Random effects model: 
+
+                                comparison k prop  nma direct indir. RoR z p-value
+          acetylsalicylic acid:almotriptan 0    0 1.15      .   1.15   . .       .
+ acetylsalicylic acid:diclofenac potassium 0    0 1.80      .   1.80   . .       .
+           acetylsalicylic acid:eletriptan 0    0 1.09      .   1.09   . .       .
+           acetylsalicylic acid:lasmiditan 0    0 0.46      .   0.46   . .       .
+              acetylsalicylic acid:placebo 1 1.00 1.03   1.03      .   . .       .
+          acetylsalicylic acid:sumatriptan 0    0 0.51      .   0.51   . .       .
+         acetylsalicylic acid:zolmitriptan 0    0 0.28      .   0.28   . .       .
+          almotriptan:diclofenac potassium 0    0 1.56      .   1.56   . .       .
+                    almotriptan:eletriptan 0    0 0.95      .   0.95   . .       .
+                    almotriptan:lasmiditan 0    0 0.40      .   0.40   . .       .
+                       almotriptan:placebo 1 1.00 0.90   0.90      .   . .       .
+                   almotriptan:sumatriptan 0    0 0.44      .   0.44   . .       .
+                  almotriptan:zolmitriptan 0    0 0.25      .   0.25   . .       .
+           diclofenac potassium:eletriptan 0    0 0.61      .   0.61   . .       .
+           diclofenac potassium:lasmiditan 0    0 0.26      .   0.26   . .       .
+              diclofenac potassium:placebo 1 1.00 0.58   0.58      .   . .       .
+          diclofenac potassium:sumatriptan 0    0 0.28      .   0.28   . .       .
+         diclofenac potassium:zolmitriptan 0    0 0.16      .   0.16   . .       .
+                     eletriptan:lasmiditan 0    0 0.42      .   0.42   . .       .
+                        eletriptan:placebo 1 1.00 0.95   0.95      .   . .       .
+                    eletriptan:sumatriptan 0    0 0.47      .   0.47   . .       .
+                   eletriptan:zolmitriptan 0    0 0.26      .   0.26   . .       .
+                        lasmiditan:placebo 2 1.00 2.25   2.25      .   . .       .
+                    lasmiditan:sumatriptan 0    0 1.10      .   1.10   . .       .
+                   lasmiditan:zolmitriptan 0    0 0.62      .   0.62   . .       .
+                       sumatriptan:placebo 5 1.00 2.04   2.04      .   . .       .
+                      zolmitriptan:placebo 1 1.00 3.64   3.64      .   . .       .
+                  sumatriptan:zolmitriptan 0    0 0.56      .   0.56   . .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: NaN (0 out of 0 comparisons).
+
+File created on 2023-05-24.

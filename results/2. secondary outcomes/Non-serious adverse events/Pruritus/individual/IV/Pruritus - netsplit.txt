@@ -1,0 +1,66 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                                comparison k prop  nma direct indir. RoR z p-value
+ acetylsalicylic acid:diclofenac potassium 0    0 0.93      .   0.93   . .       .
+           acetylsalicylic acid:eletriptan 0    0 0.94      .   0.94   . .       .
+           acetylsalicylic acid:lasmiditan 0    0 0.98      .   0.98   . .       .
+          acetylsalicylic acid:naratriptan 0    0 1.18      .   1.18   . .       .
+              acetylsalicylic acid:placebo 1 1.00 1.03   1.03      .   . .       .
+          acetylsalicylic acid:sumatriptan 0    0 0.89      .   0.89   . .       .
+           diclofenac potassium:eletriptan 0    0 1.01      .   1.01   . .       .
+           diclofenac potassium:lasmiditan 0    0 1.05      .   1.05   . .       .
+          diclofenac potassium:naratriptan 0    0 1.27      .   1.27   . .       .
+              diclofenac potassium:placebo 1 1.00 1.10   1.10      .   . .       .
+          diclofenac potassium:sumatriptan 0    0 0.95      .   0.95   . .       .
+                     eletriptan:lasmiditan 0    0 1.03      .   1.03   . .       .
+                    eletriptan:naratriptan 0    0 1.25      .   1.25   . .       .
+                        eletriptan:placebo 1 1.00 1.09   1.09      .   . .       .
+                    eletriptan:sumatriptan 0    0 0.94      .   0.94   . .       .
+                    lasmiditan:naratriptan 0    0 1.21      .   1.21   . .       .
+                        lasmiditan:placebo 2 1.00 1.05   1.05      .   . .       .
+                    lasmiditan:sumatriptan 0    0 0.91      .   0.91   . .       .
+                       naratriptan:placebo 1 1.00 0.87   0.87      .   . .       .
+                   naratriptan:sumatriptan 0    0 0.75      .   0.75   . .       .
+                       sumatriptan:placebo 2 1.00 1.15   1.15      .   . .       .
+
+Random effects model: 
+
+                                comparison k prop  nma direct indir. RoR z p-value
+ acetylsalicylic acid:diclofenac potassium 0    0 0.93      .   0.93   . .       .
+           acetylsalicylic acid:eletriptan 0    0 0.94      .   0.94   . .       .
+           acetylsalicylic acid:lasmiditan 0    0 0.88      .   0.88   . .       .
+          acetylsalicylic acid:naratriptan 0    0 1.18      .   1.18   . .       .
+              acetylsalicylic acid:placebo 1 1.00 1.03   1.03      .   . .       .
+          acetylsalicylic acid:sumatriptan 0    0 0.77      .   0.77   . .       .
+           diclofenac potassium:eletriptan 0    0 1.01      .   1.01   . .       .
+           diclofenac potassium:lasmiditan 0    0 0.94      .   0.94   . .       .
+          diclofenac potassium:naratriptan 0    0 1.27      .   1.27   . .       .
+              diclofenac potassium:placebo 1 1.00 1.10   1.10      .   . .       .
+          diclofenac potassium:sumatriptan 0    0 0.82      .   0.82   . .       .
+                     eletriptan:lasmiditan 0    0 0.93      .   0.93   . .       .
+                    eletriptan:naratriptan 0    0 1.25      .   1.25   . .       .
+                        eletriptan:placebo 1 1.00 1.09   1.09      .   . .       .
+                    eletriptan:sumatriptan 0    0 0.81      .   0.81   . .       .
+                    lasmiditan:naratriptan 0    0 1.35      .   1.35   . .       .
+                        lasmiditan:placebo 2 1.00 1.17   1.17      .   . .       .
+                    lasmiditan:sumatriptan 0    0 0.88      .   0.88   . .       .
+                       naratriptan:placebo 1 1.00 0.87   0.87      .   . .       .
+                   naratriptan:sumatriptan 0    0 0.65      .   0.65   . .       .
+                       sumatriptan:placebo 2 1.00 1.34   1.34      .   . .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: NaN (0 out of 0 comparisons).
+
+File created on 2023-05-27.

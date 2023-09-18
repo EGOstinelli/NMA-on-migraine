@@ -1,0 +1,96 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                   comparison k prop  nma direct indir.  RoR     z p-value
+       almotriptan:lasmiditan 0    0 0.72      .   0.72    .     .       .
+  almotriptan:naproxen sodium 0    0 0.77      .   0.77    .     .       .
+      almotriptan:naratriptan 0    0 0.50      .   0.50    .     .       .
+        almotriptan:phenazone 0    0 1.11      .   1.11    .     .       .
+          almotriptan:placebo 1 0.88 0.90   0.81   1.97 0.41 -1.10  0.2701
+      almotriptan:rizatriptan 0    0 0.96      .   0.96    .     .       .
+      almotriptan:sumatriptan 0    0 0.86      .   0.86    .     .       .
+     almotriptan:zolmitriptan 1 0.23 1.01   2.00   0.82 2.44  1.10  0.2701
+   lasmiditan:naproxen sodium 0    0 1.06      .   1.06    .     .       .
+       lasmiditan:naratriptan 0    0 0.69      .   0.69    .     .       .
+         lasmiditan:phenazone 0    0 1.54      .   1.54    .     .       .
+           lasmiditan:placebo 5 1.00 1.24   1.24      .    .     .       .
+       lasmiditan:rizatriptan 0    0 1.33      .   1.33    .     .       .
+       lasmiditan:sumatriptan 0    0 1.19      .   1.19    .     .       .
+      lasmiditan:zolmitriptan 0    0 1.39      .   1.39    .     .       .
+  naproxen sodium:naratriptan 0    0 0.65      .   0.65    .     .       .
+    naproxen sodium:phenazone 0    0 1.45      .   1.45    .     .       .
+      naproxen sodium:placebo 1 0.79 1.17   1.09   1.56 0.70 -0.82  0.4095
+  naproxen sodium:rizatriptan 0    0 1.25      .   1.25    .     .       .
+  naproxen sodium:sumatriptan 1 0.76 1.12   1.22   0.86 1.41  0.82  0.4095
+ naproxen sodium:zolmitriptan 0    0 1.31      .   1.31    .     .       .
+        naratriptan:phenazone 0    0 2.21      .   2.21    .     .       .
+          naratriptan:placebo 2 0.89 1.79   1.52   6.33 0.24 -0.56  0.5780
+      naratriptan:rizatriptan 0    0 1.91      .   1.91    .     .       .
+      naratriptan:sumatriptan 1 0.28 1.71   2.89   1.40 2.06  0.39  0.6930
+     naratriptan:zolmitriptan 0    0 2.01      .   2.01    .     .       .
+            phenazone:placebo 1 1.00 0.81   0.81      .    .     .       .
+        phenazone:rizatriptan 0    0 0.86      .   0.86    .     .       .
+        phenazone:sumatriptan 0    0 0.77      .   0.77    .     .       .
+       phenazone:zolmitriptan 0    0 0.91      .   0.91    .     .       .
+          rizatriptan:placebo 2 0.51 0.94   0.97   0.90 1.08  0.24  0.8120
+          sumatriptan:placebo 8 0.95 1.05   1.07   0.67 1.59  1.27  0.2045
+         zolmitriptan:placebo 1 0.89 0.89   0.98   0.40 2.44  1.10  0.2701
+      rizatriptan:sumatriptan 1 0.68 0.90   0.95   0.79 1.19  0.53  0.5935
+     rizatriptan:zolmitriptan 0    0 1.05      .   1.05    .     .       .
+     sumatriptan:zolmitriptan 0    0 1.17      .   1.17    .     .       .
+
+Random effects model: 
+
+                   comparison k prop  nma direct indir.  RoR     z p-value
+       almotriptan:lasmiditan 0    0 0.67      .   0.67    .     .       .
+  almotriptan:naproxen sodium 0    0 0.79      .   0.79    .     .       .
+      almotriptan:naratriptan 0    0 0.51      .   0.51    .     .       .
+        almotriptan:phenazone 0    0 1.16      .   1.16    .     .       .
+          almotriptan:placebo 1 0.83 0.94   0.81   1.97 0.41 -0.96  0.3349
+      almotriptan:rizatriptan 0    0 0.97      .   0.97    .     .       .
+      almotriptan:sumatriptan 0    0 0.86      .   0.86    .     .       .
+     almotriptan:zolmitriptan 1 0.33 1.11   2.00   0.82 2.44  0.96  0.3349
+   lasmiditan:naproxen sodium 0    0 1.17      .   1.17    .     .       .
+       lasmiditan:naratriptan 0    0 0.76      .   0.76    .     .       .
+         lasmiditan:phenazone 0    0 1.73      .   1.73    .     .       .
+           lasmiditan:placebo 5 1.00 1.40   1.40      .    .     .       .
+       lasmiditan:rizatriptan 0    0 1.44      .   1.44    .     .       .
+       lasmiditan:sumatriptan 0    0 1.28      .   1.28    .     .       .
+      lasmiditan:zolmitriptan 0    0 1.64      .   1.64    .     .       .
+  naproxen sodium:naratriptan 0    0 0.65      .   0.65    .     .       .
+    naproxen sodium:phenazone 0    0 1.48      .   1.48    .     .       .
+      naproxen sodium:placebo 1 0.79 1.20   1.09   1.73 0.63 -0.65  0.5177
+  naproxen sodium:rizatriptan 0    0 1.24      .   1.24    .     .       .
+  naproxen sodium:sumatriptan 1 0.78 1.10   1.22   0.77 1.58  0.65  0.5177
+ naproxen sodium:zolmitriptan 0    0 1.41      .   1.41    .     .       .
+        naratriptan:phenazone 0    0 2.26      .   2.26    .     .       .
+          naratriptan:placebo 2 0.89 1.83   1.54   6.96 0.22 -0.57  0.5661
+      naratriptan:rizatriptan 0    0 1.89      .   1.89    .     .       .
+      naratriptan:sumatriptan 1 0.28 1.68   2.89   1.36 2.13  0.41  0.6849
+     naratriptan:zolmitriptan 0    0 2.15      .   2.15    .     .       .
+            phenazone:placebo 1 1.00 0.81   0.81      .    .     .       .
+        phenazone:rizatriptan 0    0 0.84      .   0.84    .     .       .
+        phenazone:sumatriptan 0    0 0.74      .   0.74    .     .       .
+       phenazone:zolmitriptan 0    0 0.95      .   0.95    .     .       .
+          rizatriptan:placebo 2 0.68 0.97   1.04   0.83 1.26  0.45  0.6552
+          sumatriptan:placebo 8 0.95 1.09   1.12   0.58 1.93  1.05  0.2947
+         zolmitriptan:placebo 1 0.84 0.85   0.98   0.40 2.44  0.96  0.3349
+      rizatriptan:sumatriptan 1 0.59 0.89   0.95   0.82 1.16  0.30  0.7651
+     rizatriptan:zolmitriptan 0    0 1.14      .   1.14    .     .       .
+     sumatriptan:zolmitriptan 0    0 1.28      .   1.28    .     .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 10 comparisons).
+
+File created on 2023-05-27.

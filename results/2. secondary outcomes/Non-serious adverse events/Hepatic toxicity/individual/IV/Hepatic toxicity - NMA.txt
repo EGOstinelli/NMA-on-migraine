@@ -1,0 +1,153 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                       treat1       treat2      TE   seTE seTE.adj.f seTE.adj.r narms multiarm
+0462-039 1996         placebo  rizatriptan  0.4592 0.2695     0.2695     0.2754     2         
+Ashina 2021        lasmiditan      placebo  0.3431 0.1974     0.1974     0.2054     2         
+Croop 2019            placebo   rimegepant -0.2102 0.2152     0.2152     0.2226     2         
+Dodick 2019           placebo   ubrogepant -0.0544 0.1209     0.1209     0.1335     2         
+Färkkila 2012      lasmiditan      placebo  0.4277 0.2911     0.2911     0.2966     2         
+Geraud 2000           placebo  sumatriptan  0.3001 0.2894     0.3949     0.4011     3        *
+Geraud 2000           placebo zolmitriptan  0.3029 0.2897     0.3981     0.4040     3        *
+Geraud 2000       sumatriptan zolmitriptan  0.0028 0.1442     0.1493     0.1610     3        *
+Kuca 2018          lasmiditan      placebo -0.0136 0.1199     0.1199     0.1326     2         
+Lipton 2019a        celecoxib      placebo -0.1198 0.2828     0.2828     0.2885     2         
+Lipton 2019b          placebo   ubrogepant -0.3234 0.1445     0.1445     0.1552     2         
+Lipton 2019c          placebo   rimegepant -0.0499 0.1892     0.1892     0.1975     2         
+Lipton 2021         celecoxib      placebo -0.1909 0.2744     0.2744     0.2802     2         
+Marcus 2014           placebo   rimegepant  0.3579 0.4805     0.5551     0.5598     3        *
+Marcus 2014           placebo  sumatriptan  0.1149 0.4166     0.4573     0.4621     3        *
+Marcus 2014        rimegepant  sumatriptan -0.2429 0.5473     0.8436     0.8436     3        *
+Sakai 2021         lasmiditan      placebo  0.1238 0.1962     0.1962     0.2042     2         
+Tfelt-Hansen 1998     placebo  rizatriptan -0.2974 0.2685     0.3437     0.3518     3        *
+Tfelt-Hansen 1998     placebo  sumatriptan -0.4197 0.2753     0.3889     0.3932     3        *
+Tfelt-Hansen 1998 rizatriptan  sumatriptan -0.1224 0.1734     0.1840     0.1944     3        *
+Toledano 2021     paracetamol      placebo  1.8563 0.8874     0.8874     0.8892     2         
+Voss 2016             placebo   ubrogepant -0.3755 0.2576     0.2576     0.2638     2         
+Yu 2023               placebo   rimegepant -0.1666 0.2196     0.2196     0.2267     2         
+
+Number of treatment arms (by study):
+                  narms
+0462-039 1996         2
+Ashina 2021           2
+Croop 2019            2
+Dodick 2019           2
+Färkkila 2012         2
+Geraud 2000           3
+Kuca 2018             2
+Lipton 2019a          2
+Lipton 2019b          2
+Lipton 2019c          2
+Lipton 2021           2
+Marcus 2014           3
+Sakai 2021            2
+Tfelt-Hansen 1998     3
+Toledano 2021         2
+Voss 2016             2
+Yu 2023               2
+
+Results (common effects model):
+
+                       treat1       treat2     OR            95%-CI    Q leverage
+0462-039 1996         placebo  rizatriptan 1.1806 [0.8504;  1.6391] 1.18     0.39
+Ashina 2021        lasmiditan      placebo 1.1288 [0.9524;  1.3379] 1.26     0.19
+Croop 2019            placebo   rimegepant 0.9008 [0.7182;  1.1298] 0.24     0.29
+Dodick 2019           placebo   ubrogepant 0.8276 [0.6975;  0.9819] 1.24     0.52
+Färkkila 2012      lasmiditan      placebo 1.1288 [0.9524;  1.3379] 1.11     0.09
+Geraud 2000           placebo  sumatriptan 1.0406 [0.7553;  1.4337] 0.43        .
+Geraud 2000           placebo zolmitriptan 1.0775 [0.7278;  1.5954] 0.33        .
+Geraud 2000       sumatriptan zolmitriptan 1.0355 [0.7852;  1.3657] 0.05        .
+Kuca 2018          lasmiditan      placebo 1.1288 [0.9524;  1.3379] 1.26     0.52
+Lipton 2019a        celecoxib      placebo 0.8552 [0.5814;  1.2581] 0.02     0.48
+Lipton 2019b          placebo   ubrogepant 0.8276 [0.6975;  0.9819] 0.86     0.36
+Lipton 2019c          placebo   rimegepant 0.9008 [0.7182;  1.1298] 0.08     0.37
+Lipton 2021         celecoxib      placebo 0.8552 [0.5814;  1.2581] 0.02     0.52
+Marcus 2014           placebo   rimegepant 0.9008 [0.7182;  1.1298] 0.69        .
+Marcus 2014           placebo  sumatriptan 1.0406 [0.7553;  1.4337] 0.03        .
+Marcus 2014        rimegepant  sumatriptan 1.1552 [0.7841;  1.7019] 0.21        .
+Sakai 2021         lasmiditan      placebo 1.1288 [0.9524;  1.3379] 0.00     0.20
+Tfelt-Hansen 1998     placebo  rizatriptan 1.1806 [0.8504;  1.6391] 1.82        .
+Tfelt-Hansen 1998     placebo  sumatriptan 1.0406 [0.7553;  1.4337] 1.40        .
+Tfelt-Hansen 1998 rizatriptan  sumatriptan 0.8814 [0.6496;  1.1960] 0.00        .
+Toledano 2021     paracetamol      placebo 6.4000 [1.1241; 36.4373] 0.00     1.00
+Voss 2016             placebo   ubrogepant 0.8276 [0.6975;  0.9819] 0.52     0.11
+Yu 2023               placebo   rimegepant 0.9008 [0.7182;  1.1298] 0.08     0.28
+
+Results (random effects model):
+
+                       treat1       treat2     OR            95%-CI
+0462-039 1996         placebo  rizatriptan 1.1801 [0.8426;  1.6527]
+Ashina 2021        lasmiditan      placebo 1.1400 [0.9503;  1.3676]
+Croop 2019            placebo   rimegepant 0.9018 [0.7132;  1.1402]
+Dodick 2019           placebo   ubrogepant 0.8226 [0.6835;  0.9900]
+Färkkila 2012      lasmiditan      placebo 1.1400 [0.9503;  1.3676]
+Geraud 2000           placebo  sumatriptan 1.0390 [0.7488;  1.4416]
+Geraud 2000           placebo zolmitriptan 1.0800 [0.7188;  1.6229]
+Geraud 2000       sumatriptan zolmitriptan 1.0395 [0.7727;  1.3984]
+Kuca 2018          lasmiditan      placebo 1.1400 [0.9503;  1.3676]
+Lipton 2019a        celecoxib      placebo 0.8552 [0.5768;  1.2681]
+Lipton 2019b          placebo   ubrogepant 0.8226 [0.6835;  0.9900]
+Lipton 2019c          placebo   rimegepant 0.9018 [0.7132;  1.1402]
+Lipton 2021         celecoxib      placebo 0.8552 [0.5768;  1.2681]
+Marcus 2014           placebo   rimegepant 0.9018 [0.7132;  1.1402]
+Marcus 2014           placebo  sumatriptan 1.0390 [0.7488;  1.4416]
+Marcus 2014        rimegepant  sumatriptan 1.1522 [0.7743;  1.7145]
+Sakai 2021         lasmiditan      placebo 1.1400 [0.9503;  1.3676]
+Tfelt-Hansen 1998     placebo  rizatriptan 1.1801 [0.8426;  1.6527]
+Tfelt-Hansen 1998     placebo  sumatriptan 1.0390 [0.7488;  1.4416]
+Tfelt-Hansen 1998 rizatriptan  sumatriptan 0.8805 [0.6399;  1.2114]
+Toledano 2021     paracetamol      placebo 6.4000 [1.1201; 36.5666]
+Voss 2016             placebo   ubrogepant 0.8226 [0.6835;  0.9900]
+Yu 2023               placebo   rimegepant 0.9018 [0.7132;  1.1402]
+
+Number of studies: k = 17
+Number of pairwise comparisons: m = 23
+Number of observations: o = 17081
+Number of treatments: n = 9
+Number of designs: d = 9
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                 OR            95%-CI     z p-value
+celecoxib    0.8552 [0.5814;  1.2581] -0.79  0.4271
+lasmiditan   1.1288 [0.9524;  1.3379]  1.40  0.1623
+paracetamol  6.4000 [1.1241; 36.4373]  2.09  0.0365
+placebo           .                 .     .       .
+rimegepant   1.1101 [0.8851;  1.3923]  0.90  0.3660
+rizatriptan  0.8470 [0.6101;  1.1759] -0.99  0.3213
+sumatriptan  0.9610 [0.6975;  1.3241] -0.24  0.8078
+ubrogepant   1.2083 [1.0184;  1.4337]  2.17  0.0301
+zolmitriptan 0.9280 [0.6268;  1.3740] -0.37  0.7091
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                 OR            95%-CI     z p-value
+celecoxib    0.8552 [0.5768;  1.2681] -0.78  0.4365
+lasmiditan   1.1400 [0.9503;  1.3676]  1.41  0.1583
+paracetamol  6.4000 [1.1201; 36.5666]  2.09  0.0368
+placebo           .                 .     .       .
+rimegepant   1.1089 [0.8771;  1.4021]  0.86  0.3876
+rizatriptan  0.8474 [0.6051;  1.1868] -0.96  0.3354
+sumatriptan  0.9625 [0.6937;  1.3354] -0.23  0.8189
+ubrogepant   1.2157 [1.0101;  1.4630]  2.07  0.0388
+zolmitriptan 0.9259 [0.6162;  1.3913] -0.37  0.7110
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0032; tau = 0.0567; I^2 = 6.5% [0.0%; 59.4%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           12.84   12  0.3807
+Within designs   6.64    8  0.5756
+Between designs  6.20    4  0.1848
+
+A total of 9 treatments are included in the network.
+A total of 17 studies are included in this analysis.
+A total of 17081 participants are included in this analysis, with 2495 events (14.61%).
+Estimated heterogeneity tau-squared: 0.
+Global test for inconsistency, p-value 0.18484 (Q=6, d.o.f. 4)
+
+The following studies were included in this analysis: 0462-039 1996 Ashina 2021 Croop 2019 Dodick 2019 Färkkila 2012 Geraud 2000 Kuca 2018 Lipton 2019a Lipton 2019b Lipton 2019c Lipton 2021 Marcus 2014 Sakai 2021 Tfelt-Hansen 1998 Toledano 2021 Voss 2016 Yu 2023.
+
+File created on 2023-05-27.

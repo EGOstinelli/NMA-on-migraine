@@ -1,0 +1,180 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                                comparison  k prop  nma direct indir.  RoR     z p-value
+          acetylsalicylic acid:almotriptan  0    0 0.97      .   0.97    .     .       .
+ acetylsalicylic acid:diclofenac potassium  0    0 0.89      .   0.89    .     .       .
+           acetylsalicylic acid:eletriptan  0    0 0.89      .   0.89    .     .       .
+           acetylsalicylic acid:lasmiditan  0    0 0.91      .   0.91    .     .       .
+      acetylsalicylic acid:naproxen sodium  0    0 0.83      .   0.83    .     .       .
+          acetylsalicylic acid:naratriptan  0    0 1.07      .   1.07    .     .       .
+            acetylsalicylic acid:phenazone  0    0 1.03      .   1.03    .     .       .
+              acetylsalicylic acid:placebo  2 1.00 0.96   0.96      .    .     .       .
+           acetylsalicylic acid:rimegepant  0    0 1.53      .   1.53    .     .       .
+          acetylsalicylic acid:rizatriptan  0    0 1.13      .   1.13    .     .       .
+          acetylsalicylic acid:sumatriptan  0    0 0.92      .   0.92    .     .       .
+           acetylsalicylic acid:ubrogepant  0    0 1.16      .   1.16    .     .       .
+          almotriptan:diclofenac potassium  0    0 0.92      .   0.92    .     .       .
+                    almotriptan:eletriptan  0    0 0.91      .   0.91    .     .       .
+                    almotriptan:lasmiditan  0    0 0.94      .   0.94    .     .       .
+               almotriptan:naproxen sodium  0    0 0.85      .   0.85    .     .       .
+                   almotriptan:naratriptan  0    0 1.10      .   1.10    .     .       .
+                     almotriptan:phenazone  0    0 1.06      .   1.06    .     .       .
+                       almotriptan:placebo  1 0.40 0.99   0.82   1.11 0.74 -0.83  0.4053
+                    almotriptan:rimegepant  0    0 1.57      .   1.57    .     .       .
+                   almotriptan:rizatriptan  0    0 1.16      .   1.16    .     .       .
+                   almotriptan:sumatriptan  1 0.64 0.95   1.06   0.78 1.35  0.83  0.4053
+                    almotriptan:ubrogepant  0    0 1.19      .   1.19    .     .       .
+           diclofenac potassium:eletriptan  0    0 1.00      .   1.00    .     .       .
+           diclofenac potassium:lasmiditan  0    0 1.02      .   1.02    .     .       .
+      diclofenac potassium:naproxen sodium  0    0 0.93      .   0.93    .     .       .
+          diclofenac potassium:naratriptan  0    0 1.20      .   1.20    .     .       .
+            diclofenac potassium:phenazone  0    0 1.16      .   1.16    .     .       .
+              diclofenac potassium:placebo  1 1.00 1.08   1.08      .    .     .       .
+           diclofenac potassium:rimegepant  0    0 1.72      .   1.72    .     .       .
+          diclofenac potassium:rizatriptan  0    0 1.26      .   1.26    .     .       .
+          diclofenac potassium:sumatriptan  0    0 1.04      .   1.04    .     .       .
+           diclofenac potassium:ubrogepant  0    0 1.30      .   1.30    .     .       .
+                     eletriptan:lasmiditan  0    0 1.03      .   1.03    .     .       .
+                eletriptan:naproxen sodium  0    0 0.93      .   0.93    .     .       .
+                    eletriptan:naratriptan  0    0 1.21      .   1.21    .     .       .
+                      eletriptan:phenazone  0    0 1.16      .   1.16    .     .       .
+                        eletriptan:placebo  1 1.00 1.08   1.08      .    .     .       .
+                     eletriptan:rimegepant  0    0 1.73      .   1.73    .     .       .
+                    eletriptan:rizatriptan  0    0 1.27      .   1.27    .     .       .
+                    eletriptan:sumatriptan  0    0 1.04      .   1.04    .     .       .
+                     eletriptan:ubrogepant  0    0 1.30      .   1.30    .     .       .
+                lasmiditan:naproxen sodium  0    0 0.91      .   0.91    .     .       .
+                    lasmiditan:naratriptan  0    0 1.18      .   1.18    .     .       .
+                      lasmiditan:phenazone  0    0 1.13      .   1.13    .     .       .
+                        lasmiditan:placebo  4 1.00 1.05   1.05      .    .     .       .
+                     lasmiditan:rimegepant  0    0 1.68      .   1.68    .     .       .
+                    lasmiditan:rizatriptan  0    0 1.23      .   1.23    .     .       .
+                    lasmiditan:sumatriptan  0    0 1.01      .   1.01    .     .       .
+                     lasmiditan:ubrogepant  0    0 1.27      .   1.27    .     .       .
+               naproxen sodium:naratriptan  0    0 1.30      .   1.30    .     .       .
+                 naproxen sodium:phenazone  0    0 1.24      .   1.24    .     .       .
+                   naproxen sodium:placebo  2 0.78 1.16   1.07   1.52 0.70 -0.86  0.3923
+                naproxen sodium:rimegepant  0    0 1.85      .   1.85    .     .       .
+               naproxen sodium:rizatriptan  0    0 1.36      .   1.36    .     .       .
+               naproxen sodium:sumatriptan  2 0.75 1.11   1.21   0.87 1.39  0.84  0.4004
+                naproxen sodium:ubrogepant  0    0 1.40      .   1.40    .     .       .
+                     naratriptan:phenazone  0    0 0.96      .   0.96    .     .       .
+                       naratriptan:placebo  2 1.00 0.89   0.89      .    .     .       .
+                    naratriptan:rimegepant  0    0 1.43      .   1.43    .     .       .
+                   naratriptan:rizatriptan  0    0 1.05      .   1.05    .     .       .
+                   naratriptan:sumatriptan  0    0 0.86      .   0.86    .     .       .
+                    naratriptan:ubrogepant  0    0 1.08      .   1.08    .     .       .
+                         phenazone:placebo  1 1.00 0.93   0.93      .    .     .       .
+                      phenazone:rimegepant  0    0 1.49      .   1.49    .     .       .
+                     phenazone:rizatriptan  0    0 1.09      .   1.09    .     .       .
+                     phenazone:sumatriptan  0    0 0.90      .   0.90    .     .       .
+                      phenazone:ubrogepant  0    0 1.12      .   1.12    .     .       .
+                        rimegepant:placebo  1 0.94 0.63   0.61   1.01 0.60 -0.24  0.8074
+                       rizatriptan:placebo  4 0.66 0.85   0.89   0.79 1.12  0.44  0.6599
+                       sumatriptan:placebo 13 0.92 1.04   1.07   0.76 1.42  1.38  0.1675
+                        ubrogepant:placebo  1 1.00 0.83   0.83      .    .     .       .
+                    rimegepant:rizatriptan  0    0 0.73      .   0.73    .     .       .
+                    rimegepant:sumatriptan  1 0.76 0.60   0.65   0.49 1.33  0.24  0.8074
+                     rimegepant:ubrogepant  0    0 0.76      .   0.76    .     .       .
+                   rizatriptan:sumatriptan  2 0.62 0.82   0.82   0.82 0.99 -0.03  0.9773
+                    rizatriptan:ubrogepant  0    0 1.03      .   1.03    .     .       .
+                    sumatriptan:ubrogepant  0    0 1.25      .   1.25    .     .       .
+
+Random effects model: 
+
+                                comparison  k prop  nma direct indir.  RoR     z p-value
+          acetylsalicylic acid:almotriptan  0    0 0.97      .   0.97    .     .       .
+ acetylsalicylic acid:diclofenac potassium  0    0 0.89      .   0.89    .     .       .
+           acetylsalicylic acid:eletriptan  0    0 0.89      .   0.89    .     .       .
+           acetylsalicylic acid:lasmiditan  0    0 0.91      .   0.91    .     .       .
+      acetylsalicylic acid:naproxen sodium  0    0 0.83      .   0.83    .     .       .
+          acetylsalicylic acid:naratriptan  0    0 1.07      .   1.07    .     .       .
+            acetylsalicylic acid:phenazone  0    0 1.03      .   1.03    .     .       .
+              acetylsalicylic acid:placebo  2 1.00 0.96   0.96      .    .     .       .
+           acetylsalicylic acid:rimegepant  0    0 1.53      .   1.53    .     .       .
+          acetylsalicylic acid:rizatriptan  0    0 1.13      .   1.13    .     .       .
+          acetylsalicylic acid:sumatriptan  0    0 0.92      .   0.92    .     .       .
+           acetylsalicylic acid:ubrogepant  0    0 1.16      .   1.16    .     .       .
+          almotriptan:diclofenac potassium  0    0 0.92      .   0.92    .     .       .
+                    almotriptan:eletriptan  0    0 0.91      .   0.91    .     .       .
+                    almotriptan:lasmiditan  0    0 0.94      .   0.94    .     .       .
+               almotriptan:naproxen sodium  0    0 0.85      .   0.85    .     .       .
+                   almotriptan:naratriptan  0    0 1.10      .   1.10    .     .       .
+                     almotriptan:phenazone  0    0 1.06      .   1.06    .     .       .
+                       almotriptan:placebo  1 0.40 0.99   0.82   1.11 0.74 -0.83  0.4053
+                    almotriptan:rimegepant  0    0 1.57      .   1.57    .     .       .
+                   almotriptan:rizatriptan  0    0 1.16      .   1.16    .     .       .
+                   almotriptan:sumatriptan  1 0.64 0.95   1.06   0.78 1.35  0.83  0.4053
+                    almotriptan:ubrogepant  0    0 1.19      .   1.19    .     .       .
+           diclofenac potassium:eletriptan  0    0 1.00      .   1.00    .     .       .
+           diclofenac potassium:lasmiditan  0    0 1.02      .   1.02    .     .       .
+      diclofenac potassium:naproxen sodium  0    0 0.93      .   0.93    .     .       .
+          diclofenac potassium:naratriptan  0    0 1.20      .   1.20    .     .       .
+            diclofenac potassium:phenazone  0    0 1.16      .   1.16    .     .       .
+              diclofenac potassium:placebo  1 1.00 1.08   1.08      .    .     .       .
+           diclofenac potassium:rimegepant  0    0 1.72      .   1.72    .     .       .
+          diclofenac potassium:rizatriptan  0    0 1.26      .   1.26    .     .       .
+          diclofenac potassium:sumatriptan  0    0 1.04      .   1.04    .     .       .
+           diclofenac potassium:ubrogepant  0    0 1.30      .   1.30    .     .       .
+                     eletriptan:lasmiditan  0    0 1.03      .   1.03    .     .       .
+                eletriptan:naproxen sodium  0    0 0.93      .   0.93    .     .       .
+                    eletriptan:naratriptan  0    0 1.21      .   1.21    .     .       .
+                      eletriptan:phenazone  0    0 1.16      .   1.16    .     .       .
+                        eletriptan:placebo  1 1.00 1.08   1.08      .    .     .       .
+                     eletriptan:rimegepant  0    0 1.73      .   1.73    .     .       .
+                    eletriptan:rizatriptan  0    0 1.27      .   1.27    .     .       .
+                    eletriptan:sumatriptan  0    0 1.04      .   1.04    .     .       .
+                     eletriptan:ubrogepant  0    0 1.30      .   1.30    .     .       .
+                lasmiditan:naproxen sodium  0    0 0.91      .   0.91    .     .       .
+                    lasmiditan:naratriptan  0    0 1.18      .   1.18    .     .       .
+                      lasmiditan:phenazone  0    0 1.13      .   1.13    .     .       .
+                        lasmiditan:placebo  4 1.00 1.05   1.05      .    .     .       .
+                     lasmiditan:rimegepant  0    0 1.68      .   1.68    .     .       .
+                    lasmiditan:rizatriptan  0    0 1.23      .   1.23    .     .       .
+                    lasmiditan:sumatriptan  0    0 1.01      .   1.01    .     .       .
+                     lasmiditan:ubrogepant  0    0 1.27      .   1.27    .     .       .
+               naproxen sodium:naratriptan  0    0 1.30      .   1.30    .     .       .
+                 naproxen sodium:phenazone  0    0 1.24      .   1.24    .     .       .
+                   naproxen sodium:placebo  2 0.78 1.16   1.07   1.52 0.70 -0.86  0.3923
+                naproxen sodium:rimegepant  0    0 1.85      .   1.85    .     .       .
+               naproxen sodium:rizatriptan  0    0 1.36      .   1.36    .     .       .
+               naproxen sodium:sumatriptan  2 0.75 1.11   1.21   0.87 1.39  0.84  0.4004
+                naproxen sodium:ubrogepant  0    0 1.40      .   1.40    .     .       .
+                     naratriptan:phenazone  0    0 0.96      .   0.96    .     .       .
+                       naratriptan:placebo  2 1.00 0.89   0.89      .    .     .       .
+                    naratriptan:rimegepant  0    0 1.43      .   1.43    .     .       .
+                   naratriptan:rizatriptan  0    0 1.05      .   1.05    .     .       .
+                   naratriptan:sumatriptan  0    0 0.86      .   0.86    .     .       .
+                    naratriptan:ubrogepant  0    0 1.08      .   1.08    .     .       .
+                         phenazone:placebo  1 1.00 0.93   0.93      .    .     .       .
+                      phenazone:rimegepant  0    0 1.49      .   1.49    .     .       .
+                     phenazone:rizatriptan  0    0 1.09      .   1.09    .     .       .
+                     phenazone:sumatriptan  0    0 0.90      .   0.90    .     .       .
+                      phenazone:ubrogepant  0    0 1.12      .   1.12    .     .       .
+                        rimegepant:placebo  1 0.94 0.63   0.61   1.01 0.60 -0.24  0.8074
+                       rizatriptan:placebo  4 0.66 0.85   0.89   0.79 1.12  0.44  0.6599
+                       sumatriptan:placebo 13 0.92 1.04   1.07   0.76 1.42  1.38  0.1675
+                        ubrogepant:placebo  1 1.00 0.83   0.83      .    .     .       .
+                    rimegepant:rizatriptan  0    0 0.73      .   0.73    .     .       .
+                    rimegepant:sumatriptan  1 0.76 0.60   0.65   0.49 1.33  0.24  0.8074
+                     rimegepant:ubrogepant  0    0 0.76      .   0.76    .     .       .
+                   rizatriptan:sumatriptan  2 0.62 0.82   0.82   0.82 0.99 -0.03  0.9773
+                    rizatriptan:ubrogepant  0    0 1.03      .   1.03    .     .       .
+                    sumatriptan:ubrogepant  0    0 1.25      .   1.25    .     .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 9 comparisons).
+
+File created on 2023-05-26.

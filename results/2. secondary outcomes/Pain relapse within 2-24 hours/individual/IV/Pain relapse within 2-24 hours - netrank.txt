@@ -1,0 +1,11 @@
+                     P-score (common) P-score (random)
+diclofenac potassium           0.9396           0.9396
+almotriptan                    0.6972           0.6972
+eletriptan                     0.6679           0.6679
+placebo                        0.6297           0.6297
+acetylsalicylic acid           0.6142           0.6142
+sumatriptan                    0.2294           0.2294
+lasmiditan                     0.1792           0.1792
+zolmitriptan                   0.0428           0.0428
+
+File created on 2023-05-24.

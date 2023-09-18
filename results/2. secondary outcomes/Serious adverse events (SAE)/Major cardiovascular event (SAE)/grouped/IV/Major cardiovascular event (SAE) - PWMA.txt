@@ -1,0 +1,5 @@
+          comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st p.val
+1   ditan vs  placebo                 0   NA       NA       NA     NA   NA         NA         NA   NA    NA
+2 triptan vs  placebo                 1 0.15     0.01     3.59     NA   NA         NA         NA    0    NA
+
+File created on 2023-05-26.

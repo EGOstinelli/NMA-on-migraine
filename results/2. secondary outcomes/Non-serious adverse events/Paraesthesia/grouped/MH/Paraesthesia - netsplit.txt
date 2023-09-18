@@ -1,0 +1,29 @@
+Separate indirect from direct design evidence (SIDDE)
+
+Common effects model: 
+
+      comparison  k  nma direct indir.  RoR     z p-value
+    ditan:gepant  0 1.31      .   1.31    .     .       .
+     ditan:NSAID  0 1.35      .   1.35    .     .       .
+   ditan:placebo  5 1.46   1.46      .    .     .       .
+   ditan:triptan  0 1.25      .   1.25    .     .       .
+    gepant:NSAID  0 1.03      .   1.03    .     .       .
+  gepant:placebo  2 1.11   1.10      .    .     .       .
+  gepant:triptan  1 0.95   0.52   1.14 0.45 -1.28  0.2001
+   NSAID:placebo  6 1.08   1.11   0.73 1.52  0.34  0.7315
+   NSAID:triptan  4 0.93   0.89   0.92 0.98 -0.13  0.8993
+ triptan:placebo 50 1.17   1.17   1.67 0.70 -0.29  0.7687
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0. (0 out of 4 comparisons).
+
+File created on 2023-07-23.

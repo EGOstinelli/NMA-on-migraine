@@ -1,0 +1,16 @@
+                     P-score (common) P-score (random)
+rimegepant                     0.7864           0.7864
+rizatriptan                    0.7132           0.7132
+naratriptan                    0.5803           0.5803
+ubrogepant                     0.5786           0.5786
+phenazone                      0.5354           0.5354
+acetylsalicylic acid           0.5181           0.5181
+almotriptan                    0.4917           0.4917
+placebo                        0.4905           0.4905
+eletriptan                     0.4029           0.4029
+sumatriptan                    0.3956           0.3956
+lasmiditan                     0.3736           0.3736
+diclofenac potassium           0.3709           0.3709
+naproxen sodium                0.2628           0.2628
+
+File created on 2023-05-26.

@@ -1,0 +1,6 @@
+        P-score
+placebo  0.6046
+ditan    0.4708
+triptan  0.4246
+
+File created on 2023-05-26.

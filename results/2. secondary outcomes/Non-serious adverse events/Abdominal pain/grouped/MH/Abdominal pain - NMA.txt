@@ -1,0 +1,29 @@
+Number of studies: k = 30
+Number of pairwise comparisons: m = 32
+Number of observations: o = 21598
+Number of treatments: n = 5
+Number of designs: d = 5
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI     z p-value
+antipyretic 1.0426 [0.5569; 1.9517]  0.13  0.8963
+ditan       1.0487 [0.9054; 1.2147]  0.63  0.5255
+NSAID       1.0736 [0.8971; 1.2849]  0.78  0.4382
+placebo          .                .     .       .
+triptan     0.9865 [0.8699; 1.1188] -0.21  0.8327
+
+Test of inconsistency (between designs):
+    Q d.f. p-value
+ 0.79    2  0.6732
+
+A total of 5 treatments are included in the network.
+A total of 30 studies are included in this analysis.
+A total of 21598 participants are included in this analysis, with 3056 events (14.15%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value 0.67324 (Q=1, d.o.f. 2)
+
+The following studies were included in this analysis: 0462-039 1996 Brandes 2007a Carpay 2004 Codispoti 2001 Dahlöf 2001 Färkkila 2012 Freitag 2007 Goadsby 2019 Göbel 2004 Goldstein 2006 Kuca 2018 Landy2004 Lange 2000 Lines 2001 Lipton 2005 Lipton 2010 Massiou 2005 Moon 2010 Prior 2010 Sakai 2002 Sakai 2021 Sheftell 2005a Sheftell 2005b SUM20033 2003 Tazaki 1993 Tfelt-Hansen 1998 Toledano 2021 Wentz 2008 Winner 2003a Winner 2003b.
+
+File created on 2023-05-26.

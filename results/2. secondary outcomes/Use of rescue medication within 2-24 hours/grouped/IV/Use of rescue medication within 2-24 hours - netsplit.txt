@@ -1,0 +1,54 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+          comparison  k prop  nma direct indir.  RoR     z p-value
+   antipyretic:ditan  0    0 0.76      .   0.76    .     .       .
+  antipyretic:gepant  0    0 0.78      .   0.78    .     .       .
+   antipyretic:NSAID  0    0 0.71      .   0.71    .     .       .
+ antipyretic:placebo  2 1.00 0.34   0.34      .    .     .       .
+ antipyretic:triptan  0    0 0.87      .   0.87    .     .       .
+        ditan:gepant  0    0 1.03      .   1.03    .     .       .
+         ditan:NSAID  0    0 0.94      .   0.94    .     .       .
+       ditan:placebo  3 1.00 0.45   0.45      .    .     .       .
+       ditan:triptan  0    0 1.15      .   1.15    .     .       .
+        gepant:NSAID  0    0 0.91      .   0.91    .     .       .
+      gepant:placebo  5 1.00 0.44   0.44   0.17 2.64  0.88  0.3805
+      gepant:triptan  1 0.05 1.12   0.75   1.14 0.66 -1.24  0.2152
+       NSAID:placebo 10 0.88 0.48   0.50   0.36 1.40  1.93  0.0536
+       NSAID:triptan  4 0.48 1.23   1.12   1.33 0.84 -1.45  0.1481
+     triptan:placebo 47 0.99 0.39   0.39   0.43 0.91 -0.40  0.6915
+
+Random effects model: 
+
+          comparison  k prop  nma direct indir.  RoR     z p-value
+   antipyretic:ditan  0    0 0.70      .   0.70    .     .       .
+  antipyretic:gepant  0    0 0.77      .   0.77    .     .       .
+   antipyretic:NSAID  0    0 0.68      .   0.68    .     .       .
+ antipyretic:placebo  2 1.00 0.33   0.33      .    .     .       .
+ antipyretic:triptan  0    0 0.83      .   0.83    .     .       .
+        ditan:gepant  0    0 1.10      .   1.10    .     .       .
+         ditan:NSAID  0    0 0.98      .   0.98    .     .       .
+       ditan:placebo  3 1.00 0.47   0.47      .    .     .       .
+       ditan:triptan  0    0 1.19      .   1.19    .     .       .
+        gepant:NSAID  0    0 0.89      .   0.89    .     .       .
+      gepant:placebo  5 0.98 0.43   0.43   0.22 1.99  0.71  0.4783
+      gepant:triptan  1 0.11 1.08   0.75   1.13 0.67 -0.95  0.3433
+       NSAID:placebo 10 0.89 0.48   0.49   0.37 1.33  1.00  0.3153
+       NSAID:triptan  4 0.44 1.21   1.12   1.28 0.87 -0.70  0.4860
+     triptan:placebo 47 0.98 0.40   0.40   0.44 0.90 -0.32  0.7472
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 5 comparisons).
+
+File created on 2023-05-24.

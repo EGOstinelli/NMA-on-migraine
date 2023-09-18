@@ -1,0 +1,11 @@
+                     P-score
+diclofenac potassium  0.9396
+almotriptan           0.6977
+eletriptan            0.6684
+placebo               0.6297
+acetylsalicylic acid  0.6148
+sumatriptan           0.2215
+lasmiditan            0.1842
+zolmitriptan          0.0442
+
+File created on 2023-05-24.

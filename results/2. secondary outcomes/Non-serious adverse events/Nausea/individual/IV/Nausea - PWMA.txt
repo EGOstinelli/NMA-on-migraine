@@ -1,0 +1,33 @@
+                        comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq  Q.st  p.val
+1  acetylsalicylic acid vs  placebo                 2 1.12     0.70     1.78   0.00 0.00         NA         NA  0.54 0.4633
+2           almotriptan vs  placebo                 1 0.90     0.52     1.56     NA   NA         NA         NA  0.00     NA
+3             celecoxib vs  placebo                 2 0.92     0.65     1.31   0.00 0.00         NA         NA  0.40 0.5293
+4  diclofenac potassium vs  placebo                 1 1.27     0.89     1.80     NA   NA         NA         NA  0.00     NA
+5            eletriptan vs  placebo                 8 1.17     0.90     1.52   0.01 0.13          0       0.55  8.02 0.3306
+6          frovatriptan vs  placebo                 2 0.78     0.56     1.10   0.00 0.00         NA         NA  0.10 0.7501
+7             ibuprofen vs  placebo                 4 0.88     0.72     1.06   0.00 0.00          0       0.85  0.30 0.9608
+8            lasmiditan vs  placebo                 5 1.32     1.06     1.63   0.03 0.57          0       0.84  9.26 0.0548
+9       naproxen sodium vs  placebo                 4 1.14     0.89     1.46   0.00 0.00          0       0.85  2.28 0.5169
+10          naratriptan vs  placebo                 4 0.80     0.55     1.16   0.00 0.00          0       0.85  1.70 0.6380
+11        naratriptan vs eletriptan                 1 0.91     0.57     1.46     NA   NA         NA         NA  0.00     NA
+12          paracetamol vs  placebo                 3 0.86     0.18     4.20   1.51 0.69          0       0.91  6.36 0.0417
+13            phenazone vs  placebo                 1 0.93     0.45     1.94     NA   NA         NA         NA  0.00     NA
+14           rimegepant vs  placebo                 4 1.10     0.88     1.38   0.00 0.00          0       0.85  3.01 0.3904
+15          rizatriptan vs  placebo                12 1.17     0.93     1.46   0.02 0.09          0       0.47 12.04 0.3603
+16   rizatriptan vs naproxen sodium                 1 2.22     0.17    28.86     NA   NA         NA         NA  0.00     NA
+17       rizatriptan vs naratriptan                 1 2.16     0.53     8.77     NA   NA         NA         NA  0.00     NA
+18       rizatriptan vs paracetamol                 1 1.23     0.35     4.33     NA   NA         NA         NA  0.00     NA
+19          sumatriptan vs  placebo                26 1.20     1.08     1.33   0.00 0.00          0       0.43 22.65 0.5978
+20       sumatriptan vs almotriptan                 1 1.16     0.79     1.71     NA   NA         NA         NA  0.00     NA
+21        sumatriptan vs eletriptan                 2 1.06     0.69     1.63   0.03 0.33         NA         NA  1.50 0.2205
+22      sumatriptan vs frovatriptan                 1 1.16     0.82     1.65     NA   NA         NA         NA  0.00     NA
+23   sumatriptan vs naproxen sodium                 4 1.11     0.85     1.44   0.00 0.00          0       0.85  1.11 0.7740
+24       sumatriptan vs naratriptan                 1 0.58     0.06     5.66     NA   NA         NA         NA  0.00     NA
+25        sumatriptan vs rimegepant                 1 1.16     0.45     3.03     NA   NA         NA         NA  0.00     NA
+26       sumatriptan vs rizatriptan                 5 1.24     1.02     1.50   0.00 0.00          0       0.79  0.64 0.9590
+27           ubrogepant vs  placebo                 3 1.24     1.02     1.50   0.00 0.00          0       0.90  1.31 0.5183
+28         zolmitriptan vs  placebo                 7 1.23     1.03     1.46   0.00 0.00          0       0.71  3.76 0.7094
+29      zolmitriptan vs almotriptan                 1 0.78     0.35     1.74     NA   NA         NA         NA  0.00     NA
+30      zolmitriptan vs sumatriptan                 1 0.95     0.73     1.23     NA   NA         NA         NA  0.00     NA
+
+File created on 2023-07-23.

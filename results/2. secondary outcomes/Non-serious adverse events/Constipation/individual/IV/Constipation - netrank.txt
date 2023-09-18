@@ -1,0 +1,6 @@
+            P-score (common) P-score (random)
+placebo               0.6033           0.6033
+lasmiditan            0.4719           0.4719
+sumatriptan           0.4248           0.4248
+
+File created on 2023-05-26.

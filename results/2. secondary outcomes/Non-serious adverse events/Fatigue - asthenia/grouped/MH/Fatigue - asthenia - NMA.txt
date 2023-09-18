@@ -1,0 +1,30 @@
+Number of studies: k = 70
+Number of pairwise comparisons: m = 74
+Number of observations: o = 45484
+Number of treatments: n = 6
+Number of designs: d = 7
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI     z  p-value
+antipyretic 0.7480 [0.4191; 1.3351] -0.98   0.3260
+ditan       1.4456 [1.2682; 1.6478]  5.52 < 0.0001
+gepant      1.3692 [0.8406; 2.2303]  1.26   0.2068
+NSAID       1.1142 [0.8981; 1.3824]  0.98   0.3255
+placebo          .                .     .        .
+triptan     1.2109 [1.1198; 1.3094]  4.80 < 0.0001
+
+Test of inconsistency (between designs):
+    Q d.f. p-value
+ 3.76    4  0.4397
+
+A total of 6 treatments are included in the network.
+A total of 70 studies are included in this analysis.
+A total of 45484 participants are included in this analysis, with 6415 events (14.1%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value 0.43969 (Q=4, d.o.f. 4)
+
+The following studies were included in this analysis: 0462-039 1996 Ahrens 1999 Ashina 2021 Barbanti 2012 Bomhof 1999 Brandes 2005 Brandes 2007a Cady 2006b Carpay 2004 Dahlöf 1998 Dahlöf 2001 Diener 2002 Diener 2011 Dowson 2002a Dowson 2002b Eletriptan Steering Committee in Japan 2002 Ensink 1991 Färkkila 2012 Freitag 2007 Freitag 2008 Garcia-Ramos 2003 Geraud 2000 Goadsby 2000 Goadsby 2019 Göbel 2004 Goldstein 1998 Havanka 2000 Ho 2008b Jelinski 2006 Kaniecki 2006 Klapper 2004 Klassen 1997 Kolodny 2004 Kramer 1998 Kuca 2018 Kudrow 2005 Landy 2004 Lange 2000 Lee 2001 Lines 2001 Lipton 2005 Lipton 2010 Mannix 2007a Mannix 2007b Massiou 2005 Nappi 1994 NCT00920686 2010 Nett 2003 Pascual 2000b Pini 1995 Prior 2010 Rapoport 1997 Rapoport 2002 Sakai 2002 Sakai 2021 Sandrini 2002 Sargent 1995 Savani 1999 Sheftell 2003 Sheftell 2005a Sheftell 2005b Stark 2002 Steiner 2003 SUM20033 2003 Tazaki 1993 Tfelt-Hansen 1998 Tfelt-Hansen 2006 The Oral Sumatriptan Dose-defining Study 1991 Voss 2016 Winner 2003a.
+
+File created on 2023-07-23.

@@ -1,0 +1,63 @@
+Original data:
+
+             treat1  treat2      TE   seTE
+Kuca 2018     ditan placebo -1.7961 1.6336
+Lipton 2019c gepant placebo -1.1037 1.6340
+
+Number of treatment arms (by study):
+             narms
+Kuca 2018        2
+Lipton 2019c     2
+
+Results (common effects model):
+
+             treat1  treat2     OR           95%-CI    Q leverage
+Kuca 2018     ditan placebo 0.1659 [0.0068; 4.0783] 0.00     1.00
+Lipton 2019c gepant placebo 0.3317 [0.0135; 8.1577] 0.00     1.00
+
+Results (random effects model):
+
+             treat1  treat2     OR           95%-CI
+Kuca 2018     ditan placebo 0.1659 [0.0068; 4.0783]
+Lipton 2019c gepant placebo 0.3317 [0.0135; 8.1577]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 2
+Number of observations: o = 3417
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+            OR           95%-CI     z p-value
+ditan   0.1659 [0.0068; 4.0783] -1.10  0.2716
+gepant  0.3317 [0.0135; 8.1577] -0.68  0.4994
+placebo      .                .     .       .
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+            OR           95%-CI     z p-value
+ditan   0.1659 [0.0068; 4.0783] -1.10  0.2716
+gepant  0.3317 [0.0135; 8.1577] -0.68  0.4994
+placebo      .                .     .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 3417 participants are included in this analysis, with 2 events (0.06%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)
+
+The following studies were included in this analysis: Kuca 2018 Lipton 2019c.
+
+File created on 2023-05-26.

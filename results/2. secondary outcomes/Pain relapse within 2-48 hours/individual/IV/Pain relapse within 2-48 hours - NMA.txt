@@ -1,0 +1,89 @@
+Original data:
+
+                     treat1      treat2      TE   seTE
+Ashina 2021      lasmiditan     placebo  0.9468 0.2883
+Croop 2019          placebo  rimegepant -0.3650 0.2217
+Goadsby 2019     lasmiditan     placebo  0.5667 0.2186
+Kuca 2018        lasmiditan     placebo  0.6392 0.2180
+Lipton 2019c        placebo  rimegepant -0.5182 0.2326
+NCT03235479 2018    placebo  rimegepant -0.0778 0.2332
+Sargent 1995        placebo sumatriptan -1.5485 0.6284
+Yu 2023             placebo  rimegepant -0.3301 0.2736
+
+Number of treatment arms (by study):
+                 narms
+Ashina 2021          2
+Croop 2019           2
+Goadsby 2019         2
+Kuca 2018            2
+Lipton 2019c         2
+NCT03235479 2018     2
+Sargent 1995         2
+Yu 2023              2
+
+Results (common effects model):
+
+                     treat1      treat2     OR           95%-CI    Q leverage
+Ashina 2021      lasmiditan     placebo 1.9733 [1.5113; 2.5764] 0.86     0.22
+Croop 2019          placebo  rimegepant 0.7235 [0.5729; 0.9136] 0.03     0.29
+Goadsby 2019     lasmiditan     placebo 1.9733 [1.5113; 2.5764] 0.27     0.39
+Kuca 2018        lasmiditan     placebo 1.9733 [1.5113; 2.5764] 0.03     0.39
+Lipton 2019c        placebo  rimegepant 0.7235 [0.5729; 0.9136] 0.70     0.26
+NCT03235479 2018    placebo  rimegepant 0.7235 [0.5729; 0.9136] 1.11     0.26
+Sargent 1995        placebo sumatriptan 0.2126 [0.0620; 0.7285] 0.00     1.00
+Yu 2023             placebo  rimegepant 0.7235 [0.5729; 0.9136] 0.00     0.19
+
+Results (random effects model):
+
+                     treat1      treat2     OR           95%-CI
+Ashina 2021      lasmiditan     placebo 1.9733 [1.5113; 2.5764]
+Croop 2019          placebo  rimegepant 0.7235 [0.5729; 0.9136]
+Goadsby 2019     lasmiditan     placebo 1.9733 [1.5113; 2.5764]
+Kuca 2018        lasmiditan     placebo 1.9733 [1.5113; 2.5764]
+Lipton 2019c        placebo  rimegepant 0.7235 [0.5729; 0.9136]
+NCT03235479 2018    placebo  rimegepant 0.7235 [0.5729; 0.9136]
+Sargent 1995        placebo sumatriptan 0.2126 [0.0620; 0.7285]
+Yu 2023             placebo  rimegepant 0.7235 [0.5729; 0.9136]
+
+Number of studies: k = 8
+Number of pairwise comparisons: m = 8
+Number of observations: o = 12281
+Number of treatments: n = 4
+Number of designs: d = 3
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR            95%-CI    z  p-value
+lasmiditan  1.9733 [1.5113;  2.5764] 4.99 < 0.0001
+placebo          .                 .    .        .
+rimegepant  1.3822 [1.0946;  1.7455] 2.72   0.0065
+sumatriptan 4.7044 [1.3728; 16.1218] 2.46   0.0137
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR            95%-CI    z  p-value
+lasmiditan  1.9733 [1.5113;  2.5764] 4.99 < 0.0001
+placebo          .                 .    .        .
+rimegepant  1.3822 [1.0946;  1.7455] 2.72   0.0065
+sumatriptan 4.7044 [1.3728; 16.1218] 2.46   0.0137
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 74.6%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           3.01    5  0.6991
+Within designs  3.01    5  0.6991
+Between designs 0.00    0      --
+
+A total of 4 treatments are included in the network.
+A total of 8 studies are included in this analysis.
+A total of 12281 participants are included in this analysis, with 726 events (5.91%).
+Estimated heterogeneity tau-squared: 0.
+Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)
+
+The following studies were included in this analysis: Ashina 2021 Croop 2019 Goadsby 2019 Kuca 2018 Lipton 2019c NCT03235479 2018 Sargent 1995 Yu 2023.
+
+File created on 2023-05-24.

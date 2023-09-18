@@ -1,0 +1,134 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                                comparison  k prop  nma direct indir.  RoR     z p-value
+          acetylsalicylic acid:almotriptan  0    0 1.19      .   1.19    .     .       .
+ acetylsalicylic acid:diclofenac potassium  0    0 0.86      .   0.86    .     .       .
+            acetylsalicylic acid:ibuprofen  0    0 1.02      .   1.02    .     .       .
+           acetylsalicylic acid:lasmiditan  0    0 0.92      .   0.92    .     .       .
+      acetylsalicylic acid:naproxen sodium  0    0 0.84      .   0.84    .     .       .
+          acetylsalicylic acid:naratriptan  0    0 0.96      .   0.96    .     .       .
+          acetylsalicylic acid:paracetamol  0    0 1.19      .   1.19    .     .       .
+              acetylsalicylic acid:placebo  1 1.00 0.96   0.96      .    .     .       .
+          acetylsalicylic acid:rizatriptan  0    0 1.02      .   1.02    .     .       .
+          acetylsalicylic acid:sumatriptan  0    0 0.84      .   0.84    .     .       .
+          almotriptan:diclofenac potassium  0    0 0.73      .   0.73    .     .       .
+                     almotriptan:ibuprofen  0    0 0.86      .   0.86    .     .       .
+                    almotriptan:lasmiditan  0    0 0.78      .   0.78    .     .       .
+               almotriptan:naproxen sodium  0    0 0.71      .   0.71    .     .       .
+                   almotriptan:naratriptan  0    0 0.81      .   0.81    .     .       .
+                   almotriptan:paracetamol  0    0 1.01      .   1.01    .     .       .
+                       almotriptan:placebo  1 1.00 0.81   0.81      .    .     .       .
+                   almotriptan:rizatriptan  0    0 0.86      .   0.86    .     .       .
+                   almotriptan:sumatriptan  0    0 0.71      .   0.71    .     .       .
+            diclofenac potassium:ibuprofen  0    0 1.17      .   1.17    .     .       .
+           diclofenac potassium:lasmiditan  0    0 1.06      .   1.06    .     .       .
+      diclofenac potassium:naproxen sodium  0    0 0.97      .   0.97    .     .       .
+          diclofenac potassium:naratriptan  0    0 1.11      .   1.11    .     .       .
+          diclofenac potassium:paracetamol  0    0 1.38      .   1.38    .     .       .
+              diclofenac potassium:placebo  1 1.00 1.12   1.12      .    .     .       .
+          diclofenac potassium:rizatriptan  0    0 1.18      .   1.18    .     .       .
+          diclofenac potassium:sumatriptan  0    0 0.98      .   0.98    .     .       .
+                      ibuprofen:lasmiditan  0    0 0.91      .   0.91    .     .       .
+                 ibuprofen:naproxen sodium  0    0 0.83      .   0.83    .     .       .
+                     ibuprofen:naratriptan  0    0 0.94      .   0.94    .     .       .
+                     ibuprofen:paracetamol  0    0 1.18      .   1.18    .     .       .
+                         ibuprofen:placebo  3 1.00 0.95   0.95      .    .     .       .
+                     ibuprofen:rizatriptan  0    0 1.00      .   1.00    .     .       .
+                     ibuprofen:sumatriptan  0    0 0.83      .   0.83    .     .       .
+                lasmiditan:naproxen sodium  0    0 0.91      .   0.91    .     .       .
+                    lasmiditan:naratriptan  0    0 1.04      .   1.04    .     .       .
+                    lasmiditan:paracetamol  0    0 1.30      .   1.30    .     .       .
+                        lasmiditan:placebo  4 1.00 1.05   1.05      .    .     .       .
+                    lasmiditan:rizatriptan  0    0 1.11      .   1.11    .     .       .
+                    lasmiditan:sumatriptan  0    0 0.92      .   0.92    .     .       .
+               naproxen sodium:naratriptan  0    0 1.14      .   1.14    .     .       .
+               naproxen sodium:paracetamol  0    0 1.43      .   1.43    .     .       .
+                   naproxen sodium:placebo  3 0.82 1.15   1.19   0.98 1.21  0.63  0.5289
+               naproxen sodium:rizatriptan  0    0 1.22      .   1.22    .     .       .
+               naproxen sodium:sumatriptan  2 0.77 1.01   0.99   1.09 0.91 -0.34  0.7334
+                   naratriptan:paracetamol  0    0 1.25      .   1.25    .     .       .
+                       naratriptan:placebo  1 1.00 1.01   1.01      .    .     .       .
+                   naratriptan:rizatriptan  0    0 1.07      .   1.07    .     .       .
+                   naratriptan:sumatriptan  0    0 0.88      .   0.88    .     .       .
+                       paracetamol:placebo  2 1.00 0.81   0.81      .    .     .       .
+                   paracetamol:rizatriptan  0    0 0.85      .   0.85    .     .       .
+                   paracetamol:sumatriptan  0    0 0.71      .   0.71    .     .       .
+                       rizatriptan:placebo  4 0.58 0.95   0.99   0.89 1.10  0.42  0.6731
+                       sumatriptan:placebo 12 0.92 1.14   1.18   0.80 1.48  1.43  0.1523
+                   rizatriptan:sumatriptan  2 0.73 0.83   0.85   0.77 1.11  0.44  0.6585
+
+Random effects model: 
+
+                                comparison  k prop  nma direct indir.  RoR     z p-value
+          acetylsalicylic acid:almotriptan  0    0 1.19      .   1.19    .     .       .
+ acetylsalicylic acid:diclofenac potassium  0    0 0.86      .   0.86    .     .       .
+            acetylsalicylic acid:ibuprofen  0    0 1.01      .   1.01    .     .       .
+           acetylsalicylic acid:lasmiditan  0    0 0.90      .   0.90    .     .       .
+      acetylsalicylic acid:naproxen sodium  0    0 0.83      .   0.83    .     .       .
+          acetylsalicylic acid:naratriptan  0    0 0.96      .   0.96    .     .       .
+          acetylsalicylic acid:paracetamol  0    0 1.17      .   1.17    .     .       .
+              acetylsalicylic acid:placebo  1 1.00 0.96   0.96      .    .     .       .
+          acetylsalicylic acid:rizatriptan  0    0 1.01      .   1.01    .     .       .
+          acetylsalicylic acid:sumatriptan  0    0 0.83      .   0.83    .     .       .
+          almotriptan:diclofenac potassium  0    0 0.73      .   0.73    .     .       .
+                     almotriptan:ibuprofen  0    0 0.85      .   0.85    .     .       .
+                    almotriptan:lasmiditan  0    0 0.76      .   0.76    .     .       .
+               almotriptan:naproxen sodium  0    0 0.70      .   0.70    .     .       .
+                   almotriptan:naratriptan  0    0 0.81      .   0.81    .     .       .
+                   almotriptan:paracetamol  0    0 0.98      .   0.98    .     .       .
+                       almotriptan:placebo  1 1.00 0.81   0.81      .    .     .       .
+                   almotriptan:rizatriptan  0    0 0.85      .   0.85    .     .       .
+                   almotriptan:sumatriptan  0    0 0.70      .   0.70    .     .       .
+            diclofenac potassium:ibuprofen  0    0 1.17      .   1.17    .     .       .
+           diclofenac potassium:lasmiditan  0    0 1.04      .   1.04    .     .       .
+      diclofenac potassium:naproxen sodium  0    0 0.96      .   0.96    .     .       .
+          diclofenac potassium:naratriptan  0    0 1.11      .   1.11    .     .       .
+          diclofenac potassium:paracetamol  0    0 1.35      .   1.35    .     .       .
+              diclofenac potassium:placebo  1 1.00 1.12   1.12      .    .     .       .
+          diclofenac potassium:rizatriptan  0    0 1.17      .   1.17    .     .       .
+          diclofenac potassium:sumatriptan  0    0 0.96      .   0.96    .     .       .
+                      ibuprofen:lasmiditan  0    0 0.89      .   0.89    .     .       .
+                 ibuprofen:naproxen sodium  0    0 0.82      .   0.82    .     .       .
+                     ibuprofen:naratriptan  0    0 0.94      .   0.94    .     .       .
+                     ibuprofen:paracetamol  0    0 1.15      .   1.15    .     .       .
+                         ibuprofen:placebo  3 1.00 0.95   0.95      .    .     .       .
+                     ibuprofen:rizatriptan  0    0 1.00      .   1.00    .     .       .
+                     ibuprofen:sumatriptan  0    0 0.82      .   0.82    .     .       .
+                lasmiditan:naproxen sodium  0    0 0.92      .   0.92    .     .       .
+                    lasmiditan:naratriptan  0    0 1.06      .   1.06    .     .       .
+                    lasmiditan:paracetamol  0    0 1.30      .   1.30    .     .       .
+                        lasmiditan:placebo  4 1.00 1.07   1.07      .    .     .       .
+                    lasmiditan:rizatriptan  0    0 1.12      .   1.12    .     .       .
+                    lasmiditan:sumatriptan  0    0 0.92      .   0.92    .     .       .
+               naproxen sodium:naratriptan  0    0 1.16      .   1.16    .     .       .
+               naproxen sodium:paracetamol  0    0 1.41      .   1.41    .     .       .
+                   naproxen sodium:placebo  3 0.83 1.16   1.19   1.04 1.15  0.37  0.7107
+               naproxen sodium:rizatriptan  0    0 1.22      .   1.22    .     .       .
+               naproxen sodium:sumatriptan  2 0.75 1.00   0.99   1.05 0.94 -0.18  0.8538
+                   naratriptan:paracetamol  0    0 1.22      .   1.22    .     .       .
+                       naratriptan:placebo  1 1.00 1.01   1.01      .    .     .       .
+                   naratriptan:rizatriptan  0    0 1.06      .   1.06    .     .       .
+                   naratriptan:sumatriptan  0    0 0.87      .   0.87    .     .       .
+                       paracetamol:placebo  2 1.00 0.83   0.83      .    .     .       .
+                   paracetamol:rizatriptan  0    0 0.87      .   0.87    .     .       .
+                   paracetamol:sumatriptan  0    0 0.71      .   0.71    .     .       .
+                       rizatriptan:placebo  4 0.65 0.95   0.99   0.89 1.12  0.42  0.6775
+                       sumatriptan:placebo 12 0.92 1.16   1.20   0.78 1.55  1.35  0.1760
+                   rizatriptan:sumatriptan  2 0.69 0.82   0.85   0.76 1.13  0.43  0.6689
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 5 comparisons).
+
+File created on 2023-05-26.

@@ -1,0 +1,32 @@
+Number of studies: k = 12
+Number of pairwise comparisons: m = 12
+Number of observations: o = 6850
+Number of treatments: n = 8
+Number of designs: d = 7
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                         OR           95%-CI     z  p-value
+acetylsalicylic acid 1.0350 [0.5736; 1.8674]  0.11   0.9091
+almotriptan          0.8987 [0.4070; 1.9845] -0.26   0.7915
+diclofenac potassium 0.5765 [0.3294; 1.0089] -1.93   0.0537
+eletriptan           0.9506 [0.4853; 1.8621] -0.15   0.8826
+lasmiditan           2.2521 [1.4514; 3.4946]  3.62   0.0003
+placebo                   .                .     .        .
+sumatriptan          2.0942 [1.5589; 2.8134]  4.91 < 0.0001
+zolmitriptan         3.6367 [1.5426; 8.5737]  2.95   0.0032
+
+Test of inconsistency (between designs):
+ Q d.f. p-value
+ 0    0      --
+
+A total of 8 treatments are included in the network.
+A total of 12 studies are included in this analysis.
+A total of 6850 participants are included in this analysis, with 675 events (9.85%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)
+
+The following studies were included in this analysis: Ashina 2021 Brandes 2005 Carpay 2004 Färkkila 2012 Goadsby 2008 Jelinski 2006 Landy2004 Lange 2000 Lipton 2010 Loder 2005 Nett 2003 Sargent 1995.
+
+File created on 2023-05-24.

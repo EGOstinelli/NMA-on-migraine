@@ -1,0 +1,4 @@
+        comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
+1 ditan vs  placebo                 2 1.26     0.96     1.66      0    0         NA         NA 0.62 0.4308
+
+File created on 2023-05-27.

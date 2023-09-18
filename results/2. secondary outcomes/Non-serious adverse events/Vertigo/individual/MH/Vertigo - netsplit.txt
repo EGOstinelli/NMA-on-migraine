@@ -1,0 +1,55 @@
+Separate indirect from direct design evidence (SIDDE)
+
+Common effects model: 
+
+                   comparison k  nma direct indir.  RoR     z p-value
+       almotriptan:lasmiditan 0 0.71      .   0.71    .     .       .
+  almotriptan:naproxen sodium 0 0.76      .   0.76    .     .       .
+      almotriptan:naratriptan 0 0.85      .   0.85    .     .       .
+        almotriptan:phenazone 0 1.11      .   1.11    .     .       .
+          almotriptan:placebo 1 0.90   0.81   1.97 0.41 -1.10  0.2701
+      almotriptan:rizatriptan 0 0.96      .   0.96    .     .       .
+      almotriptan:sumatriptan 0 0.85      .   0.85    .     .       .
+     almotriptan:zolmitriptan 1 1.01   2.00   0.82 2.44  1.10  0.2701
+   lasmiditan:naproxen sodium 0 1.08      .   1.08    .     .       .
+       lasmiditan:naratriptan 0 1.20      .   1.20    .     .       .
+         lasmiditan:phenazone 0 1.57      .   1.57    .     .       .
+           lasmiditan:placebo 5 1.27   1.27      .    .     .       .
+       lasmiditan:rizatriptan 0 1.34      .   1.34    .     .       .
+       lasmiditan:sumatriptan 0 1.20      .   1.20    .     .       .
+      lasmiditan:zolmitriptan 0 1.42      .   1.42    .     .       .
+  naproxen sodium:naratriptan 0 1.11      .   1.11    .     .       .
+    naproxen sodium:phenazone 0 1.46      .   1.46    .     .       .
+      naproxen sodium:placebo 1 1.18   1.09      .    .     .       .
+  naproxen sodium:rizatriptan 0 1.25      .   1.25    .     .       .
+  naproxen sodium:sumatriptan 1 1.11   1.22      .    .     .       .
+ naproxen sodium:zolmitriptan 0 1.32      .   1.32    .     .       .
+        naratriptan:phenazone 0 1.31      .   1.31    .     .       .
+          naratriptan:placebo 1 1.06   1.06      .    .     .       .
+      naratriptan:rizatriptan 0 1.12      .   1.12    .     .       .
+      naratriptan:sumatriptan 0 1.00      .   1.00    .     .       .
+     naratriptan:zolmitriptan 0 1.19      .   1.19    .     .       .
+            phenazone:placebo 1 0.81   0.81      .    .     .       .
+        phenazone:rizatriptan 0 0.86      .   0.86    .     .       .
+        phenazone:sumatriptan 0 0.76      .   0.76    .     .       .
+       phenazone:zolmitriptan 0 0.91      .   0.91    .     .       .
+          rizatriptan:placebo 2 0.94   1.02      .    .     .       .
+          sumatriptan:placebo 7 1.06   1.09      .    .     .       .
+         zolmitriptan:placebo 1 0.89   0.98   0.40 2.44  1.10  0.2701
+      rizatriptan:sumatriptan 1 0.89   0.95   0.67 1.41  1.03  0.3049
+     rizatriptan:zolmitriptan 0 1.06      .   1.06    .     .       .
+     sumatriptan:zolmitriptan 0 1.18      .   1.18    .     .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0. (0 out of 4 comparisons).
+
+File created on 2023-05-27.

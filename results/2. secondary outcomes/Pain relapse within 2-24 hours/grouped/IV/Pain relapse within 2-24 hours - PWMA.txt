@@ -1,0 +1,6 @@
+          comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq  Q.st  p.val
+1   ditan vs  placebo                 2 2.25     1.45     3.49   0.00 0.00         NA         NA  0.00 0.9991
+2   NSAID vs  placebo                 2 0.77     0.43     1.36   0.09 0.50         NA         NA  1.99 0.1585
+3 triptan vs  placebo                 8 1.84     1.29     2.63   0.13 0.49          0       0.77 13.76 0.0556
+
+File created on 2023-05-24.

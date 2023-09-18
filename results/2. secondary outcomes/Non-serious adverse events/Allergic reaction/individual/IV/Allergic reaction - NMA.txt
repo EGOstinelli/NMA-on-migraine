@@ -1,0 +1,81 @@
+Original data:
+
+                   treat1      treat2      TE   seTE
+Ashina 2021    lasmiditan     placebo  0.3028 0.2244
+Freitag 2007      placebo rizatriptan  0.0553 0.3232
+Goadsby 2019   lasmiditan     placebo -0.0042 0.1211
+Kuca 2018      lasmiditan     placebo  0.0008 0.1201
+Sakai 2021     lasmiditan     placebo  0.1238 0.1962
+Sheftell 2005b    placebo sumatriptan -0.0793 0.1645
+
+Number of treatment arms (by study):
+               narms
+Ashina 2021        2
+Freitag 2007       2
+Goadsby 2019       2
+Kuca 2018          2
+Sakai 2021         2
+Sheftell 2005b     2
+
+Results (common effects model):
+
+                   treat1      treat2     OR           95%-CI    Q leverage
+Ashina 2021    lasmiditan     placebo 1.0503 [0.9088; 1.2138] 1.28     0.11
+Freitag 2007      placebo rizatriptan 1.0569 [0.5609; 1.9913] 0.00     1.00
+Goadsby 2019   lasmiditan     placebo 1.0503 [0.9088; 1.2138] 0.19     0.37
+Kuca 2018      lasmiditan     placebo 1.0503 [0.9088; 1.2138] 0.16     0.38
+Sakai 2021     lasmiditan     placebo 1.0503 [0.9088; 1.2138] 0.15     0.14
+Sheftell 2005b    placebo sumatriptan 0.9238 [0.6691; 1.2753] 0.00     1.00
+
+Results (random effects model):
+
+                   treat1      treat2     OR           95%-CI
+Ashina 2021    lasmiditan     placebo 1.0503 [0.9088; 1.2138]
+Freitag 2007      placebo rizatriptan 1.0569 [0.5609; 1.9913]
+Goadsby 2019   lasmiditan     placebo 1.0503 [0.9088; 1.2138]
+Kuca 2018      lasmiditan     placebo 1.0503 [0.9088; 1.2138]
+Sakai 2021     lasmiditan     placebo 1.0503 [0.9088; 1.2138]
+Sheftell 2005b    placebo sumatriptan 0.9238 [0.6691; 1.2753]
+
+Number of studies: k = 6
+Number of pairwise comparisons: m = 6
+Number of observations: o = 9168
+Number of treatments: n = 4
+Number of designs: d = 3
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI     z p-value
+lasmiditan  1.0503 [0.9088; 1.2138]  0.66  0.5067
+placebo          .                .     .       .
+rizatriptan 0.9462 [0.5022; 1.7828] -0.17  0.8641
+sumatriptan 1.0825 [0.7841; 1.4945]  0.48  0.6298
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI     z p-value
+lasmiditan  1.0503 [0.9088; 1.2138]  0.66  0.5067
+placebo          .                .     .       .
+rizatriptan 0.9462 [0.5022; 1.7828] -0.17  0.8641
+sumatriptan 1.0825 [0.7841; 1.4945]  0.48  0.6298
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 84.7%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           1.78    3  0.6195
+Within designs  1.78    3  0.6195
+Between designs 0.00    0      --
+
+A total of 4 treatments are included in the network.
+A total of 6 studies are included in this analysis.
+A total of 9168 participants are included in this analysis, with 1284 events (14.01%).
+Estimated heterogeneity tau-squared: 0.
+Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)
+
+The following studies were included in this analysis: Ashina 2021 Freitag 2007 Goadsby 2019 Kuca 2018 Sakai 2021 Sheftell 2005b.
+
+File created on 2023-05-26.

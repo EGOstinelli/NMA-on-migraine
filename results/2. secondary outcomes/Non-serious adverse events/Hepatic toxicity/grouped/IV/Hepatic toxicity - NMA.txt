@@ -1,0 +1,135 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                       treat1  treat2      TE   seTE seTE.adj.f seTE.adj.r narms multiarm
+0462-039 1996         placebo triptan  0.4592 0.2695     0.2695     0.2719     2         
+Ashina 2021             ditan placebo  0.3431 0.1974     0.1974     0.2006     2         
+Croop 2019             gepant placebo  0.2102 0.2152     0.2152     0.2182     2         
+Dodick 2019            gepant placebo  0.0544 0.1209     0.1209     0.1260     2         
+Färkkila 2012           ditan placebo  0.4277 0.2911     0.2911     0.2933     2         
+Geraud 2000           placebo triptan  0.3015 0.2804     0.2804     0.2826     2         
+Kuca 2018               ditan placebo -0.0136 0.1199     0.1199     0.1250     2         
+Lipton 2019a            NSAID placebo -0.1198 0.2828     0.2828     0.2851     2         
+Lipton 2019b           gepant placebo  0.3234 0.1445     0.1445     0.1488     2         
+Lipton 2019c           gepant placebo  0.0499 0.1892     0.1892     0.1925     2         
+Lipton 2021             NSAID placebo -0.1909 0.2744     0.2744     0.2767     2         
+Marcus 2014            gepant placebo -0.3579 0.4805     0.5551     0.5569     3        *
+Marcus 2014            gepant triptan -0.2429 0.5473     0.8436     0.8436     3        *
+Marcus 2014           placebo triptan  0.1149 0.4166     0.4573     0.4592     3        *
+Sakai 2021              ditan placebo  0.1238 0.1962     0.1962     0.1994     2         
+Tfelt-Hansen 1998     placebo triptan -0.3497 0.2575     0.2575     0.2600     2         
+Toledano 2021     antipyretic placebo  1.8563 0.8874     0.8874     0.8881     2         
+Voss 2016              gepant placebo  0.3755 0.2576     0.2576     0.2601     2         
+Yu 2023                gepant placebo  0.1666 0.2196     0.2196     0.2224     2         
+
+Number of treatment arms (by study):
+                  narms
+0462-039 1996         2
+Ashina 2021           2
+Croop 2019            2
+Dodick 2019           2
+Färkkila 2012         2
+Geraud 2000           2
+Kuca 2018             2
+Lipton 2019a          2
+Lipton 2019b          2
+Lipton 2019c          2
+Lipton 2021           2
+Marcus 2014           3
+Sakai 2021            2
+Tfelt-Hansen 1998     2
+Toledano 2021         2
+Voss 2016             2
+Yu 2023               2
+
+Results (common effects model):
+
+                       treat1  treat2     OR            95%-CI    Q leverage
+0462-039 1996         placebo triptan 1.1074 [0.8339;  1.4706] 1.76     0.29
+Ashina 2021             ditan placebo 1.1288 [0.9524;  1.3379] 1.26     0.19
+Croop 2019             gepant placebo 1.1712 [1.0218;  1.3425] 0.06     0.10
+Dodick 2019            gepant placebo 1.1712 [1.0218;  1.3425] 0.73     0.33
+Färkkila 2012           ditan placebo 1.1288 [0.9524;  1.3379] 1.11     0.09
+Geraud 2000           placebo triptan 1.1074 [0.8339;  1.4706] 0.51     0.27
+Kuca 2018               ditan placebo 1.1288 [0.9524;  1.3379] 1.26     0.52
+Lipton 2019a            NSAID placebo 0.8552 [0.5814;  1.2581] 0.02     0.48
+Lipton 2019b           gepant placebo 1.1712 [1.0218;  1.3425] 1.31     0.23
+Lipton 2019c           gepant placebo 1.1712 [1.0218;  1.3425] 0.33     0.14
+Lipton 2021             NSAID placebo 0.8552 [0.5814;  1.2581] 0.02     0.52
+Marcus 2014            gepant placebo 1.1712 [1.0218;  1.3425] 0.86        .
+Marcus 2014            gepant triptan 1.2970 [0.9484;  1.7737] 0.36        .
+Marcus 2014           placebo triptan 1.1074 [0.8339;  1.4706] 0.00        .
+Sakai 2021              ditan placebo 1.1288 [0.9524;  1.3379] 0.00     0.20
+Tfelt-Hansen 1998     placebo triptan 1.1074 [0.8339;  1.4706] 3.08     0.32
+Toledano 2021     antipyretic placebo 6.4000 [1.1241; 36.4373] 0.00     1.00
+Voss 2016              gepant placebo 1.1712 [1.0218;  1.3425] 0.71     0.07
+Yu 2023                gepant placebo 1.1712 [1.0218;  1.3425] 0.00     0.10
+
+Results (random effects model):
+
+                       treat1  treat2     OR            95%-CI
+0462-039 1996         placebo triptan 1.1074 [0.8320;  1.4740]
+Ashina 2021             ditan placebo 1.1335 [0.9517;  1.3501]
+Croop 2019             gepant placebo 1.1720 [1.0188;  1.3482]
+Dodick 2019            gepant placebo 1.1720 [1.0188;  1.3482]
+Färkkila 2012           ditan placebo 1.1335 [0.9517;  1.3501]
+Geraud 2000           placebo triptan 1.1074 [0.8320;  1.4740]
+Kuca 2018               ditan placebo 1.1335 [0.9517;  1.3501]
+Lipton 2019a            NSAID placebo 0.8552 [0.5795;  1.2620]
+Lipton 2019b           gepant placebo 1.1720 [1.0188;  1.3482]
+Lipton 2019c           gepant placebo 1.1720 [1.0188;  1.3482]
+Lipton 2021             NSAID placebo 0.8552 [0.5795;  1.2620]
+Marcus 2014            gepant placebo 1.1720 [1.0188;  1.3482]
+Marcus 2014            gepant triptan 1.2979 [0.9457;  1.7812]
+Marcus 2014           placebo triptan 1.1074 [0.8320;  1.4740]
+Sakai 2021              ditan placebo 1.1335 [0.9517;  1.3501]
+Tfelt-Hansen 1998     placebo triptan 1.1074 [0.8320;  1.4740]
+Toledano 2021     antipyretic placebo 6.4000 [1.1226; 36.4881]
+Voss 2016              gepant placebo 1.1720 [1.0188;  1.3482]
+Yu 2023                gepant placebo 1.1720 [1.0188;  1.3482]
+
+Number of studies: k = 17
+Number of pairwise comparisons: m = 19
+Number of observations: o = 17081
+Number of treatments: n = 6
+Number of designs: d = 6
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR            95%-CI     z p-value
+antipyretic 6.4000 [1.1241; 36.4373]  2.09  0.0365
+ditan       1.1288 [0.9524;  1.3379]  1.40  0.1623
+gepant      1.1712 [1.0218;  1.3425]  2.27  0.0232
+NSAID       0.8552 [0.5814;  1.2581] -0.79  0.4271
+placebo          .                 .     .       .
+triptan     0.9030 [0.6800;  1.1992] -0.70  0.4810
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR            95%-CI     z p-value
+antipyretic 6.4000 [1.1226; 36.4881]  2.09  0.0366
+ditan       1.1335 [0.9517;  1.3501]  1.40  0.1601
+gepant      1.1720 [1.0188;  1.3482]  2.22  0.0264
+NSAID       0.8552 [0.5795;  1.2620] -0.79  0.4309
+placebo          .                 .     .       .
+triptan     0.9030 [0.6784;  1.2019] -0.70  0.4843
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0013; tau = 0.0355; I^2 = 2.8% [0.0%; 56.3%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           13.37   13  0.4195
+Within designs  12.11   11  0.3551
+Between designs  1.26    2  0.5331
+
+A total of 6 treatments are included in the network.
+A total of 17 studies are included in this analysis.
+A total of 17081 participants are included in this analysis, with 2495 events (14.61%).
+Estimated heterogeneity tau-squared: 0.
+Global test for inconsistency, p-value 0.53306 (Q=1, d.o.f. 2)
+
+The following studies were included in this analysis: 0462-039 1996 Ashina 2021 Croop 2019 Dodick 2019 Färkkila 2012 Geraud 2000 Kuca 2018 Lipton 2019a Lipton 2019b Lipton 2019c Lipton 2021 Marcus 2014 Sakai 2021 Tfelt-Hansen 1998 Toledano 2021 Voss 2016 Yu 2023.
+
+File created on 2023-05-27.

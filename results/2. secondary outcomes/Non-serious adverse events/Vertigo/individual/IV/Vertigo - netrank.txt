@@ -1,0 +1,12 @@
+                P-score (common) P-score (random)
+phenazone                 0.7215           0.7038
+zolmitriptan              0.6739           0.7000
+almotriptan               0.6588           0.6098
+rizatriptan               0.6564           0.6055
+placebo                   0.5726           0.5937
+sumatriptan               0.4723           0.4629
+naproxen sodium           0.3132           0.3804
+naratriptan               0.2432           0.2560
+lasmiditan                0.1881           0.1879
+
+File created on 2023-05-27.

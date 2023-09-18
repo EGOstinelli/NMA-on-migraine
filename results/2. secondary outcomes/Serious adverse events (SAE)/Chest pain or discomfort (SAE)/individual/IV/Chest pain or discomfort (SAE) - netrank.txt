@@ -1,0 +1,6 @@
+           P-score (common) P-score (random)
+lasmiditan           0.7410           0.7410
+rimegepant           0.5663           0.5663
+placebo              0.1927           0.1927
+
+File created on 2023-05-26.

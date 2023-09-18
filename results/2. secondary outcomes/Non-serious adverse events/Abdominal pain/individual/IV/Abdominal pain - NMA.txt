@@ -1,0 +1,219 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                        treat1       treat2      TE   seTE seTE.adj.f seTE.adj.r narms multiarm
+0462-039 1996                          placebo  rizatriptan  0.6038 0.2683     0.2683     0.3304     2         
+Brandes 2007a                  naproxen sodium      placebo  0.1035 0.1980     0.2369     0.3343     3        *
+Brandes 2007a                  naproxen sodium  sumatriptan  0.2373 0.2041     0.2508     0.3446     3        *
+Brandes 2007a                          placebo  sumatriptan  0.1338 0.2074     0.2596     0.3508     3        *
+Carpay 2004                            placebo  sumatriptan -0.8621 0.3653     0.3653     0.4131     2         
+Codispoti 2001                       ibuprofen      placebo  0.0706 0.2713     0.2713     0.3329     2         
+Dahlöf 2001                        almotriptan      placebo -0.1329 0.2879     0.2879     0.3465     2         
+Färkkila 2012                       lasmiditan      placebo  0.3963 0.2858     0.2858     0.3448     2         
+Freitag 2007                           placebo  rizatriptan  0.0553 0.3232     0.3232     0.3764     2         
+Goadsby 2019                        lasmiditan      placebo  0.0177 0.1208     0.1208     0.2276     2         
+Göbel 2004                           phenazone      placebo -0.2011 0.3669     0.3669     0.4145     2         
+Goldstein 2006                       ibuprofen      placebo -0.0243 0.2586     0.2586     0.3226     2         
+Kuca 2018                           lasmiditan      placebo -0.0041 0.1197     0.1197     0.2270     2         
+Landy2004                              placebo  sumatriptan  0.3638 0.2628     0.2628     0.3260     2         
+Lange 2000                acetylsalicylic acid      placebo  0.0293 1.4184     1.4184     1.4314     2         
+Lines 2001                             placebo  rizatriptan -0.7800 0.4161     0.5880     0.6271     3        *
+Lines 2001                             placebo  sumatriptan -0.9032 0.4140     0.5578     0.6116     3        *
+Lines 2001                         rizatriptan  sumatriptan -0.1232 0.1838     0.1887     0.2797     3        *
+Lipton 2005               acetylsalicylic acid      placebo -0.0352 0.2460     0.2460     0.3126     2         
+Lipton 2010               diclofenac potassium      placebo  0.1539 0.1983     0.1983     0.2766     2         
+Massiou 2005                       naratriptan      placebo -1.0986 1.6378     1.6378     1.6491     2         
+Moon 2010                         frovatriptan      placebo -0.4757 0.2728     0.2728     0.3341     2         
+Prior 2010                         paracetamol      placebo -0.3285 0.3582     0.3582     0.4069     2         
+Ryan (VML 251/96/09) 2002         frovatriptan  sumatriptan  0.0562 0.1970     0.1970     0.2757     2         
+Sakai 2002                             placebo zolmitriptan  0.1774 0.3331     0.3331     0.3849     2         
+Sakai 2021                          lasmiditan      placebo  0.0875 0.1919     0.1919     0.2721     2         
+Sheftell 2005a                         placebo  sumatriptan -0.0003 0.1629     0.1629     0.2525     2         
+Sheftell 2005b                         placebo  sumatriptan -0.0952 0.1631     0.1631     0.2526     2         
+SUM20033 2003                          placebo  sumatriptan -1.1381 1.6410     1.6410     1.6523     2         
+Tazaki 1993                            placebo  sumatriptan  0.3737 0.3883     0.3883     0.4336     2         
+Tfelt-Hansen 1998                      placebo  rizatriptan -0.4249 0.2606     0.3374     0.4172     3        *
+Tfelt-Hansen 1998                      placebo  sumatriptan -0.6247 0.2656     0.3737     0.4349     3        *
+Tfelt-Hansen 1998                  rizatriptan  sumatriptan -0.1997 0.1606     0.1695     0.2761     3        *
+Toledano 2021                      paracetamol      placebo  2.3812 1.1369     1.1369     1.1532     2         
+Wentz 2008                     naproxen sodium      placebo  0.0852 0.3558     0.3558     0.4047     2         
+Winner 2003a                           placebo  sumatriptan  0.2698 0.2801     0.2801     0.3401     2         
+Winner 2003b                           placebo  sumatriptan -0.3084 0.3480     0.3480     0.3979     2         
+
+Number of treatment arms (by study):
+                          narms
+0462-039 1996                 2
+Brandes 2007a                 3
+Carpay 2004                   2
+Codispoti 2001                2
+Dahlöf 2001                   2
+Färkkila 2012                 2
+Freitag 2007                  2
+Goadsby 2019                  2
+Göbel 2004                    2
+Goldstein 2006                2
+Kuca 2018                     2
+Landy2004                     2
+Lange 2000                    2
+Lines 2001                    3
+Lipton 2005                   2
+Lipton 2010                   2
+Massiou 2005                  2
+Moon 2010                     2
+Prior 2010                    2
+Ryan (VML 251/96/09) 2002     2
+Sakai 2002                    2
+Sakai 2021                    2
+Sheftell 2005a                2
+Sheftell 2005b                2
+SUM20033 2003                 2
+Tazaki 1993                   2
+Tfelt-Hansen 1998             3
+Toledano 2021                 2
+Wentz 2008                    2
+Winner 2003a                  2
+Winner 2003b                  2
+
+Results (common effects model):
+
+                                        treat1       treat2     OR           95%-CI    Q leverage
+0462-039 1996                          placebo  rizatriptan 1.1343 [0.9123; 1.4103] 3.17     0.17
+Brandes 2007a                  naproxen sodium      placebo 1.1702 [0.8595; 1.5931] 0.05        .
+Brandes 2007a                  naproxen sodium  sumatriptan 1.1519 [0.8397; 1.5802] 0.15        .
+Brandes 2007a                          placebo  sumatriptan 0.9844 [0.8544; 1.1341] 0.33        .
+Carpay 2004                            placebo  sumatriptan 0.9844 [0.8544; 1.1341] 5.37     0.04
+Codispoti 2001                       ibuprofen      placebo 1.0211 [0.7075; 1.4736] 0.03     0.48
+Dahlöf 2001                        almotriptan      placebo 0.8756 [0.4980; 1.5395] 0.00     1.00
+Färkkila 2012                       lasmiditan      placebo 1.0470 [0.9038; 1.2128] 1.50     0.07
+Freitag 2007                           placebo  rizatriptan 1.1343 [0.9123; 1.4103] 0.05     0.12
+Goadsby 2019                        lasmiditan      placebo 1.0470 [0.9038; 1.2128] 0.05     0.39
+Göbel 2004                           phenazone      placebo 0.8178 [0.3984; 1.6788] 0.00     1.00
+Goldstein 2006                       ibuprofen      placebo 1.0211 [0.7075; 1.4736] 0.03     0.52
+Kuca 2018                           lasmiditan      placebo 1.0470 [0.9038; 1.2128] 0.17     0.39
+Landy2004                              placebo  sumatriptan 0.9844 [0.8544; 1.1341] 2.09     0.08
+Lange 2000                acetylsalicylic acid      placebo 0.9673 [0.6015; 1.5553] 0.00     0.03
+Lines 2001                             placebo  rizatriptan 1.1343 [0.9123; 1.4103] 2.37        .
+Lines 2001                             placebo  sumatriptan 0.9844 [0.8544; 1.1341] 2.53        .
+Lines 2001                         rizatriptan  sumatriptan 0.8679 [0.7075; 1.0646] 0.01        .
+Lipton 2005               acetylsalicylic acid      placebo 0.9673 [0.6015; 1.5553] 0.00     0.97
+Lipton 2010               diclofenac potassium      placebo 1.1664 [0.7908; 1.7203] 0.00     1.00
+Massiou 2005                       naratriptan      placebo 0.3333 [0.0135; 8.2592] 0.00     1.00
+Moon 2010                         frovatriptan      placebo 0.8907 [0.6426; 1.2347] 1.74     0.37
+Prior 2010                         paracetamol      placebo 0.9196 [0.4707; 1.7966] 0.47     0.91
+Ryan (VML 251/96/09) 2002         frovatriptan  sumatriptan 0.8768 [0.6388; 1.2035] 0.91     0.67
+Sakai 2002                             placebo zolmitriptan 1.1941 [0.6215; 2.2941] 0.00     1.00
+Sakai 2021                          lasmiditan      placebo 1.0470 [0.9038; 1.2128] 0.05     0.15
+Sheftell 2005a                         placebo  sumatriptan 0.9844 [0.8544; 1.1341] 0.01     0.20
+Sheftell 2005b                         placebo  sumatriptan 0.9844 [0.8544; 1.1341] 0.24     0.20
+SUM20033 2003                          placebo  sumatriptan 0.9844 [0.8544; 1.1341] 0.47     0.00
+Tazaki 1993                            placebo  sumatriptan 0.9844 [0.8544; 1.1341] 1.01     0.03
+Tfelt-Hansen 1998                      placebo  rizatriptan 1.1343 [0.9123; 1.4103] 2.67        .
+Tfelt-Hansen 1998                      placebo  sumatriptan 0.9844 [0.8544; 1.1341] 2.66        .
+Tfelt-Hansen 1998                  rizatriptan  sumatriptan 0.8679 [0.7075; 1.0646] 0.12        .
+Toledano 2021                      paracetamol      placebo 0.9196 [0.4707; 1.7966] 4.70     0.09
+Wentz 2008                     naproxen sodium      placebo 1.1702 [0.8595; 1.5931] 0.04     0.20
+Winner 2003a                           placebo  sumatriptan 0.9844 [0.8544; 1.1341] 1.04     0.07
+Winner 2003b                           placebo  sumatriptan 0.9844 [0.8544; 1.1341] 0.71     0.04
+
+Results (random effects model):
+
+                                        treat1       treat2     OR           95%-CI
+0462-039 1996                          placebo  rizatriptan 1.1009 [0.8215; 1.4754]
+Brandes 2007a                  naproxen sodium      placebo 1.1716 [0.7774; 1.7658]
+Brandes 2007a                  naproxen sodium  sumatriptan 1.1341 [0.7434; 1.7302]
+Brandes 2007a                          placebo  sumatriptan 0.9680 [0.8007; 1.1702]
+Carpay 2004                            placebo  sumatriptan 0.9680 [0.8007; 1.1702]
+Codispoti 2001                       ibuprofen      placebo 1.0219 [0.6490; 1.6091]
+Dahlöf 2001                        almotriptan      placebo 0.8756 [0.4439; 1.7269]
+Färkkila 2012                       lasmiditan      placebo 1.0820 [0.8412; 1.3917]
+Freitag 2007                           placebo  rizatriptan 1.1009 [0.8215; 1.4754]
+Goadsby 2019                        lasmiditan      placebo 1.0820 [0.8412; 1.3917]
+Göbel 2004                           phenazone      placebo 0.8178 [0.3629; 1.8429]
+Goldstein 2006                       ibuprofen      placebo 1.0219 [0.6490; 1.6091]
+Kuca 2018                           lasmiditan      placebo 1.0820 [0.8412; 1.3917]
+Landy2004                              placebo  sumatriptan 0.9680 [0.8007; 1.1702]
+Lange 2000                acetylsalicylic acid      placebo 0.9683 [0.5322; 1.7617]
+Lines 2001                             placebo  rizatriptan 1.1009 [0.8215; 1.4754]
+Lines 2001                             placebo  sumatriptan 0.9680 [0.8007; 1.1702]
+Lines 2001                         rizatriptan  sumatriptan 0.8792 [0.6572; 1.1762]
+Lipton 2005               acetylsalicylic acid      placebo 0.9683 [0.5322; 1.7617]
+Lipton 2010               diclofenac potassium      placebo 1.1664 [0.6783; 2.0058]
+Massiou 2005                       naratriptan      placebo 0.3333 [0.0132; 8.4444]
+Moon 2010                         frovatriptan      placebo 0.8695 [0.5646; 1.3390]
+Prior 2010                         paracetamol      placebo 0.9719 [0.4582; 2.0615]
+Ryan (VML 251/96/09) 2002         frovatriptan  sumatriptan 0.8416 [0.5509; 1.2857]
+Sakai 2002                             placebo zolmitriptan 1.1941 [0.5615; 2.5392]
+Sakai 2021                          lasmiditan      placebo 1.0820 [0.8412; 1.3917]
+Sheftell 2005a                         placebo  sumatriptan 0.9680 [0.8007; 1.1702]
+Sheftell 2005b                         placebo  sumatriptan 0.9680 [0.8007; 1.1702]
+SUM20033 2003                          placebo  sumatriptan 0.9680 [0.8007; 1.1702]
+Tazaki 1993                            placebo  sumatriptan 0.9680 [0.8007; 1.1702]
+Tfelt-Hansen 1998                      placebo  rizatriptan 1.1009 [0.8215; 1.4754]
+Tfelt-Hansen 1998                      placebo  sumatriptan 0.9680 [0.8007; 1.1702]
+Tfelt-Hansen 1998                  rizatriptan  sumatriptan 0.8792 [0.6572; 1.1762]
+Toledano 2021                      paracetamol      placebo 0.9719 [0.4582; 2.0615]
+Wentz 2008                     naproxen sodium      placebo 1.1716 [0.7774; 1.7658]
+Winner 2003a                           placebo  sumatriptan 0.9680 [0.8007; 1.1702]
+Winner 2003b                           placebo  sumatriptan 0.9680 [0.8007; 1.1702]
+
+Number of studies: k = 31
+Number of pairwise comparisons: m = 37
+Number of observations: o = 22650
+Number of treatments: n = 14
+Number of designs: d = 16
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                         OR           95%-CI     z p-value
+acetylsalicylic acid 0.9673 [0.6015; 1.5553] -0.14  0.8907
+almotriptan          0.8756 [0.4980; 1.5395] -0.46  0.6445
+diclofenac potassium 1.1664 [0.7908; 1.7203]  0.78  0.4376
+frovatriptan         0.8907 [0.6426; 1.2347] -0.69  0.4873
+ibuprofen            1.0211 [0.7075; 1.4736]  0.11  0.9113
+lasmiditan           1.0470 [0.9038; 1.2128]  0.61  0.5405
+naproxen sodium      1.1702 [0.8595; 1.5931]  1.00  0.3182
+naratriptan          0.3333 [0.0135; 8.2592] -0.67  0.5023
+paracetamol          0.9196 [0.4707; 1.7966] -0.25  0.8063
+phenazone            0.8178 [0.3984; 1.6788] -0.55  0.5836
+placebo                   .                .     .       .
+rizatriptan          0.8816 [0.7091; 1.0961] -1.13  0.2568
+sumatriptan          1.0159 [0.8818; 1.1703]  0.22  0.8276
+zolmitriptan         0.8374 [0.4359; 1.6089] -0.53  0.5944
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                         OR           95%-CI     z p-value
+acetylsalicylic acid 0.9683 [0.5322; 1.7617] -0.11  0.9159
+almotriptan          0.8756 [0.4439; 1.7269] -0.38  0.7014
+diclofenac potassium 1.1664 [0.6783; 2.0058]  0.56  0.5779
+frovatriptan         0.8695 [0.5646; 1.3390] -0.63  0.5254
+ibuprofen            1.0219 [0.6490; 1.6091]  0.09  0.9256
+lasmiditan           1.0820 [0.8412; 1.3917]  0.61  0.5393
+naproxen sodium      1.1716 [0.7774; 1.7658]  0.76  0.4492
+naratriptan          0.3333 [0.0132; 8.4444] -0.67  0.5053
+paracetamol          0.9719 [0.4582; 2.0615] -0.07  0.9407
+phenazone            0.8178 [0.3629; 1.8429] -0.49  0.6276
+placebo                   .                .     .       .
+rizatriptan          0.9083 [0.6778; 1.2172] -0.64  0.5197
+sumatriptan          1.0331 [0.8545; 1.2490]  0.34  0.7366
+zolmitriptan         0.8374 [0.3938; 1.7808] -0.46  0.6449
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0372; tau = 0.1929; I^2 = 39.5% [0.0%; 63.7%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           34.72   21  0.0303
+Within designs  20.18   16  0.2122
+Between designs 14.54    5  0.0125
+
+A total of 14 treatments are included in the network.
+A total of 31 studies are included in this analysis.
+A total of 22650 participants are included in this analysis, with 3172 events (14%).
+Estimated heterogeneity tau-squared: 0.04.
+Global test for inconsistency, p-value 0.0125 (Q=15, d.o.f. 5)
+
+The following studies were included in this analysis: 0462-039 1996 Brandes 2007a Carpay 2004 Codispoti 2001 Dahlöf 2001 Färkkila 2012 Freitag 2007 Goadsby 2019 Göbel 2004 Goldstein 2006 Kuca 2018 Landy2004 Lange 2000 Lines 2001 Lipton 2005 Lipton 2010 Massiou 2005 Moon 2010 Prior 2010 Ryan (VML 251/96/09) 2002 Sakai 2002 Sakai 2021 Sheftell 2005a Sheftell 2005b SUM20033 2003 Tazaki 1993 Tfelt-Hansen 1998 Toledano 2021 Wentz 2008 Winner 2003a Winner 2003b.
+
+File created on 2023-05-26.

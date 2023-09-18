@@ -1,0 +1,9 @@
+            P-score
+antipyretic  0.9215
+placebo      0.7794
+NSAID        0.5573
+triptan      0.3924
+gepant       0.2566
+ditan        0.0929
+
+File created on 2023-07-23.

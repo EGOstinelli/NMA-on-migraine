@@ -1,0 +1,37 @@
+Number of studies: k = 29
+Number of pairwise comparisons: m = 39
+Number of observations: o = 22598
+Number of treatments: n = 13
+Number of designs: d = 14
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                         OR           95%-CI     z p-value
+acetylsalicylic acid 0.9661 [0.5973; 1.5625] -0.14  0.8882
+almotriptan          0.9935 [0.7006; 1.4088] -0.04  0.9707
+diclofenac potassium 1.0772 [0.7327; 1.5837]  0.38  0.7053
+eletriptan           1.0824 [0.4962; 2.3611]  0.20  0.8424
+lasmiditan           1.0555 [0.9115; 1.2222]  0.72  0.4706
+naproxen sodium      1.1658 [0.8381; 1.6217]  0.91  0.3623
+naratriptan          0.8841 [0.4602; 1.6986] -0.37  0.7116
+phenazone            0.9321 [0.4469; 1.9440] -0.19  0.8513
+placebo                   .                .     .       .
+rimegepant           0.6290 [0.2362; 1.6753] -0.93  0.3536
+rizatriptan          0.8510 [0.6654; 1.0884] -1.29  0.1987
+sumatriptan          1.0513 [0.9172; 1.2050]  0.72  0.4727
+ubrogepant           0.8296 [0.2011; 3.4223] -0.26  0.7962
+
+Test of inconsistency (between designs):
+    Q d.f. p-value
+ 4.55    5  0.4736
+
+A total of 13 treatments are included in the network.
+A total of 29 studies are included in this analysis.
+A total of 22598 participants are included in this analysis, with 2868 events (12.69%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value 0.47359 (Q=5, d.o.f. 5)
+
+The following studies were included in this analysis: 0462-039 1996 Brandes 2007a Carpay 2004 Dahlöf 2001 Diener 2011 Färkkila 2012 Freitag 2007 Goadsby 2019 Göbel 2004 Klassen 1997 Kolodny 2004 Kuca 2018 Kudrow 2005 Landy2004 Lange 2000 Lipton 2005 Lipton 2010 Marcus 2014 Massiou 2005 NCT01657370 2012 Nett 2003 Sakai 2021 Sargent 1995 Sheftell 2005a Sheftell 2005b Smith 2005 Spierings 2001 Tfelt-Hansen 1998 Winner 2003b.
+
+File created on 2023-05-26.

@@ -1,0 +1,14 @@
+                   comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
+1        celecoxib vs  placebo                 2 0.86     0.58     1.26   0.00 0.00         NA         NA 0.03 0.8568
+2       lasmiditan vs  placebo                 4 1.16     0.94     1.43   0.01 0.18          0       0.87 3.64 0.3033
+3      paracetamol vs  placebo                 1 6.40     1.12    36.44     NA   NA         NA         NA 0.00     NA
+4       rimegepant vs  placebo                 4 1.11     0.89     1.39   0.00 0.00          0       0.85 1.33 0.7219
+5      rizatriptan vs  placebo                 2 0.92     0.44     1.94   0.21 0.75          0       0.94 3.95 0.0467
+6      sumatriptan vs  placebo                 3 1.03     0.63     1.66   0.08 0.42          0       0.82 3.42 0.1807
+7    sumatriptan vs rimegepant                 1 1.27     0.44     3.73     NA   NA         NA         NA 0.00     NA
+8   sumatriptan vs rizatriptan                 1 1.13     0.80     1.59     NA   NA         NA         NA 0.00     NA
+9       ubrogepant vs  placebo                 3 1.23     0.99     1.53   0.01 0.24          0       0.92 2.63 0.2688
+10    zolmitriptan vs  placebo                 1 0.74     0.42     1.30     NA   NA         NA         NA 0.00     NA
+11 zolmitriptan vs sumatriptan                 1 1.00     0.75     1.32     NA   NA         NA         NA 0.00     NA
+
+File created on 2023-05-27.

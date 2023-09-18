@@ -1,0 +1,7 @@
+            P-score (common) P-score (random)
+placebo               0.6213           0.6213
+rizatriptan           0.6121           0.6121
+lasmiditan            0.3988           0.3988
+sumatriptan           0.3678           0.3678
+
+File created on 2023-05-26.

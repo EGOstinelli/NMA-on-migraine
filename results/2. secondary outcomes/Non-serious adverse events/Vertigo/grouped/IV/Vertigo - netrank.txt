@@ -1,0 +1,7 @@
+        P-score (common) P-score (random)
+placebo           0.7486           0.7301
+triptan           0.6980           0.6341
+NSAID             0.4749           0.5689
+ditan             0.0785           0.0668
+
+File created on 2023-05-27.

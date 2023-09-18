@@ -1,0 +1,30 @@
+Number of studies: k = 54
+Number of pairwise comparisons: m = 62
+Number of observations: o = 39056
+Number of treatments: n = 6
+Number of designs: d = 8
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI     z p-value
+antipyretic 0.5182 [0.1780; 1.5089] -1.21  0.2280
+ditan       1.0902 [0.9505; 1.2506]  1.23  0.2171
+gepant      1.2220 [0.7808; 1.9125]  0.88  0.3803
+NSAID       1.1267 [0.8760; 1.4492]  0.93  0.3529
+placebo          .                .     .       .
+triptan     1.0920 [1.0007; 1.1915]  1.98  0.0481
+
+Test of inconsistency (between designs):
+    Q d.f. p-value
+ 6.92    6  0.3287
+
+A total of 6 treatments are included in the network.
+A total of 54 studies are included in this analysis.
+A total of 39056 participants are included in this analysis, with 4984 events (12.76%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value 0.32872 (Q=7, d.o.f. 6)
+
+The following studies were included in this analysis: 0462-039 1996 Ashina 2021 Bomhof 1999 Brandes 2007a Carpay 2004 Dahlöf 1998 Dahlöf 2001 Diener 2002 Dowson 2002b Ensink 1991 Färkkila 2012 Freitag 2008 Geraud 2000 Goadsby 2000 Goadsby 2019 Goldstein 1998 Havanka 2000 Ho 2008b Jelinski 2006 Kaniecki 2006 Klassen 1997 Kolodny 2004 Kramer 1998 Kuca 2018 Landy 2004 Lines 2001 Lipton 2010 Marcus 2014 Massiou 2005 Misra 2010 Moon 2010 NCT00920686 2010 Nett 2003 Pascual 2000b Pini 1995 Rapoport 1997 Rapoport 2002 S2WB3002 1996 Sakai 2021 Sandrini 2002 Sheftell 2005a Sheftell 2005b Smith 2005 Solomon 1997 Stark 2002 Steiner 2003 SUM20033 2003 Tazaki 1993 Tfelt-Hansen 1998 Tfelt-Hansen 2006 The Oral Sumatriptan Dose-defining Study 1991 Voss 2016 Winner 2003a Winner 2003b.
+
+File created on 2023-07-23.

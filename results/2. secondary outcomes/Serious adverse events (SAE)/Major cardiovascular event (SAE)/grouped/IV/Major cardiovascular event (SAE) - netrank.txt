@@ -1,0 +1,5 @@
+        P-score (common) P-score (random)
+triptan           0.8807           0.8807
+placebo           0.1193           0.1193
+
+File created on 2023-05-26.

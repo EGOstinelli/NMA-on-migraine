@@ -1,0 +1,11 @@
+              comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq  Q.st  p.val
+1 antipyretic vs  placebo                 1 0.36     0.12     1.11     NA   NA         NA         NA  0.00     NA
+2       ditan vs  placebo                 5 1.09     0.95     1.25   0.00 0.10       0.00       0.81  4.44 0.3493
+3      gepant vs  placebo                 2 1.06     0.46     2.48   0.23 0.58       0.00       0.90  2.40 0.1216
+4       NSAID vs  placebo                 3 1.09     0.83     1.43   0.00 0.00       0.00       0.90  0.11 0.9444
+5     triptan vs  placebo                46 1.05     0.92     1.18   0.05 0.42       0.17       0.59 77.55 0.0018
+6  triptan vs antipyretic                 1 1.00     0.27     3.70     NA   NA         NA         NA  0.00     NA
+7       triptan vs gepant                 1 1.93     0.65     5.78     NA   NA         NA         NA  0.00     NA
+8        triptan vs NSAID                 3 0.91     0.62     1.33   0.00 0.00       0.00       0.90  0.37 0.8294
+
+File created on 2023-07-23.

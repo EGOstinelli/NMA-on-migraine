@@ -1,0 +1,30 @@
+Number of studies: k = 105
+Number of pairwise comparisons: m = 117
+Number of observations: o = 70428
+Number of treatments: n = 6
+Number of designs: d = 9
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI     z  p-value
+antipyretic 2.2315 [1.6864; 2.9528]  5.62 < 0.0001
+ditan       1.8232 [1.6500; 2.0145] 11.79 < 0.0001
+gepant      1.6657 [1.5288; 1.8149] 11.66 < 0.0001
+NSAID       1.9696 [1.8129; 2.1400] 16.02 < 0.0001
+placebo          .                .     .        .
+triptan     2.9005 [2.7646; 3.0431] 43.49        0
+
+Test of inconsistency (between designs):
+     Q d.f. p-value
+ 12.92    7  0.0740
+
+A total of 6 treatments are included in the network.
+A total of 105 studies are included in this analysis.
+A total of 70428 participants are included in this analysis, with 31232 events (44.35%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value 0.07404 (Q=13, d.o.f. 7)
+
+The following studies were included in this analysis: 0462-039 1996 103 UN 311CIL0099 1999 97-030 UN Ahrens 1999 Ashina 2021 Barbanti 2012 Bomhof 1999 Brandes 2007a Brandes 2007b Brauneis 1994 Bussone 2000 Codispoti 2001 Croop 2019 Cutler 1995 Dahlöf 1998 Dahlöf 2001 Dahlöf 2009 Diener 2002 Diener 2004 Diener 2011 Dodick 2019 Dowson 2002a Dowson 2002b Eletriptan Steering Committee in Japan 2002 Ensink 1991 Färkkila 2003 Färkkila 2012 Freitag 2007 Freitag 2008 Garcia-Ramos 2003 Geraud 2000 Gijsmant 1997 Goadsby 2000 Goadsby 2019 Göbel 2004 Goldstein 2005 Gomez-Mancilla 2014 Havanka 2000 Ho 2008a Ho 2008b Kaniecki 2006 Kellstein 2000 Klassen 1997 Kramer 1998 Kuca 2018 Kudrow 2005 Lange 2000 Lee 2001 Lines 2001 Lipton 2000 Lipton 2005 Lipton 2010 Lipton 2019a Lipton 2019b Lipton 2019c Lipton 2021 Mannix 2007a Mannix 2007b Marcus 2014 Mathew 1997 Mathew 2003 Misra 2010 Moon 2010 Myllylä 1998 Nappi 1994 NCT01657370 2012 NCT01986270 / 104 1998 NCT03235479 2018 Pascual 2000a Pascual 2000b Pfaffenrath 1998 Prior 2010 Rapoport 1997 Rapoport 2002 Ryan 2002a Ryan 2002b Ryan 2002c S2WB3002 1996 S98-073 UN S98-074 UN Sakai 2002 Sakai 2021 Sandrini 2002 Saper 2006 Sargent 1995 Savani 1999 Sheftell 2003 Sheftell 2005a Sheftell 2005b Smith 2005 Solomon 1997 Stark 2002 Steiner 2003 SUM20033 2003 Tazaki 1993 Teall 1996 Tfelt-Hansen 1995 Tfelt-Hansen 1998 The Oral Sumatriptan Dose-defining Study 1991 Visser 1996a Visser 1996b Voss 2016 Wentz 2008 Yu 2023.
+
+File created on 2023-07-23.

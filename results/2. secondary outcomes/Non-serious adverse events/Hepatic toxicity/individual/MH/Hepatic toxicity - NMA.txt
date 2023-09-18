@@ -1,0 +1,33 @@
+Number of studies: k = 17
+Number of pairwise comparisons: m = 23
+Number of observations: o = 17081
+Number of treatments: n = 9
+Number of designs: d = 9
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                 OR            95%-CI     z p-value
+celecoxib    0.8552 [0.5814;  1.2580] -0.79  0.4269
+lasmiditan   1.1340 [0.9573;  1.3432]  1.45  0.1457
+paracetamol  6.4000 [1.1241; 36.4373]  2.09  0.0365
+placebo           .                 .     .       .
+rimegepant   1.1103 [0.8853;  1.3924]  0.91  0.3652
+rizatriptan  0.8470 [0.6101;  1.1759] -0.99  0.3213
+sumatriptan  0.9610 [0.6975;  1.3241] -0.24  0.8078
+ubrogepant   1.2092 [1.0191;  1.4348]  2.18  0.0295
+zolmitriptan 0.9280 [0.6268;  1.3740] -0.37  0.7092
+
+Test of inconsistency (between designs):
+   Q d.f. p-value
+ 6.2    4  0.1848
+
+A total of 9 treatments are included in the network.
+A total of 17 studies are included in this analysis.
+A total of 17081 participants are included in this analysis, with 2495 events (14.61%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value 0.18481 (Q=6, d.o.f. 4)
+
+The following studies were included in this analysis: 0462-039 1996 Ashina 2021 Croop 2019 Dodick 2019 Färkkila 2012 Geraud 2000 Kuca 2018 Lipton 2019a Lipton 2019b Lipton 2019c Lipton 2021 Marcus 2014 Sakai 2021 Tfelt-Hansen 1998 Toledano 2021 Voss 2016 Yu 2023.
+
+File created on 2023-05-27.
