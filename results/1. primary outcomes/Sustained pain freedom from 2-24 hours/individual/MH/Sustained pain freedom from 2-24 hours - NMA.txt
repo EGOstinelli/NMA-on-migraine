@@ -1,0 +1,39 @@
+Number of studies: k = 56
+Number of pairwise comparisons: m = 76
+Number of observations: o = 44098
+Number of treatments: n = 15
+Number of designs: d = 23
+
+Common effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                         OR            95%-CI     z  p-value
+almotriptan          2.5661 [2.1226;  3.1022]  9.73 < 0.0001
+celecoxib            1.7113 [1.2489;  2.3451]  3.34   0.0008
+diclofenac potassium 2.8991 [1.7868;  4.7039]  4.31 < 0.0001
+eletriptan           4.4994 [3.6876;  5.4900] 14.81 < 0.0001
+ibuprofen            7.5809 [2.9109; 19.7426]  4.15 < 0.0001
+lasmiditan           2.0750 [1.7361;  2.4800]  8.02 < 0.0001
+naproxen sodium      2.1006 [1.6317;  2.7042]  5.76 < 0.0001
+naratriptan          1.7494 [0.9974;  3.0683]  1.95   0.0511
+paracetamol          1.6751 [0.7401;  3.7914]  1.24   0.2158
+placebo                   .                 .     .        .
+rimegepant           2.3227 [1.9376;  2.7842]  9.11 < 0.0001
+rizatriptan          3.1708 [2.5948;  3.8747] 11.28 < 0.0001
+sumatriptan          3.0070 [2.6509;  3.4108] 17.12 < 0.0001
+ubrogepant           1.8896 [1.4502;  2.4621]  4.71 < 0.0001
+zolmitriptan         2.8071 [2.3784;  3.3132] 12.20 < 0.0001
+
+Test of inconsistency (between designs):
+     Q d.f. p-value
+ 42.15   17  0.0006
+
+A total of 15 treatments are included in the network.
+A total of 56 studies are included in this analysis.
+A total of 44098 participants are included in this analysis, with 6522 events (14.79%).
+Estimated heterogeneity tau-squared: NA.
+Global test for inconsistency, p-value 0.00064 (Q=42, d.o.f. 17)
+
+The following studies were included in this analysis: Ashina 2021 Barbanti 2012 Brandes 2005 Brandes 2007a Brandes 2007b Cady 2006a Cady 2006b Cady 2009 Carpay 2004 Croop 2019 Dahlöf 2001 Diener 2011 Dodick 2019 Dowson 2002a Eletriptan Steering Committee in Japan 2002 Freitag 2008 Garcia-Ramos 2003 Goadsby 2007 Goadsby 2008 Goadsby 2019 Gomez-Mancilla 2014 Gruffyd-Jones 2001 Ho 2008a Ho 2008b Jelinski 2006 Kaniecki 2006 Kuca 2018 Landy2004 Lipton 2010 Lipton 2019a Lipton 2019b Lipton 2019c Lipton 2021 Marcus 2014 Mathew 2007 MOMENTUM 2019 NCT01657370 2012 NCT03235479 2018 Nett 2003 Pascual 2000a Pascual 2000b Sakai 2021 Sandrini 2002 Saper 2006 Sheftell 2003 Sheftell 2005a Sheftell 2005b Smith 2005 Steiner 2003 Tfelt-Hansen 2006 Toledano 2021 Voss 2016 Wentz 2008 Winner 2003a Winner 2003b Yu 2023.
+
+File created on 2023-05-24.
