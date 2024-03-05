@@ -1,0 +1,18 @@
+                     P-score (common) P-score (random)
+ibuprofen                      0.9784           0.9629
+eletriptan                     0.9319           0.9186
+rizatriptan                    0.7850           0.7419
+sumatriptan                    0.7451           0.7243
+zolmitriptan                   0.6653           0.6682
+diclofenac potassium           0.6850           0.6285
+almotriptan                    0.5639           0.5674
+rimegepant                     0.4744           0.4704
+lasmiditan                     0.3325           0.3976
+naproxen sodium                0.3645           0.3959
+ubrogepant                     0.2585           0.3051
+paracetamol                    0.2607           0.2633
+celecoxib                      0.2043           0.2244
+naratriptan                    0.2401           0.2131
+placebo                        0.0104           0.0183
+
+File created on 2024-03-04.

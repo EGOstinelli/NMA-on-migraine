@@ -1,0 +1,918 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                                                                        treat1       treat2      TE   seTE
+0462-039 1996                                                                          placebo  rizatriptan -1.0120 0.2946
+103 UN                                                                              eletriptan      placebo  1.7970 0.4314
+Ahrens 1999_0462-049                                                                   placebo  rizatriptan -1.7541 0.2701
+Ashina 2021_NCT03670810_EUCTR2018-001661-17_CENTURION                               lasmiditan      placebo  1.3319 0.1857
+Barbanti 2012_NCT00753311_EUCTR2008-007967-18                                          placebo  rizatriptan -2.4814 0.6686
+Bomhof 1999                                                                        naratriptan      placebo  1.0361 0.3872
+Bomhof 1999                                                                        naratriptan  rizatriptan -1.1419 0.2207
+Bomhof 1999                                                                            placebo  rizatriptan -2.1780 0.3761
+Brandes 2005                                                                        eletriptan      placebo  0.8562 0.1995
+Brandes 2007a_NCT00434083_MT400-301_TXA112496                                  naproxen sodium      placebo  0.5322 0.2334
+Brandes 2007a_NCT00434083_MT400-301_TXA112496                                  naproxen sodium  sumatriptan -0.6483 0.1892
+Brandes 2007a_NCT00434083_MT400-301_TXA112496                                          placebo  sumatriptan -1.1805 0.2170
+Brandes 2007b_NCT00433732_MT400-302                                            naproxen sodium      placebo  0.4863 0.2230
+Brandes 2007b_NCT00433732_MT400-302                                            naproxen sodium  sumatriptan -0.4323 0.1877
+Brandes 2007b_NCT00433732_MT400-302                                                    placebo  sumatriptan -0.9186 0.2111
+Brauneis 1994                                                                          placebo  sumatriptan -3.1600 1.6127
+Bussone 2000                                                                           placebo  sumatriptan -1.3393 0.4652
+Cady 2006a_NCT00092963_0462-065_TAME1                                                  placebo  rizatriptan -1.0065 0.1888
+Cady 2006b_NCT00095004_0462-066_TAME2                                                  placebo  rizatriptan -1.0359 0.1930
+Cady 2009_NCT00516737_EUCTR2007-003361-40_0462-081                                     placebo  rizatriptan -1.3734 0.4455
+Carpay 2004_SUM30046                                                                   placebo  sumatriptan -1.5380 0.2312
+Croop 2019_NCT03461757_BHV3000-303                                                     placebo   rimegepant -0.7639 0.1542
+Cutler 1995_S2B206                                                                     placebo  sumatriptan -1.1050 0.4988
+Dahlöf 1998_008                                                                        placebo zolmitriptan -3.8038 1.0136
+Dahlöf 2001_CL12_M3141612                                                          almotriptan      placebo  1.3631 0.3671
+Dahlöf 2009                                                                            placebo  sumatriptan -1.5436 0.4123
+Diener 2002_307                                                                     eletriptan      placebo  2.2662 0.4698
+Diener 2004a                                                              acetylsalicylic acid      placebo  0.6946 0.2987
+Diener 2004a                                                              acetylsalicylic acid  sumatriptan  0.0389 0.2761
+Diener 2004a                                                                           placebo  sumatriptan -0.6557 0.3053
+Diener 2005_CCAT458C2301                                                  diclofenac potassium      placebo  1.2668 0.4265
+Diener 2011_NCT00751803_EUCTR2008-000079-31                                         eletriptan      placebo  1.6487 0.4877
+Dodick 2019_NCT02828020_UBR-MD01_ACHIEVE I                                             placebo   ubrogepant -0.5634 0.1651
+Dowson 2002a_CL13_M3141613                                                         almotriptan      placebo  0.7642 0.3251
+Dowson 2002a_CL13_M3141613                                                         almotriptan  sumatriptan -0.2731 0.2242
+Dowson 2002a_CL13_M3141613                                                             placebo  sumatriptan -1.0373 0.3189
+Dowson 2002b_311CIL0107                                                                placebo zolmitriptan -1.3773 0.2896
+Eletriptan Steering Committee in Japan 2002                                         eletriptan      placebo  0.8516 0.3696
+Ensink 1991_The Oral Sumatriptan International Multiple-Dose Study_S2BT31              placebo  sumatriptan -1.9238 0.5457
+Färkkila 2003_NCT01989936                                                           eletriptan      placebo  2.0832 0.4742
+Färkkila 2012_NCT00883051_COL_MIG-202                                               lasmiditan      placebo  0.7215 0.4574
+Freitag 2008                                                                       paracetamol      placebo  0.7564 0.5549
+Freitag 2008                                                                       paracetamol  rizatriptan -0.6122 0.4572
+Freitag 2008                                                                           placebo  rizatriptan -1.3687 0.5301
+Garcia-Ramos 2003                                                                   eletriptan  naratriptan  0.7130 0.2334
+Garcia-Ramos 2003                                                                   eletriptan      placebo  0.8473 0.3091
+Garcia-Ramos 2003                                                                  naratriptan      placebo  0.1343 0.3255
+Geraud 2000_018                                                                        placebo  sumatriptan -1.1082 0.4081
+Geraud 2000_018                                                                        placebo zolmitriptan -1.0737 0.4085
+Geraud 2000_018                                                                    sumatriptan zolmitriptan  0.0345 0.1336
+Gijsmant 1997_0462-014                                                                 placebo  rizatriptan -2.3394 0.7281
+Goadsby 2000_314                                                                    eletriptan      placebo  1.7603 0.4015
+Goadsby 2000_314                                                                    eletriptan  sumatriptan  0.1374 0.2297
+Goadsby 2000_314                                                                       placebo  sumatriptan -1.6229 0.4355
+Goadsby 2007                                                                       almotriptan zolmitriptan -0.1967 0.1233
+Goadsby 2008_EUCTR2004-005285-20_Act when mild                                     almotriptan      placebo  1.0695 0.2158
+Goadsby 2019_NCT02605174_COL_MIG-302_SPARTAN                                        lasmiditan      placebo  0.5332 0.1128
+Göbel 2004                                                                           phenazone      placebo  0.8808 0.3554
+Goldstein 2006                                                                       ibuprofen      placebo  0.2420 0.1777
+Gomez-Mancilla 2014_NCT00892203_EUCTR2008-005392-10-ES_CBGG492A2204                    placebo  sumatriptan -0.5055 0.7190
+Gruffyd-Jones 2001_311CIL0070_ZEUS                                                 sumatriptan zolmitriptan  0.0826 0.1089
+Ho 2008a_NCT00246337_0974-004                                                          placebo  rizatriptan -0.9741 0.4364
+Ho 2008b_NCT00442936_EUCTR2006-004257-14                                               placebo zolmitriptan -1.4082 0.2223
+Jelinski 2006_SUM40291                                                                 placebo  sumatriptan -1.5118 0.2923
+Kaniecki 2006_SUM40312                                                                 placebo  sumatriptan -0.6463 0.3178
+Kellstein 2000                                                                       ibuprofen      placebo  0.8842 0.2572
+Klapper 2004_311CIL0111                                                                placebo zolmitriptan -1.1449 0.2726
+Klassen 1997_S2WA3001                                                              naratriptan      placebo  0.2928 0.3340
+Kramer 1998_NCT00899379_0462-025                                                       placebo  rizatriptan -2.1889 0.4350
+Kuca 2018_NCT02439320_301 - LAHJ_SAMURAI                                            lasmiditan      placebo  0.7733 0.1345
+Landy 2004_SUM40282                                                                    placebo  sumatriptan -1.4001 0.2218
+Lange 2000                                                                acetylsalicylic acid      placebo  0.7138 0.2648
+Lines 2001_NCT00897104_0462-029                                                        placebo  rizatriptan -2.5257 0.7248
+Lines 2001_NCT00897104_0462-029                                                        placebo  sumatriptan -2.7243 0.7237
+Lines 2001_NCT00897104_0462-029                                                    rizatriptan  sumatriptan -0.1986 0.1601
+Lipton 2000a                                                                       paracetamol      placebo  0.8300 0.3257
+Lipton 2005_S98-072                                                       acetylsalicylic acid      placebo  1.1956 0.3243
+Lipton 2010_PRO-513301_IMPACT                                             diclofenac potassium      placebo  1.0450 0.2146
+Lipton 2019a_NCT03006276_Study 007                                                   celecoxib      placebo  0.7180 0.1907
+Lipton 2019b_NCT02867709_UBR-MD-02_ACHIEVE II                                          placebo   ubrogepant -0.5777 0.1772
+Lipton 2019c_NCT03237845_BHV3000-302                                                   placebo   rimegepant -0.5718 0.1706
+Lipton 2021_NCT03009019_Study 006                                                    celecoxib      placebo  0.3814 0.1841
+Loder 2005                                                                             placebo zolmitriptan -0.9695 0.1886
+Marcus 2014_NCT01430442_CN170-003                                                      placebo   rimegepant -0.9912 0.3000
+Marcus 2014_NCT01430442_CN170-003                                                      placebo  sumatriptan -1.1056 0.2818
+Marcus 2014_NCT01430442_CN170-003                                                   rimegepant  sumatriptan -0.1143 0.3078
+Massiou 2005_S2W40031                                                              naratriptan      placebo  0.8053 0.2805
+Mathew 2003_A160-1048                                                               eletriptan      placebo  2.2143 0.2340
+Mathew 2003_A160-1048                                                               eletriptan  sumatriptan  0.3988 0.1049
+Mathew 2003_A160-1048                                                                  placebo  sumatriptan -1.8155 0.2362
+Mathew 2007_NCT00210509_CR004714_AEGIS                                             almotriptan      placebo  0.6475 0.2409
+MOMENTUM 2019_NCT03896009_AXS-07-301                                                   placebo  rizatriptan -1.0673 0.3040
+Moon 2010                                                                         frovatriptan      placebo  1.4703 0.4744
+Munjal 2017_NCT02472418_Study 002                                                    celecoxib      placebo  1.5581 0.8757
+Myllylä 1998                                                                           placebo  sumatriptan -2.5337 0.6657
+Nappi 1994_S2CT34                                                                      placebo  sumatriptan -0.7350 0.3829
+NCT00920686 2010_NXN-188-203                                                           placebo  sumatriptan -0.1054 0.4437
+NCT01248468 2011                                                                       placebo  sumatriptan -0.7996 0.2319
+NCT01657370 2012_P007                                                                  placebo   ubrogepant -2.6488 1.4612
+NCT01986270 1998_104                                                                eletriptan      placebo  1.0802 0.3911
+NCT03235479 2018_BHV3000-301                                                           placebo   rimegepant -0.3516 0.1633
+Nett 2003_SUM40285                                                                     placebo  sumatriptan -0.8378 0.2316
+Pascual 2000a_CL14_M3141614                                                        almotriptan      placebo  1.0474 0.2204
+Pascual 2000b                                                                          placebo  rizatriptan -1.9349 0.3033
+Pascual 2000b                                                                          placebo zolmitriptan -1.6340 0.3054
+Pascual 2000b                                                                      rizatriptan zolmitriptan  0.3009 0.1677
+Prior 2010                                                                         paracetamol      placebo  0.5861 0.3534
+Rapoport 1997_017                                                                      placebo zolmitriptan -1.7497 0.3749
+Rapoport 2002_02_&_14                                                             frovatriptan      placebo  1.5766 0.4607
+Ryan 2002a_VML 251/96/06                                                          frovatriptan      placebo  1.9446 0.7424
+Ryan 2002b_VML 251/96/07                                                          frovatriptan      placebo  1.6724 0.3552
+Ryan 2002c_VML 251/96/09                                                          frovatriptan      placebo  1.0956 0.4169
+Ryan 2002c_VML 251/96/09                                                          frovatriptan  sumatriptan -0.8005 0.2045
+Ryan 2002c_VML 251/96/09                                                               placebo  sumatriptan -1.8961 0.4019
+S2WB3002 1996                                                                      naratriptan      placebo  1.2887 0.4753
+S2WB3002 1996                                                                      naratriptan  sumatriptan -0.9895 0.1922
+S2WB3002 1996                                                                          placebo  sumatriptan -2.2782 0.4765
+Sakai 2002                                                                             placebo zolmitriptan -0.5896 0.4591
+Sakai 2021_NCT03962738_H8H-JE-LAIH_MONONOFU                                         lasmiditan      placebo  0.8679 0.2041
+Sandrini 2002_NCT01986088_318                                                       eletriptan      placebo  2.5760 0.5992
+Sandrini 2002_NCT01986088_318                                                       eletriptan  sumatriptan  0.8195 0.1816
+Sandrini 2002_NCT01986088_318                                                          placebo  sumatriptan -1.7565 0.6044
+Saper 2006                                                                           ibuprofen      placebo  1.6452 0.3628
+Sargent 1995_S2B216                                                                    placebo  sumatriptan -1.3433 0.6321
+Savani 1999_S2CM07                                                                     placebo  sumatriptan -1.8165 0.4367
+                                                                          seTE.adj.f seTE.adj.r narms multiarm
+0462-039 1996                                                                 0.2946     0.3932     2         
+103 UN                                                                        0.4314     0.5039     2         
+Ahrens 1999_0462-049                                                          0.2701     0.3752     2         
+Ashina 2021_NCT03670810_EUCTR2018-001661-17_CENTURION                         0.1857     0.3198     2         
+Barbanti 2012_NCT00753311_EUCTR2008-007967-18                                 0.6686     0.7175     2         
+Bomhof 1999                                                                   0.5678     0.6303     3        *
+Bomhof 1999                                                                   0.2312     0.3719     3        *
+Bomhof 1999                                                                   0.4762     0.5860     3        *
+Brandes 2005                                                                  0.1995     0.3280     2         
+Brandes 2007a_NCT00434083_MT400-301_TXA112496                                 0.3233     0.4465     3        *
+Brandes 2007a_NCT00434083_MT400-301_TXA112496                                 0.2124     0.3789     3        *
+Brandes 2007a_NCT00434083_MT400-301_TXA112496                                 0.2620     0.4156     3        *
+Brandes 2007b_NCT00433732_MT400-302                                           0.2990     0.4332     3        *
+Brandes 2007b_NCT00433732_MT400-302                                           0.2133     0.3805     3        *
+Brandes 2007b_NCT00433732_MT400-302                                           0.2580     0.4120     3        *
+Brauneis 1994                                                                 1.6127     1.6336     2         
+Bussone 2000                                                                  0.4652     0.5331     2         
+Cady 2006a_NCT00092963_0462-065_TAME1                                         0.1888     0.3216     2         
+Cady 2006b_NCT00095004_0462-066_TAME2                                         0.1930     0.3241     2         
+Cady 2009_NCT00516737_EUCTR2007-003361-40_0462-081                            0.4455     0.5160     2         
+Carpay 2004_SUM30046                                                          0.2312     0.3482     2         
+Croop 2019_NCT03461757_BHV3000-303                                            0.1542     0.3026     2         
+Cutler 1995_S2B206                                                            0.4988     0.5626     2         
+Dahlöf 1998_008                                                               1.0136     1.0465     2         
+Dahlöf 2001_CL12_M3141612                                                     0.3671     0.4500     2         
+Dahlöf 2009                                                                   0.4123     0.4876     2         
+Diener 2002_307                                                               0.4698     0.5371     2         
+Diener 2004a                                                                  0.3702     0.4892     3        *
+Diener 2004a                                                                  0.3217     0.4512     3        *
+Diener 2004a                                                                  0.3901     0.5029     3        *
+Diener 2005_CCAT458C2301                                                      0.4265     0.4997     2         
+Diener 2011_NCT00751803_EUCTR2008-000079-31                                   0.4877     0.5528     2         
+Dodick 2019_NCT02828020_UBR-MD01_ACHIEVE I                                    0.1651     0.3083     2         
+Dowson 2002a_CL13_M3141613                                                    0.4448     0.5421     3        *
+Dowson 2002a_CL13_M3141613                                                    0.2414     0.3860     3        *
+Dowson 2002a_CL13_M3141613                                                    0.4108     0.5240     3        *
+Dowson 2002b_311CIL0107                                                       0.2896     0.3894     2         
+Eletriptan Steering Committee in Japan 2002                                   0.3696     0.4521     2         
+Ensink 1991_The Oral Sumatriptan International Multiple-Dose Study_S2BT31     0.5457     0.6047     2         
+Färkkila 2003_NCT01989936                                                     0.4742     0.5409     2         
+Färkkila 2012_NCT00883051_COL_MIG-202                                         0.4574     0.5263     2         
+Freitag 2008                                                                  0.7442     0.8047     3        *
+Freitag 2008                                                                  0.5153     0.6013     3        *
+Freitag 2008                                                                  0.6540     0.7301     3        *
+Garcia-Ramos 2003                                                             0.2534     0.3960     3        *
+Garcia-Ramos 2003                                                             0.3813     0.5038     3        *
+Garcia-Ramos 2003                                                             0.4628     0.5488     3        *
+Geraud 2000_018                                                               0.5650     0.6517     3        *
+Geraud 2000_018                                                               0.5743     0.6539     3        *
+Geraud 2000_018                                                               0.1355     0.3085     3        *
+Gijsmant 1997_0462-014                                                        0.7281     0.7733     2         
+Goadsby 2000_314                                                              0.4536     0.5848     3        *
+Goadsby 2000_314                                                              0.2368     0.3733     3        *
+Goadsby 2000_314                                                              0.8295     0.7440     3        *
+Goadsby 2007                                                                  0.1233     0.2881     2         
+Goadsby 2008_EUCTR2004-005285-20_Act when mild                                0.2158     0.3382     2         
+Goadsby 2019_NCT02605174_COL_MIG-302_SPARTAN                                  0.1128     0.2838     2         
+Göbel 2004                                                                    0.3554     0.4406     2         
+Goldstein 2006                                                                0.1777     0.3153     2         
+Gomez-Mancilla 2014_NCT00892203_EUCTR2008-005392-10-ES_CBGG492A2204           0.7190     0.7647     2         
+Gruffyd-Jones 2001_311CIL0070_ZEUS                                            0.1089     0.2822     2         
+Ho 2008a_NCT00246337_0974-004                                                 0.4364     0.5082     2         
+Ho 2008b_NCT00442936_EUCTR2006-004257-14                                      0.2223     0.3424     2         
+Jelinski 2006_SUM40291                                                        0.2923     0.3914     2         
+Kaniecki 2006_SUM40312                                                        0.3178     0.4109     2         
+Kellstein 2000                                                                0.2572     0.3660     2         
+Klapper 2004_311CIL0111                                                       0.2726     0.3770     2         
+Klassen 1997_S2WA3001                                                         0.3340     0.4235     2         
+Kramer 1998_NCT00899379_0462-025                                              0.4350     0.5069     2         
+Kuca 2018_NCT02439320_301 - LAHJ_SAMURAI                                      0.1345     0.2931     2         
+Landy 2004_SUM40282                                                           0.2218     0.3420     2         
+Lange 2000                                                                    0.2648     0.3714     2         
+Lines 2001_NCT00897104_0462-029                                               1.0513     1.0760     3        *
+Lines 2001_NCT00897104_0462-029                                               0.9877     1.0578     3        *
+Lines 2001_NCT00897104_0462-029                                               0.1611     0.3121     3        *
+Lipton 2000a                                                                  0.3257     0.4170     2         
+Lipton 2005_S98-072                                                           0.3243     0.4159     2         
+Lipton 2010_PRO-513301_IMPACT                                                 0.2146     0.3374     2         
+Lipton 2019a_NCT03006276_Study 007                                            0.1907     0.3228     2         
+Lipton 2019b_NCT02867709_UBR-MD-02_ACHIEVE II                                 0.1772     0.3149     2         
+Lipton 2019c_NCT03237845_BHV3000-302                                          0.1706     0.3113     2         
+Lipton 2021_NCT03009019_Study 006                                             0.1841     0.3189     2         
+Loder 2005                                                                    0.1886     0.3215     2         
+Marcus 2014_NCT01430442_CN170-003                                             0.3697     0.4888     3        *
+Marcus 2014_NCT01430442_CN170-003                                             0.3305     0.4579     3        *
+Marcus 2014_NCT01430442_CN170-003                                             0.3926     0.5049     3        *
+Massiou 2005_S2W40031                                                         0.2805     0.3827     2         
+Mathew 2003_A160-1048                                                         0.3100     0.4518     3        *
+Mathew 2003_A160-1048                                                         0.1077     0.3120     3        *
+Mathew 2003_A160-1048                                                         0.3402     0.4577     3        *
+Mathew 2007_NCT00210509_CR004714_AEGIS                                        0.2409     0.3547     2         
+MOMENTUM 2019_NCT03896009_AXS-07-301                                          0.3040     0.4003     2         
+Moon 2010                                                                     0.4744     0.5412     2         
+Munjal 2017_NCT02472418_Study 002                                             0.8757     0.9136     2         
+Myllylä 1998                                                                  0.6657     0.7148     2         
+Nappi 1994_S2CT34                                                             0.3829     0.4630     2         
+NCT00920686 2010_NXN-188-203                                                  0.4437     0.5144     2         
+NCT01248468 2011                                                              0.2319     0.3487     2         
+NCT01657370 2012_P007                                                         1.4612     1.4842     2         
+NCT01986270 1998_104                                                          0.3911     0.4698     2         
+NCT03235479 2018_BHV3000-301                                                  0.1633     0.3074     2         
+Nett 2003_SUM40285                                                            0.2316     0.3485     2         
+Pascual 2000a_CL14_M3141614                                                   0.2204     0.3411     2         
+Pascual 2000b                                                                 0.4048     0.5190     3        *
+Pascual 2000b                                                                 0.4233     0.5258     3        *
+Pascual 2000b                                                                 0.1750     0.3411     3        *
+Prior 2010                                                                    0.3534     0.4389     2         
+Rapoport 1997_017                                                             0.3749     0.4565     2         
+Rapoport 2002_02_&_14                                                         0.4607     0.5292     2         
+Ryan 2002a_VML 251/96/06                                                      0.7424     0.7867     2         
+Ryan 2002b_VML 251/96/07                                                      0.3552     0.4404     2         
+Ryan 2002c_VML 251/96/09                                                      0.6652     0.6839     3        *
+Ryan 2002c_VML 251/96/09                                                      0.2110     0.3550     3        *
+Ryan 2002c_VML 251/96/09                                                      0.4916     0.6112     3        *
+S2WB3002 1996                                                                 0.6491     0.7282     3        *
+S2WB3002 1996                                                                 0.1964     0.3407     3        *
+S2WB3002 1996                                                                 0.6697     0.7363     3        *
+Sakai 2002                                                                    0.4591     0.5278     2         
+Sakai 2021_NCT03962738_H8H-JE-LAIH_MONONOFU                                   0.2041     0.3308     2         
+Sandrini 2002_NCT01986088_318                                                 0.7717     0.8732     3        *
+Sandrini 2002_NCT01986088_318                                                 0.1837     0.3278     3        *
+Sandrini 2002_NCT01986088_318                                                 0.9332     0.9286     3        *
+Saper 2006                                                                    0.3628     0.4466     2         
+Sargent 1995_S2B216                                                           0.6321     0.6836     2         
+Savani 1999_S2CM07                                                            0.4367     0.5084     2         
+ [ reached getOption("max.print") -- omitted 30 rows ]
+
+Number of treatment arms (by study):
+                                                                          narms
+0462-039 1996                                                                 2
+103 UN                                                                        2
+Ahrens 1999_0462-049                                                          2
+Ashina 2021_NCT03670810_EUCTR2018-001661-17_CENTURION                         2
+Barbanti 2012_NCT00753311_EUCTR2008-007967-18                                 2
+Bomhof 1999                                                                   3
+Brandes 2005                                                                  2
+Brandes 2007a_NCT00434083_MT400-301_TXA112496                                 3
+Brandes 2007b_NCT00433732_MT400-302                                           3
+Brauneis 1994                                                                 2
+Bussone 2000                                                                  2
+Cady 2006a_NCT00092963_0462-065_TAME1                                         2
+Cady 2006b_NCT00095004_0462-066_TAME2                                         2
+Cady 2009_NCT00516737_EUCTR2007-003361-40_0462-081                            2
+Carpay 2004_SUM30046                                                          2
+Croop 2019_NCT03461757_BHV3000-303                                            2
+Cutler 1995_S2B206                                                            2
+Dahlöf 1998_008                                                               2
+Dahlöf 2001_CL12_M3141612                                                     2
+Dahlöf 2009                                                                   2
+Diener 2002_307                                                               2
+Diener 2004a                                                                  3
+Diener 2005_CCAT458C2301                                                      2
+Diener 2011_NCT00751803_EUCTR2008-000079-31                                   2
+Dodick 2019_NCT02828020_UBR-MD01_ACHIEVE I                                    2
+Dowson 2002a_CL13_M3141613                                                    3
+Dowson 2002b_311CIL0107                                                       2
+Eletriptan Steering Committee in Japan 2002                                   2
+Ensink 1991_The Oral Sumatriptan International Multiple-Dose Study_S2BT31     2
+Färkkila 2003_NCT01989936                                                     2
+Färkkila 2012_NCT00883051_COL_MIG-202                                         2
+Freitag 2008                                                                  3
+Garcia-Ramos 2003                                                             3
+Geraud 2000_018                                                               3
+Gijsmant 1997_0462-014                                                        2
+Goadsby 2000_314                                                              3
+Goadsby 2007                                                                  2
+Goadsby 2008_EUCTR2004-005285-20_Act when mild                                2
+Goadsby 2019_NCT02605174_COL_MIG-302_SPARTAN                                  2
+Göbel 2004                                                                    2
+Goldstein 2006                                                                2
+Gomez-Mancilla 2014_NCT00892203_EUCTR2008-005392-10-ES_CBGG492A2204           2
+Gruffyd-Jones 2001_311CIL0070_ZEUS                                            2
+Ho 2008a_NCT00246337_0974-004                                                 2
+Ho 2008b_NCT00442936_EUCTR2006-004257-14                                      2
+Jelinski 2006_SUM40291                                                        2
+Kaniecki 2006_SUM40312                                                        2
+Kellstein 2000                                                                2
+Klapper 2004_311CIL0111                                                       2
+Klassen 1997_S2WA3001                                                         2
+Kramer 1998_NCT00899379_0462-025                                              2
+Kuca 2018_NCT02439320_301 - LAHJ_SAMURAI                                      2
+Landy 2004_SUM40282                                                           2
+Lange 2000                                                                    2
+Lines 2001_NCT00897104_0462-029                                               3
+Lipton 2000a                                                                  2
+Lipton 2005_S98-072                                                           2
+Lipton 2010_PRO-513301_IMPACT                                                 2
+Lipton 2019a_NCT03006276_Study 007                                            2
+Lipton 2019b_NCT02867709_UBR-MD-02_ACHIEVE II                                 2
+Lipton 2019c_NCT03237845_BHV3000-302                                          2
+Lipton 2021_NCT03009019_Study 006                                             2
+Loder 2005                                                                    2
+Marcus 2014_NCT01430442_CN170-003                                             3
+Massiou 2005_S2W40031                                                         2
+Mathew 2003_A160-1048                                                         3
+Mathew 2007_NCT00210509_CR004714_AEGIS                                        2
+MOMENTUM 2019_NCT03896009_AXS-07-301                                          2
+Moon 2010                                                                     2
+Munjal 2017_NCT02472418_Study 002                                             2
+Myllylä 1998                                                                  2
+Nappi 1994_S2CT34                                                             2
+NCT00920686 2010_NXN-188-203                                                  2
+NCT01248468 2011                                                              2
+NCT01657370 2012_P007                                                         2
+NCT01986270 1998_104                                                          2
+NCT03235479 2018_BHV3000-301                                                  2
+Nett 2003_SUM40285                                                            2
+Pascual 2000a_CL14_M3141614                                                   2
+Pascual 2000b                                                                 3
+Prior 2010                                                                    2
+Rapoport 1997_017                                                             2
+Rapoport 2002_02_&_14                                                         2
+Ryan 2002a_VML 251/96/06                                                      2
+Ryan 2002b_VML 251/96/07                                                      2
+Ryan 2002c_VML 251/96/09                                                      3
+S2WB3002 1996                                                                 3
+Sakai 2002                                                                    2
+Sakai 2021_NCT03962738_H8H-JE-LAIH_MONONOFU                                   2
+Sandrini 2002_NCT01986088_318                                                 3
+Saper 2006                                                                    2
+Sargent 1995_S2B216                                                           2
+Savani 1999_S2CM07                                                            2
+Sheftell 2003_NCT01978496_102                                                 2
+Sheftell 2005a_SUM30047                                                       2
+Sheftell 2005b_SUM30053                                                       2
+Smith 2005                                                                    3
+Solomon 1997_042                                                              2
+Spierings 2001_0008                                                           2
+Stark 2002_305                                                                2
+Steiner 2003                                                                  3
+SUM20033 2003                                                                 2
+Tazaki 1993a                                                                  2
+Teall 1996_NCT00897949_0462-022                                               2
+Tfelt-Hansen 1995                                                             2
+Tfelt-Hansen 1998_NCT00898677_0462-030                                        3
+Tfelt-Hansen 2006_SUM40308                                                    2
+Toledano 2021_NCT03061734_ANODYNE-1                                           2
+Visser 1996a_0462-008                                                         3
+Visser 1996b_006                                                              2
+Voss 2016_NCT01613248_P006                                                    2
+Wentz 2008                                                                    2
+Winner 2003a_SUM40274                                                         2
+Winner 2003b_SUM40275                                                         2
+Yu 2023_NCT04574362_BHV3000-310                                               2
+
+Results (common effects model):
+
+                                                                                        treat1       treat2     OR           95%-CI
+0462-039 1996                                                                          placebo  rizatriptan 0.2537 [0.2258; 0.2851]
+103 UN                                                                              eletriptan      placebo 5.0322 [4.4561; 5.6828]
+Ahrens 1999_0462-049                                                                   placebo  rizatriptan 0.2537 [0.2258; 0.2851]
+Ashina 2021_NCT03670810_EUCTR2018-001661-17_CENTURION                               lasmiditan      placebo 2.1598 [1.8747; 2.4883]
+Barbanti 2012_NCT00753311_EUCTR2008-007967-18                                          placebo  rizatriptan 0.2537 [0.2258; 0.2851]
+Bomhof 1999                                                                        naratriptan      placebo 1.6284 [1.3206; 2.0079]
+Bomhof 1999                                                                        naratriptan  rizatriptan 0.4131 [0.3303; 0.5168]
+Bomhof 1999                                                                            placebo  rizatriptan 0.2537 [0.2258; 0.2851]
+Brandes 2005                                                                        eletriptan      placebo 5.0322 [4.4561; 5.6828]
+Brandes 2007a_NCT00434083_MT400-301_TXA112496                                  naproxen sodium      placebo 2.2752 [1.8419; 2.8103]
+Brandes 2007a_NCT00434083_MT400-301_TXA112496                                  naproxen sodium  sumatriptan 0.6518 [0.5299; 0.8017]
+Brandes 2007a_NCT00434083_MT400-301_TXA112496                                          placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Brandes 2007b_NCT00433732_MT400-302                                            naproxen sodium      placebo 2.2752 [1.8419; 2.8103]
+Brandes 2007b_NCT00433732_MT400-302                                            naproxen sodium  sumatriptan 0.6518 [0.5299; 0.8017]
+Brandes 2007b_NCT00433732_MT400-302                                                    placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Brauneis 1994                                                                          placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Bussone 2000                                                                           placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Cady 2006a_NCT00092963_0462-065_TAME1                                                  placebo  rizatriptan 0.2537 [0.2258; 0.2851]
+Cady 2006b_NCT00095004_0462-066_TAME2                                                  placebo  rizatriptan 0.2537 [0.2258; 0.2851]
+Cady 2009_NCT00516737_EUCTR2007-003361-40_0462-081                                     placebo  rizatriptan 0.2537 [0.2258; 0.2851]
+Carpay 2004_SUM30046                                                                   placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Croop 2019_NCT03461757_BHV3000-303                                                     placebo   rimegepant 0.5261 [0.4523; 0.6120]
+Cutler 1995_S2B206                                                                     placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Dahlöf 1998_008                                                                        placebo zolmitriptan 0.3070 [0.2747; 0.3431]
+Dahlöf 2001_CL12_M3141612                                                          almotriptan      placebo 2.5825 [2.2308; 2.9896]
+Dahlöf 2009                                                                            placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Diener 2002_307                                                                     eletriptan      placebo 5.0322 [4.4561; 5.6828]
+Diener 2004a                                                              acetylsalicylic acid      placebo 2.6098 [1.9186; 3.5498]
+Diener 2004a                                                              acetylsalicylic acid  sumatriptan 0.7477 [0.5469; 1.0220]
+Diener 2004a                                                                           placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Diener 2005_CCAT458C2301                                                  diclofenac potassium      placebo 2.9738 [2.0423; 4.3301]
+Diener 2011_NCT00751803_EUCTR2008-000079-31                                         eletriptan      placebo 5.0322 [4.4561; 5.6828]
+Dodick 2019_NCT02828020_UBR-MD01_ACHIEVE I                                             placebo   ubrogepant 0.5360 [0.4284; 0.6706]
+Dowson 2002a_CL13_M3141613                                                         almotriptan      placebo 2.5825 [2.2308; 2.9896]
+Dowson 2002a_CL13_M3141613                                                         almotriptan  sumatriptan 0.7398 [0.6391; 0.8565]
+Dowson 2002a_CL13_M3141613                                                             placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Dowson 2002b_311CIL0107                                                                placebo zolmitriptan 0.3070 [0.2747; 0.3431]
+Eletriptan Steering Committee in Japan 2002                                         eletriptan      placebo 5.0322 [4.4561; 5.6828]
+Ensink 1991_The Oral Sumatriptan International Multiple-Dose Study_S2BT31              placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Färkkila 2003_NCT01989936                                                           eletriptan      placebo 5.0322 [4.4561; 5.6828]
+Färkkila 2012_NCT00883051_COL_MIG-202                                               lasmiditan      placebo 2.1598 [1.8747; 2.4883]
+Freitag 2008                                                                       paracetamol      placebo 2.0261 [1.3697; 2.9971]
+Freitag 2008                                                                       paracetamol  rizatriptan 0.5140 [0.3434; 0.7696]
+Freitag 2008                                                                           placebo  rizatriptan 0.2537 [0.2258; 0.2851]
+Garcia-Ramos 2003                                                                   eletriptan  naratriptan 3.0902 [2.4646; 3.8747]
+Garcia-Ramos 2003                                                                   eletriptan      placebo 5.0322 [4.4561; 5.6828]
+Garcia-Ramos 2003                                                                  naratriptan      placebo 1.6284 [1.3206; 2.0079]
+Geraud 2000_018                                                                        placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Geraud 2000_018                                                                        placebo zolmitriptan 0.3070 [0.2747; 0.3431]
+Geraud 2000_018                                                                    sumatriptan zolmitriptan 1.0716 [0.9611; 1.1948]
+Gijsmant 1997_0462-014                                                                 placebo  rizatriptan 0.2537 [0.2258; 0.2851]
+Goadsby 2000_314                                                                    eletriptan      placebo 5.0322 [4.4561; 5.6828]
+Goadsby 2000_314                                                                    eletriptan  sumatriptan 1.4416 [1.2800; 1.6237]
+Goadsby 2000_314                                                                       placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Goadsby 2007                                                                       almotriptan zolmitriptan 0.7928 [0.6796; 0.9249]
+Goadsby 2008_EUCTR2004-005285-20_Act when mild                                     almotriptan      placebo 2.5825 [2.2308; 2.9896]
+Goadsby 2019_NCT02605174_COL_MIG-302_SPARTAN                                        lasmiditan      placebo 2.1598 [1.8747; 2.4883]
+Göbel 2004                                                                           phenazone      placebo 2.4129 [1.2022; 4.8426]
+Goldstein 2006                                                                       ibuprofen      placebo 1.8526 [1.4202; 2.4167]
+Gomez-Mancilla 2014_NCT00892203_EUCTR2008-005392-10-ES_CBGG492A2204                    placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Gruffyd-Jones 2001_311CIL0070_ZEUS                                                 sumatriptan zolmitriptan 1.0716 [0.9611; 1.1948]
+Ho 2008a_NCT00246337_0974-004                                                          placebo  rizatriptan 0.2537 [0.2258; 0.2851]
+Ho 2008b_NCT00442936_EUCTR2006-004257-14                                               placebo zolmitriptan 0.3070 [0.2747; 0.3431]
+Jelinski 2006_SUM40291                                                                 placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Kaniecki 2006_SUM40312                                                                 placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Kellstein 2000                                                                       ibuprofen      placebo 1.8526 [1.4202; 2.4167]
+Klapper 2004_311CIL0111                                                                placebo zolmitriptan 0.3070 [0.2747; 0.3431]
+Klassen 1997_S2WA3001                                                              naratriptan      placebo 1.6284 [1.3206; 2.0079]
+Kramer 1998_NCT00899379_0462-025                                                       placebo  rizatriptan 0.2537 [0.2258; 0.2851]
+Kuca 2018_NCT02439320_301 - LAHJ_SAMURAI                                            lasmiditan      placebo 2.1598 [1.8747; 2.4883]
+Landy 2004_SUM40282                                                                    placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Lange 2000                                                                acetylsalicylic acid      placebo 2.6098 [1.9186; 3.5498]
+Lines 2001_NCT00897104_0462-029                                                        placebo  rizatriptan 0.2537 [0.2258; 0.2851]
+Lines 2001_NCT00897104_0462-029                                                        placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Lines 2001_NCT00897104_0462-029                                                    rizatriptan  sumatriptan 1.1292 [0.9998; 1.2753]
+Lipton 2000a                                                                       paracetamol      placebo 2.0261 [1.3697; 2.9971]
+Lipton 2005_S98-072                                                       acetylsalicylic acid      placebo 2.6098 [1.9186; 3.5498]
+Lipton 2010_PRO-513301_IMPACT                                             diclofenac potassium      placebo 2.9738 [2.0423; 4.3301]
+Lipton 2019a_NCT03006276_Study 007                                                   celecoxib      placebo 1.7619 [1.3630; 2.2775]
+Lipton 2019b_NCT02867709_UBR-MD-02_ACHIEVE II                                          placebo   ubrogepant 0.5360 [0.4284; 0.6706]
+Lipton 2019c_NCT03237845_BHV3000-302                                                   placebo   rimegepant 0.5261 [0.4523; 0.6120]
+Lipton 2021_NCT03009019_Study 006                                                    celecoxib      placebo 1.7619 [1.3630; 2.2775]
+Loder 2005                                                                             placebo zolmitriptan 0.3070 [0.2747; 0.3431]
+Marcus 2014_NCT01430442_CN170-003                                                      placebo   rimegepant 0.5261 [0.4523; 0.6120]
+Marcus 2014_NCT01430442_CN170-003                                                      placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Marcus 2014_NCT01430442_CN170-003                                                   rimegepant  sumatriptan 0.5445 [0.4603; 0.6441]
+Massiou 2005_S2W40031                                                              naratriptan      placebo 1.6284 [1.3206; 2.0079]
+Mathew 2003_A160-1048                                                               eletriptan      placebo 5.0322 [4.4561; 5.6828]
+Mathew 2003_A160-1048                                                               eletriptan  sumatriptan 1.4416 [1.2800; 1.6237]
+Mathew 2003_A160-1048                                                                  placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Mathew 2007_NCT00210509_CR004714_AEGIS                                             almotriptan      placebo 2.5825 [2.2308; 2.9896]
+MOMENTUM 2019_NCT03896009_AXS-07-301                                                   placebo  rizatriptan 0.2537 [0.2258; 0.2851]
+Moon 2010                                                                         frovatriptan      placebo 2.6997 [2.0013; 3.6420]
+Munjal 2017_NCT02472418_Study 002                                                    celecoxib      placebo 1.7619 [1.3630; 2.2775]
+Myllylä 1998                                                                           placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Nappi 1994_S2CT34                                                                      placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+NCT00920686 2010_NXN-188-203                                                           placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+NCT01248468 2011                                                                       placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+NCT01657370 2012_P007                                                                  placebo   ubrogepant 0.5360 [0.4284; 0.6706]
+NCT01986270 1998_104                                                                eletriptan      placebo 5.0322 [4.4561; 5.6828]
+NCT03235479 2018_BHV3000-301                                                           placebo   rimegepant 0.5261 [0.4523; 0.6120]
+Nett 2003_SUM40285                                                                     placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Pascual 2000a_CL14_M3141614                                                        almotriptan      placebo 2.5825 [2.2308; 2.9896]
+Pascual 2000b                                                                          placebo  rizatriptan 0.2537 [0.2258; 0.2851]
+Pascual 2000b                                                                          placebo zolmitriptan 0.3070 [0.2747; 0.3431]
+Pascual 2000b                                                                      rizatriptan zolmitriptan 1.2100 [1.0463; 1.3993]
+Prior 2010                                                                         paracetamol      placebo 2.0261 [1.3697; 2.9971]
+Rapoport 1997_017                                                                      placebo zolmitriptan 0.3070 [0.2747; 0.3431]
+Rapoport 2002_02_&_14                                                             frovatriptan      placebo 2.6997 [2.0013; 3.6420]
+Ryan 2002a_VML 251/96/06                                                          frovatriptan      placebo 2.6997 [2.0013; 3.6420]
+Ryan 2002b_VML 251/96/07                                                          frovatriptan      placebo 2.6997 [2.0013; 3.6420]
+Ryan 2002c_VML 251/96/09                                                          frovatriptan      placebo 2.6997 [2.0013; 3.6420]
+Ryan 2002c_VML 251/96/09                                                          frovatriptan  sumatriptan 0.7734 [0.5735; 1.0431]
+Ryan 2002c_VML 251/96/09                                                               placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+S2WB3002 1996                                                                      naratriptan      placebo 1.6284 [1.3206; 2.0079]
+S2WB3002 1996                                                                      naratriptan  sumatriptan 0.4665 [0.3779; 0.5759]
+S2WB3002 1996                                                                          placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Sakai 2002                                                                             placebo zolmitriptan 0.3070 [0.2747; 0.3431]
+Sakai 2021_NCT03962738_H8H-JE-LAIH_MONONOFU                                         lasmiditan      placebo 2.1598 [1.8747; 2.4883]
+Sandrini 2002_NCT01986088_318                                                       eletriptan      placebo 5.0322 [4.4561; 5.6828]
+Sandrini 2002_NCT01986088_318                                                       eletriptan  sumatriptan 1.4416 [1.2800; 1.6237]
+Sandrini 2002_NCT01986088_318                                                          placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Saper 2006                                                                           ibuprofen      placebo 1.8526 [1.4202; 2.4167]
+Sargent 1995_S2B216                                                                    placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Savani 1999_S2CM07                                                                     placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Sheftell 2003_NCT01978496_102                                                       eletriptan      placebo 5.0322 [4.4561; 5.6828]
+Sheftell 2005a_SUM30047                                                                placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Sheftell 2005b_SUM30053                                                                placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Smith 2005                                                                     naproxen sodium      placebo 2.2752 [1.8419; 2.8103]
+Smith 2005                                                                     naproxen sodium  sumatriptan 0.6518 [0.5299; 0.8017]
+Smith 2005                                                                             placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Solomon 1997_042                                                                       placebo zolmitriptan 0.3070 [0.2747; 0.3431]
+Spierings 2001_0008                                                                almotriptan  sumatriptan 0.7398 [0.6391; 0.8565]
+Stark 2002_305                                                                      eletriptan      placebo 5.0322 [4.4561; 5.6828]
+Steiner 2003                                                                        eletriptan      placebo 5.0322 [4.4561; 5.6828]
+Steiner 2003                                                                        eletriptan zolmitriptan 1.5448 [1.3421; 1.7781]
+Steiner 2003                                                                           placebo zolmitriptan 0.3070 [0.2747; 0.3431]
+SUM20033 2003                                                                          placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Tazaki 1993a                                                                           placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Teall 1996_NCT00897949_0462-022                                                        placebo  rizatriptan 0.2537 [0.2258; 0.2851]
+Tfelt-Hansen 1995                                                                      placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Tfelt-Hansen 1998_NCT00898677_0462-030                                                 placebo  rizatriptan 0.2537 [0.2258; 0.2851]
+Tfelt-Hansen 1998_NCT00898677_0462-030                                                 placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Tfelt-Hansen 1998_NCT00898677_0462-030                                             rizatriptan  sumatriptan 1.1292 [0.9998; 1.2753]
+Tfelt-Hansen 2006_SUM40308                                                             placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Toledano 2021_NCT03061734_ANODYNE-1                                                paracetamol      placebo 2.0261 [1.3697; 2.9971]
+Visser 1996a_0462-008                                                                  placebo  rizatriptan 0.2537 [0.2258; 0.2851]
+Visser 1996a_0462-008                                                                  placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Visser 1996a_0462-008                                                              rizatriptan  sumatriptan 1.1292 [0.9998; 1.2753]
+Visser 1996b_006                                                                       placebo zolmitriptan 0.3070 [0.2747; 0.3431]
+Voss 2016_NCT01613248_P006                                                             placebo   ubrogepant 0.5360 [0.4284; 0.6706]
+Wentz 2008                                                                     naproxen sodium      placebo 2.2752 [1.8419; 2.8103]
+Winner 2003a_SUM40274                                                                  placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Winner 2003b_SUM40275                                                                  placebo  sumatriptan 0.2865 [0.2654; 0.3092]
+Yu 2023_NCT04574362_BHV3000-310                                                        placebo   rimegepant 0.5261 [0.4523; 0.6120]
+                                                                              Q leverage
+0462-039 1996                                                              1.49     0.04
+103 UN                                                                     0.18     0.02
+Ahrens 1999_0462-049                                                       2.01     0.05
+Ashina 2021_NCT03670810_EUCTR2018-001661-17_CENTURION                      9.16     0.15
+Barbanti 2012_NCT00753311_EUCTR2008-007967-18                              2.76     0.01
+Bomhof 1999                                                                0.93        .
+Bomhof 1999                                                                1.24        .
+Bomhof 1999                                                                2.87        .
+Brandes 2005                                                              14.50     0.10
+Brandes 2007a_NCT00434083_MT400-301_TXA112496                              0.80        .
+Brandes 2007a_NCT00434083_MT400-301_TXA112496                              1.08        .
+Brandes 2007a_NCT00434083_MT400-301_TXA112496                              0.07        .
+Brandes 2007b_NCT00433732_MT400-302                                        1.26        .
+Brandes 2007b_NCT00433732_MT400-302                                        0.00        .
+Brandes 2007b_NCT00433732_MT400-302                                        1.65        .
+Brauneis 1994                                                              1.40     0.00
+Bussone 2000                                                               0.04     0.01
+Cady 2006a_NCT00092963_0462-065_TAME1                                      3.74     0.10
+Cady 2006b_NCT00095004_0462-066_TAME2                                      3.03     0.10
+Cady 2009_NCT00516737_EUCTR2007-003361-40_0462-081                         0.00     0.02
+Carpay 2004_SUM30046                                                       1.55     0.03
+Croop 2019_NCT03461757_BHV3000-303                                         0.62     0.25
+Cutler 1995_S2B206                                                         0.08     0.01
+Dahlöf 1998_008                                                            6.70     0.00
+Dahlöf 2001_CL12_M3141612                                                  1.27     0.04
+Dahlöf 2009                                                                0.51     0.01
+Diener 2002_307                                                            1.92     0.02
+Diener 2004a                                                               0.51        .
+Diener 2004a                                                               1.05        .
+Diener 2004a                                                               2.32        .
+Diener 2005_CCAT458C2301                                                   0.17     0.20
+Diener 2011_NCT00751803_EUCTR2008-000079-31                                0.00     0.02
+Dodick 2019_NCT02828020_UBR-MD01_ACHIEVE I                                 0.13     0.48
+Dowson 2002a_CL13_M3141613                                                 0.17        .
+Dowson 2002a_CL13_M3141613                                                 0.01        .
+Dowson 2002a_CL13_M3141613                                                 0.27        .
+Dowson 2002b_311CIL0107                                                    0.46     0.04
+Eletriptan Steering Committee in Japan 2002                                4.28     0.03
+Ensink 1991_The Oral Sumatriptan International Multiple-Dose Study_S2BT31  1.52     0.01
+Färkkila 2003_NCT01989936                                                  0.97     0.02
+Färkkila 2012_NCT00883051_COL_MIG-202                                      0.01     0.02
+Freitag 2008                                                               0.00        .
+Freitag 2008                                                               0.01        .
+Freitag 2008                                                               0.00        .
+Garcia-Ramos 2003                                                          2.68        .
+Garcia-Ramos 2003                                                          4.06        .
+Garcia-Ramos 2003                                                          0.58        .
+Geraud 2000_018                                                            0.06        .
+Geraud 2000_018                                                            0.03        .
+Geraud 2000_018                                                            0.07        .
+Gijsmant 1997_0462-014                                                     1.77     0.01
+Goadsby 2000_314                                                           0.10        .
+Goadsby 2000_314                                                           0.93        .
+Goadsby 2000_314                                                           0.20        .
+Goadsby 2007                                                               0.08     0.41
+Goadsby 2008_EUCTR2004-005285-20_Act when mild                             0.31     0.12
+Goadsby 2019_NCT02605174_COL_MIG-302_SPARTAN                               4.40     0.41
+Göbel 2004                                                                 0.00     1.00
+Goldstein 2006                                                             4.44     0.58
+Gomez-Mancilla 2014_NCT00892203_EUCTR2008-005392-10-ES_CBGG492A2204        1.07     0.00
+Gruffyd-Jones 2001_311CIL0070_ZEUS                                         0.02     0.26
+Ho 2008a_NCT00246337_0974-004                                              0.83     0.02
+Ho 2008b_NCT00442936_EUCTR2006-004257-14                                   1.04     0.07
+Jelinski 2006_SUM40291                                                     0.80     0.02
+Kaniecki 2006_SUM40312                                                     3.61     0.02
+Kellstein 2000                                                             1.08     0.28
+Klapper 2004_311CIL0111                                                    0.02     0.04
+Klassen 1997_S2WA3001                                                      0.34     0.10
+Kramer 1998_NCT00899379_0462-025                                           3.53     0.02
+Kuca 2018_NCT02439320_301 - LAHJ_SAMURAI                                   0.00     0.29
+Landy 2004_SUM40282                                                        0.46     0.03
+Lange 2000                                                                 0.86     0.35
+Lines 2001_NCT00897104_0462-029                                            1.21        .
+Lines 2001_NCT00897104_0462-029                                            2.23        .
+Lines 2001_NCT00897104_0462-029                                            3.95        .
+Lipton 2000a                                                               0.14     0.38
+Lipton 2005_S98-072                                                        0.53     0.23
+Lipton 2010_PRO-513301_IMPACT                                              0.04     0.80
+Lipton 2019a_NCT03006276_Study 007                                         0.63     0.47
+Lipton 2019b_NCT02867709_UBR-MD-02_ACHIEVE II                              0.07     0.42
+Lipton 2019c_NCT03237845_BHV3000-302                                       0.17     0.20
+Lipton 2021_NCT03009019_Study 006                                          1.01     0.51
+Loder 2005                                                                 1.26     0.09
+Marcus 2014_NCT01430442_CN170-003                                          0.89        .
+Marcus 2014_NCT01430442_CN170-003                                          0.19        .
+Marcus 2014_NCT01430442_CN170-003                                          1.58        .
+Massiou 2005_S2W40031                                                      1.28     0.15
+Mathew 2003_A160-1048                                                      3.73        .
+Mathew 2003_A160-1048                                                      0.09        .
+Mathew 2003_A160-1048                                                      2.76        .
+Mathew 2007_NCT00210509_CR004714_AEGIS                                     1.56     0.10
+MOMENTUM 2019_NCT03896009_AXS-07-301                                       1.00     0.04
+Moon 2010                                                                  1.01     0.10
+Munjal 2017_NCT02472418_Study 002                                          1.28     0.02
+Myllylä 1998                                                               3.72     0.00
+Nappi 1994_S2CT34                                                          1.81     0.01
+NCT00920686 2010_NXN-188-203                                               6.66     0.01
+NCT01248468 2011                                                           3.77     0.03
+NCT01657370 2012_P007                                                      1.92     0.01
+NCT01986270 1998_104                                                       1.88     0.03
+NCT03235479 2018_BHV3000-301                                               3.17     0.22
+Nett 2003_SUM40285                                                         3.17     0.03
+Pascual 2000a_CL14_M3141614                                                0.20     0.11
+Pascual 2000b                                                              1.94        .
+Pascual 2000b                                                              1.15        .
+Pascual 2000b                                                              0.40        .
+Prior 2010                                                                 0.12     0.32
+Rapoport 1997_017                                                          2.30     0.02
+Rapoport 2002_02_&_14                                                      1.60     0.11
+Ryan 2002a_VML 251/96/06                                                   1.64     0.04
+Ryan 2002b_VML 251/96/07                                                   3.66     0.18
+Ryan 2002c_VML 251/96/09                                                   0.02        .
+Ryan 2002c_VML 251/96/09                                                   6.64        .
+Ryan 2002c_VML 251/96/09                                                   1.73        .
+S2WB3002 1996                                                              1.52        .
+S2WB3002 1996                                                              1.34        .
+S2WB3002 1996                                                              2.36        .
+Sakai 2002                                                                 1.66     0.02
+Sakai 2021_NCT03962738_H8H-JE-LAIH_MONONOFU                                0.23     0.13
+Sandrini 2002_NCT01986088_318                                              1.55        .
+Sandrini 2002_NCT01986088_318                                              6.10        .
+Sandrini 2002_NCT01986088_318                                              0.29        .
+Saper 2006                                                                 8.04     0.14
+Sargent 1995_S2B216                                                        0.02     0.00
+Savani 1999_S2CM07                                                         1.68     0.01
+Sheftell 2003_NCT01978496_102                                              1.16     0.04
+Sheftell 2005a_SUM30047                                                    0.48     0.08
+Sheftell 2005b_SUM30053                                                    5.57     0.06
+Smith 2005                                                                 0.85        .
+Smith 2005                                                                 1.57        .
+Smith 2005                                                                 0.02        .
+Solomon 1997_042                                                           0.77     0.02
+Spierings 2001_0008                                                        0.39     0.27
+Stark 2002_305                                                             9.11     0.02
+Steiner 2003                                                               1.02        .
+Steiner 2003                                                               0.00        .
+Steiner 2003                                                               0.41        .
+SUM20033 2003                                                              0.47     0.01
+Tazaki 1993a                                                               0.88     0.01
+Teall 1996_NCT00897949_0462-022                                            1.68     0.09
+Tfelt-Hansen 1995                                                          0.40     0.01
+Tfelt-Hansen 1998_NCT00898677_0462-030                                     0.33        .
+Tfelt-Hansen 1998_NCT00898677_0462-030                                     0.18        .
+Tfelt-Hansen 1998_NCT00898677_0462-030                                     0.02        .
+Tfelt-Hansen 2006_SUM40308                                                 0.14     0.01
+Toledano 2021_NCT03061734_ANODYNE-1                                        0.12     0.08
+Visser 1996a_0462-008                                                      1.19        .
+Visser 1996a_0462-008                                                      0.72        .
+Visser 1996a_0462-008                                                      0.04        .
+Visser 1996b_006                                                           0.00     0.00
+Voss 2016_NCT01613248_P006                                                 0.99     0.10
+Wentz 2008                                                                 3.79     0.06
+Winner 2003a_SUM40274                                                      2.71     0.03
+Winner 2003b_SUM40275                                                      0.82     0.03
+Yu 2023_NCT04574362_BHV3000-310                                            0.15     0.24
+
+Results (random effects model):
+
+                                                                                        treat1       treat2     OR           95%-CI
+0462-039 1996                                                                          placebo  rizatriptan 0.2372 [0.1977; 0.2846]
+103 UN                                                                              eletriptan      placebo 5.1875 [4.2523; 6.3284]
+Ahrens 1999_0462-049                                                                   placebo  rizatriptan 0.2372 [0.1977; 0.2846]
+Ashina 2021_NCT03670810_EUCTR2018-001661-17_CENTURION                               lasmiditan      placebo 2.3189 [1.7401; 3.0902]
+Barbanti 2012_NCT00753311_EUCTR2008-007967-18                                          placebo  rizatriptan 0.2372 [0.1977; 0.2846]
+Bomhof 1999                                                                        naratriptan      placebo 1.7253 [1.2703; 2.3432]
+Bomhof 1999                                                                        naratriptan  rizatriptan 0.4092 [0.2920; 0.5733]
+Bomhof 1999                                                                            placebo  rizatriptan 0.2372 [0.1977; 0.2846]
+Brandes 2005                                                                        eletriptan      placebo 5.1875 [4.2523; 6.3284]
+Brandes 2007a_NCT00434083_MT400-301_TXA112496                                  naproxen sodium      placebo 2.4103 [1.7429; 3.3332]
+Brandes 2007a_NCT00434083_MT400-301_TXA112496                                  naproxen sodium  sumatriptan 0.6794 [0.4920; 0.9383]
+Brandes 2007a_NCT00434083_MT400-301_TXA112496                                          placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Brandes 2007b_NCT00433732_MT400-302                                            naproxen sodium      placebo 2.4103 [1.7429; 3.3332]
+Brandes 2007b_NCT00433732_MT400-302                                            naproxen sodium  sumatriptan 0.6794 [0.4920; 0.9383]
+Brandes 2007b_NCT00433732_MT400-302                                                    placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Brauneis 1994                                                                          placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Bussone 2000                                                                           placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Cady 2006a_NCT00092963_0462-065_TAME1                                                  placebo  rizatriptan 0.2372 [0.1977; 0.2846]
+Cady 2006b_NCT00095004_0462-066_TAME2                                                  placebo  rizatriptan 0.2372 [0.1977; 0.2846]
+Cady 2009_NCT00516737_EUCTR2007-003361-40_0462-081                                     placebo  rizatriptan 0.2372 [0.1977; 0.2846]
+Carpay 2004_SUM30046                                                                   placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Croop 2019_NCT03461757_BHV3000-303                                                     placebo   rimegepant 0.5094 [0.3868; 0.6709]
+Cutler 1995_S2B206                                                                     placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Dahlöf 1998_008                                                                        placebo zolmitriptan 0.2927 [0.2410; 0.3556]
+Dahlöf 2001_CL12_M3141612                                                          almotriptan      placebo 2.6395 [2.0528; 3.3939]
+Dahlöf 2009                                                                            placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Diener 2002_307                                                                     eletriptan      placebo 5.1875 [4.2523; 6.3284]
+Diener 2004a                                                              acetylsalicylic acid      placebo 2.6310 [1.7330; 3.9943]
+Diener 2004a                                                              acetylsalicylic acid  sumatriptan 0.7417 [0.4841; 1.1364]
+Diener 2004a                                                                           placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Diener 2005_CCAT458C2301                                                  diclofenac potassium      placebo 3.0480 [1.7620; 5.2728]
+Diener 2011_NCT00751803_EUCTR2008-000079-31                                         eletriptan      placebo 5.1875 [4.2523; 6.3284]
+Dodick 2019_NCT02828020_UBR-MD01_ACHIEVE I                                             placebo   ubrogepant 0.5035 [0.3429; 0.7393]
+Dowson 2002a_CL13_M3141613                                                         almotriptan      placebo 2.6395 [2.0528; 3.3939]
+Dowson 2002a_CL13_M3141613                                                         almotriptan  sumatriptan 0.7441 [0.5736; 0.9651]
+Dowson 2002a_CL13_M3141613                                                             placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Dowson 2002b_311CIL0107                                                                placebo zolmitriptan 0.2927 [0.2410; 0.3556]
+Eletriptan Steering Committee in Japan 2002                                         eletriptan      placebo 5.1875 [4.2523; 6.3284]
+Ensink 1991_The Oral Sumatriptan International Multiple-Dose Study_S2BT31              placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Färkkila 2003_NCT01989936                                                           eletriptan      placebo 5.1875 [4.2523; 6.3284]
+Färkkila 2012_NCT00883051_COL_MIG-202                                               lasmiditan      placebo 2.3189 [1.7401; 3.0902]
+Freitag 2008                                                                       paracetamol      placebo 2.0339 [1.2649; 3.2704]
+Freitag 2008                                                                       paracetamol  rizatriptan 0.4824 [0.2931; 0.7938]
+Freitag 2008                                                                           placebo  rizatriptan 0.2372 [0.1977; 0.2846]
+Garcia-Ramos 2003                                                                   eletriptan  naratriptan 3.0068 [2.1295; 4.2456]
+Garcia-Ramos 2003                                                                   eletriptan      placebo 5.1875 [4.2523; 6.3284]
+Garcia-Ramos 2003                                                                  naratriptan      placebo 1.7253 [1.2703; 2.3432]
+Geraud 2000_018                                                                        placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Geraud 2000_018                                                                        placebo zolmitriptan 0.2927 [0.2410; 0.3556]
+Geraud 2000_018                                                                    sumatriptan zolmitriptan 1.0384 [0.8429; 1.2793]
+Gijsmant 1997_0462-014                                                                 placebo  rizatriptan 0.2372 [0.1977; 0.2846]
+Goadsby 2000_314                                                                    eletriptan      placebo 5.1875 [4.2523; 6.3284]
+Goadsby 2000_314                                                                    eletriptan  sumatriptan 1.4623 [1.1833; 1.8072]
+Goadsby 2000_314                                                                       placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Goadsby 2007                                                                       almotriptan zolmitriptan 0.7727 [0.5779; 1.0332]
+Goadsby 2008_EUCTR2004-005285-20_Act when mild                                     almotriptan      placebo 2.6395 [2.0528; 3.3939]
+Goadsby 2019_NCT02605174_COL_MIG-302_SPARTAN                                        lasmiditan      placebo 2.3189 [1.7401; 3.0902]
+Göbel 2004                                                                           phenazone      placebo 2.4129 [1.0174; 5.7223]
+Goldstein 2006                                                                       ibuprofen      placebo 2.1528 [1.4247; 3.2531]
+Gomez-Mancilla 2014_NCT00892203_EUCTR2008-005392-10-ES_CBGG492A2204                    placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Gruffyd-Jones 2001_311CIL0070_ZEUS                                                 sumatriptan zolmitriptan 1.0384 [0.8429; 1.2793]
+Ho 2008a_NCT00246337_0974-004                                                          placebo  rizatriptan 0.2372 [0.1977; 0.2846]
+Ho 2008b_NCT00442936_EUCTR2006-004257-14                                               placebo zolmitriptan 0.2927 [0.2410; 0.3556]
+Jelinski 2006_SUM40291                                                                 placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Kaniecki 2006_SUM40312                                                                 placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Kellstein 2000                                                                       ibuprofen      placebo 2.1528 [1.4247; 3.2531]
+Klapper 2004_311CIL0111                                                                placebo zolmitriptan 0.2927 [0.2410; 0.3556]
+Klassen 1997_S2WA3001                                                              naratriptan      placebo 1.7253 [1.2703; 2.3432]
+Kramer 1998_NCT00899379_0462-025                                                       placebo  rizatriptan 0.2372 [0.1977; 0.2846]
+Kuca 2018_NCT02439320_301 - LAHJ_SAMURAI                                            lasmiditan      placebo 2.3189 [1.7401; 3.0902]
+Landy 2004_SUM40282                                                                    placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Lange 2000                                                                acetylsalicylic acid      placebo 2.6310 [1.7330; 3.9943]
+Lines 2001_NCT00897104_0462-029                                                        placebo  rizatriptan 0.2372 [0.1977; 0.2846]
+Lines 2001_NCT00897104_0462-029                                                        placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Lines 2001_NCT00897104_0462-029                                                    rizatriptan  sumatriptan 1.1885 [0.9719; 1.4534]
+Lipton 2000a                                                                       paracetamol      placebo 2.0339 [1.2649; 3.2704]
+Lipton 2005_S98-072                                                       acetylsalicylic acid      placebo 2.6310 [1.7330; 3.9943]
+Lipton 2010_PRO-513301_IMPACT                                             diclofenac potassium      placebo 3.0480 [1.7620; 5.2728]
+Lipton 2019a_NCT03006276_Study 007                                                   celecoxib      placebo 1.8336 [1.1910; 2.8230]
+Lipton 2019b_NCT02867709_UBR-MD-02_ACHIEVE II                                          placebo   ubrogepant 0.5035 [0.3429; 0.7393]
+Lipton 2019c_NCT03237845_BHV3000-302                                                   placebo   rimegepant 0.5094 [0.3868; 0.6709]
+Lipton 2021_NCT03009019_Study 006                                                    celecoxib      placebo 1.8336 [1.1910; 2.8230]
+Loder 2005                                                                             placebo zolmitriptan 0.2927 [0.2410; 0.3556]
+Marcus 2014_NCT01430442_CN170-003                                                      placebo   rimegepant 0.5094 [0.3868; 0.6709]
+Marcus 2014_NCT01430442_CN170-003                                                      placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Marcus 2014_NCT01430442_CN170-003                                                   rimegepant  sumatriptan 0.5534 [0.4116; 0.7439]
+Massiou 2005_S2W40031                                                              naratriptan      placebo 1.7253 [1.2703; 2.3432]
+Mathew 2003_A160-1048                                                               eletriptan      placebo 5.1875 [4.2523; 6.3284]
+Mathew 2003_A160-1048                                                               eletriptan  sumatriptan 1.4623 [1.1833; 1.8072]
+Mathew 2003_A160-1048                                                                  placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Mathew 2007_NCT00210509_CR004714_AEGIS                                             almotriptan      placebo 2.6395 [2.0528; 3.3939]
+MOMENTUM 2019_NCT03896009_AXS-07-301                                                   placebo  rizatriptan 0.2372 [0.1977; 0.2846]
+Moon 2010                                                                         frovatriptan      placebo 3.3001 [2.2045; 4.9400]
+Munjal 2017_NCT02472418_Study 002                                                    celecoxib      placebo 1.8336 [1.1910; 2.8230]
+Myllylä 1998                                                                           placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Nappi 1994_S2CT34                                                                      placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+NCT00920686 2010_NXN-188-203                                                           placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+NCT01248468 2011                                                                       placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+NCT01657370 2012_P007                                                                  placebo   ubrogepant 0.5035 [0.3429; 0.7393]
+NCT01986270 1998_104                                                                eletriptan      placebo 5.1875 [4.2523; 6.3284]
+NCT03235479 2018_BHV3000-301                                                           placebo   rimegepant 0.5094 [0.3868; 0.6709]
+Nett 2003_SUM40285                                                                     placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Pascual 2000a_CL14_M3141614                                                        almotriptan      placebo 2.6395 [2.0528; 3.3939]
+Pascual 2000b                                                                          placebo  rizatriptan 0.2372 [0.1977; 0.2846]
+Pascual 2000b                                                                          placebo zolmitriptan 0.2927 [0.2410; 0.3556]
+Pascual 2000b                                                                      rizatriptan zolmitriptan 1.2342 [0.9588; 1.5888]
+Prior 2010                                                                         paracetamol      placebo 2.0339 [1.2649; 3.2704]
+Rapoport 1997_017                                                                      placebo zolmitriptan 0.2927 [0.2410; 0.3556]
+Rapoport 2002_02_&_14                                                             frovatriptan      placebo 3.3001 [2.2045; 4.9400]
+Ryan 2002a_VML 251/96/06                                                          frovatriptan      placebo 3.3001 [2.2045; 4.9400]
+Ryan 2002b_VML 251/96/07                                                          frovatriptan      placebo 3.3001 [2.2045; 4.9400]
+Ryan 2002c_VML 251/96/09                                                          frovatriptan      placebo 3.3001 [2.2045; 4.9400]
+Ryan 2002c_VML 251/96/09                                                          frovatriptan  sumatriptan 0.9303 [0.6179; 1.4005]
+Ryan 2002c_VML 251/96/09                                                               placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+S2WB3002 1996                                                                      naratriptan      placebo 1.7253 [1.2703; 2.3432]
+S2WB3002 1996                                                                      naratriptan  sumatriptan 0.4863 [0.3547; 0.6668]
+S2WB3002 1996                                                                          placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Sakai 2002                                                                             placebo zolmitriptan 0.2927 [0.2410; 0.3556]
+Sakai 2021_NCT03962738_H8H-JE-LAIH_MONONOFU                                         lasmiditan      placebo 2.3189 [1.7401; 3.0902]
+Sandrini 2002_NCT01986088_318                                                       eletriptan      placebo 5.1875 [4.2523; 6.3284]
+Sandrini 2002_NCT01986088_318                                                       eletriptan  sumatriptan 1.4623 [1.1833; 1.8072]
+Sandrini 2002_NCT01986088_318                                                          placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Saper 2006                                                                           ibuprofen      placebo 2.1528 [1.4247; 3.2531]
+Sargent 1995_S2B216                                                                    placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Savani 1999_S2CM07                                                                     placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Sheftell 2003_NCT01978496_102                                                       eletriptan      placebo 5.1875 [4.2523; 6.3284]
+Sheftell 2005a_SUM30047                                                                placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Sheftell 2005b_SUM30053                                                                placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Smith 2005                                                                     naproxen sodium      placebo 2.4103 [1.7429; 3.3332]
+Smith 2005                                                                     naproxen sodium  sumatriptan 0.6794 [0.4920; 0.9383]
+Smith 2005                                                                             placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Solomon 1997_042                                                                       placebo zolmitriptan 0.2927 [0.2410; 0.3556]
+Spierings 2001_0008                                                                almotriptan  sumatriptan 0.7441 [0.5736; 0.9651]
+Stark 2002_305                                                                      eletriptan      placebo 5.1875 [4.2523; 6.3284]
+Steiner 2003                                                                        eletriptan      placebo 5.1875 [4.2523; 6.3284]
+Steiner 2003                                                                        eletriptan zolmitriptan 1.5185 [1.1715; 1.9684]
+Steiner 2003                                                                           placebo zolmitriptan 0.2927 [0.2410; 0.3556]
+SUM20033 2003                                                                          placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Tazaki 1993a                                                                           placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Teall 1996_NCT00897949_0462-022                                                        placebo  rizatriptan 0.2372 [0.1977; 0.2846]
+Tfelt-Hansen 1995                                                                      placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Tfelt-Hansen 1998_NCT00898677_0462-030                                                 placebo  rizatriptan 0.2372 [0.1977; 0.2846]
+Tfelt-Hansen 1998_NCT00898677_0462-030                                                 placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Tfelt-Hansen 1998_NCT00898677_0462-030                                             rizatriptan  sumatriptan 1.1885 [0.9719; 1.4534]
+Tfelt-Hansen 2006_SUM40308                                                             placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Toledano 2021_NCT03061734_ANODYNE-1                                                paracetamol      placebo 2.0339 [1.2649; 3.2704]
+Visser 1996a_0462-008                                                                  placebo  rizatriptan 0.2372 [0.1977; 0.2846]
+Visser 1996a_0462-008                                                                  placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Visser 1996a_0462-008                                                              rizatriptan  sumatriptan 1.1885 [0.9719; 1.4534]
+Visser 1996b_006                                                                       placebo zolmitriptan 0.2927 [0.2410; 0.3556]
+Voss 2016_NCT01613248_P006                                                             placebo   ubrogepant 0.5035 [0.3429; 0.7393]
+Wentz 2008                                                                     naproxen sodium      placebo 2.4103 [1.7429; 3.3332]
+Winner 2003a_SUM40274                                                                  placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Winner 2003b_SUM40275                                                                  placebo  sumatriptan 0.2819 [0.2505; 0.3172]
+Yu 2023_NCT04574362_BHV3000-310                                                        placebo   rimegepant 0.5094 [0.3868; 0.6709]
+
+Number of studies: k = 115
+Number of pairwise comparisons: m = 155
+Number of observations: o = 76375
+Number of treatments: n = 18
+Number of designs: d = 34
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                         OR           95%-CI     z  p-value
+acetylsalicylic acid 2.6098 [1.9186; 3.5498]  6.11 < 0.0001
+almotriptan          2.5825 [2.2308; 2.9896] 12.70 < 0.0001
+celecoxib            1.7619 [1.3630; 2.2775]  4.32 < 0.0001
+diclofenac potassium 2.9738 [2.0423; 4.3301]  5.68 < 0.0001
+eletriptan           5.0322 [4.4561; 5.6828] 26.05 < 0.0001
+frovatriptan         2.6997 [2.0013; 3.6420]  6.50 < 0.0001
+ibuprofen            1.8526 [1.4202; 2.4167]  4.55 < 0.0001
+lasmiditan           2.1598 [1.8747; 2.4883] 10.66 < 0.0001
+naproxen sodium      2.2752 [1.8419; 2.8103]  7.63 < 0.0001
+naratriptan          1.6284 [1.3206; 2.0079]  4.56 < 0.0001
+paracetamol          2.0261 [1.3697; 2.9971]  3.53   0.0004
+phenazone            2.4129 [1.2022; 4.8426]  2.48   0.0132
+placebo                   .                .     .        .
+rimegepant           1.9006 [1.6340; 2.2108]  8.33 < 0.0001
+rizatriptan          3.9415 [3.5074; 4.4293] 23.04 < 0.0001
+sumatriptan          3.4906 [3.2338; 3.7678] 32.06 < 0.0001
+ubrogepant           1.8657 [1.4913; 2.3342]  5.46 < 0.0001
+zolmitriptan         3.2575 [2.9149; 3.6402] 20.83 < 0.0001
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                         OR           95%-CI     z  p-value
+acetylsalicylic acid 2.6310 [1.7330; 3.9943]  4.54 < 0.0001
+almotriptan          2.6395 [2.0528; 3.3939]  7.57 < 0.0001
+celecoxib            1.8336 [1.1910; 2.8230]  2.75   0.0059
+diclofenac potassium 3.0480 [1.7620; 5.2728]  3.99 < 0.0001
+eletriptan           5.1875 [4.2523; 6.3284] 16.23 < 0.0001
+frovatriptan         3.3001 [2.2045; 4.9400]  5.80 < 0.0001
+ibuprofen            2.1528 [1.4247; 3.2531]  3.64   0.0003
+lasmiditan           2.3189 [1.7401; 3.0902]  5.74 < 0.0001
+naproxen sodium      2.4103 [1.7429; 3.3332]  5.32 < 0.0001
+naratriptan          1.7253 [1.2703; 2.3432]  3.49   0.0005
+paracetamol          2.0339 [1.2649; 3.2704]  2.93   0.0034
+phenazone            2.4129 [1.0174; 5.7223]  2.00   0.0456
+placebo                   .                .     .        .
+rimegepant           1.9630 [1.4906; 2.5851]  4.80 < 0.0001
+rizatriptan          4.2162 [3.5136; 5.0593] 15.47 < 0.0001
+sumatriptan          3.5474 [3.1525; 3.9918] 21.03 < 0.0001
+ubrogepant           1.9860 [1.3526; 2.9160]  3.50   0.0005
+zolmitriptan         3.4161 [2.8119; 4.1502] 12.37 < 0.0001
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0678; tau = 0.2604; I^2 = 51% [39.5%; 60.4%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                     Q d.f.  p-value
+Total           241.02  118 < 0.0001
+Within designs  172.93   87 < 0.0001
+Between designs  68.09   31   0.0001
+
+A total of 18 treatments are included in the network.
+A total of 115 studies are included in this analysis.
+A total of 76375 participants are included in this analysis, with 16207 events (21.22%).
+Estimated heterogeneity tau-squared: 0.07.
+Global test for inconsistency, p-value 0.00014 (Q=68, d.o.f. 31)
+
+The following studies were included in this analysis: 0462-039 1996 103 UN Ahrens 1999_0462-049 Ashina 2021_NCT03670810_EUCTR2018-001661-17_CENTURION Barbanti 2012_NCT00753311_EUCTR2008-007967-18 Bomhof 1999 Brandes 2005 Brandes 2007a_NCT00434083_MT400-301_TXA112496 Brandes 2007b_NCT00433732_MT400-302 Brauneis 1994 Bussone 2000 Cady 2006a_NCT00092963_0462-065_TAME1 Cady 2006b_NCT00095004_0462-066_TAME2 Cady 2009_NCT00516737_EUCTR2007-003361-40_0462-081 Carpay 2004_SUM30046 Croop 2019_NCT03461757_BHV3000-303 Cutler 1995_S2B206 Dahlöf 1998_008 Dahlöf 2001_CL12_M3141612 Dahlöf 2009 Diener 2002_307 Diener 2004a Diener 2005_CCAT458C2301 Diener 2011_NCT00751803_EUCTR2008-000079-31 Dodick 2019_NCT02828020_UBR-MD01_ACHIEVE I Dowson 2002a_CL13_M3141613 Dowson 2002b_311CIL0107 Eletriptan Steering Committee in Japan 2002 Ensink 1991_The Oral Sumatriptan International Multiple-Dose Study_S2BT31 Färkkila 2003_NCT01989936 Färkkila 2012_NCT00883051_COL_MIG-202 Freitag 2008 Garcia-Ramos 2003 Geraud 2000_018 Gijsmant 1997_0462-014 Goadsby 2000_314 Goadsby 2007 Goadsby 2008_EUCTR2004-005285-20_Act when mild Goadsby 2019_NCT02605174_COL_MIG-302_SPARTAN Göbel 2004 Goldstein 2006 Gomez-Mancilla 2014_NCT00892203_EUCTR2008-005392-10-ES_CBGG492A2204 Gruffyd-Jones 2001_311CIL0070_ZEUS Ho 2008a_NCT00246337_0974-004 Ho 2008b_NCT00442936_EUCTR2006-004257-14 Jelinski 2006_SUM40291 Kaniecki 2006_SUM40312 Kellstein 2000 Klapper 2004_311CIL0111 Klassen 1997_S2WA3001 Kramer 1998_NCT00899379_0462-025 Kuca 2018_NCT02439320_301 - LAHJ_SAMURAI Landy 2004_SUM40282 Lange 2000 Lines 2001_NCT00897104_0462-029 Lipton 2000a Lipton 2005_S98-072 Lipton 2010_PRO-513301_IMPACT Lipton 2019a_NCT03006276_Study 007 Lipton 2019b_NCT02867709_UBR-MD-02_ACHIEVE II Lipton 2019c_NCT03237845_BHV3000-302 Lipton 2021_NCT03009019_Study 006 Loder 2005 Marcus 2014_NCT01430442_CN170-003 Massiou 2005_S2W40031 Mathew 2003_A160-1048 Mathew 2007_NCT00210509_CR004714_AEGIS MOMENTUM 2019_NCT03896009_AXS-07-301 Moon 2010 Munjal 2017_NCT02472418_Study 002 Myllylä 1998 Nappi 1994_S2CT34 NCT00920686 2010_NXN-188-203 NCT01248468 2011 NCT01657370 2012_P007 NCT01986270 1998_104 NCT03235479 2018_BHV3000-301 Nett 2003_SUM40285 Pascual 2000a_CL14_M3141614 Pascual 2000b Prior 2010 Rapoport 1997_017 Rapoport 2002_02_&_14 Ryan 2002a_VML 251/96/06 Ryan 2002b_VML 251/96/07 Ryan 2002c_VML 251/96/09 S2WB3002 1996 Sakai 2002 Sakai 2021_NCT03962738_H8H-JE-LAIH_MONONOFU Sandrini 2002_NCT01986088_318 Saper 2006 Sargent 1995_S2B216 Savani 1999_S2CM07 Sheftell 2003_NCT01978496_102 Sheftell 2005a_SUM30047 Sheftell 2005b_SUM30053 Smith 2005 Solomon 1997_042 Spierings 2001_0008 Stark 2002_305 Steiner 2003 SUM20033 2003 Tazaki 1993a Teall 1996_NCT00897949_0462-022 Tfelt-Hansen 1995 Tfelt-Hansen 1998_NCT00898677_0462-030 Tfelt-Hansen 2006_SUM40308 Toledano 2021_NCT03061734_ANODYNE-1 Visser 1996a_0462-008 Visser 1996b_006 Voss 2016_NCT01613248_P006 Wentz 2008 Winner 2003a_SUM40274 Winner 2003b_SUM40275 Yu 2023_NCT04574362_BHV3000-310.
+
+File created on 2024-03-04.

@@ -1,0 +1,9 @@
+            P-score (common) P-score (random)
+triptan               0.9988           0.9952
+ditan                 0.6640           0.6106
+NSAID                 0.4673           0.5465
+antipyretic           0.5114           0.4534
+gepant                0.3584           0.3935
+placebo               0.0001           0.0008
+
+File created on 2024-03-04.
